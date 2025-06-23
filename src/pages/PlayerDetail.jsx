@@ -236,10 +236,10 @@ export default function PlayerDetail({ allPlayers }) {
     .reduce((prev, curr) => (curr.eloChange < (prev?.eloChange || Infinity) ? curr : prev), null);
 
   return (
-    <div className="max-w-4xl mx-auto p-3 sm:p-6">
+    <div className="w-full mx-auto p-0 sm:p-3 md:p-6">
       {/* Player Info Header */}
       <div
-        className="shadow-lg rounded-2xl p-4 sm:p-6 mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
+        className="shadow-lg rounded-none sm:rounded-2xl p-4 sm:p-6 mb-6 border-0 sm:border border-gray-200 dark:border-gray-700 relative overflow-hidden"
         style={factionBgImage ? {
           minHeight: '280px',
           backgroundColor: 'transparent',
@@ -304,7 +304,7 @@ export default function PlayerDetail({ allPlayers }) {
         </button>
       </div>
       {showStats && (
-        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow p-4 sm:p-6 border border-gray-200 dark:border-gray-700">
+        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 shadow p-4 sm:p-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
           {/* Highest Achieved Elo and Rank */}
           <div className="mb-2">
             {(() => {
@@ -391,7 +391,7 @@ export default function PlayerDetail({ allPlayers }) {
       )}
 
       {/* Elo Progression Chart */}
-      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-4 sm:p-6 mb-6 border border-gray-200 dark:border-gray-700">
+      <div className="bg-white dark:bg-gray-900 shadow p-4 sm:p-6 mb-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
         <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Elo Progression</h2>
         <ResponsiveContainer width="100%" height={250}>
           <LineChart data={eloHistory}>
@@ -405,7 +405,7 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
 
       {/* Match History */}
-      <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-4 sm:p-6 border border-gray-200 dark:border-gray-700">
+      <div className="bg-white dark:bg-gray-900 shadow p-4 sm:p-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
         <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Match History</h2>
         <ul className="space-y-3">
           {(showMoreMatches ? annotatedMatches.slice().reverse() : annotatedMatches.slice().reverse().slice(0, 3)).map((match, idx) => {

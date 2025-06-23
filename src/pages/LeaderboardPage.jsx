@@ -2,8 +2,8 @@ function Leaderboard({ allPlayers }) {
   const sorted = [...allPlayers].sort((a, b) => b.elo - a.elo);
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-2 sm:p-4 md:p-8">
-      <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-indigo-800 mb-3 sm:mb-4">Leaderboard</h2>
+    <div className="w-full mx-auto p-0 sm:p-2 md:p-4 lg:p-8">
+      <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-indigo-800 mb-3 sm:mb-4 px-2 sm:px-0">Leaderboard</h2>
       <div className="w-full overflow-hidden">
         <table className="w-full table-auto border border-indigo-300">
           <thead className="bg-indigo-100">

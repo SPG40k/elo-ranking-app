@@ -155,7 +155,10 @@ export default function App() {
     <Router>
       <nav className="p-4 bg-indigo-100 text-indigo-900 dark:bg-indigo-900 dark:text-indigo-100 space-x-6 flex justify-between items-center">
         <div>
-          <Link to="/" className="hover:text-indigo-300">Leaderboard</Link>
+          <Link to="/" className="hover:text-indigo-300 flex items-center">
+            <img src="/logos/SPG40klogo.png" alt="Logo" style={{ height: '64px', marginRight: '10px' }} />
+            Leaderboard
+          </Link>
           {/* {allPlayers.length > 0 && (
             <Link to="/submit" className="hover:text-indigo-300 ml-4">Submit Match</Link>
           )}

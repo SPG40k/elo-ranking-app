@@ -618,165 +618,165 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 2,0159,0240,64,60,2024-07-06,Down Under 40k July Beresfield 2k RTT,Grey Knights,Chaos Space Marines
 2,0217,0168,99,58,2024-07-06,Down Under 40k July Beresfield 2k RTT,--------,Necrons
 2,0152,0523,85,24,2024-07-06,Down Under 40k July Beresfield 2k RTT,Genestealer Cult,World Eaters
-1,0057,0135,92,50,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Drukhari
-1,0200,0511,100,43,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Tyranids
-1,0050,0395,100,38,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Daemons
-1,0492,0660,48,32,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Marines (Astartes)
-1,0116,0063,99,73,2025-07-12,Exterminatus IX: Sosig Party,Space Wolves,Astra Militarum
-1,0607,0388,87,49,2025-07-12,Exterminatus IX: Sosig Party,Orks,Imperial Knights
-1,0128,0071,66,52,2025-07-12,Exterminatus IX: Sosig Party,Necrons,Black Templars
-1,0308,0137,100,40,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adepta Sororitas
-1,0029,0669,100,19,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Space Marines
-1,0378,0385,100,37,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Dark Angels
-1,0051,0658,100,39,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Daemons
-1,0427,0073,99,36,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Chaos Daemons
-1,0493,0665,85,42,2025-07-12,Exterminatus IX: Sosig Party,Orks,Necrons
-1,0397,0486,74,56,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Daemons
-1,0064,0485,93,57,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
-1,0052,0662,100,27,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Space Marines (Astartes)
-1,0048,0491,70,46,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),World Eaters
-1,0664,0104,93,73,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Black Templars
-1,0606,0387,97,14,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Chaos Space Marines
-1,0069,0656,91,37,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Space Marines (Astartes)
-1,0067,0487,72,48,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Astra Militarum
-1,0657,0379,100,39,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
-1,0431,0068,97,54,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Imperial Knights
-1,0661,0521,69,68,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Astra Militarum
-1,0219,0666,78,57,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,Tyranids
-1,0054,0659,72,58,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Black Templars
-1,0081,0608,89,47,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Tyranids
-1,0484,0667,81,31,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Space Marines (Astartes)
-1,0509,0384,97,52,2025-07-12,Exterminatus IX: Sosig Party,Grey Knights,Chaos Daemons
-1,0430,0060,100,46,2025-07-12,Exterminatus IX: Sosig Party,Grey Knights,Death Guard
-1,0668,0490,100,23,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Tyranids
-1,0496,0501,21,13,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
-2,0057,0219,86,60,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Aeldari
-2,0663,0657,76,70,2025-07-12,Exterminatus IX: Sosig Party,Dark Angels,Tyranids
-2,0308,0050,48,43,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adepta Sororitas
-2,0664,0484,90,34,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Imperial Knights
-2,0116,0069,100,60,2025-07-12,Exterminatus IX: Sosig Party,Space Wolves,Space Marines (Astartes)
-2,0029,0081,96,45,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,T'au Empire
-2,0051,0378,100,53,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Thousand Sons
-2,0668,0061,93,68,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Blood Angels
-2,0607,0606,98,49,2025-07-12,Exterminatus IX: Sosig Party,Orks,Chaos Knights
-2,0054,0492,89,72,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Aeldari
-2,0128,0048,88,66,2025-07-12,Exterminatus IX: Sosig Party,Necrons,Space Marines (Astartes)
-2,0430,0200,99,57,2025-07-12,Exterminatus IX: Sosig Party,Grey Knights,Thousand Sons
-2,0397,0496,47,15,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Tyranids
-2,0067,0493,72,70,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Orks
-2,0064,0509,79,60,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Grey Knights
-2,0052,0431,100,75,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Chaos Knights
-2,0427,0661,94,20,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Drukhari
-2,0395,0502,78,56,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Space Marines
-2,0500,0501,67,51,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Astra Militarum
-2,0135,0385,86,49,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Dark Angels
-2,0511,0667,85,58,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
-2,0669,0486,90,81,2025-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Chaos Daemons
-2,0662,0387,97,55,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Space Marines
-2,0660,0490,52,51,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
-2,0388,0485,86,61,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Astra Militarum
-2,0137,0379,98,36,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Astra Militarum
-2,0659,0665,46,34,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Necrons
-2,0073,0608,88,51,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Tyranids
-2,0104,0487,94,56,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Astra Militarum
-2,0060,0666,84,83,2025-07-12,Exterminatus IX: Sosig Party,Death Guard,Tyranids
-2,0068,0656,100,64,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Space Marines (Astartes)
-3,0057,0308,72,69,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Adeptus Mechanicus
-3,0029,0430,79,53,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Grey Knights
-3,0607,0116,77,65,2025-07-12,Exterminatus IX: Sosig Party,Orks,Space Wolves
-3,0052,0427,69,64,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
-3,0664,0054,79,76,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Drukhari
-3,0128,0051,65,61,2025-07-12,Exterminatus IX: Sosig Party,Necrons,World Eaters
-3,0064,0668,82,56,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,World Eaters
-3,0067,0663,100,33,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Dark Angels
-3,0397,0431,92,68,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Knights
-3,0050,0061,96,70,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Blood Angels
-3,0200,0492,92,42,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Aeldari
-3,0378,0657,83,68,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Tyranids
-3,0219,0069,83,67,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Marines (Astartes)
-3,0661,0496,42,37,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Tyranids
-3,0509,0048,93,73,2025-07-12,Exterminatus IX: Sosig Party,Grey Knights,Space Marines (Astartes)
-3,0081,0493,70,61,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Orks
-3,0606,0484,88,27,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Imperial Knights
-3,0658,0502,71,24,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Space Marines
-3,0135,0669,61,26,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Chaos Space Marines
-3,0071,0137,96,27,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Adepta Sororitas
-3,0073,0060,88,30,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Death Guard
-3,0659,0662,69,44,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Space Marines (Astartes)
-3,0104,0063,69,45,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Astra Militarum
-3,0395,0388,92,23,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Imperial Knights
-3,0068,0500,98,30,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Chaos Knights
-3,0511,0660,76,56,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
-3,0656,0382,86,57,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),World Eaters
-3,0485,0521,63,44,2025-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Astra Militarum
-3,0486,0490,93,22,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Tyranids
-3,0666,0379,72,18,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
-3,0665,0501,34,30,2025-07-12,Exterminatus IX: Sosig Party,Necrons,Astra Militarum
-3,0384,0667,90,66,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Space Marines (Astartes)
-4,0057,0128,75,29,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Necrons
-4,0029,0607,60,48,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Orks
-4,0664,0064,51,49,2025-07-12,Exterminatus IX: Sosig Party,T'au Empire,Tyranids
-4,0052,0067,100,27,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
-4,0427,0397,88,43,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,World Eaters
-4,0051,0054,81,43,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Drukhari
-4,0308,0430,66,43,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Grey Knights
-4,0116,0663,62,32,2025-07-12,Exterminatus IX: Sosig Party,Space Wolves,Dark Angels
-4,0050,0668,89,34,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,World Eaters
-4,0200,0509,88,32,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Grey Knights
-4,0219,0081,93,40,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,T'au Empire
-4,0378,0606,63,52,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Chaos Knights
-4,0071,0135,81,34,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Drukhari
-4,0658,0104,70,68,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Black Templars
-4,0073,0395,83,49,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Daemons
-4,0068,0511,91,30,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Tyranids
-4,0431,0502,100,15,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Chaos Space Marines
-4,0493,0048,71,56,2025-07-12,Exterminatus IX: Sosig Party,Orks,Space Marines (Astartes)
-4,0484,0496,30,23,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Tyranids
-4,0061,0492,89,56,2025-07-12,Exterminatus IX: Sosig Party,Blood Angels,Aeldari
-4,0069,0657,83,33,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
-4,0388,0669,84,72,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Chaos Space Marines
-4,0063,0662,94,22,2025-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Space Marines (Astartes)
-4,0060,0137,83,37,2025-07-12,Exterminatus IX: Sosig Party,Death Guard,Adepta Sororitas
-4,0660,0500,62,55,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Knights
-4,0486,0485,52,39,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Astra Militarum
-4,0384,0491,79,28,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,World Eaters
-4,0666,0665,96,28,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Necrons
-4,0382,0385,79,27,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Dark Angels
-4,0667,0521,20,19,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Astra Militarum
-4,0387,0490,61,44,2025-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Tyranids
-4,0501,0379,48,47,2025-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Astra Militarum
-5,0052,0057,92,79,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Thousand Sons
-5,0029,0664,100,65,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,T'au Empire
-5,0128,0607,90,86,2025-07-12,Exterminatus IX: Sosig Party,Necrons,Orks
-5,0064,0067,99,65,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Adeptus Custodes
-5,0051,0397,97,47,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,World Eaters
-5,0308,0427,77,72,2025-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
-5,0219,0116,100,88,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Wolves
-5,0050,0378,100,32,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Thousand Sons
-5,0200,0658,100,65,2025-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Chaos Daemons
-5,0071,0073,100,64,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Chaos Daemons
-5,0068,0430,94,84,2025-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Grey Knights
-5,0668,0054,95,36,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Drukhari
-5,0663,0081,100,63,2025-07-12,Exterminatus IX: Sosig Party,Dark Angels,T'au Empire
-5,0509,0606,100,39,2025-07-12,Exterminatus IX: Sosig Party,Grey Knights,Chaos Knights
-5,0431,0069,89,46,2025-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Space Marines (Astartes)
-5,0493,0484,100,46,2025-07-12,Exterminatus IX: Sosig Party,Orks,Imperial Knights
-5,0104,0061,88,76,2025-07-12,Exterminatus IX: Sosig Party,Black Templars,Blood Angels
-5,0135,0511,80,54,2025-07-12,Exterminatus IX: Sosig Party,Drukhari,Tyranids
-5,0395,0063,79,62,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Astra Militarum
-5,0060,0388,93,58,2025-07-12,Exterminatus IX: Sosig Party,Death Guard,Imperial Knights
-5,0666,0660,100,31,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
-5,0486,0384,99,68,2025-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Daemons
-5,0382,0502,82,10,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Space Marines
-5,0492,0496,23,22,2025-07-12,Exterminatus IX: Sosig Party,Aeldari,Tyranids
-5,0048,0657,100,65,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
-5,0662,0669,76,53,2025-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Space Marines
-5,0137,0500,92,73,2025-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Knights
-5,0485,0665,51,40,2025-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Necrons
-5,0491,0667,53,46,2025-07-12,Exterminatus IX: Sosig Party,World Eaters,Space Marines (Astartes)
-5,0387,0501,78,56,2025-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Astra Militarum
-5,0385,0521,22,18,2025-07-12,Exterminatus IX: Sosig Party,Dark Angels,Astra Militarum
-5,0490,0379,89,46,2025-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
+1,0057,0135,92,50,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Drukhari
+1,0200,0511,100,43,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Tyranids
+1,0050,0395,100,38,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Daemons
+1,0492,0660,48,32,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Marines (Astartes)
+1,0116,0063,99,73,2024-07-12,Exterminatus IX: Sosig Party,Space Wolves,Astra Militarum
+1,0607,0388,87,49,2024-07-12,Exterminatus IX: Sosig Party,Orks,Imperial Knights
+1,0128,0071,66,52,2024-07-12,Exterminatus IX: Sosig Party,Necrons,Black Templars
+1,0308,0137,100,40,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adepta Sororitas
+1,0029,0669,100,19,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Space Marines
+1,0378,0385,100,37,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Dark Angels
+1,0051,0658,100,39,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Daemons
+1,0427,0073,99,36,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Chaos Daemons
+1,0493,0665,85,42,2024-07-12,Exterminatus IX: Sosig Party,Orks,Necrons
+1,0397,0486,74,56,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Daemons
+1,0064,0485,93,57,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
+1,0052,0662,100,27,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Space Marines (Astartes)
+1,0048,0491,70,46,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),World Eaters
+1,0664,0104,93,73,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Black Templars
+1,0606,0387,97,14,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Chaos Space Marines
+1,0069,0656,91,37,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Space Marines (Astartes)
+1,0067,0487,72,48,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Astra Militarum
+1,0657,0379,100,39,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
+1,0431,0068,97,54,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Imperial Knights
+1,0661,0521,69,68,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Astra Militarum
+1,0219,0666,78,57,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,Tyranids
+1,0054,0659,72,58,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Black Templars
+1,0081,0608,89,47,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Tyranids
+1,0484,0667,81,31,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Space Marines (Astartes)
+1,0509,0384,97,52,2024-07-12,Exterminatus IX: Sosig Party,Grey Knights,Chaos Daemons
+1,0430,0060,100,46,2024-07-12,Exterminatus IX: Sosig Party,Grey Knights,Death Guard
+1,0668,0490,100,23,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Tyranids
+1,0496,0501,21,13,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
+2,0057,0219,86,60,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Aeldari
+2,0663,0657,76,70,2024-07-12,Exterminatus IX: Sosig Party,Dark Angels,Tyranids
+2,0308,0050,48,43,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adepta Sororitas
+2,0664,0484,90,34,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Imperial Knights
+2,0116,0069,100,60,2024-07-12,Exterminatus IX: Sosig Party,Space Wolves,Space Marines (Astartes)
+2,0029,0081,96,45,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,T'au Empire
+2,0051,0378,100,53,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Thousand Sons
+2,0668,0061,93,68,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Blood Angels
+2,0607,0606,98,49,2024-07-12,Exterminatus IX: Sosig Party,Orks,Chaos Knights
+2,0054,0492,89,72,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Aeldari
+2,0128,0048,88,66,2024-07-12,Exterminatus IX: Sosig Party,Necrons,Space Marines (Astartes)
+2,0430,0200,99,57,2024-07-12,Exterminatus IX: Sosig Party,Grey Knights,Thousand Sons
+2,0397,0496,47,15,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Tyranids
+2,0067,0493,72,70,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Orks
+2,0064,0509,79,60,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Grey Knights
+2,0052,0431,100,75,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Chaos Knights
+2,0427,0661,94,20,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Drukhari
+2,0395,0502,78,56,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Space Marines
+2,0500,0501,67,51,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Astra Militarum
+2,0135,0385,86,49,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Dark Angels
+2,0511,0667,85,58,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
+2,0669,0486,90,81,2024-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Chaos Daemons
+2,0662,0387,97,55,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Space Marines
+2,0660,0490,52,51,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
+2,0388,0485,86,61,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Astra Militarum
+2,0137,0379,98,36,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Astra Militarum
+2,0659,0665,46,34,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Necrons
+2,0073,0608,88,51,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Tyranids
+2,0104,0487,94,56,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Astra Militarum
+2,0060,0666,84,83,2024-07-12,Exterminatus IX: Sosig Party,Death Guard,Tyranids
+2,0068,0656,100,64,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Space Marines (Astartes)
+3,0057,0308,72,69,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Adeptus Mechanicus
+3,0029,0430,79,53,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Grey Knights
+3,0607,0116,77,65,2024-07-12,Exterminatus IX: Sosig Party,Orks,Space Wolves
+3,0052,0427,69,64,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
+3,0664,0054,79,76,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Drukhari
+3,0128,0051,65,61,2024-07-12,Exterminatus IX: Sosig Party,Necrons,World Eaters
+3,0064,0668,82,56,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,World Eaters
+3,0067,0663,100,33,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,Dark Angels
+3,0397,0431,92,68,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Knights
+3,0050,0061,96,70,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Blood Angels
+3,0200,0492,92,42,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Aeldari
+3,0378,0657,83,68,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Tyranids
+3,0219,0069,83,67,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Marines (Astartes)
+3,0661,0496,42,37,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Tyranids
+3,0509,0048,93,73,2024-07-12,Exterminatus IX: Sosig Party,Grey Knights,Space Marines (Astartes)
+3,0081,0493,70,61,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Orks
+3,0606,0484,88,27,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Imperial Knights
+3,0658,0502,71,24,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Space Marines
+3,0135,0669,61,26,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Chaos Space Marines
+3,0071,0137,96,27,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Adepta Sororitas
+3,0073,0060,88,30,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Death Guard
+3,0659,0662,69,44,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Space Marines (Astartes)
+3,0104,0063,69,45,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Astra Militarum
+3,0395,0388,92,23,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Imperial Knights
+3,0068,0500,98,30,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Chaos Knights
+3,0511,0660,76,56,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
+3,0656,0382,86,57,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),World Eaters
+3,0485,0521,63,44,2024-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Astra Militarum
+3,0486,0490,93,22,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Tyranids
+3,0666,0379,72,18,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
+3,0665,0501,34,30,2024-07-12,Exterminatus IX: Sosig Party,Necrons,Astra Militarum
+3,0384,0667,90,66,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Space Marines (Astartes)
+4,0057,0128,75,29,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Necrons
+4,0029,0607,60,48,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Orks
+4,0664,0064,51,49,2024-07-12,Exterminatus IX: Sosig Party,T'au Empire,Tyranids
+4,0052,0067,100,27,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
+4,0427,0397,88,43,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Custodes,World Eaters
+4,0051,0054,81,43,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Drukhari
+4,0308,0430,66,43,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Grey Knights
+4,0116,0663,62,32,2024-07-12,Exterminatus IX: Sosig Party,Space Wolves,Dark Angels
+4,0050,0668,89,34,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,World Eaters
+4,0200,0509,88,32,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Grey Knights
+4,0219,0081,93,40,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,T'au Empire
+4,0378,0606,63,52,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Chaos Knights
+4,0071,0135,81,34,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Drukhari
+4,0658,0104,70,68,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Black Templars
+4,0073,0395,83,49,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Daemons
+4,0068,0511,91,30,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Tyranids
+4,0431,0502,100,15,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Chaos Space Marines
+4,0493,0048,71,56,2024-07-12,Exterminatus IX: Sosig Party,Orks,Space Marines (Astartes)
+4,0484,0496,30,23,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Tyranids
+4,0061,0492,89,56,2024-07-12,Exterminatus IX: Sosig Party,Blood Angels,Aeldari
+4,0069,0657,83,33,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
+4,0388,0669,84,72,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Chaos Space Marines
+4,0063,0662,94,22,2024-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Space Marines (Astartes)
+4,0060,0137,83,37,2024-07-12,Exterminatus IX: Sosig Party,Death Guard,Adepta Sororitas
+4,0660,0500,62,55,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Knights
+4,0486,0485,52,39,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Astra Militarum
+4,0384,0491,79,28,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,World Eaters
+4,0666,0665,96,28,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Necrons
+4,0382,0385,79,27,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Dark Angels
+4,0667,0521,20,19,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Astra Militarum
+4,0387,0490,61,44,2024-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Tyranids
+4,0501,0379,48,47,2024-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Astra Militarum
+5,0052,0057,92,79,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Thousand Sons
+5,0029,0664,100,65,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,T'au Empire
+5,0128,0607,90,86,2024-07-12,Exterminatus IX: Sosig Party,Necrons,Orks
+5,0064,0067,99,65,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Adeptus Custodes
+5,0051,0397,97,47,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,World Eaters
+5,0308,0427,77,72,2024-07-12,Exterminatus IX: Sosig Party,Adeptus Mechanicus,Adeptus Custodes
+5,0219,0116,100,88,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,Space Wolves
+5,0050,0378,100,32,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Thousand Sons
+5,0200,0658,100,65,2024-07-12,Exterminatus IX: Sosig Party,Thousand Sons,Chaos Daemons
+5,0071,0073,100,64,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Chaos Daemons
+5,0068,0430,94,84,2024-07-12,Exterminatus IX: Sosig Party,Imperial Knights,Grey Knights
+5,0668,0054,95,36,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Drukhari
+5,0663,0081,100,63,2024-07-12,Exterminatus IX: Sosig Party,Dark Angels,T'au Empire
+5,0509,0606,100,39,2024-07-12,Exterminatus IX: Sosig Party,Grey Knights,Chaos Knights
+5,0431,0069,89,46,2024-07-12,Exterminatus IX: Sosig Party,Chaos Knights,Space Marines (Astartes)
+5,0493,0484,100,46,2024-07-12,Exterminatus IX: Sosig Party,Orks,Imperial Knights
+5,0104,0061,88,76,2024-07-12,Exterminatus IX: Sosig Party,Black Templars,Blood Angels
+5,0135,0511,80,54,2024-07-12,Exterminatus IX: Sosig Party,Drukhari,Tyranids
+5,0395,0063,79,62,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Astra Militarum
+5,0060,0388,93,58,2024-07-12,Exterminatus IX: Sosig Party,Death Guard,Imperial Knights
+5,0666,0660,100,31,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Space Marines (Astartes)
+5,0486,0384,99,68,2024-07-12,Exterminatus IX: Sosig Party,Chaos Daemons,Chaos Daemons
+5,0382,0502,82,10,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Chaos Space Marines
+5,0492,0496,23,22,2024-07-12,Exterminatus IX: Sosig Party,Aeldari,Tyranids
+5,0048,0657,100,65,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Tyranids
+5,0662,0669,76,53,2024-07-12,Exterminatus IX: Sosig Party,Space Marines (Astartes),Chaos Space Marines
+5,0137,0500,92,73,2024-07-12,Exterminatus IX: Sosig Party,Adepta Sororitas,Chaos Knights
+5,0485,0665,51,40,2024-07-12,Exterminatus IX: Sosig Party,Astra Militarum,Necrons
+5,0491,0667,53,46,2024-07-12,Exterminatus IX: Sosig Party,World Eaters,Space Marines (Astartes)
+5,0387,0501,78,56,2024-07-12,Exterminatus IX: Sosig Party,Chaos Space Marines,Astra Militarum
+5,0385,0521,22,18,2024-07-12,Exterminatus IX: Sosig Party,Dark Angels,Astra Militarum
+5,0490,0379,89,46,2024-07-12,Exterminatus IX: Sosig Party,Tyranids,Astra Militarum
 1,0104,0021,95,66,2024-07-19,Dice Arcade Winter GT,T'au Empire,Adeptus Custodes
 1,0365,0016,93,61,2024-07-19,Dice Arcade Winter GT,Blood Angels,Ultramarines
 1,0295,0074,95,69,2024-07-19,Dice Arcade Winter GT,Chaos Daemons,Dark Angels

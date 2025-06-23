@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
@@ -20,9 +20,88 @@ const stateColors = {
 
 export default function PlayerDetail({ allPlayers }) {
   const { id } = useParams();
-  const player = allPlayers.find((p) => p.id === id);
   const [showMoreMatches, setShowMoreMatches] = useState(false);
   const [showStats, setShowStats] = useState(false);
+  // For background image
+  const [factionBgImage, setFactionBgImage] = useState(null);
+
+  const player = allPlayers.find((p) => p.id === id);
+
+  // Helper to get possible image filenames from faction name
+  function getFactionImageCandidates(faction) {
+    if (!faction) return [];
+    const trimmed = faction.trim();
+    const noParens = trimmed.replace(/[()']/g, '');
+    const noSpecial = noParens.replace(/[^a-zA-Z0-9 \-_]/g, '');
+    const underscore = noSpecial.replace(/\s+/g, '_');
+    const noSpace = noSpecial.replace(/\s+/g, '');
+    const lower = noSpecial.toLowerCase();
+    const upper = noSpecial.toUpperCase();
+    const variations = [
+      trimmed,
+      noParens,
+      noSpecial,
+      underscore,
+      noSpace,
+      lower,
+      upper
+    ];
+    const extensions = ['.jpg', '.jpeg', '.png'];
+    const candidates = [];
+    for (const v of variations) {
+      for (const ext of extensions) {
+        candidates.push(`/images/${v}${ext}`);
+      }
+    }
+    console.log('Faction image candidates for', faction, ':', candidates);
+    window.factionImageCandidates = candidates; // For manual inspection
+    return candidates;
+  }
+
+  // Calculate most played faction logic only if player exists
+  let mostPlayedFactions = '';
+  let mainFaction = null;
+  if (player) {
+    const factionCount = {};
+    player.matches.forEach((m) => {
+      const faction = m.playerFaction;
+      if (faction) {
+        factionCount[faction] = (factionCount[faction] || 0) + 1;
+      }
+    });
+    const maxPlays = Math.max(...Object.values(factionCount), 0);
+    mostPlayedFactions = Object.entries(factionCount)
+      .filter(([_, count]) => count === maxPlays)
+      .map(([faction]) => faction)
+      .join(' & ');
+    mainFaction = mostPlayedFactions.split(' & ')[0] || null;
+  }
+
+  useEffect(() => {
+    if (!mainFaction) {
+      setFactionBgImage(null);
+      return;
+    }
+    const candidates = getFactionImageCandidates(mainFaction);
+    let found = false;
+    (async () => {
+      for (const url of candidates) {
+        try {
+          const res = await fetch(url, { method: 'HEAD' });
+          if (res.ok) {
+            setFactionBgImage(url);
+            found = true;
+            console.log('Faction image found:', url);
+            break;
+          }
+        } catch (e) { console.log('Error fetching', url, e); }
+      }
+      if (!found) {
+        setFactionBgImage(null);
+        console.log('No faction image found for', mainFaction);
+      }
+    })();
+  }, [mainFaction]);
 
   if (!player) return <div className="p-6">Player not found.</div>;
 
@@ -68,20 +147,6 @@ export default function PlayerDetail({ allPlayers }) {
     return sum + (match.opponentElo || 0);
   }, 0);
   const averageOpponentElo = totalMatches > 0 ? Math.round(totalOpponentElo / totalMatches) : 0;
-
-  const factionCount = {};
-  player.matches.forEach((m) => {
-    const faction = m.playerFaction;
-    if (faction) {
-      factionCount[faction] = (factionCount[faction] || 0) + 1;
-    }
-  });
-
-  const maxPlays = Math.max(...Object.values(factionCount), 0);
-  const mostPlayedFactions = Object.entries(factionCount)
-    .filter(([_, count]) => count === maxPlays)
-    .map(([faction]) => faction)
-    .join(' & ');
 
   // Sort matches oldest first, then by game number ascending
   const sortedMatchesChronological = [...player.matches].sort((a, b) => {
@@ -168,14 +233,29 @@ export default function PlayerDetail({ allPlayers }) {
   return (
     <div className="max-w-4xl mx-auto p-6">
       {/* Player Info Header */}
-      <div className="bg-white dark:bg-gray-900 shadow-lg rounded-2xl p-6 mb-6 border border-gray-200 dark:border-gray-700 relative">
+      <div
+        className="shadow-lg rounded-2xl p-6 mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
+        style={factionBgImage ? {
+          width: '850px',
+          height: '380px',
+          backgroundColor: 'transparent',
+          backgroundImage: `url('${factionBgImage}')`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        } : {
+          width: '850px',
+          height: '380px',
+          backgroundColor: 'transparent'
+        }}
+      >
         {/* Rank badge and Elo */}
         <div className="absolute top-4 right-4 flex flex-col items-end gap-2">
           <span className={`px-8 py-3 rounded-full font-bold text-lg shadow ${color}`}>{rank}</span>
-          <span className="text-xl font-bold text-indigo-700 dark:text-indigo-200 bg-white dark:bg-gray-900 rounded px-4 py-1 shadow border border-gray-200 dark:border-gray-700 mt-1">Elo: {Math.round(player.elo)}</span>
+          <span className="text-xl font-bold text-white border-white rounded px-4 py-1 shadow border mt-1">Elo: {Math.round(player.elo)}</span>
         </div>
         {/* Player name and location */}
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 dark:text-white mb-1">{player.name}</h1>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-1">{player.name}</h1>
         {player.state && (
           <div className="my-4">
             <span
@@ -204,104 +284,98 @@ export default function PlayerDetail({ allPlayers }) {
           })()}
         </div>
 
-        {mostPlayedFactions && (
-          <p className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">{mostPlayedFactions}</p>
-        )}
-
-        <div className="bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-lg px-4 py-2 inline-block font-medium text-lg mb-4">
+        <div className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color} mb-4`} style={{ minWidth: 75, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
-
-        {/* Show More Stats button */}
-        <div className="flex justify-center">
-          <button
-            className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mt-2"
-            onClick={() => setShowStats(!showStats)}
-          >
-            {showStats ? 'Hide Stats' : 'Show More Stats'}
-          </button>
-        </div>
-
-        {/* Stats Section */}
-        {showStats && (
-          <div className="space-y-4 mt-6">
-            {/* Highest Achieved Elo and Rank */}
-            <div className="mb-2">
-              {(() => {
-                // Find highest Elo and its rank
-                let maxElo = player.elo;
-                let runningElo = player.elo;
-                let minIdx = player.matches.length - 1;
-                for (let i = player.matches.length - 1; i >= 0; i--) {
-                  runningElo -= player.matches[i].eloChange || 0;
-                  if (runningElo > maxElo) {
-                    maxElo = runningElo;
-                    minIdx = i;
-                  }
-                }
-                const highestRank = getRankLabel(maxElo, null);
-                const { color } = getRankInfo(maxElo, null);
-                return (
-                  <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-4 py-3 font-bold text-lg text-center flex flex-col items-center gap-2">
-                    <span className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
-                      style={{ minWidth: 75, textAlign: 'center' }}
-                      title={highestRank}
-                    >
-                      {highestRank}
-                    </span>
-                    <span className="text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
-                  </div>
-                );
-              })()}
-            </div>
-            <div className="grid grid-cols-4 gap-4 text-center">
-              <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-800 dark:text-gray-100">
-                <p className="text-sm text-gray-500">Games Played</p>
-                <p className="text-xl font-bold">{totalMatches}</p>
-              </div>
-              <div className="bg-green-100 p-3 rounded-lg">
-                <p className="text-sm text-gray-600">Wins</p>
-                <p className="text-xl font-bold text-green-800">{totalWins}</p>
-              </div>
-              <div className="bg-red-100 p-3 rounded-lg">
-                <p className="text-sm text-gray-600">Losses</p>
-                <p className="text-xl font-bold text-red-700">{totalLosses}</p>
-              </div>
-              <div className="bg-yellow-100 p-3 rounded-lg">
-                <p className="text-sm text-gray-600">Draws</p>
-                <p className="text-xl font-bold text-yellow-700">{totalDraws}</p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4 text-center">
-              <div className="bg-green-50 p-3 rounded-lg">
-                <p className="text-sm text-gray-600">Longest Win Streak</p>
-                <p className="text-xl font-bold">{maxWinStreak}</p>
-              </div>
-              <div className="bg-rose-50 p-3 rounded-lg">
-                <p className="text-sm text-gray-600">Longest Loss Streak</p>
-                <p className="text-xl font-bold">{maxLossStreak}</p>
-              </div>
-            </div>
-
-            {bestWin && (
-              <div className="bg-green-100 p-3 rounded-lg text-center">
-                <p className="text-sm text-gray-600">
-                  Best Win: +{bestWin.eloChange} Elo vs {bestWin.opponentName}
-                </p>
-              </div>
-            )}
-
-            {worstLoss && (
-              <div className="bg-red-100 p-3 rounded-lg text-center">
-                <p className="text-sm text-gray-600">
-                  Worst Loss: {worstLoss.eloChange} Elo vs {worstLoss.opponentName}
-                </p>
-              </div>
-            )}
-          </div>
-        )}
       </div>
+
+      {/* Show More Stats button and dropdown as a separate card */}
+      <div className="flex justify-center">
+        <button
+          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mb-4"
+          onClick={() => setShowStats(!showStats)}
+        >
+          {showStats ? 'Hide Stats' : 'Show More Stats'}
+        </button>
+      </div>
+      {showStats && (
+        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow p-6 border border-gray-200 dark:border-gray-700">
+          {/* Highest Achieved Elo and Rank */}
+          <div className="mb-2">
+            {(() => {
+              // Find highest Elo and its rank
+              let maxElo = player.elo;
+              let runningElo = player.elo;
+              let minIdx = player.matches.length - 1;
+              for (let i = player.matches.length - 1; i >= 0; i--) {
+                runningElo -= player.matches[i].eloChange || 0;
+                if (runningElo > maxElo) {
+                  maxElo = runningElo;
+                  minIdx = i;
+                }
+              }
+              const highestRank = getRankLabel(maxElo, null);
+              const { color } = getRankInfo(maxElo, null);
+              return (
+                <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-4 py-3 font-bold text-lg text-center flex flex-col items-center gap-2">
+                  <span className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
+                    style={{ minWidth: 75, textAlign: 'center' }}
+                    title={highestRank}
+                  >
+                    {highestRank}
+                  </span>
+                  <span className="text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
+                </div>
+              );
+            })()}
+          </div>
+          <div className="grid grid-cols-4 gap-4 text-center">
+            <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-800 dark:text-gray-100">
+              <p className="text-sm text-gray-500">Games Played</p>
+              <p className="text-xl font-bold">{totalMatches}</p>
+            </div>
+            <div className="bg-green-100 p-3 rounded-lg">
+              <p className="text-sm text-gray-600">Wins</p>
+              <p className="text-xl font-bold text-green-800">{totalWins}</p>
+            </div>
+            <div className="bg-red-100 p-3 rounded-lg">
+              <p className="text-sm text-gray-600">Losses</p>
+              <p className="text-xl font-bold text-red-700">{totalLosses}</p>
+            </div>
+            <div className="bg-yellow-100 p-3 rounded-lg">
+              <p className="text-sm text-gray-600">Draws</p>
+              <p className="text-xl font-bold text-yellow-700">{totalDraws}</p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4 text-center">
+            <div className="bg-green-50 p-3 rounded-lg">
+              <p className="text-sm text-gray-600">Longest Win Streak</p>
+              <p className="text-xl font-bold">{maxWinStreak}</p>
+            </div>
+            <div className="bg-rose-50 p-3 rounded-lg">
+              <p className="text-sm text-gray-600">Longest Loss Streak</p>
+              <p className="text-xl font-bold">{maxLossStreak}</p>
+            </div>
+          </div>
+
+          {bestWin && (
+            <div className="bg-green-100 p-3 rounded-lg text-center">
+              <p className="text-sm text-gray-600">
+                Best Win: +{bestWin.eloChange} Elo vs {bestWin.opponentName}
+              </p>
+            </div>
+          )}
+
+          {worstLoss && (
+            <div className="bg-red-100 p-3 rounded-lg text-center">
+              <p className="text-sm text-gray-600">
+                Worst Loss: {worstLoss.eloChange} Elo vs {worstLoss.opponentName}
+              </p>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Elo Progression Chart */}
       <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-6 mb-6 border border-gray-200 dark:border-gray-700">

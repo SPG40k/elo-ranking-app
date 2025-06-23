@@ -231,36 +231,34 @@ export default function PlayerDetail({ allPlayers }) {
     .reduce((prev, curr) => (curr.eloChange < (prev?.eloChange || Infinity) ? curr : prev), null);
 
   return (
-    <div className="max-w-4xl mx-auto p-6">
+    <div className="max-w-4xl mx-auto p-3 sm:p-6">
       {/* Player Info Header */}
       <div
-        className="shadow-lg rounded-2xl p-6 mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
+        className="shadow-lg rounded-2xl p-4 sm:p-6 mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
         style={factionBgImage ? {
-          width: '850px',
-          height: '380px',
+          minHeight: '280px',
           backgroundColor: 'transparent',
           backgroundImage: `url('${factionBgImage}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         } : {
-          width: '850px',
-          height: '380px',
+          minHeight: '280px',
           backgroundColor: 'transparent'
         }}
       >
         {/* Rank badge and Elo */}
-        <div className="absolute top-4 right-4 flex flex-col items-end gap-2">
-          <span className={`px-8 py-3 rounded-full font-bold text-lg shadow ${color}`}>{rank}</span>
-          <span className="text-xl font-bold text-white border-white rounded px-4 py-1 shadow border mt-1">Elo: {Math.round(player.elo)}</span>
+        <div className="absolute top-2 sm:top-4 right-2 sm:right-4 flex flex-col items-end gap-1 sm:gap-2">
+          <span className={`px-4 sm:px-8 py-2 sm:py-3 rounded-full font-bold text-sm sm:text-lg shadow ${color}`}>{rank}</span>
+          <span className="text-lg sm:text-xl font-bold text-white border-white rounded px-2 sm:px-4 py-1 shadow border mt-1">Elo: {Math.round(player.elo)}</span>
         </div>
         {/* Player name and location */}
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-1">{player.name}</h1>
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white mb-1 pr-20 sm:pr-0">{player.name}</h1>
         {player.state && (
-          <div className="my-4">
+          <div className="my-2 sm:my-4">
             <span
-              className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
-              style={{ minWidth: 75, textAlign: 'center' }}
+              className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
+              style={{ minWidth: 60, textAlign: 'center' }}
               title={player.state}
             >
               {player.state}
@@ -269,22 +267,24 @@ export default function PlayerDetail({ allPlayers }) {
         )}
 
         {/* Avg Opponent Elo as a pill */}
-        <div className="mb-4">
+        <div className="mb-2 sm:mb-4">
           {(() => {
             const { color } = getRankInfo(averageOpponentElo, null);
             return (
               <span
-                className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
-                style={{ minWidth: 75, textAlign: 'center' }}
+                className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color}`}
+                style={{ minWidth: 60, textAlign: 'center' }}
                 title={`Avg. Opponent Elo: ${averageOpponentElo}`}
               >
-                Avg. Opponent Elo: {averageOpponentElo}
+                <span className="hidden sm:inline">Avg. Opponent Elo: </span>
+                <span className="sm:hidden">Avg Opp: </span>
+                {averageOpponentElo}
               </span>
             );
           })()}
         </div>
 
-        <div className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color} mb-4`} style={{ minWidth: 75, textAlign: 'center' }}>
+        <div className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color} mb-4`} style={{ minWidth: 60, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
       </div>
@@ -292,14 +292,14 @@ export default function PlayerDetail({ allPlayers }) {
       {/* Show More Stats button and dropdown as a separate card */}
       <div className="flex justify-center">
         <button
-          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mb-4"
+          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mb-4 text-sm sm:text-base"
           onClick={() => setShowStats(!showStats)}
         >
           {showStats ? 'Hide Stats' : 'Show More Stats'}
         </button>
       </div>
       {showStats && (
-        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow p-6 border border-gray-200 dark:border-gray-700">
+        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow p-4 sm:p-6 border border-gray-200 dark:border-gray-700">
           {/* Highest Achieved Elo and Rank */}
           <div className="mb-2">
             {(() => {
@@ -314,62 +314,70 @@ export default function PlayerDetail({ allPlayers }) {
                   minIdx = i;
                 }
               }
-              const highestRank = getRankLabel(maxElo, null);
-              const { color } = getRankInfo(maxElo, null);
+              // If player is currently War-Master (top 10), show that as highest achieved rank
+              let highestRank;
+              let color;
+              if (rankPosition > 0 && rankPosition <= 10) {
+                highestRank = 'War-Master';
+                color = getRankInfo(maxElo, 1).color; // Use War-Master color
+              } else {
+                highestRank = getRankLabel(maxElo, null);
+                color = getRankInfo(maxElo, null).color;
+              }
               return (
-                <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-4 py-3 font-bold text-lg text-center flex flex-col items-center gap-2">
-                  <span className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
-                    style={{ minWidth: 75, textAlign: 'center' }}
+                <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-3 sm:px-4 py-3 font-bold text-base sm:text-lg text-center flex flex-col items-center gap-2">
+                  <span className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color}`}
+                    style={{ minWidth: 60, textAlign: 'center' }}
                     title={highestRank}
                   >
                     {highestRank}
                   </span>
-                  <span className="text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
+                  <span className="text-sm sm:text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
                 </div>
               );
             })()}
           </div>
-          <div className="grid grid-cols-4 gap-4 text-center">
-            <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-800 dark:text-gray-100">
-              <p className="text-sm text-gray-500">Games Played</p>
-              <p className="text-xl font-bold">{totalMatches}</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 text-center">
+            <div className="bg-gray-100 dark:bg-gray-800 p-2 sm:p-3 rounded-lg text-gray-800 dark:text-gray-100">
+              <p className="text-xs sm:text-sm text-gray-500">Games Played</p>
+              <p className="text-lg sm:text-xl font-bold">{totalMatches}</p>
             </div>
-            <div className="bg-green-100 p-3 rounded-lg">
-              <p className="text-sm text-gray-600">Wins</p>
-              <p className="text-xl font-bold text-green-800">{totalWins}</p>
+            <div className="bg-green-100 p-2 sm:p-3 rounded-lg">
+              <p className="text-xs sm:text-sm text-gray-600">Wins</p>
+              <p className="text-lg sm:text-xl font-bold text-green-800">{totalWins}</p>
             </div>
-            <div className="bg-red-100 p-3 rounded-lg">
-              <p className="text-sm text-gray-600">Losses</p>
-              <p className="text-xl font-bold text-red-700">{totalLosses}</p>
+            <div className="bg-red-100 p-2 sm:p-3 rounded-lg">
+              <p className="text-xs sm:text-sm text-gray-600">Losses</p>
+              <p className="text-lg sm:text-xl font-bold text-red-700">{totalLosses}</p>
             </div>
-            <div className="bg-yellow-100 p-3 rounded-lg">
-              <p className="text-sm text-gray-600">Draws</p>
-              <p className="text-xl font-bold text-yellow-700">{totalDraws}</p>
+            <div className="bg-yellow-100 p-2 sm:p-3 rounded-lg">
+              <p className="text-xs sm:text-sm text-gray-600">Draws</p>
+              <p className="text-lg sm:text-xl font-bold text-yellow-700">{totalDraws}</p>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-4 text-center">
-            <div className="bg-green-50 p-3 rounded-lg">
-              <p className="text-sm text-gray-600">Longest Win Streak</p>
-              <p className="text-xl font-bold">{maxWinStreak}</p>
+          <div className="grid grid-cols-2 gap-2 sm:gap-4 text-center">
+            <div className="bg-green-50 p-2 sm:p-3 rounded-lg">
+              <p className="text-xs sm:text-sm text-gray-600">Longest Win Streak</p>
+              <p className="text-lg sm:text-xl font-bold">{maxWinStreak}</p>
             </div>
-            <div className="bg-rose-50 p-3 rounded-lg">
-              <p className="text-sm text-gray-600">Longest Loss Streak</p>
-              <p className="text-xl font-bold">{maxLossStreak}</p>
+            <div className="bg-rose-50 p-2 sm:p-3 rounded-lg">
+              <p className="text-xs sm:text-sm text-gray-600">Longest Loss Streak</p>
+              <p className="text-lg sm:text-xl font-bold">{maxLossStreak}</p>
             </div>
           </div>
 
           {bestWin && (
-            <div className="bg-green-100 p-3 rounded-lg text-center">
-              <p className="text-sm text-gray-600">
+            <div className="bg-green-100 p-2 sm:p-3 rounded-lg text-center">
+              <p className="text-xs sm:text-sm text-gray-600">
                 Best Win: +{bestWin.eloChange} Elo vs {bestWin.opponentName}
               </p>
             </div>
           )}
 
           {worstLoss && (
-            <div className="bg-red-100 p-3 rounded-lg text-center">
-              <p className="text-sm text-gray-600">
+            <div className="bg-red-100 p-2 sm:p-3 rounded-lg text-center">
+              <p className="text-xs sm:text-sm text-gray-600">
                 Worst Loss: {worstLoss.eloChange} Elo vs {worstLoss.opponentName}
               </p>
             </div>
@@ -378,8 +386,8 @@ export default function PlayerDetail({ allPlayers }) {
       )}
 
       {/* Elo Progression Chart */}
-      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-6 mb-6 border border-gray-200 dark:border-gray-700">
-        <h2 className="text-xl font-bold text-gray-700 dark:text-white mb-4">Elo Progression</h2>
+      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-4 sm:p-6 mb-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Elo Progression</h2>
         <ResponsiveContainer width="100%" height={250}>
           <LineChart data={eloHistory}>
             <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
@@ -392,8 +400,8 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
 
       {/* Match History */}
-      <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-6 border border-gray-200 dark:border-gray-700">
-        <h2 className="text-xl font-bold text-gray-700 dark:text-white mb-4">Match History</h2>
+      <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-4 sm:p-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Match History</h2>
         <ul className="space-y-3">
           {(showMoreMatches ? annotatedMatches.slice().reverse() : annotatedMatches.slice().reverse().slice(0, 3)).map((match, idx) => {
             let resultClass = 'bg-gray-100 border-gray-300 dark:bg-gray-800 dark:border-gray-600';
@@ -410,12 +418,12 @@ export default function PlayerDetail({ allPlayers }) {
             const { color: opponentRankColor } = getRankInfo(opponentEloBefore, null);
 
             return (
-              <li key={idx} className={`border rounded-lg p-3 flex justify-between items-start ${resultClass}`}>
-                <div>
-                  <p className="text-sm font-medium text-gray-800 dark:text-white">
+              <li key={idx} className={`border rounded-lg p-2 sm:p-3 flex justify-between items-start ${resultClass}`}>
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs sm:text-sm font-medium text-gray-800 dark:text-white">
                     vs {match.opponentName}
-                    <span className={`ml-4 inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold ${opponentRankColor}`}
-                      style={{ minWidth: 50 }}
+                    <span className={`ml-2 sm:ml-4 inline-flex items-center justify-center px-1 sm:px-2 py-0.5 rounded-full text-xs font-bold ${opponentRankColor}`}
+                      style={{ minWidth: 40, textAlign: 'center' }}
                       title={opponentRankAtMatch}
                     >
                       {opponentRankAtMatch}
@@ -424,12 +432,12 @@ export default function PlayerDetail({ allPlayers }) {
                   <p className="text-xs text-gray-600 dark:text-gray-300 mb-1 mt-1">
                     ({match.playerFaction} vs {match.opponentFaction})
                   </p>
-                  <p className="text-sm text-gray-600 dark:text-gray-300">
+                  <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
                     })} | Game {match.gameNumber || idx + 1} {match.eventName && `| ${match.eventName}`}
                   </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-200">
+                  <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore}
                   </p>
                   {match.rankNote && (() => {
@@ -449,8 +457,8 @@ export default function PlayerDetail({ allPlayers }) {
                       };
                       const color = colorMap[newRank] || 'bg-gray-300 text-black';
                       return (
-                        <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold mr-2 mt-2 mb-2 ${color}`}
-                          style={{ minWidth: 75, textAlign: 'center' }}
+                        <span className={`inline-flex items-center px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-xs font-bold mr-2 mt-2 mb-2 ${color}`}
+                          style={{ minWidth: 60, textAlign: 'center' }}
                           title={newRank}
                         >
                           {action} to <span className="ml-1">{newRank}</span>
@@ -459,12 +467,12 @@ export default function PlayerDetail({ allPlayers }) {
                     } else {
                       // fallback to plain text if parsing fails
                       return (
-                        <span className="text-sm text-yellow-700 dark:text-yellow-200 font-medium">{match.rankNote}</span>
+                        <span className="text-xs sm:text-sm text-yellow-700 dark:text-yellow-200 font-medium">{match.rankNote}</span>
                       );
                     }
                   })()}
                 </div>
-                <div className="text-right text-sm">
+                <div className="text-right text-xs sm:text-sm ml-2 flex-shrink-0">
                   <p className={`font-bold ${match.eloChange >= 0 ? 'text-green-800 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
                     {match.eloChange >= 0 ? '📈 +' : '📉 '}{match.eloChange}
                   </p>
@@ -477,7 +485,7 @@ export default function PlayerDetail({ allPlayers }) {
         {annotatedMatches.length > 3 && (
           <div className="flex justify-center">
             <button
-              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mt-4"
+              className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mt-4 text-sm sm:text-base"
               onClick={() => setShowMoreMatches(!showMoreMatches)}
             >
               {showMoreMatches ? 'Show Less Matches' : 'Show More Matches'}

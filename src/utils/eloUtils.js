@@ -5,11 +5,15 @@ export function calculateElo(winnerElo, loserElo, winnerScore, loserScore) {
   const scoreDiff = winnerScore - loserScore;
   const marginFactor = Math.log(Math.abs(scoreDiff) + 1) * (2.2 / ((winnerElo - loserElo) * 0.001 + 2.2));
 
-  const expectedWin =
-    1 / (1 + Math.pow(10, (loserElo - winnerElo) / 400));
+  const expectedWin = 1 / (1 + Math.pow(10, (loserElo - winnerElo) / 400));
 
-  const eloChange = K * marginFactor * (1 - expectedWin);
-  return Math.round(eloChange);
+  let eloChange = K * marginFactor * (1 - expectedWin);
+  let roundedElo = Math.round(eloChange);
+
+  // Cap elo change to a maximum of 100 and a minimum of 5
+  if (roundedElo < 10 ) return 10;
+  if (roundedElo > 100) return 100;
+  return roundedElo;
 }
 
 // Rank tier assignment based on Elo rating

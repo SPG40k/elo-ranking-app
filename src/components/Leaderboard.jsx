@@ -21,7 +21,7 @@ const newZealandStates = ['NZN', 'NZS'];
 export default function Leaderboard({ allPlayers }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [stateFilter, setStateFilter] = useState('All');
-  const [visibleCount, setVisibleCount] = useState(10);
+  const [visibleCount, setVisibleCount] = useState(25);
   const [hideNoMatches, setHideNoMatches] = useState(false);
 
   const sortedPlayers = [...allPlayers].sort((a, b) => b.elo - a.elo);
@@ -58,23 +58,39 @@ export default function Leaderboard({ allPlayers }) {
     setVisibleCount(filteredPlayers.length);
   };
 
-  const getRankInfo = (elo, rankPosition) => {
-    if (rankPosition > 0 && rankPosition <= 10) {
-      return { rank: 'Shark', color: 'bg-red-200 text-red-900' };
-    }
-    if (elo >= 2000) return { rank: 'Challenger', color: 'bg-white text-black' };
-    if (elo >= 1900) return { rank: 'Masters', color: 'bg-purple-200 text-purple-900' };
-    if (elo >= 1750) return { rank: 'Diamond', color: 'bg-blue-800 text-white' };
-    if (elo >= 1600) return { rank: 'Platinum', color: 'bg-blue-200 text-blue-900' };
-    if (elo >= 1450) return { rank: 'Gold', color: 'bg-yellow-200 text-yellow-800' };
-    if (elo >= 1300) return { rank: 'Silver', color: 'bg-gray-200 text-gray-800' };
-    if (elo >= 1000) return { rank: 'Bronze', color: 'bg-amber-200 text-amber-800' };
-    return { rank: 'Iron', color: 'bg-gray-700 text-white' };
+  // Get the top 10 player IDs by global Elo
+  const top10Ids = new Set(sortedPlayers.slice(0, 10).map(p => p.id));
+
+  const getRankLabel = (elo, playerId) => {
+    if (top10Ids.has(playerId)) return 'War-Master';
+    if (elo >= 2000) return 'Chapter-Master';
+    if (elo >= 1900) return 'War-Lord';
+    if (elo >= 1750) return 'Captain';
+    if (elo >= 1600) return 'Lieutenant';
+    if (elo >= 1450) return 'Sergeant';
+    if (elo >= 1300) return 'Trooper';
+    if (elo >= 1000) return 'Scout';
+    return 'Scout';
+  };
+
+  const getRankInfo = (elo, playerId) => {
+    const rank = getRankLabel(elo, playerId);
+    const colorMap = {
+      'War-Master': 'bg-black/70 text-white',
+      'Chapter-Master': 'bg-purple-400/80 text-white',
+      'War-Lord': 'bg-red-400/80 text-white',
+      'Captain': 'bg-green-400/80 text-white',
+      'Lieutenant': 'bg-orange-300/80 text-white',
+      'Sergeant': 'bg-yellow-200/80 text-black',
+      'Trooper': 'bg-gray-200/80 text-black',
+      'Scout': 'bg-white/80 text-black border border-gray-300',
+    };
+    return { rank, color: colorMap[rank] || 'bg-gray-300 text-black' };
   };
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-indigo-700 mb-4">South Pacific War Gaming 40K Leaderboard</h1>
+      <h1 className="text-3xl font-bold text-indigo-700 dark:text-indigo-200 mb-4">South Pacific War Gaming 40K Leaderboard</h1>
 
       <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <input
@@ -83,18 +99,18 @@ export default function Leaderboard({ allPlayers }) {
           value={searchTerm}
           onChange={(e) => {
             setSearchTerm(e.target.value);
-            setVisibleCount(10);
+            setVisibleCount(25);
           }}
-          className="w-full sm:w-2/5 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          className="w-full sm:w-2/5 p-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-900 dark:text-gray-100"
         />
 
         <select
           value={stateFilter}
           onChange={(e) => {
             setStateFilter(e.target.value);
-            setVisibleCount(10);
+            setVisibleCount(25);
           }}
-          className="w-full sm:w-1/5 p-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400"
+          className="w-full sm:w-1/5 p-2 border border-gray-300 dark:border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:bg-gray-900 dark:text-gray-100"
         >
           <option value="All">All</option>
           <option value="Australia">Australia</option>
@@ -111,7 +127,7 @@ export default function Leaderboard({ allPlayers }) {
           <option value="NZS">NZS</option>
         </select>
 
-        <label className="flex items-center text-sm gap-2">
+        <label className="flex items-center text-sm gap-2 dark:text-gray-200">
           <input
             type="checkbox"
             checked={hideNoMatches}
@@ -122,27 +138,27 @@ export default function Leaderboard({ allPlayers }) {
         </label>
       </div>
 
-      <table className="w-full border-collapse bg-white shadow rounded-xl overflow-hidden">
-        <thead className="bg-indigo-100 text-indigo-800">
+      <table className="w-full border-collapse bg-white dark:bg-gray-900 shadow rounded-xl overflow-hidden">
+        <thead className="bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200">
           <tr>
             <th className="text-left px-4 py-2">#</th>
             <th className="text-left px-4 py-2">Rank</th>
             <th className="text-left px-4 py-2">Name</th>
-            <th className="text-left px-4 py-2">State</th>
-            <th className="text-left px-4 py-2">Elo</th>
-            <th className="text-left px-4 py-2">Matches Played</th>
+            <th className="text-center px-4 py-2">State</th>
+            <th className="text-center px-4 py-2">Elo</th>
+            <th className="text-center px-4 py-2">Matches Played</th>
           </tr>
         </thead>
         <tbody>
-          {visiblePlayers.map((player) => {
-            const rankPosition = rankMap.get(player.id);
-            const { rank, color } = getRankInfo(player.elo, rankPosition);
+          {visiblePlayers.map((player, idx) => {
+            const rankPosition = idx + 1;
+            const { rank, color } = getRankInfo(player.elo, player.id);
             const stateCode = player.state || '';
-            const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600';
+            const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600 dark:text-gray-300';
 
             return (
-              <tr key={player.id} className="border-t hover:opacity-90 transition">
-                <td className="px-4 py-2 font-medium">{rankPosition}</td>
+              <tr key={player.id} className="border-t border-gray-200 dark:border-gray-700 hover:opacity-90 transition">
+                <td className="px-4 py-2 font-medium text-gray-800 dark:text-white">{rankPosition}</td>
                 <td className="px-4 py-2">
                   <span className={`text-sm font-semibold px-2 py-1 rounded-full ${color}`}>
                     {rank}
@@ -151,12 +167,12 @@ export default function Leaderboard({ allPlayers }) {
                 <td className="px-4 py-2">
                   <Link
                     to={`/player/${player.id}`}
-                    className="text-indigo-700 hover:underline font-medium"
+                    className="text-indigo-700 dark:text-indigo-300 hover:underline font-medium"
                   >
                     {player.name}
                   </Link>
                 </td>
-                <td className="px-4 py-2">
+                <td className="px-4 py-2 text-center">
                   {stateCode ? (
                     <span
                       className={`inline-block px-2 py-1 rounded-full text-xs font-semibold ${stateColorClass}`}
@@ -169,8 +185,8 @@ export default function Leaderboard({ allPlayers }) {
                     '—'
                   )}
                 </td>
-                <td className="px-4 py-2">{Math.round(player.elo)}</td>
-                <td className="px-4 py-2">{player.matches.length}</td>
+                <td className="px-4 py-2 text-gray-800 dark:text-white text-center">{Math.round(player.elo)}</td>
+                <td className="px-4 py-2 text-gray-800 dark:text-white text-center">{player.matches.length}</td>
               </tr>
             );
           })}

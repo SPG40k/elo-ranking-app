@@ -39,32 +39,6 @@
 
 /* Light/Dark Mode Styles */
 
-body.light {
-  background-color: white;
-  color: black;
-}
+/* Remove custom body.light and body.dark styles, use Tailwind's dark: classes instead */
 
-body.dark {
-  background-color: #1a1a1a;
-  color: #f0f0f0;
-}
-
-/* Adjust nav backgrounds too */
-body.light nav {
-  background-color: #e0e7ff; /* Indigo-100 */
-  color: #3730a3; /* Indigo-900 */
-}
-
-body.dark nav {
-  background-color: #3730a3; /* Indigo-900 */
-  color: #e0e7ff; /* Indigo-100 */
-}
-
-/* Hover colors for nav links */
-body.dark nav a:hover {
-  color: #c7d2fe; /* lighter indigo */
-}
-
-body.light nav a:hover {
-  color: #818cf8; /* darker indigo */
-}
+/* Remove nav overrides, let Tailwind handle nav color via dark: classes */

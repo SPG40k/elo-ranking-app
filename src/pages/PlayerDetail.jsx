@@ -4,6 +4,20 @@ import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from 'recharts';
 
+// State color mapping (copied from Leaderboard)
+const stateColors = {
+  ACT: 'bg-blue-900 text-white',
+  NSW: 'bg-blue-300 text-blue-900',
+  NT: 'bg-red-800 text-white',
+  QLD: 'bg-red-900 text-white',
+  SA: 'bg-red-600 text-white',
+  TAS: 'bg-green-800 text-white',
+  VIC: 'bg-blue-800 text-white',
+  WA: 'bg-yellow-300 text-yellow-900',
+  NZN: 'bg-gray-300 text-gray-800',
+  NZS: 'bg-gray-700 text-white',
+};
+
 export default function PlayerDetail({ allPlayers }) {
   const { id } = useParams();
   const player = allPlayers.find((p) => p.id === id);
@@ -13,29 +27,28 @@ export default function PlayerDetail({ allPlayers }) {
   if (!player) return <div className="p-6">Player not found.</div>;
 
   const getRankLabel = (elo, rankPosition = null) => {
-    if (rankPosition && rankPosition > 0 && rankPosition <= 10) return 'Shark';
-    if (elo >= 2000) return 'Challenger';
-    if (elo >= 1900) return 'Masters';
-    if (elo >= 1750) return 'Diamond';
-    if (elo >= 1600) return 'Platinum';
-    if (elo >= 1450) return 'Gold';
-    if (elo >= 1300) return 'Silver';
-    if (elo >= 1000) return 'Bronze';
-    return 'Iron';
+    if (rankPosition && rankPosition > 0 && rankPosition <= 10) return 'War-Master';
+    if (elo >= 2000) return 'Chapter-Master';
+    if (elo >= 1900) return 'War-Lord';
+    if (elo >= 1750) return 'Captain';
+    if (elo >= 1600) return 'Lieutenant';
+    if (elo >= 1450) return 'Sergeant';
+    if (elo >= 1300) return 'Trooper';
+    if (elo >= 1000) return 'Scout';
+    return 'Scout';
   };
 
   const getRankInfo = (elo, rankPosition) => {
     const rank = getRankLabel(elo, rankPosition);
     const colorMap = {
-      Shark: 'bg-red-300 text-red-900',
-      Challenger: 'bg-white text-black',
-      Masters: 'bg-purple-300 text-purple-900',
-      Diamond: 'bg-blue-800 text-white',
-      Platinum: 'bg-blue-300 text-blue-900',
-      Gold: 'bg-yellow-300 text-yellow-800',
-      Silver: 'bg-gray-300 text-gray-800',
-      Bronze: 'bg-amber-300 text-amber-800',
-      Iron: 'bg-gray-700 text-white',
+      'War-Master': 'bg-black/70 text-white',
+      'Chapter-Master': 'bg-purple-400/80 text-white',
+      'War-Lord': 'bg-red-400/80 text-white',
+      'Captain': 'bg-green-400/80 text-white',
+      'Lieutenant': 'bg-orange-300/80 text-white',
+      'Sergeant': 'bg-yellow-200/80 text-black',
+      'Trooper': 'bg-gray-200/80 text-black',
+      'Scout': 'bg-white/80 text-black border border-gray-300',
     };
     return { rank, color: colorMap[rank] || 'bg-gray-300 text-black' };
   };
@@ -155,31 +168,47 @@ export default function PlayerDetail({ allPlayers }) {
   return (
     <div className="max-w-4xl mx-auto p-6">
       {/* Player Info Header */}
-      <div className="bg-white shadow-lg rounded-2xl p-6 mb-6 border border-gray-200 relative">
-        {/* Rank badge */}
-        <div className={`absolute top-4 right-4 px-8 py-3 rounded-full font-bold text-lg shadow ${color}`}>
-          {rank}
+      <div className="bg-white dark:bg-gray-900 shadow-lg rounded-2xl p-6 mb-6 border border-gray-200 dark:border-gray-700 relative">
+        {/* Rank badge and Elo */}
+        <div className="absolute top-4 right-4 flex flex-col items-end gap-2">
+          <span className={`px-8 py-3 rounded-full font-bold text-lg shadow ${color}`}>{rank}</span>
+          <span className="text-xl font-bold text-indigo-700 dark:text-indigo-200 bg-white dark:bg-gray-900 rounded px-4 py-1 shadow border border-gray-200 dark:border-gray-700 mt-1">Elo: {Math.round(player.elo)}</span>
         </div>
         {/* Player name and location */}
-        <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 mb-1">{player.name}</h1>
-        {(player.state || player.country) && (
-          <p className="text-xl text-gray-600 mb-2">
-            {player.state && <span>{player.state}</span>}
-            {player.state && player.country && <span>, </span>}
-            {player.country && <span>{player.country}</span>}
-          </p>
+        <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-800 dark:text-white mb-1">{player.name}</h1>
+        {player.state && (
+          <div className="my-4">
+            <span
+              className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
+              style={{ minWidth: 75, textAlign: 'center' }}
+              title={player.state}
+            >
+              {player.state}
+            </span>
+          </div>
         )}
-        {/* Elo */}
-        <p className="text-2xl font-bold text-indigo-700 mb-2">Elo: {Math.round(player.elo)}</p>
 
-        {/* Avg Opponent Elo */}
-        <p className="text-lg text-gray-600 mb-2">Avg. Opponent Elo: {averageOpponentElo}</p>
+        {/* Avg Opponent Elo as a pill */}
+        <div className="mb-4">
+          {(() => {
+            const { color } = getRankInfo(averageOpponentElo, null);
+            return (
+              <span
+                className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
+                style={{ minWidth: 75, textAlign: 'center' }}
+                title={`Avg. Opponent Elo: ${averageOpponentElo}`}
+              >
+                Avg. Opponent Elo: {averageOpponentElo}
+              </span>
+            );
+          })()}
+        </div>
 
         {mostPlayedFactions && (
-          <p className="text-xl font-semibold text-gray-700 mb-4">{mostPlayedFactions}</p>
+          <p className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-4">{mostPlayedFactions}</p>
         )}
 
-        <div className="bg-blue-100 text-blue-900 rounded-lg px-4 py-2 inline-block font-medium text-lg mb-4">
+        <div className="bg-blue-100 dark:bg-blue-900 text-blue-900 dark:text-blue-100 rounded-lg px-4 py-2 inline-block font-medium text-lg mb-4">
           Winrate: {winrate}%
         </div>
 
@@ -196,8 +225,37 @@ export default function PlayerDetail({ allPlayers }) {
         {/* Stats Section */}
         {showStats && (
           <div className="space-y-4 mt-6">
+            {/* Highest Achieved Elo and Rank */}
+            <div className="mb-2">
+              {(() => {
+                // Find highest Elo and its rank
+                let maxElo = player.elo;
+                let runningElo = player.elo;
+                let minIdx = player.matches.length - 1;
+                for (let i = player.matches.length - 1; i >= 0; i--) {
+                  runningElo -= player.matches[i].eloChange || 0;
+                  if (runningElo > maxElo) {
+                    maxElo = runningElo;
+                    minIdx = i;
+                  }
+                }
+                const highestRank = getRankLabel(maxElo, null);
+                const { color } = getRankInfo(maxElo, null);
+                return (
+                  <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-4 py-3 font-bold text-lg text-center flex flex-col items-center gap-2">
+                    <span className={`inline-block px-3 py-1.5 rounded-full text-lg font-bold ${color}`}
+                      style={{ minWidth: 75, textAlign: 'center' }}
+                      title={highestRank}
+                    >
+                      {highestRank}
+                    </span>
+                    <span className="text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
+                  </div>
+                );
+              })()}
+            </div>
             <div className="grid grid-cols-4 gap-4 text-center">
-              <div className="bg-gray-100 p-3 rounded-lg">
+              <div className="bg-gray-100 dark:bg-gray-800 p-3 rounded-lg text-gray-800 dark:text-gray-100">
                 <p className="text-sm text-gray-500">Games Played</p>
                 <p className="text-xl font-bold">{totalMatches}</p>
               </div>
@@ -246,51 +304,97 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
 
       {/* Elo Progression Chart */}
-      <div className="bg-white rounded-2xl shadow p-6 mb-6 border border-gray-200">
-        <h2 className="text-xl font-bold text-gray-700 mb-4">Elo Progression</h2>
+      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-6 mb-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-xl font-bold text-gray-700 dark:text-white mb-4">Elo Progression</h2>
         <ResponsiveContainer width="100%" height={250}>
           <LineChart data={eloHistory}>
             <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
-            <XAxis dataKey="match" />
-            <YAxis domain={['auto', 'auto']} />
-            <Tooltip />
-            <Line type="monotone" dataKey="elo" stroke="#8884d8" strokeWidth={3} dot={{ r: 4 }} />
+            <XAxis dataKey="match" tick={{ fill: '#6b7280' }} />
+            <YAxis domain={['auto', 'auto']} tick={{ fill: '#6b7280' }} />
+            <Tooltip contentStyle={{ background: '#1a1a1a', color: '#fff', border: '1px solid #374151' }} labelStyle={{ color: '#fff' }} wrapperStyle={{ zIndex: 50 }} />
+            <Line type="monotone" dataKey="elo" stroke="#6366f1" strokeWidth={3} dot={{ r: 4, fill: '#fff' }} />
           </LineChart>
         </ResponsiveContainer>
       </div>
 
       {/* Match History */}
-      <div className="bg-white shadow rounded-2xl p-6 border border-gray-200">
-        <h2 className="text-xl font-bold text-gray-700 mb-4">Match History</h2>
+      <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-xl font-bold text-gray-700 dark:text-white mb-4">Match History</h2>
         <ul className="space-y-3">
           {(showMoreMatches ? annotatedMatches.slice().reverse() : annotatedMatches.slice().reverse().slice(0, 3)).map((match, idx) => {
-            let resultClass = 'bg-gray-100 border-gray-300';
-            if (match.result === 'Win') resultClass = 'bg-green-200 border-green-400';
-            else if (match.result === 'Loss') resultClass = 'bg-red-200 border-red-400';
+            let resultClass = 'bg-gray-100 border-gray-300 dark:bg-gray-800 dark:border-gray-600';
+            if (match.result === 'Win') resultClass = 'bg-green-200 border-green-400 dark:bg-green-900 dark:border-green-500';
+            else if (match.result === 'Loss') resultClass = 'bg-red-200 border-red-400 dark:bg-red-900 dark:border-red-500';
+
+            // Calculate Elo for player and opponent before this match
+            let playerEloBefore = match.cumulativeElo - (match.eloChange || 0);
+            let opponentEloBefore = match.opponentElo;
+            // If opponentElo is not present, fallback to 1500
+            if (opponentEloBefore === undefined) opponentEloBefore = 1500;
+            const playerRankAtMatch = getRankLabel(playerEloBefore, null);
+            const opponentRankAtMatch = getRankLabel(opponentEloBefore, null);
+            const { color: opponentRankColor } = getRankInfo(opponentEloBefore, null);
 
             return (
               <li key={idx} className={`border rounded-lg p-3 flex justify-between items-start ${resultClass}`}>
                 <div>
-                  <p className="text-sm font-medium text-gray-800">
-                    vs {match.opponentName} ({match.playerFaction} vs {match.opponentFaction})
+                  <p className="text-sm font-medium text-gray-800 dark:text-white">
+                    vs {match.opponentName}
+                    <span className={`ml-4 inline-flex items-center justify-center px-2 py-0.5 rounded-full text-xs font-bold ${opponentRankColor}`}
+                      style={{ minWidth: 50 }}
+                      title={opponentRankAtMatch}
+                    >
+                      {opponentRankAtMatch}
+                    </span>
                   </p>
-                  <p className="text-sm text-gray-600">
+                  <p className="text-xs text-gray-600 dark:text-gray-300 mb-1 mt-1">
+                    ({match.playerFaction} vs {match.opponentFaction})
+                  </p>
+                  <p className="text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
                     })} | Game {match.gameNumber || idx + 1} {match.eventName && `| ${match.eventName}`}
                   </p>
-                  <p className="text-sm text-gray-500">
+                  <p className="text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore}
                   </p>
-                  {match.rankNote && (
-                    <p className="text-sm text-yellow-700 font-medium">{match.rankNote}</p>
-                  )}
+                  {match.rankNote && (() => {
+                    // Parse the rankNote, e.g., 'Promoted to War-Master' or 'Demoted to Chapter-Master'
+                    const matchNoteMatch = match.rankNote.match(/(Promoted|Demoted) to (.+)/);
+                    if (matchNoteMatch) {
+                      const [, action, newRank] = matchNoteMatch;
+                      const colorMap = {
+                        'War-Master': 'bg-black/70 text-white',
+                        'Chapter-Master': 'bg-purple-400/80 text-white',
+                        'War-Lord': 'bg-red-400/80 text-white',
+                        'Captain': 'bg-green-400/80 text-white',
+                        'Lieutenant': 'bg-orange-300/80 text-white',
+                        'Sergeant': 'bg-yellow-200/80 text-black',
+                        'Trooper': 'bg-gray-200/80 text-black',
+                        'Scout': 'bg-white/80 text-black border border-gray-300',
+                      };
+                      const color = colorMap[newRank] || 'bg-gray-300 text-black';
+                      return (
+                        <span className={`inline-flex items-center px-3 py-1.5 rounded-full text-xs font-bold mr-2 mt-2 mb-2 ${color}`}
+                          style={{ minWidth: 75, textAlign: 'center' }}
+                          title={newRank}
+                        >
+                          {action} to <span className="ml-1">{newRank}</span>
+                        </span>
+                      );
+                    } else {
+                      // fallback to plain text if parsing fails
+                      return (
+                        <span className="text-sm text-yellow-700 dark:text-yellow-200 font-medium">{match.rankNote}</span>
+                      );
+                    }
+                  })()}
                 </div>
                 <div className="text-right text-sm">
-                  <p className={`font-bold ${match.eloChange >= 0 ? 'text-green-800' : 'text-red-700'}`}>
+                  <p className={`font-bold ${match.eloChange >= 0 ? 'text-green-800 dark:text-green-300' : 'text-red-700 dark:text-red-300'}`}>
                     {match.eloChange >= 0 ? '📈 +' : '📉 '}{match.eloChange}
                   </p>
-                  <p className="text-xs text-gray-500">Elo: {match.cumulativeElo}</p>
+                  <p className="text-xs text-gray-500 dark:text-gray-200">Elo: {match.cumulativeElo}</p>
                 </div>
               </li>
             );

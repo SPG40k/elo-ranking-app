@@ -1,0 +1,1600 @@
+gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teamscore1,teamscore2,score1,score2,date,eventName,player1Faction,player2Faction
+1,01,019,027,0198,0467,65,35,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Salamanders
+1,01,019,027,0707,0465,65,35,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Imperial Knights
+1,01,019,027,0404,0195,65,35,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Tyranids
+1,01,019,027,0705,0027,65,35,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Drukhari
+1,01,019,027,0504,0020,65,35,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Dark Angels,Necrons
+1,02,039,049,0800,0089,59,41,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Death Guard
+1,02,039,049,0833,0462,59,41,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,Imperial Knights
+1,02,039,049,0123,0458,59,41,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Chaos Space Marines
+1,02,039,049,0087,0126,59,41,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Grey Knights
+1,02,039,049,0161,0096,59,41,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Astra Militarum
+1,03,038,040,0687,0597,17,83,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,Genestealer Cult
+1,03,038,040,0110,0843,17,83,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Tyranids
+1,03,038,040,0503,0848,17,83,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Space Marines (Astartes)
+1,03,038,040,0845,0085,17,83,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,Grey Knights
+1,03,038,040,0117,0842,17,83,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Hive Fleet Leviathan,Orks
+1,04,047,041,0846,0208,24,76,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Astra Militarum,Steel Legion
+1,04,047,041,0841,0200,24,76,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Thousand Sons
+1,04,047,041,0847,0203,24,76,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Adeptus Custodes
+1,04,047,041,0840,0602,24,76,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Space Marines (Astartes),Orks
+1,04,047,041,0850,0839,24,76,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Space Wolves
+1,05,009,044,0068,0082,15,85,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Adeptus Custodes
+1,05,009,044,0062,0394,15,85,5,15,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Knights,Ultramarines
+1,05,009,044,0637,0363,15,85,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Orks
+1,05,009,044,0066,0050,15,85,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Adepta Sororitas
+1,05,009,044,0116,0139,15,85,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Astra Militarum,Chaos Daemons
+1,06,048,042,0065,0191,76,24,18,2,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Necrons
+1,06,048,042,0298,0849,76,24,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,T'au Empire
+1,06,048,042,0111,0838,76,24,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,World Eaters
+1,06,048,042,0844,0593,76,24,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Ultramarines
+1,06,048,042,0584,0851,76,24,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Adeptus Custodes
+1,07,045,046,0095,0219,7,93,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Grey Knights
+1,07,045,046,0837,0115,7,93,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Orks
+1,07,045,046,0724,0151,7,93,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Drukhari
+1,07,045,046,0509,0070,7,93,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Knights,Leagues of Votann
+1,07,045,046,0475,0057,7,93,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Thousand Sons
+1,08,037,043,0361,0084,57,43,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Adepta Sororitas
+1,08,037,043,0508,0099,57,43,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Tyranids
+1,08,037,043,0104,0098,57,43,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Orks
+1,08,037,043,0507,0469,57,43,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Maynarkh
+1,08,037,043,0365,0626,57,43,18,2,2024-03-08,Sydney Teams Open - PSA & Chadmech,Blood Angels,Drukhari
+2,01,040,041,0842,0839,63,37,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Space Wolves
+2,01,040,041,0843,0203,63,37,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Adeptus Custodes
+2,01,040,041,0085,0208,63,37,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Steel Legion
+2,01,040,041,0848,0602,63,37,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Space Marines (Astartes),Orks
+2,01,040,041,0597,0200,63,37,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,Thousand Sons
+2,02,044,046,0363,0057,48,52,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Thousand Sons
+2,02,044,046,0082,0070,48,52,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Leagues of Votann
+2,02,044,046,0394,0219,48,52,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Grey Knights
+2,02,044,046,0050,0151,48,52,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Drukhari
+2,02,044,046,0139,0115,48,52,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Orks
+2,03,048,039,0844,0833,50,50,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Aeldari
+2,03,048,039,0298,0087,50,50,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,--------
+2,03,048,039,0584,0161,50,50,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,--------
+2,03,048,039,0065,0800,50,50,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,--------
+2,03,048,039,0111,0123,50,50,19,1,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,--------
+2,04,019,037,0404,0365,61,39,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Blood Angels
+2,04,019,037,0198,0361,61,39,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Adeptus Custodes
+2,04,019,037,0504,0507,61,39,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Dark Angels,Leagues of Votann
+2,04,019,037,0707,0104,61,39,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,T'au Empire
+2,04,019,037,0705,0508,61,39,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Imperial Knights
+2,05,027,043,0465,0084,26,74,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Adepta Sororitas
+2,05,027,043,0195,0098,26,74,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Orks
+2,05,027,043,0467,0626,26,74,5,15,2024-03-08,Sydney Teams Open - PSA & Chadmech,Salamanders,Drukhari
+2,05,027,043,0020,0099,26,74,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Tyranids
+2,05,027,043,0027,0469,26,74,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,Drukhari,Maynarkh
+2,06,049,042,0089,0851,66,34,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Death Guard,Adeptus Custodes
+2,06,049,042,0096,0849,66,34,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Astra Militarum,T'au Empire
+2,06,049,042,0126,0593,66,34,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Ultramarines
+2,06,049,042,0458,0838,66,34,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,World Eaters
+2,06,049,042,0462,0191,66,34,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Necrons
+2,07,038,047,0110,0846,65,35,18,2,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Astra Militarum
+2,07,038,047,0687,0850,65,35,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,Grey Knights
+2,07,038,047,0845,0847,65,35,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,Tyranids
+2,07,038,047,0503,0841,65,35,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Necrons
+2,07,038,047,0117,0840,65,35,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Hive Fleet Leviathan,Space Marines (Astartes)
+2,08,045,009,0837,0062,43,57,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Chaos Knights
+2,08,045,009,0095,0068,43,57,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Necrons
+2,08,045,009,0509,0066,43,57,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Knights,--------
+2,08,045,009,0724,0116,43,57,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Astra Militarum
+2,08,045,009,0475,0637,43,57,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Chaos Daemons
+3,01,048,046,0844,0219,35,65,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Grey Knights
+3,01,048,046,0111,0057,35,65,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Thousand Sons
+3,01,048,046,0065,0151,35,65,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Drukhari
+3,01,048,046,0584,0070,35,65,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Leagues of Votann
+3,01,048,046,0298,0115,35,65,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,Orks
+3,02,044,039,0082,0161,62,38,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,--------
+3,02,044,039,0394,0833,62,38,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Aeldari
+3,02,044,039,0050,0087,62,38,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,--------
+3,02,044,039,0139,0123,62,38,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,--------
+3,02,044,039,0363,0800,62,38,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,--------
+3,03,019,040,0404,0842,26,74,5,15,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Orks
+3,03,019,040,0198,0848,26,74,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Space Marines (Astartes)
+3,03,019,040,0504,0597,26,74,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Dark Angels,Genestealer Cult
+3,03,019,040,0707,0843,26,74,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Tyranids
+3,03,019,040,0705,0085,26,74,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Grey Knights
+3,04,043,049,0469,0462,41,59,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Maynarkh,Imperial Knights
+3,04,043,049,0084,0458,41,59,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Chaos Space Marines
+3,04,043,049,0099,0089,41,59,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Death Guard
+3,04,043,049,0098,0096,41,59,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Astra Militarum
+3,04,043,049,0626,0126,41,59,5,15,2024-03-08,Sydney Teams Open - PSA & Chadmech,Drukhari,Grey Knights
+3,05,037,041,0508,0208,40,60,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Steel Legion
+3,05,037,041,0365,0602,40,60,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Blood Angels,Orks
+3,05,037,041,0361,0200,40,60,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Thousand Sons
+3,05,037,041,0104,0839,40,60,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Space Wolves
+3,05,037,041,0507,0203,40,60,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Adeptus Custodes
+3,06,038,009,0117,0062,33,67,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,Hive Fleet Leviathan,Chaos Knights
+3,06,038,009,0845,0066,33,67,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,--------
+3,06,038,009,0687,0116,33,67,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,Astra Militarum
+3,06,038,009,0110,0068,33,67,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Necrons
+3,06,038,009,0503,0637,33,67,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Chaos Daemons
+3,07,042,027,0191,0465,55,45,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Imperial Knights
+3,07,042,027,0851,0027,55,45,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Drukhari
+3,07,042,027,0593,0195,55,45,19,1,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Tyranids
+3,07,042,027,0849,0467,55,45,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Salamanders
+3,07,042,027,0838,0020,55,45,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,World Eaters,Necrons
+3,08,047,045,0841,0475,25,75,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,--------
+3,08,047,045,0847,0724,25,75,1,19,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,--------
+3,08,047,045,0850,0837,25,75,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,--------
+3,08,047,045,0846,0095,25,75,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Astra Militarum,--------
+3,08,047,045,0840,0509,25,75,2,18,2024-03-08,Sydney Teams Open - PSA & Chadmech,Space Marines (Astartes),Chaos Knights
+4,01,040,046,0597,0057,36,64,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,Thousand Sons
+4,01,040,046,0843,0115,36,64,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Orks
+4,01,040,046,0848,0151,36,64,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Space Marines (Astartes),Drukhari
+4,01,040,046,0842,0070,36,64,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Leagues of Votann
+4,01,040,046,0085,0219,36,64,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Grey Knights
+4,02,044,041,0082,0203,74,26,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Adeptus Custodes
+4,02,044,041,0394,0839,74,26,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Space Wolves
+4,02,044,041,0050,0602,74,26,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Orks
+4,02,044,041,0139,0200,74,26,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Thousand Sons
+4,02,044,041,0363,0208,74,26,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Steel Legion
+4,03,019,049,0404,0089,48,52,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Death Guard
+4,03,019,049,0198,0126,48,52,18,2,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Grey Knights
+4,03,019,049,0504,0458,48,52,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Dark Angels,Chaos Space Marines
+4,03,019,049,0707,0462,48,52,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Imperial Knights
+4,03,019,049,0705,0096,48,52,1,19,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,Astra Militarum
+4,04,039,043,0833,0099,76,24,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,Tyranids
+4,04,039,043,0800,0469,76,24,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Maynarkh
+4,04,039,043,0161,0098,76,24,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Orks
+4,04,039,043,0123,0626,76,24,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Drukhari
+4,04,039,043,0087,0084,76,24,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,--------,Adepta Sororitas
+4,05,048,009,0844,0116,71,29,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Astra Militarum
+4,05,048,009,0111,0066,71,29,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,--------
+4,05,048,009,0584,0637,71,29,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Chaos Daemons
+4,05,048,009,0065,0068,71,29,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Necrons
+4,05,048,009,0298,0062,71,29,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,Chaos Knights
+4,06,042,038,0593,0117,34,66,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Hive Fleet Leviathan
+4,06,042,038,0838,0110,34,66,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,World Eaters,Chaos Daemons
+4,06,042,038,0851,0503,34,66,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Leagues of Votann
+4,06,042,038,0849,0687,34,66,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Aeldari
+4,06,042,038,0191,0845,34,66,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Genestealer Cult
+4,07,037,045,0508,0509,50,50,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Chaos Knights
+4,07,037,045,0507,0837,50,50,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,--------
+4,07,037,045,0361,0095,50,50,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,--------
+4,07,037,045,0104,0724,50,50,8,12,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,--------
+4,07,037,045,0365,0475,50,50,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Blood Angels,--------
+4,08,027,047,0467,0846,56,44,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Salamanders,Astra Militarum
+4,08,027,047,0020,0850,56,44,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Grey Knights
+4,08,027,047,0027,0840,56,44,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,Drukhari,Space Marines (Astartes)
+4,08,027,047,0195,0847,56,44,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Tyranids
+4,08,027,047,0465,0841,56,44,4,16,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Necrons
+5,01,046,039,0057,0833,72,28,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Thousand Sons,Aeldari
+5,01,046,039,0219,0123,72,28,19,1,2024-03-08,Sydney Teams Open - PSA & Chadmech,Grey Knights,--------
+5,01,046,039,0115,0800,72,28,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,--------
+5,01,046,039,0151,0087,72,28,15,5,2024-03-08,Sydney Teams Open - PSA & Chadmech,Drukhari,--------
+5,01,046,039,0070,0161,72,28,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,--------
+5,02,044,040,0050,0597,45,55,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Genestealer Cult
+5,02,044,040,0082,0843,45,55,7,13,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Tyranids
+5,02,044,040,0139,0085,45,55,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Grey Knights
+5,02,044,040,0363,0848,45,55,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Space Marines (Astartes)
+5,02,044,040,0394,0842,45,55,12,8,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Orks
+5,03,048,049,0111,0462,24,76,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Imperial Knights
+5,03,048,049,0584,0089,24,76,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Death Guard
+5,03,048,049,0844,0458,24,76,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Chaos Space Marines
+5,03,048,049,0065,0126,24,76,11,9,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,Grey Knights
+5,03,048,049,0298,0096,24,76,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Space Marines,Astra Militarum
+5,04,041,019,0200,0705,50,50,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Thousand Sons,Grey Knights
+5,04,041,019,0208,0198,50,50,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Steel Legion,Necrons
+5,04,041,019,0203,0707,50,50,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Tyranids
+5,04,041,019,0602,0504,50,50,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Dark Angels
+5,04,041,019,0839,0404,50,50,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Space Wolves,Leagues of Votann
+5,05,038,045,0110,0509,53,47,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Chaos Daemons,Chaos Knights
+5,05,038,045,0687,0475,53,47,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,Aeldari,--------
+5,05,038,045,0845,0837,53,47,0,20,2024-03-08,Sydney Teams Open - PSA & Chadmech,Genestealer Cult,--------
+5,05,038,045,0117,0724,53,47,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Hive Fleet Leviathan,--------
+5,05,038,045,0503,0095,53,47,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,--------
+5,06,037,027,0361,0465,71,29,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Imperial Knights
+5,06,037,027,0507,0195,71,29,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Leagues of Votann,Tyranids
+5,06,037,027,0365,0027,71,29,20,0,2024-03-08,Sydney Teams Open - PSA & Chadmech,Blood Angels,Drukhari
+5,06,037,027,0508,0020,71,29,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,Imperial Knights,Necrons
+5,06,037,027,0104,0467,71,29,18,2,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Salamanders
+5,07,043,009,0098,0116,59,41,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Orks,Astra Militarum
+5,07,043,009,0099,0068,59,41,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Tyranids,Necrons
+5,07,043,009,0469,0062,59,41,14,6,2024-03-08,Sydney Teams Open - PSA & Chadmech,Maynarkh,Chaos Knights
+5,07,043,009,0626,0637,59,41,3,17,2024-03-08,Sydney Teams Open - PSA & Chadmech,Drukhari,Chaos Daemons
+5,07,043,009,0084,0066,59,41,16,4,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adepta Sororitas,--------
+5,08,042,047,0849,0846,55,45,17,3,2024-03-08,Sydney Teams Open - PSA & Chadmech,T'au Empire,Astra Militarum
+5,08,042,047,0191,0850,55,45,10,10,2024-03-08,Sydney Teams Open - PSA & Chadmech,Necrons,Grey Knights
+5,08,042,047,0593,0841,55,45,6,14,2024-03-08,Sydney Teams Open - PSA & Chadmech,Ultramarines,Necrons
+5,08,042,047,0838,0847,55,45,9,11,2024-03-08,Sydney Teams Open - PSA & Chadmech,World Eaters,Tyranids
+5,08,042,047,0851,0840,55,45,13,7,2024-03-08,Sydney Teams Open - PSA & Chadmech,Adeptus Custodes,Space Marines (Astartes)
+1,01,002,010,0057,0068,56,4,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Thousand Sons,Chaos Space Marines
+1,01,002,010,0151,0135,56,4,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Astra Militarum,Chaos Knights
+1,01,002,010,0827,0137,56,4,16,4,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Chaos Space Marines,Adepta Sororitas
+1,02,009,005,0116,0150,34,26,6,14,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Space Wolves,Thousand Sons
+1,02,009,005,0062,0130,34,26,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Chaos Daemons,Astra Militarum
+1,02,009,005,0128,0215,34,26,18,2,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,Ultramarines
+1,03,006,004,0830,0085,6,54,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Astra Militarum,Space Wolves
+1,03,006,004,0826,0094,6,54,6,14,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Adeptus Mechanicus,Imperial Knights
+1,03,006,004,0511,0362,6,54,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Tyranids,--------
+1,04,007,003,0149,0222,38,22,14,6,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Blood Angels,Space Wolves
+1,04,007,003,0156,0732,38,22,7,13,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Death Guard,Necrons
+1,04,007,003,0216,0305,38,22,17,3,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Drukhari,World Eaters
+1,05,008,001,0828,0831,29,31,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Adeptus Custodes,Grey Knights
+1,05,008,001,0517,0164,29,31,13,7,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Grey Knights,Aeldari
+1,05,008,001,0217,0829,29,31,6,14,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,Space Marines (Astartes)
+2,01,007,009,0149,0062,22,38,15,5,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Blood Angels,Chaos Daemons
+2,01,007,009,0156,0128,22,38,4,16,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Death Guard,Necrons
+2,01,007,009,0216,0116,22,38,3,17,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Drukhari,Space Wolves
+2,02,001,005,0831,0150,15,45,5,15,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Grey Knights,Thousand Sons
+2,02,001,005,0164,0130,15,45,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Aeldari,Astra Militarum
+2,02,001,005,0829,0215,15,45,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Space Marines (Astartes),Ultramarines
+2,03,008,003,0517,0732,24,36,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Grey Knights,Necrons
+2,03,008,003,0828,0222,24,36,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Adeptus Custodes,Space Wolves
+2,03,008,003,0217,0305,24,36,14,6,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,World Eaters
+2,04,002,004,0827,0362,28,32,2,18,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Chaos Space Marines,--------
+2,04,002,004,0057,0085,28,32,9,11,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Thousand Sons,Space Wolves
+2,04,002,004,0151,0094,28,32,17,3,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Astra Militarum,Imperial Knights
+2,05,006,010,0511,0135,45,15,8,12,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Tyranids,Chaos Knights
+2,05,006,010,0830,0068,45,15,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Astra Militarum,Chaos Space Marines
+2,05,006,010,0826,0137,45,15,17,3,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Adeptus Mechanicus,Adepta Sororitas
+3,01,002,005,0151,0150,27,33,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Astra Militarum,Thousand Sons
+3,01,002,005,0057,0130,27,33,17,3,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Thousand Sons,Astra Militarum
+3,01,002,005,0827,0215,27,33,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Chaos Space Marines,Ultramarines
+3,02,003,001,0222,0164,34,26,16,4,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Space Wolves,Aeldari
+3,02,003,001,0305,0829,34,26,7,13,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,World Eaters,Space Marines (Astartes)
+3,02,003,001,0732,0831,34,26,11,9,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,Grey Knights
+3,03,007,006,0149,0511,36,24,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Blood Angels,Tyranids
+3,03,007,006,0216,0830,36,24,6,14,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Drukhari,Astra Militarum
+3,03,007,006,0156,0826,36,24,10,10,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Death Guard,Adeptus Mechanicus
+3,04,008,010,0517,0137,45,15,5,15,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Grey Knights,Adepta Sororitas
+3,04,008,010,0828,0135,45,15,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Adeptus Custodes,Chaos Knights
+3,04,008,010,0217,0068,45,15,20,0,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,Chaos Space Marines
+3,05,009,004,0128,0362,32,28,18,2,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Necrons,--------
+3,05,009,004,0116,0094,32,28,14,6,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Space Wolves,Imperial Knights
+3,05,009,004,0062,0085,32,28,0,20,2024-06-28,GGMaitland WH40k 3-man Teams Tournament,Chaos Daemons,Space Wolves
+1,01,017,011,0029,0308,55,5,20,0,2024-07-26,ACT40k Teams Event Series - July 2024,Adepta Sororitas,Adeptus Mechanicus
+1,01,017,011,0051,0832,55,5,20,0,2024-07-26,ACT40k Teams Event Series - July 2024,World Eaters,Adepta Sororitas
+1,01,017,011,0054,0447,55,5,15,5,2024-07-26,ACT40k Teams Event Series - July 2024,Drukhari,T'au Empire
+1,02,014,015,0434,0061,37,23,9,11,2024-07-26,ACT40k Teams Event Series - July 2024,World Eaters,Blood Angels
+1,02,014,015,0442,0428,37,23,16,4,2024-07-26,ACT40k Teams Event Series - July 2024,Adeptus Custodes,Chaos Daemons
+1,02,014,015,0229,0437,37,23,12,8,2024-07-26,ACT40k Teams Event Series - July 2024,Astra Militarum,Tyranids
+1,03,012,016,0493,0431,16,44,0,20,2024-07-26,ACT40k Teams Event Series - July 2024,Orks,Imperial Knights
+1,03,012,016,0386,0833,16,44,7,13,2024-07-26,ACT40k Teams Event Series - July 2024,Grey Knights,Drukhari
+1,03,012,016,0383,0446,16,44,9,11,2024-07-26,ACT40k Teams Event Series - July 2024,Space Wolves,Chaos Knights
+2,01,015,012,0061,0383,38,22,7,13,2024-07-26,ACT40k Teams Event Series - July 2024,Blood Angels,Space Wolves
+2,01,015,012,0437,0493,38,22,15,5,2024-07-26,ACT40k Teams Event Series - July 2024,Tyranids,Orks
+2,01,015,012,0428,0386,38,22,16,4,2024-07-26,ACT40k Teams Event Series - July 2024,Chaos Daemons,Grey Knights
+2,02,016,014,0446,0434,31,29,0,20,2024-07-26,ACT40k Teams Event Series - July 2024,Chaos Knights,World Eaters
+2,02,016,014,0833,0442,31,29,14,6,2024-07-26,ACT40k Teams Event Series - July 2024,Drukhari,Adeptus Custodes
+2,02,016,014,0431,0229,31,29,17,3,2024-07-26,ACT40k Teams Event Series - July 2024,Imperial Knights,Astra Militarum
+2,04,017,013,0054,0284,51,9,19,1,2024-07-26,ACT40k Teams Event Series - July 2024,Drukhari,Chaos Space Marines
+2,04,017,013,0051,0435,51,9,14,6,2024-07-26,ACT40k Teams Event Series - July 2024,World Eaters,Necrons
+2,04,017,013,0029,0834,51,9,18,2,2024-07-26,ACT40k Teams Event Series - July 2024,Adepta Sororitas,Black Templars
+3,01,017,016,0051,0833,25,35,10,10,2024-07-26,ACT40k Teams Event Series - July 2024,World Eaters,Drukhari
+3,01,017,016,0029,0446,25,35,15,5,2024-07-26,ACT40k Teams Event Series - July 2024,Adepta Sororitas,Chaos Knights
+3,01,017,016,0054,0431,25,35,0,20,2024-07-26,ACT40k Teams Event Series - July 2024,Drukhari,Imperial Knights
+3,02,014,013,0229,0435,30,30,0,20,2024-07-26,ACT40k Teams Event Series - July 2024,Astra Militarum,Necrons
+3,02,014,013,0442,0834,30,30,20,0,2024-07-26,ACT40k Teams Event Series - July 2024,Adeptus Custodes,Black Templars
+3,02,014,013,0434,0284,30,30,10,10,2024-07-26,ACT40k Teams Event Series - July 2024,World Eaters,Chaos Space Marines
+3,04,015,011,0061,0832,27,33,13,7,2024-07-26,ACT40k Teams Event Series - July 2024,Blood Angels,Adepta Sororitas
+3,04,015,011,0428,0308,27,33,4,16,2024-07-26,ACT40k Teams Event Series - July 2024,Chaos Daemons,Adeptus Mechanicus
+3,04,015,011,0437,0447,27,33,10,10,2024-07-26,ACT40k Teams Event Series - July 2024,Tyranids,T'au Empire
+1,01,019,010,0084,0059,46,14,18,2,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Black Templars
+1,01,019,010,0597,0137,46,14,20,0,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Thousand Sons,Adepta Sororitas
+1,01,019,010,0099,0066,46,14,8,12,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,World Eaters,Orks
+1,02,020,018,0167,0162,32,28,16,4,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Imperial Knights,Adeptus Custodes
+1,02,020,018,0152,0612,32,28,16,4,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Drukhari,Orks
+1,02,020,018,0354,0615,32,28,0,20,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Dark Angels,Chaos Daemons
+1,03,009,021,0128,0149,28,32,8,12,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Imperial Knights,Blood Angels
+1,03,009,021,0068,0156,28,32,0,20,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Thousand Sons
+1,03,009,021,0637,0216,28,32,20,0,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Chaos Daemons,Drukhari
+2,01,009,010,0128,0059,41,19,13,7,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Imperial Knights,Black Templars
+2,01,009,010,0068,0137,41,19,19,1,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Adepta Sororitas
+2,01,009,010,0637,0066,41,19,9,11,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Chaos Daemons,Orks
+2,02,021,018,0149,0612,40,20,17,3,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Blood Angels,Orks
+2,02,021,018,0156,0162,40,20,20,0,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Thousand Sons,Adeptus Custodes
+2,02,021,018,0216,0615,40,20,3,17,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Drukhari,Chaos Daemons
+2,03,019,020,0597,0167,37,23,17,3,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Thousand Sons,Imperial Knights
+2,03,019,020,0099,0152,37,23,11,9,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,World Eaters,Drukhari
+2,03,019,020,0084,0354,37,23,9,11,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Dark Angels
+3,01,018,010,0162,0059,16,44,3,17,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adeptus Custodes,Black Templars
+3,01,018,010,0615,0066,16,44,4,16,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Chaos Daemons,Orks
+3,01,018,010,0612,0137,16,44,9,11,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Orks,Adepta Sororitas
+3,02,009,020,0128,0167,39,21,14,6,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Imperial Knights,Imperial Knights
+3,02,009,020,0637,0152,39,21,14,6,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Chaos Daemons,Drukhari
+3,02,009,020,0068,0354,39,21,11,9,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Dark Angels
+3,03,019,021,0099,0156,23,37,0,20,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,World Eaters,Thousand Sons
+3,03,019,021,0084,0216,23,37,10,10,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Adepta Sororitas,Drukhari
+3,03,019,021,0597,0149,23,37,13,7,2024-09-06,Down Under 40k September Beresfield 3 Person Teams RTT,Thousand Sons,Blood Angels
+1,01,035,024,0396,0126,39,61,7,13,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Grey Knights
+1,01,035,024,0617,0219,39,61,5,15,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,World Eaters
+1,01,035,024,0642,0115,39,61,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Orks
+1,01,035,024,0615,0365,39,61,20,0,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Blood Angels
+1,01,035,024,0063,0224,39,61,7,13,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Chaos Knights
+1,02,022,002,0065,0152,33,67,9,11,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Genestealer Cult
+1,02,022,002,0111,0057,33,67,4,16,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Thousand Sons
+1,02,022,002,0161,0151,33,67,6,14,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Astra Militarum
+1,02,022,002,0298,0659,33,67,10,10,2024-09-13,Sydney 40k Teams - September Slam,Chaos Space Marines,World Eaters
+1,02,022,002,0584,0087,33,67,4,16,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Chaos Daemons
+1,03,028,034,0095,0504,6,94,2,18,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,World Eaters
+1,03,028,034,0835,0360,6,94,0,20,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Blood Angels
+1,03,028,034,0509,0110,6,94,0,20,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Chaos Daemons
+1,03,028,034,0837,0198,6,94,3,17,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Necrons
+1,03,028,034,0090,0597,6,94,1,19,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Thousand Sons
+1,04,036,033,0089,0130,67,33,10,10,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Adeptus Custodes
+1,04,036,033,0082,0830,67,33,17,3,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Death Guard
+1,04,036,033,0052,0836,67,33,20,0,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Mechanicus,Astra Militarum
+1,04,036,033,0085,0591,67,33,20,0,2024-09-13,Sydney 40k Teams - September Slam,Space Wolves,T'au Empire
+1,04,036,033,0139,0150,67,33,0,20,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Thousand Sons
+1,05,026,027,0462,0838,80,20,20,0,2024-09-13,Sydney 40k Teams - September Slam,Imperial Knights,World Eaters
+1,05,026,027,0338,0027,80,20,20,0,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Drukhari
+1,05,026,027,0724,0020,80,20,11,9,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Astra Militarum
+1,05,026,027,0626,0012,80,20,10,10,2024-09-13,Sydney 40k Teams - September Slam,Drukhari,Tyranids
+1,05,026,027,0096,0465,80,20,19,1,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Orks
+1,06,023,031,0800,0705,64,36,15,5,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Grey Knights
+1,06,023,031,0120,0706,64,36,9,11,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Thousand Sons
+1,06,023,031,0050,0103,64,36,20,0,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Adeptus Custodes
+1,06,023,031,0643,0707,64,36,20,0,2024-09-13,Sydney 40k Teams - September Slam,Space Marines (Astartes),Chaos Daemons
+1,06,023,031,0644,0404,64,36,0,20,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Leagues of Votann
+1,07,030,032,0070,0474,75,25,20,0,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Chaos Knights
+1,07,030,032,0363,0179,75,25,20,0,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Grey Knights
+1,07,030,032,0469,0156,75,25,0,20,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Thousand Sons
+1,07,030,032,0702,0149,75,25,15,5,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Blood Angels
+1,07,030,032,0123,0164,75,25,20,0,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Aeldari
+1,08,029,037,0174,0361,53,47,6,14,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Tyranids
+1,08,029,037,0172,0508,53,47,15,5,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Death Guard
+1,08,029,037,0712,0104,53,47,3,17,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Black Templars
+1,08,029,037,0124,0507,53,47,15,5,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Adepta Sororitas
+1,08,029,037,0113,0208,53,47,14,6,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Chaos Knights
+2,01,022,027,0298,0465,88,12,20,0,2024-09-13,Sydney 40k Teams - September Slam,Chaos Space Marines,Orks
+2,01,022,027,0111,0020,88,12,13,7,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Astra Militarum
+2,01,022,027,0065,0012,88,12,15,5,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Tyranids
+2,01,022,027,0161,0027,88,12,20,0,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Drukhari
+2,01,022,027,0584,0838,88,12,20,0,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,World Eaters
+2,02,028,029,0090,0113,40,60,3,17,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Blood Angels
+2,02,028,029,0835,0172,40,60,6,14,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Astra Militarum
+2,02,028,029,0509,0174,40,60,5,15,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Adeptus Custodes
+2,02,028,029,0837,0124,40,60,13,7,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Necrons
+2,02,028,029,0095,0712,40,60,13,7,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Adepta Sororitas
+2,03,031,033,0705,0830,40,60,8,12,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Death Guard
+2,03,031,033,0404,0591,40,60,12,8,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,T'au Empire
+2,03,031,033,0706,0150,40,60,5,15,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Thousand Sons
+2,03,031,033,0707,0130,40,60,6,14,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Adeptus Custodes
+2,03,031,033,0103,0836,40,60,9,11,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Astra Militarum
+2,04,026,002,0338,0057,36,64,2,18,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Thousand Sons
+2,04,026,002,0462,0087,36,64,10,10,2024-09-13,Sydney 40k Teams - September Slam,Imperial Knights,Chaos Daemons
+2,04,026,002,0096,0151,36,64,6,14,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Astra Militarum
+2,04,026,002,0724,0152,36,64,9,11,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Genestealer Cult
+2,04,026,002,0626,0659,36,64,9,11,2024-09-13,Sydney 40k Teams - September Slam,Drukhari,World Eaters
+2,05,035,032,0396,0179,46,54,10,10,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Grey Knights
+2,05,035,032,0642,0156,46,54,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Thousand Sons
+2,05,035,032,0063,0474,46,54,18,2,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Chaos Knights
+2,05,035,032,0615,0164,46,54,15,5,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Aeldari
+2,05,035,032,0617,0149,46,54,3,17,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Blood Angels
+2,06,030,024,0469,0115,53,47,6,14,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Orks
+2,06,030,024,0070,0224,53,47,15,5,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Chaos Knights
+2,06,030,024,0123,0365,53,47,16,4,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Blood Angels
+2,06,030,024,0702,0126,53,47,9,11,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Grey Knights
+2,06,030,024,0363,0219,53,47,7,13,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,World Eaters
+2,07,037,034,0508,0198,31,69,1,19,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Necrons
+2,07,037,034,0208,0504,31,69,17,3,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,World Eaters
+2,07,037,034,0507,0110,31,69,1,19,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Chaos Daemons
+2,07,037,034,0104,0360,31,69,10,10,2024-09-13,Sydney 40k Teams - September Slam,Black Templars,Blood Angels
+2,07,037,034,0361,0597,31,69,2,18,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Thousand Sons
+2,08,036,023,0052,0644,51,49,16,4,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Mechanicus,Adeptus Custodes
+2,08,036,023,0089,0120,51,49,9,11,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Leagues of Votann
+2,08,036,023,0082,0800,51,49,10,10,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Chaos Daemons
+2,08,036,023,0139,0643,51,49,12,8,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Space Marines (Astartes)
+2,08,036,023,0085,0050,51,49,4,16,2024-09-13,Sydney 40k Teams - September Slam,Space Wolves,Adepta Sororitas
+3,01,028,027,0509,0012,58,42,4,16,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Tyranids
+3,01,028,027,0090,0465,58,42,10,10,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Orks
+3,01,028,027,0095,0027,58,42,14,6,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Drukhari
+3,01,028,027,0837,0020,58,42,11,9,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Astra Militarum
+3,01,028,027,0835,0838,58,42,19,1,2024-09-13,Sydney 40k Teams - September Slam,Necrons,World Eaters
+3,02,033,026,0836,0724,54,46,9,11,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Dark Angels
+3,02,033,026,0830,0626,54,46,10,10,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Drukhari
+3,02,033,026,0591,0338,54,46,11,9,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Chaos Knights
+3,02,033,026,0150,0096,54,46,13,7,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Astra Militarum
+3,02,033,026,0130,0462,54,46,11,9,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Imperial Knights
+3,03,032,031,0179,0705,61,39,4,16,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Grey Knights
+3,03,032,031,0474,0404,61,39,8,12,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Leagues of Votann
+3,03,032,031,0149,0103,61,39,20,0,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Adeptus Custodes
+3,03,032,031,0164,0706,61,39,9,11,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Thousand Sons
+3,03,032,031,0156,0707,61,39,20,0,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Chaos Daemons
+3,04,035,037,0615,0508,61,39,20,0,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Death Guard
+3,04,035,037,0063,0208,61,39,13,7,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Chaos Knights
+3,04,035,037,0617,0104,61,39,0,20,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Black Templars
+3,04,035,037,0642,0361,61,39,8,12,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Tyranids
+3,04,035,037,0396,0507,61,39,20,0,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Adepta Sororitas
+3,05,030,029,0702,0113,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Blood Angels
+3,05,030,029,0070,0174,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Adeptus Custodes
+3,05,030,029,0469,0712,81,19,10,10,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Adepta Sororitas
+3,05,030,029,0363,0172,81,19,11,9,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Astra Militarum
+3,05,030,029,0123,0124,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,T'au Empire,Necrons
+3,06,024,036,0365,0139,43,57,10,10,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Tyranids
+3,06,024,036,0126,0082,43,57,0,20,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,World Eaters
+3,06,024,036,0224,0089,43,57,10,10,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Death Guard
+3,06,024,036,0219,0085,43,57,17,3,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Space Wolves
+3,06,024,036,0115,0052,43,57,6,14,2024-09-13,Sydney 40k Teams - September Slam,Orks,Adeptus Mechanicus
+3,07,022,023,0111,0050,26,74,1,19,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Adepta Sororitas
+3,07,022,023,0161,0120,26,74,2,18,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Leagues of Votann
+3,07,022,023,0065,0643,26,74,20,0,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Space Marines (Astartes)
+3,07,022,023,0584,0644,26,74,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Adeptus Custodes
+3,07,022,023,0298,0800,26,74,3,17,2024-09-13,Sydney 40k Teams - September Slam,Chaos Space Marines,Chaos Daemons
+3,08,002,034,0057,0110,42,58,15,5,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Chaos Daemons
+3,08,002,034,0151,0198,42,58,12,8,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Necrons
+3,08,002,034,0152,0504,42,58,5,15,2024-09-13,Sydney 40k Teams - September Slam,Genestealer Cult,World Eaters
+3,08,002,034,0087,0360,42,58,10,10,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Blood Angels
+3,08,002,034,0659,0597,42,58,0,20,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Thousand Sons
+4,00,037,027,0208,0020,63,37,18,2,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Astra Militarum
+4,00,037,027,0507,0012,63,37,0,20,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Tyranids
+4,00,037,027,0361,0465,63,37,20,0,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Orks
+4,00,037,027,0104,0027,63,37,20,0,2024-09-13,Sydney 40k Teams - September Slam,Black Templars,Drukhari
+4,00,037,027,0508,0838,63,37,5,15,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,World Eaters
+4,01,029,031,0712,0404,70,30,13,7,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Leagues of Votann
+4,01,029,031,0172,0707,70,30,15,5,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Chaos Daemons
+4,01,029,031,0174,0705,70,30,15,5,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Grey Knights
+4,01,029,031,0113,0103,70,30,20,0,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Adeptus Custodes
+4,01,029,031,0124,0706,70,30,7,13,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Thousand Sons
+4,02,002,030,0659,0363,41,59,0,20,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Chaos Daemons
+4,02,002,030,0151,0702,41,59,9,11,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Death Guard
+4,02,002,030,0057,0469,41,59,20,0,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Necrons
+4,02,002,030,0087,0123,41,59,3,17,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,T'au Empire
+4,02,002,030,0152,0070,41,59,9,11,2024-09-13,Sydney 40k Teams - September Slam,Genestealer Cult,Blood Angels
+4,03,034,023,0597,0644,61,39,20,0,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Adeptus Custodes
+4,03,034,023,0198,0120,61,39,13,7,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Leagues of Votann
+4,03,034,023,0504,0800,61,39,12,8,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Chaos Daemons
+4,03,034,023,0110,0643,61,39,13,7,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Space Marines (Astartes)
+4,03,034,023,0360,0050,61,39,3,17,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Adepta Sororitas
+4,04,022,035,0111,0617,41,59,19,1,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,Dark Angels
+4,04,022,035,0584,0642,41,59,10,10,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Chaos Daemons
+4,04,022,035,0065,0396,41,59,12,8,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Adepta Sororitas
+4,04,022,035,0161,0615,41,59,0,20,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Tyranids
+4,04,022,035,0298,0063,41,59,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Space Marines,Astra Militarum
+4,05,024,033,0126,0130,69,31,20,0,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Adeptus Custodes
+4,05,024,033,0115,0591,69,31,11,9,2024-09-13,Sydney 40k Teams - September Slam,Orks,T'au Empire
+4,05,024,033,0224,0836,69,31,17,3,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Astra Militarum
+4,05,024,033,0365,0830,69,31,8,12,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Death Guard
+4,05,024,033,0219,0150,69,31,13,7,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Thousand Sons
+4,07,032,028,0164,0835,68,32,12,8,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Necrons
+4,07,032,028,0474,0837,68,32,5,15,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Aeldari
+4,07,032,028,0149,0095,68,32,20,0,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Tyranids
+4,07,032,028,0179,0090,68,32,11,9,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,T'au Empire
+4,07,032,028,0156,0509,68,32,20,0,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Grey Knights
+4,08,036,026,0052,0462,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Mechanicus,Imperial Knights
+4,08,036,026,0089,0338,81,19,11,9,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Chaos Knights
+4,08,036,026,0082,0096,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Astra Militarum
+4,08,036,026,0139,0626,81,19,10,10,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Drukhari
+4,08,036,026,0085,0724,81,19,20,0,2024-09-13,Sydney 40k Teams - September Slam,Space Wolves,Dark Angels
+5,00,031,027,0707,0012,51,49,4,16,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Tyranids
+5,00,031,027,0404,0838,51,49,20,0,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,World Eaters
+5,00,031,027,0706,0020,51,49,9,11,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Astra Militarum
+5,00,031,027,0705,0465,51,49,10,10,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Orks
+5,00,031,027,0103,0027,51,49,8,12,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Custodes,Drukhari
+5,01,034,030,0504,0070,63,37,9,11,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Blood Angels
+5,01,034,030,0110,0469,63,37,18,2,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Necrons
+5,01,034,030,0597,0123,63,37,11,9,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,T'au Empire
+5,01,034,030,0360,0363,63,37,10,10,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Chaos Daemons
+5,01,034,030,0198,0702,63,37,15,5,2024-09-13,Sydney 40k Teams - September Slam,Necrons,Death Guard
+5,03,024,023,0115,0643,73,27,15,5,2024-09-13,Sydney 40k Teams - September Slam,Orks,Space Marines (Astartes)
+5,03,024,023,0365,0644,73,27,14,6,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Adeptus Custodes
+5,03,024,023,0219,0050,73,27,7,13,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Adepta Sororitas
+5,03,024,023,0224,0800,73,27,18,2,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Chaos Daemons
+5,03,024,023,0126,0120,73,27,19,1,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,Leagues of Votann
+5,04,037,026,0508,0462,60,40,10,10,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Imperial Knights
+5,04,037,026,0361,0096,60,40,17,3,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Astra Militarum
+5,04,037,026,0208,0338,60,40,11,9,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Chaos Knights
+5,04,037,026,0507,0626,60,40,5,15,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Drukhari
+5,04,037,026,0104,0724,60,40,17,3,2024-09-13,Sydney 40k Teams - September Slam,Black Templars,Dark Angels
+5,05,032,002,0164,0151,42,58,2,18,2024-09-13,Sydney 40k Teams - September Slam,Aeldari,Astra Militarum
+5,05,032,002,0156,0152,42,58,18,2,2024-09-13,Sydney 40k Teams - September Slam,Thousand Sons,Genestealer Cult
+5,05,032,002,0149,0057,42,58,9,11,2024-09-13,Sydney 40k Teams - September Slam,Blood Angels,Thousand Sons
+5,05,032,002,0474,0087,42,58,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Chaos Daemons
+5,05,032,002,0179,0659,42,58,13,7,2024-09-13,Sydney 40k Teams - September Slam,Grey Knights,World Eaters
+5,06,035,033,0617,0130,44,56,2,18,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Adeptus Custodes
+5,06,035,033,0396,0830,44,56,12,8,2024-09-13,Sydney 40k Teams - September Slam,Adepta Sororitas,Death Guard
+5,06,035,033,0615,0836,44,56,20,0,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Astra Militarum
+5,06,035,033,0642,0150,44,56,0,20,2024-09-13,Sydney 40k Teams - September Slam,Chaos Daemons,Thousand Sons
+5,06,035,033,0063,0591,44,56,10,10,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,T'au Empire
+5,07,036,029,0089,0124,78,22,18,2,2024-09-13,Sydney 40k Teams - September Slam,Death Guard,Necrons
+5,07,036,029,0052,0172,78,22,18,2,2024-09-13,Sydney 40k Teams - September Slam,Adeptus Mechanicus,Astra Militarum
+5,07,036,029,0082,0174,78,22,10,10,2024-09-13,Sydney 40k Teams - September Slam,World Eaters,Adeptus Custodes
+5,07,036,029,0139,0712,78,22,17,3,2024-09-13,Sydney 40k Teams - September Slam,Tyranids,Adepta Sororitas
+5,07,036,029,0085,0113,78,22,15,5,2024-09-13,Sydney 40k Teams - September Slam,Space Wolves,Blood Angels
+5,08,022,028,0298,0509,48,52,13,7,2024-09-13,Sydney 40k Teams - September Slam,Chaos Space Marines,Grey Knights
+5,08,022,028,0111,0090,48,52,14,6,2024-09-13,Sydney 40k Teams - September Slam,Astra Militarum,T'au Empire
+5,08,022,028,0065,0095,48,52,0,20,2024-09-13,Sydney 40k Teams - September Slam,Dark Angels,Tyranids
+5,08,022,028,0584,0837,48,52,1,19,2024-09-13,Sydney 40k Teams - September Slam,Chaos Knights,Aeldari
+5,08,022,028,0161,0835,48,52,20,0,2024-09-13,Sydney 40k Teams - September Slam,Leagues of Votann,Necrons
+1,01,050,053,0065,0587,46,14,8,12,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Dark Angels,Necrons
+1,01,050,053,0362,0509,46,14,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Space Marines,Grey Knights
+1,01,050,053,0082,0071,46,14,18,2,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,World Eaters,Orks
+1,02,052,057,0115,0113,38,22,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Orks,Blood Angels
+1,02,052,057,0223,0126,38,22,10,10,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Dark Angels,Grey Knights
+1,02,052,057,0120,0110,38,22,8,12,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Leagues of Votann,Chaos Daemons
+1,02,052,057,0096,0363,38,22,17,3,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Astra Militarum,Chaos Daemons
+1,02,052,057,0100,0469,38,22,6,14,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Daemons,Adeptus Custodes
+1,02,052,057,0458,0099,38,22,0,20,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Grey Knights,World Eaters
+1,04,051,056,0085,0464,53,7,19,1,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Space Wolves,World Eaters
+1,04,051,056,0094,0623,53,7,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Necrons,Orks
+1,04,051,056,0597,0093,53,7,14,6,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Thousand Sons,Space Marines (Astartes)
+2,01,055,057,0099,0113,14,46,1,19,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,World Eaters,Blood Angels
+2,01,055,057,0469,0126,14,46,0,20,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Adeptus Custodes,Grey Knights
+2,01,055,057,0363,0110,14,46,13,7,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Daemons,Chaos Daemons
+2,01,055,057,0096,0587,14,46,2,18,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Astra Militarum,Necrons
+2,01,055,057,0100,0509,14,46,0,20,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Daemons,Grey Knights
+2,01,055,057,0458,0071,14,46,7,13,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Grey Knights,Orks
+2,04,054,051,0462,0597,13,47,7,13,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Imperial Knights,Thousand Sons
+2,04,054,051,0622,0094,13,47,6,14,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Space Wolves,Necrons
+2,04,054,051,0619,0085,13,47,0,20,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Thousand Sons,Space Wolves
+2,05,050,052,0362,0120,31,29,7,13,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Space Marines,Leagues of Votann
+2,05,050,052,0065,0223,31,29,13,7,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Dark Angels,Dark Angels
+2,05,050,052,0082,0115,31,29,10,10,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,World Eaters,Orks
+3,02,055,056,0363,0093,58,2,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Daemons,Space Marines (Astartes)
+3,02,055,056,0469,0464,58,2,18,2,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Adeptus Custodes,World Eaters
+3,02,055,056,0099,0623,58,2,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,World Eaters,Orks
+3,03,050,051,0362,0085,30,30,7,13,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Space Marines,Space Wolves
+3,03,050,051,0065,0094,30,30,13,7,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Dark Angels,Necrons
+3,03,050,051,0082,0597,30,30,10,10,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,World Eaters,Thousand Sons
+3,04,054,052,0619,0120,14,46,1,19,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Thousand Sons,Leagues of Votann
+3,04,054,052,0622,0115,14,46,0,20,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Space Wolves,Orks
+3,04,054,052,0462,0223,14,46,13,7,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Imperial Knights,Dark Angels
+3,05,057,053,0126,0509,42,18,20,0,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Grey Knights,Grey Knights
+3,05,057,053,0110,0587,42,18,17,3,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Chaos Daemons,Necrons
+3,05,057,053,0113,0071,42,18,19,1,2024-09-27,Western Sydney 40k - 3 Player Teams Take 2,Blood Angels,Orks
+1,01,032,065,0149,0066,48,12,8,12,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Blood Angels,Orks
+1,01,032,065,0216,0059,48,12,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Drukhari,Black Templars
+1,01,032,065,0156,0137,48,12,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Thousand Sons,Adepta Sororitas
+1,02,060,059,0396,0633,43,17,9,11,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Adepta Sororitas,Leagues of Votann
+1,02,060,059,0057,0134,43,17,17,3,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Orks,Necrons
+1,02,060,059,0152,0131,43,17,17,3,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Genestealer Cult,Imperial Knights
+1,03,061,064,0852,0163,20,40,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Aeldari
+1,03,061,064,0853,0139,20,40,4,16,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Dark Angels,Tyranids
+1,03,061,064,0129,0637,20,40,6,14,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Necrons,Chaos Daemons
+1,04,063,058,0135,0085,11,49,0,20,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Drukhari,Space Wolves
+1,04,063,058,0068,0362,11,49,3,17,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Adepta Sororitas,Orks
+1,04,063,058,0395,0094,11,49,8,12,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Thousand Sons
+1,05,062,033,0116,0130,39,21,18,2,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Wolves,Astra Militarum
+1,05,062,033,0128,0150,39,21,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Imperial Knights,T'au Empire
+1,05,062,033,0062,0215,39,21,1,19,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Tyranids,Space Marines (Astartes)
+2,01,032,060,0149,0152,19,41,0,20,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Blood Angels,Genestealer Cult
+2,01,032,060,0216,0396,19,41,9,11,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Drukhari,Adepta Sororitas
+2,01,032,060,0156,0057,19,41,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Thousand Sons,Orks
+2,02,033,065,0150,0059,47,13,17,3,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Black Templars
+2,02,033,065,0130,0066,47,13,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Astra Militarum,Orks
+2,02,033,065,0215,0137,47,13,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Marines (Astartes),Adepta Sororitas
+2,03,058,064,0085,0163,37,23,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Wolves,Aeldari
+2,03,058,064,0362,0637,37,23,7,13,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Orks,Chaos Daemons
+2,03,058,064,0094,0139,37,23,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Thousand Sons,Tyranids
+2,04,062,059,0128,0131,44,16,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Imperial Knights,Imperial Knights
+2,04,062,059,0116,0633,44,16,16,4,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Wolves,Leagues of Votann
+2,04,062,059,0062,0134,44,16,8,12,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Tyranids,Necrons
+2,05,061,063,0853,0395,25,35,2,18,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Dark Angels,T'au Empire
+2,05,061,063,0852,0135,25,35,14,6,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Drukhari
+2,05,061,063,0129,0068,25,35,9,11,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Necrons,Adepta Sororitas
+3,01,033,032,0150,0156,27,33,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Thousand Sons
+3,01,033,032,0130,0216,27,33,13,7,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Astra Militarum,Drukhari
+3,01,033,032,0215,0149,27,33,4,16,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Marines (Astartes),Blood Angels
+3,02,058,060,0085,0057,31,29,13,7,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Wolves,Orks
+3,02,058,060,0362,0152,31,29,8,12,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Orks,Genestealer Cult
+3,02,058,060,0094,0396,31,29,10,10,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Thousand Sons,Adepta Sororitas
+3,03,063,059,0395,0131,39,21,19,1,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Imperial Knights
+3,03,063,059,0135,0633,39,21,0,20,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Drukhari,Leagues of Votann
+3,03,063,059,0068,0134,39,21,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Adepta Sororitas,Necrons
+3,04,062,064,0062,0163,22,38,5,15,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Tyranids,Aeldari
+3,04,062,064,0116,0637,22,38,0,20,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Space Wolves,Chaos Daemons
+3,04,062,064,0128,0139,22,38,17,3,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Imperial Knights,Tyranids
+3,05,061,065,0853,0066,38,22,3,17,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Dark Angels,Orks
+3,05,061,065,0129,0137,38,22,15,5,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,Necrons,Adepta Sororitas
+3,05,061,065,0852,0059,38,22,20,0,2024-10-25,GGMaitland WH40k 3-man Teams Tournament - OCTOBER,T'au Empire,Black Templars
+1,01,019,026,0404,0338,60,100,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Chaos Knights
+1,01,019,026,0103,0156,60,100,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Thousand Sons
+1,01,019,026,0469,0110,60,100,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Death Guard
+1,01,019,026,0084,0096,60,100,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Astra Militarum
+1,01,019,026,0099,0462,60,100,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Imperial Knights
+1,01,019,026,0360,0126,60,100,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Grey Knights
+1,01,019,026,0707,0149,60,100,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Blood Angels
+1,01,019,026,0198,0626,60,100,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,World Eaters
+1,02,071,067,0071,0858,73,87,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+1,02,071,067,0093,0862,73,87,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Imperial Knights
+1,02,071,067,0475,0857,73,87,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Death Guard
+1,02,071,067,0509,0869,73,87,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Grey Knights,Adeptus Custodes
+1,02,071,067,0150,0865,73,87,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,T'au Empire,Necrons
+1,02,071,067,0130,0789,73,87,1,19,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Chaos Knights
+1,02,071,067,0466,0861,73,87,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Orks
+1,02,071,067,0200,0859,73,87,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Chaos Daemons
+1,03,048,070,0644,0493,64,96,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Astra Militarum
+1,03,048,070,0854,0440,64,96,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Orks
+1,03,048,070,0868,0437,64,96,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Tyranids
+1,03,048,070,0065,0078,64,96,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Necrons
+1,03,048,070,0139,0308,64,96,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Adeptus Mechanicus
+1,03,048,070,0800,0081,64,96,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Space Wolves
+1,03,048,070,0111,0427,64,96,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Adeptus Custodes
+1,03,048,070,0298,0051,64,96,3,17,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Thousand Sons
+1,04,068,066,0643,0445,79,81,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Orks
+1,04,068,066,0223,0442,79,81,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Adeptus Custodes
+1,04,068,066,0219,0229,79,81,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Astra Militarum
+1,04,068,066,0050,0064,79,81,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Tyranids
+1,04,068,066,0053,0434,79,81,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,World Eaters
+1,04,068,066,0202,0833,79,81,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Aeldari
+1,04,068,066,0120,0446,79,81,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Chaos Knights
+1,04,068,066,0115,0044,79,81,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Adepta Sororitas
+1,05,037,072,0364,0057,38,122,3,17,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Orks
+1,05,037,072,0507,0864,38,122,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Chaos Space Marines
+1,05,037,072,0508,0866,38,122,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Adeptus Mechanicus
+1,05,037,072,0095,0867,38,122,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Death Guard
+1,05,037,072,0361,0856,38,122,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Drukhari
+1,05,037,072,0208,0860,38,122,1,19,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Dark Angels
+1,05,037,072,0089,0855,38,122,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Adepta Sororitas
+1,05,037,072,0104,0863,38,122,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Genestealer Cult
+1,06,069,029,0094,0711,118,42,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Chaos Knights
+1,06,069,029,0597,0186,118,42,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Leagues of Votann
+1,06,069,029,0085,0649,118,42,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Tyranids
+1,06,069,029,0052,0346,118,42,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Adeptus Custodes
+1,06,069,029,0088,0172,118,42,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Astra Militarum
+1,06,069,029,0070,0359,118,42,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Imperial Knights
+1,06,069,029,0362,0357,118,42,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+1,06,069,029,0082,0113,118,42,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Blood Angels
+2,01,072,069,0057,0597,86,74,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Genestealer Cult
+2,01,072,069,0866,0362,86,74,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Orks
+2,01,072,069,0867,0094,86,74,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Thousand Sons
+2,01,072,069,0856,0085,86,74,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Space Wolves
+2,01,072,069,0863,0070,86,74,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Adeptus Mechanicus
+2,01,072,069,0860,0052,86,74,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Tyranids
+2,01,072,069,0864,0082,86,74,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,World Eaters
+2,01,072,069,0855,0088,86,74,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Leagues of Votann
+2,02,048,019,0111,0198,75,85,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Necrons
+2,02,048,019,0139,0707,75,85,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Tyranids
+2,02,048,019,0298,0099,75,85,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,World Eaters
+2,02,048,019,0800,0084,75,85,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Genestealer Cult
+2,02,048,019,0644,0103,75,85,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Chaos Daemons
+2,02,048,019,0868,0360,75,85,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Thousand Sons
+2,02,048,019,0854,0469,75,85,1,19,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Chaos Space Marines
+2,02,048,019,0065,0404,75,85,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Leagues of Votann
+2,03,067,066,0865,0442,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Adeptus Custodes
+2,03,067,066,0789,0434,48,112,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,World Eaters
+2,03,067,066,0869,0229,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Astra Militarum
+2,03,067,066,0858,0833,48,112,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Aeldari
+2,03,067,066,0859,0044,48,112,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Adepta Sororitas
+2,03,067,066,0861,0446,48,112,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Chaos Knights
+2,03,067,066,0862,0445,48,112,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Orks
+2,03,067,066,0857,0064,48,112,3,17,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Tyranids
+2,04,026,070,0156,0440,82,78,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Orks
+2,04,026,070,0338,0493,82,78,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Astra Militarum
+2,04,026,070,0126,0081,82,78,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Grey Knights,Space Wolves
+2,04,026,070,0110,0078,82,78,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Necrons
+2,04,026,070,0626,0051,82,78,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Thousand Sons
+2,04,026,070,0096,0427,82,78,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Adeptus Custodes
+2,04,026,070,0149,0437,82,78,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Blood Angels,Tyranids
+2,04,026,070,0462,0308,82,78,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Adeptus Mechanicus
+2,05,068,071,0120,0071,111,49,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Orks
+2,05,068,071,0115,0093,111,49,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Space Marines (Astartes)
+2,05,068,071,0643,0509,111,49,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Grey Knights
+2,05,068,071,0053,0150,111,49,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,T'au Empire
+2,05,068,071,0050,0466,111,49,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Chaos Space Marines
+2,05,068,071,0202,0130,111,49,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Astra Militarum
+2,05,068,071,0219,0200,111,49,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Thousand Sons
+2,05,068,071,0223,0475,111,49,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Adeptus Custodes
+2,06,029,037,0346,0095,77,83,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Necrons
+2,06,029,037,0711,0361,77,83,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Tyranids
+2,06,029,037,0359,0104,77,83,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Leagues of Votann
+2,06,029,037,0113,0364,77,83,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Blood Angels,Space Wolves
+2,06,029,037,0649,0208,77,83,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Chaos Knights
+2,06,029,037,0186,0089,77,83,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Death Guard
+2,06,029,037,0357,0508,77,83,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Imperial Knights
+2,06,029,037,0172,0507,77,83,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Adepta Sororitas
+3,01,029,071,0113,0509,86,74,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Blood Angels,Grey Knights
+3,01,029,071,0172,0466,86,74,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Chaos Space Marines
+3,01,029,071,0359,0093,86,74,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Space Marines (Astartes)
+3,01,029,071,0346,0150,86,74,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,T'au Empire
+3,01,029,071,0357,0071,86,74,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Orks
+3,01,029,071,0711,0130,86,74,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Astra Militarum
+3,01,029,071,0186,0475,86,74,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Adeptus Custodes
+3,01,029,071,0649,0200,86,74,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Thousand Sons
+3,02,066,026,0064,0096,48,112,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Astra Militarum
+3,02,066,026,0229,0126,48,112,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Grey Knights
+3,02,066,026,0434,0462,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Imperial Knights
+3,02,066,026,0445,0156,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Thousand Sons
+3,02,066,026,0446,0149,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Blood Angels
+3,02,066,026,0044,0110,48,112,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Death Guard
+3,02,066,026,0833,0626,48,112,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Aeldari,World Eaters
+3,02,066,026,0442,0338,48,112,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Chaos Knights
+3,03,068,072,0115,0864,48,112,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Chaos Space Marines
+3,03,068,072,0219,0863,48,112,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Genestealer Cult
+3,03,068,072,0223,0057,48,112,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Orks
+3,03,068,072,0202,0855,48,112,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Adepta Sororitas
+3,03,068,072,0053,0867,48,112,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Death Guard
+3,03,068,072,0120,0866,48,112,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Adeptus Mechanicus
+3,03,068,072,0643,0856,48,112,1,19,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Drukhari
+3,03,068,072,0050,0860,48,112,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Dark Angels
+3,04,048,037,0854,0361,83,77,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Tyranids
+3,04,048,037,0065,0507,83,77,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Adepta Sororitas
+3,04,048,037,0800,0364,83,77,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Space Wolves
+3,04,048,037,0644,0104,83,77,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Leagues of Votann
+3,04,048,037,0139,0208,83,77,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Chaos Knights
+3,04,048,037,0111,0095,83,77,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Necrons
+3,04,048,037,0298,0089,83,77,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Death Guard
+3,04,048,037,0868,0508,83,77,1,19,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Imperial Knights
+3,05,019,067,0707,0862,97,63,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Imperial Knights
+3,05,019,067,0360,0858,97,63,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,World Eaters
+3,05,019,067,0404,0857,97,63,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Death Guard
+3,05,019,067,0198,0861,97,63,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Orks
+3,05,019,067,0084,0865,97,63,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Necrons
+3,05,019,067,0469,0789,97,63,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Chaos Knights
+3,05,019,067,0103,0859,97,63,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Chaos Daemons
+3,05,019,067,0099,0869,97,63,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Adeptus Custodes
+3,06,070,069,0308,0070,55,105,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Adeptus Mechanicus
+3,06,070,069,0081,0088,55,105,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Leagues of Votann
+3,06,070,069,0437,0362,55,105,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Orks
+3,06,070,069,0051,0597,55,105,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Genestealer Cult
+3,06,070,069,0440,0082,55,105,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+3,06,070,069,0427,0094,55,105,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Thousand Sons
+3,06,070,069,0078,0052,55,105,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Tyranids
+3,06,070,069,0493,0085,55,105,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Space Wolves
+4,01,072,026,0860,0338,103,57,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Chaos Knights
+4,01,072,026,0856,0149,103,57,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Blood Angels
+4,01,072,026,0057,0126,103,57,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Grey Knights
+4,01,072,026,0866,0462,103,57,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Imperial Knights
+4,01,072,026,0864,0096,103,57,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Astra Militarum
+4,01,072,026,0867,0156,103,57,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Thousand Sons
+4,01,072,026,0863,0110,103,57,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Death Guard
+4,01,072,026,0855,0626,103,57,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,World Eaters
+4,02,037,071,0508,0200,78,82,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Thousand Sons
+4,02,037,071,0507,0466,78,82,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Chaos Space Marines
+4,02,037,071,0089,0475,78,82,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Adeptus Custodes
+4,02,037,071,0361,0071,78,82,9,11,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Orks
+4,02,037,071,0095,0150,78,82,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,T'au Empire
+4,02,037,071,0364,0509,78,82,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Grey Knights
+4,02,037,071,0104,0093,78,82,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Space Marines (Astartes)
+4,02,037,071,0208,0130,78,82,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Astra Militarum
+4,03,068,029,0120,0172,110,50,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Astra Militarum
+4,03,068,029,0050,0711,110,50,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Chaos Knights
+4,03,068,029,0202,0113,110,50,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Blood Angels
+4,03,068,029,0223,0359,110,50,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Imperial Knights
+4,03,068,029,0219,0186,110,50,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Leagues of Votann
+4,03,068,029,0115,0357,110,50,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+4,03,068,029,0643,0346,110,50,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Adeptus Custodes
+4,03,068,029,0053,0649,110,50,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Tyranids
+4,04,069,019,0052,0469,117,43,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Chaos Space Marines
+4,04,069,019,0094,0404,117,43,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Leagues of Votann
+4,04,069,019,0362,0099,117,43,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+4,04,069,019,0070,0360,117,43,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Thousand Sons
+4,04,069,019,0088,0198,117,43,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Necrons
+4,04,069,019,0597,0084,117,43,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Genestealer Cult
+4,04,069,019,0082,0707,117,43,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Tyranids
+4,04,069,019,0085,0103,117,43,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Chaos Daemons
+4,05,066,070,0446,0308,71,89,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Adeptus Mechanicus
+4,05,066,070,0445,0427,71,89,4,16,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Adeptus Custodes
+4,05,066,070,0833,0437,71,89,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Aeldari,Tyranids
+4,05,066,070,0434,0081,71,89,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Space Wolves
+4,05,066,070,0229,0078,71,89,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Necrons
+4,05,066,070,0064,0493,71,89,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Astra Militarum
+4,05,066,070,0044,0440,71,89,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Orks
+4,05,066,070,0442,0051,71,89,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Thousand Sons
+4,06,048,067,0298,0861,64,96,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Orks
+4,06,048,067,0868,0865,64,96,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Necrons
+4,06,048,067,0111,0862,64,96,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Imperial Knights
+4,06,048,067,0854,0859,64,96,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Chaos Daemons
+4,06,048,067,0065,0789,64,96,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Chaos Knights
+4,06,048,067,0139,0869,64,96,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Adeptus Custodes
+4,06,048,067,0800,0858,64,96,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,World Eaters
+4,06,048,067,0644,0857,64,96,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Death Guard
+5,01,069,026,0082,0110,125,35,7,13,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Death Guard
+5,01,069,026,0085,0149,125,35,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Wolves,Blood Angels
+5,01,069,026,0052,0096,125,35,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Astra Militarum
+5,01,069,026,0094,0462,125,35,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Imperial Knights
+5,01,069,026,0362,0626,125,35,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,World Eaters
+5,01,069,026,0597,0126,125,35,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Grey Knights
+5,01,069,026,0070,0338,125,35,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Chaos Knights
+5,01,069,026,0088,0156,125,35,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Thousand Sons
+5,02,068,067,0202,0857,97,63,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Death Guard
+5,02,068,067,0223,0869,97,63,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Adeptus Custodes
+5,02,068,067,0643,0789,97,63,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Imperial Knights,Chaos Knights
+5,02,068,067,0120,0862,97,63,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Imperial Knights
+5,02,068,067,0115,0865,97,63,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Necrons
+5,02,068,067,0050,0861,97,63,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Orks
+5,02,068,067,0053,0858,97,63,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,World Eaters
+5,02,068,067,0219,0859,97,63,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Chaos Daemons
+5,03,048,071,0139,0130,83,77,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Astra Militarum
+5,03,048,071,0065,0071,83,77,8,12,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Orks
+5,03,048,071,0644,0150,83,77,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,T'au Empire
+5,03,048,071,0854,0466,83,77,2,18,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Chaos Space Marines
+5,03,048,071,0800,0509,83,77,19,1,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Grey Knights
+5,03,048,071,0111,0475,83,77,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Adeptus Custodes
+5,03,048,071,0298,0200,83,77,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Thousand Sons
+5,03,048,071,0868,0093,83,77,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Space Marines (Astartes),Space Marines (Astartes)
+5,04,066,037,0446,0104,98,62,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Knights,Leagues of Votann
+5,04,066,037,0064,0361,98,62,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,Tyranids
+5,04,066,037,0229,0508,98,62,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Astra Militarum,Imperial Knights
+5,04,066,037,0833,0089,98,62,10,10,2024-11-08,Western Sydney 40k - 8 Player Teams,Aeldari,Death Guard
+5,04,066,037,0442,0364,98,62,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Custodes,Space Wolves
+5,04,066,037,0445,0208,98,62,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Chaos Knights
+5,04,066,037,0434,0095,98,62,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Necrons
+5,04,066,037,0044,0507,98,62,16,4,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Adepta Sororitas
+5,05,019,029,0404,0346,71,89,0,20,2024-11-08,Western Sydney 40k - 8 Player Teams,Leagues of Votann,Adeptus Custodes
+5,05,019,029,0103,0649,71,89,5,15,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Daemons,Tyranids
+5,05,019,029,0198,0172,71,89,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,Necrons,Astra Militarum
+5,05,019,029,0099,0186,71,89,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,World Eaters,Leagues of Votann
+5,05,019,029,0469,0113,71,89,6,14,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Blood Angels
+5,05,019,029,0084,0359,71,89,14,6,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Imperial Knights
+5,05,019,029,0707,0357,71,89,3,17,2024-11-08,Western Sydney 40k - 8 Player Teams,Tyranids,World Eaters
+5,05,019,029,0360,0711,71,89,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Thousand Sons,Chaos Knights
+5,06,072,070,0863,0081,117,43,17,3,2024-11-08,Western Sydney 40k - 8 Player Teams,Genestealer Cult,Space Wolves
+5,06,072,070,0864,0440,117,43,20,0,2024-11-08,Western Sydney 40k - 8 Player Teams,Chaos Space Marines,Orks
+5,06,072,070,0860,0437,117,43,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Dark Angels,Tyranids
+5,06,072,070,0867,0051,117,43,15,5,2024-11-08,Western Sydney 40k - 8 Player Teams,Death Guard,Thousand Sons
+5,06,072,070,0866,0493,117,43,13,7,2024-11-08,Western Sydney 40k - 8 Player Teams,Adeptus Mechanicus,Astra Militarum
+5,06,072,070,0855,0078,117,43,18,2,2024-11-08,Western Sydney 40k - 8 Player Teams,Adepta Sororitas,Necrons
+5,06,072,070,0856,0308,117,43,11,9,2024-11-08,Western Sydney 40k - 8 Player Teams,Drukhari,Adeptus Mechanicus
+5,06,072,070,0057,0427,117,43,12,8,2024-11-08,Western Sydney 40k - 8 Player Teams,Orks,Adeptus Custodes
+1,01,074,073,0873,0051,35,65,1,19,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Death Guard
+1,01,074,073,0753,0428,35,65,8,12,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Chaos Daemons
+1,01,074,073,0445,0078,35,65,8,12,2024-12-13,ACT40K Teams Series - December 2024,Orks,Necrons
+1,01,074,073,0435,0308,35,65,14,6,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Aeldari
+1,01,074,073,0432,0430,35,65,4,16,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Grey Knights
+1,02,077,075,0056,0050,21,79,0,20,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,Chaos Knights
+1,02,077,075,0431,0219,21,79,12,8,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,Aeldari
+1,02,077,075,0871,0052,21,79,0,20,2024-12-13,ACT40K Teams Series - December 2024,Space Marines (Astartes),Tyranids
+1,02,077,075,0833,0126,21,79,4,16,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Grey Knights
+1,02,077,075,0123,0065,21,79,5,15,2024-12-13,ACT40K Teams Series - December 2024,T'au Empire,Emperor's Children
+1,03,079,076,0872,0099,33,67,7,13,2024-12-13,ACT40K Teams Series - December 2024,Necrons,World Eaters
+1,03,079,076,0054,0084,33,67,7,13,2024-12-13,ACT40K Teams Series - December 2024,Drukhari,Genestealer Cult
+1,03,079,076,0870,0363,33,67,11,9,2024-12-13,ACT40K Teams Series - December 2024,Imperial Knights,Chaos Daemons
+1,03,079,076,0434,0360,33,67,8,12,2024-12-13,ACT40K Teams Series - December 2024,Orks,Thousand Sons
+1,03,079,076,0447,0469,33,67,0,20,2024-12-13,ACT40K Teams Series - December 2024,T'au Empire,Chaos Space Marines
+1,04,012,078,0386,0444,35,65,6,14,2024-12-13,ACT40K Teams Series - December 2024,Space Marines (Astartes),World Eaters
+1,04,012,078,0072,0493,35,65,9,11,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Astra Militarum
+1,04,012,078,0383,0044,35,65,10,10,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Tyranids
+1,04,012,078,0495,0029,35,65,0,20,2024-12-13,ACT40K Teams Series - December 2024,Adepta Sororitas,Adepta Sororitas
+1,04,012,078,0874,0285,35,65,10,10,2024-12-13,ACT40K Teams Series - December 2024,Adeptus Custodes,Necrons
+2,01,079,077,0434,0123,48,52,15,5,2024-12-13,ACT40K Teams Series - December 2024,Orks,T'au Empire
+2,01,079,077,0447,0871,48,52,10,10,2024-12-13,ACT40K Teams Series - December 2024,T'au Empire,Space Marines (Astartes)
+2,01,079,077,0872,0431,48,52,0,20,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Chaos Knights
+2,01,079,077,0054,0833,48,52,13,7,2024-12-13,ACT40K Teams Series - December 2024,Drukhari,Aeldari
+2,01,079,077,0870,0056,48,52,10,10,2024-12-13,ACT40K Teams Series - December 2024,Imperial Knights,Chaos Daemons
+2,02,075,076,0126,0360,77,23,15,5,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Thousand Sons
+2,02,075,076,0219,0469,77,23,13,7,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Chaos Space Marines
+2,02,075,076,0065,0099,77,23,15,5,2024-12-13,ACT40K Teams Series - December 2024,Emperor's Children,World Eaters
+2,02,075,076,0052,0084,77,23,18,2,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Genestealer Cult
+2,02,075,076,0050,0363,77,23,16,4,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,Chaos Daemons
+2,03,074,012,0753,0495,80,20,20,0,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Adepta Sororitas
+2,03,074,012,0435,0072,80,20,18,2,2024-12-13,ACT40K Teams Series - December 2024,Necrons,World Eaters
+2,03,074,012,0445,0874,80,20,20,0,2024-12-13,ACT40K Teams Series - December 2024,Orks,Adeptus Custodes
+2,03,074,012,0432,0386,80,20,17,3,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Space Marines (Astartes)
+2,03,074,012,0873,0383,80,20,5,15,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Death Guard
+2,04,078,073,0044,0308,27,73,5,15,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Aeldari
+2,04,078,073,0444,0051,27,73,2,18,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Death Guard
+2,04,078,073,0493,0078,27,73,10,10,2024-12-13,ACT40K Teams Series - December 2024,Astra Militarum,Necrons
+2,04,078,073,0029,0430,27,73,10,10,2024-12-13,ACT40K Teams Series - December 2024,Adepta Sororitas,Grey Knights
+2,04,078,073,0285,0428,27,73,0,20,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Chaos Daemons
+3,01,075,073,0126,0051,65,35,7,13,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Death Guard
+3,01,075,073,0050,0430,65,35,15,5,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,Grey Knights
+3,01,075,073,0065,0428,65,35,9,11,2024-12-13,ACT40K Teams Series - December 2024,Emperor's Children,Chaos Daemons
+3,01,075,073,0219,0308,65,35,14,6,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Aeldari
+3,01,075,073,0052,0078,65,35,20,0,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Necrons
+3,02,079,012,0054,0495,62,38,18,2,2024-12-13,ACT40K Teams Series - December 2024,Drukhari,Adepta Sororitas
+3,02,079,012,0870,0874,62,38,10,10,2024-12-13,ACT40K Teams Series - December 2024,Imperial Knights,Adeptus Custodes
+3,02,079,012,0434,0386,62,38,16,4,2024-12-13,ACT40K Teams Series - December 2024,Orks,Space Marines (Astartes)
+3,02,079,012,0872,0072,62,38,15,5,2024-12-13,ACT40K Teams Series - December 2024,Necrons,World Eaters
+3,02,079,012,0447,0383,62,38,3,17,2024-12-13,ACT40K Teams Series - December 2024,T'au Empire,Death Guard
+3,03,076,077,0084,0833,55,45,20,0,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Aeldari
+3,03,076,077,0099,0123,55,45,3,17,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,T'au Empire
+3,03,076,077,0469,0056,55,45,4,16,2024-12-13,ACT40K Teams Series - December 2024,Chaos Space Marines,Chaos Daemons
+3,03,076,077,0360,0431,55,45,8,12,2024-12-13,ACT40K Teams Series - December 2024,Thousand Sons,Chaos Knights
+3,03,076,077,0363,0871,55,45,20,0,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,Space Marines (Astartes)
+3,04,074,078,0753,0493,76,24,18,2,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Astra Militarum
+3,04,074,078,0873,0044,76,24,10,10,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Tyranids
+3,04,074,078,0435,0444,76,24,18,2,2024-12-13,ACT40K Teams Series - December 2024,Necrons,World Eaters
+3,04,074,078,0445,0285,76,24,20,0,2024-12-13,ACT40K Teams Series - December 2024,Orks,Necrons
+3,04,074,078,0432,0029,76,24,10,10,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Adepta Sororitas
+4,01,076,078,0360,0493,71,29,10,10,2024-12-13,ACT40K Teams Series - December 2024,Thousand Sons,Astra Militarum
+4,01,076,078,0099,0285,71,29,20,0,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Necrons
+4,01,076,078,0469,0444,71,29,19,1,2024-12-13,ACT40K Teams Series - December 2024,Chaos Space Marines,World Eaters
+4,01,076,078,0084,0044,71,29,18,2,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Tyranids
+4,01,076,078,0363,0029,71,29,4,16,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,Adepta Sororitas
+4,02,077,012,0833,0383,84,16,16,4,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Death Guard
+4,02,077,012,0123,0386,84,16,20,0,2024-12-13,ACT40K Teams Series - December 2024,T'au Empire,Space Marines (Astartes)
+4,02,077,012,0871,0072,84,16,8,12,2024-12-13,ACT40K Teams Series - December 2024,Space Marines (Astartes),World Eaters
+4,02,077,012,0431,0874,84,16,20,0,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,Adeptus Custodes
+4,02,077,012,0056,0495,84,16,20,0,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,Adepta Sororitas
+4,03,075,074,0219,0432,81,19,5,15,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Death Guard
+4,03,075,074,0052,0753,81,19,20,0,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Genestealer Cult
+4,03,075,074,0065,0445,81,19,16,4,2024-12-13,ACT40K Teams Series - December 2024,Emperor's Children,Orks
+4,03,075,074,0126,0435,81,19,20,0,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Necrons
+4,03,075,074,0050,0873,81,19,20,0,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,World Eaters
+4,04,073,079,0051,0447,74,26,20,0,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,T'au Empire
+4,04,073,079,0308,0870,74,26,13,7,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Imperial Knights
+4,04,073,079,0428,0872,74,26,14,6,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,Necrons
+4,04,073,079,0430,0054,74,26,19,1,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Drukhari
+4,04,073,079,0078,0434,74,26,8,12,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Orks
+5,00,073,012,0078,0383,79,21,11,9,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Death Guard
+5,00,073,012,0430,0386,79,21,12,8,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Space Marines (Astartes)
+5,00,073,012,0428,0072,79,21,16,4,2024-12-13,ACT40K Teams Series - December 2024,Chaos Daemons,World Eaters
+5,00,073,012,0308,0874,79,21,20,0,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,Adeptus Custodes
+5,00,073,012,0051,0495,79,21,20,0,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Adepta Sororitas
+5,02,078,077,0444,0123,39,61,11,9,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,T'au Empire
+5,02,078,077,0029,0431,39,61,0,20,2024-12-13,ACT40K Teams Series - December 2024,Adepta Sororitas,Chaos Knights
+5,02,078,077,0285,0833,39,61,0,20,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Aeldari
+5,02,078,077,0493,0871,39,61,12,8,2024-12-13,ACT40K Teams Series - December 2024,Astra Militarum,Space Marines (Astartes)
+5,02,078,077,0044,0056,39,61,16,4,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Chaos Daemons
+5,03,075,079,0052,0054,78,22,20,0,2024-12-13,ACT40K Teams Series - December 2024,Tyranids,Drukhari
+5,03,075,079,0065,0872,78,22,15,5,2024-12-13,ACT40K Teams Series - December 2024,Emperor's Children,Necrons
+5,03,075,079,0126,0434,78,22,20,0,2024-12-13,ACT40K Teams Series - December 2024,Grey Knights,Orks
+5,03,075,079,0219,0447,78,22,5,15,2024-12-13,ACT40K Teams Series - December 2024,Aeldari,T'au Empire
+5,03,075,079,0050,0870,78,22,18,2,2024-12-13,ACT40K Teams Series - December 2024,Chaos Knights,Imperial Knights
+5,04,074,076,0445,0099,35,65,10,10,2024-12-13,ACT40K Teams Series - December 2024,Orks,World Eaters
+5,04,074,076,0432,0469,35,65,12,8,2024-12-13,ACT40K Teams Series - December 2024,Death Guard,Chaos Space Marines
+5,04,074,076,0435,0360,35,65,7,13,2024-12-13,ACT40K Teams Series - December 2024,Necrons,Thousand Sons
+5,04,074,076,0873,0363,35,65,6,14,2024-12-13,ACT40K Teams Series - December 2024,World Eaters,Chaos Daemons
+5,04,074,076,0753,0084,35,65,0,20,2024-12-13,ACT40K Teams Series - December 2024,Genestealer Cult,Genestealer Cult
+1,01,082,080,0461,0095,31,29,7,13,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Black Templars
+1,01,082,080,0459,0474,31,29,9,11,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Chaos Knights
+1,01,082,080,0463,0090,31,29,15,5,2025-02-21,Western Sydney - 3 Player Teams February,Genestealer Cult,T'au Empire
+1,02,083,027,0174,0027,50,10,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Astra Militarum
+1,02,083,027,0182,0467,50,10,10,10,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Space Marines (Astartes)
+1,02,083,027,0176,0465,50,10,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Space Wolves,Imperial Knights
+1,03,086,088,0457,0200,1,59,0,20,2025-02-21,Western Sydney - 3 Player Teams February,Leagues of Votann,Thousand Sons
+1,03,086,088,0103,0104,1,59,0,20,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Blood Angels
+1,03,086,088,0404,0475,1,59,1,19,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Adeptus Custodes
+1,04,081,054,0472,0458,6,54,5,15,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Grey Knights
+1,04,081,054,0470,0462,6,54,0,20,2025-02-21,Western Sydney - 3 Player Teams February,Grey Knights,Space Marines (Astartes)
+1,04,081,054,0471,0460,6,54,1,19,2025-02-21,Western Sydney - 3 Player Teams February,Dark Angels,Necrons
+1,05,084,089,0456,0469,8,52,3,17,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Necrons
+1,05,084,089,0875,0468,8,52,5,15,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Astra Militarum
+1,05,084,089,0455,0084,8,52,0,20,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Genestealer Cult
+1,06,087,056,0110,0093,48,12,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Chaos Daemons,Space Marines (Astartes)
+1,06,087,056,0117,0466,48,12,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Aeldari,Chaos Space Marines
+1,06,087,056,0079,0464,48,12,10,10,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),World Eaters
+1,07,090,085,0096,0454,22,38,9,11,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Leagues of Votann
+1,07,090,085,0071,0173,22,38,8,12,2025-02-21,Western Sydney - 3 Player Teams February,Black Templars,Tyranids
+1,07,090,085,0473,0185,22,38,5,15,2025-02-21,Western Sydney - 3 Player Teams February,Orks,Necrons
+2,01,088,054,0104,0462,29,31,7,13,2025-02-21,Western Sydney - 3 Player Teams February,Blood Angels,Space Marines (Astartes)
+2,01,088,054,0200,0460,29,31,15,5,2025-02-21,Western Sydney - 3 Player Teams February,Thousand Sons,Necrons
+2,01,088,054,0475,0458,29,31,7,13,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Grey Knights
+2,02,081,086,0470,0103,58,2,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Grey Knights,Adeptus Custodes
+2,02,081,086,0471,0404,58,2,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Dark Angels,Space Marines (Astartes)
+2,02,081,086,0472,0457,58,2,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Leagues of Votann
+2,03,083,087,0174,0117,23,37,1,19,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Aeldari
+2,03,083,087,0182,0110,23,37,2,18,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Chaos Daemons
+2,03,083,087,0176,0079,23,37,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Space Wolves,Space Marines (Astartes)
+2,04,080,056,0474,0466,41,19,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Chaos Knights,Chaos Space Marines
+2,04,080,056,0090,0464,41,19,4,16,2025-02-21,Western Sydney - 3 Player Teams February,T'au Empire,World Eaters
+2,04,080,056,0095,0093,41,19,17,3,2025-02-21,Western Sydney - 3 Player Teams February,Black Templars,Space Marines (Astartes)
+2,05,089,085,0468,0185,37,23,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Necrons
+2,05,089,085,0469,0454,37,23,12,8,2025-02-21,Western Sydney - 3 Player Teams February,Necrons,Leagues of Votann
+2,05,089,085,0084,0173,37,23,7,13,2025-02-21,Western Sydney - 3 Player Teams February,Genestealer Cult,Tyranids
+2,06,082,027,0459,0467,46,14,16,4,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Space Marines (Astartes)
+2,06,082,027,0463,0465,46,14,16,4,2025-02-21,Western Sydney - 3 Player Teams February,Genestealer Cult,Imperial Knights
+2,06,082,027,0461,0027,46,14,14,6,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Astra Militarum
+2,07,090,084,0473,0875,40,20,13,7,2025-02-21,Western Sydney - 3 Player Teams February,Orks,Tyranids
+2,07,090,084,0096,0455,40,20,14,6,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Astra Militarum
+2,07,090,084,0071,0456,40,20,13,7,2025-02-21,Western Sydney - 3 Player Teams February,Black Templars,Space Marines (Astartes)
+3,01,085,083,0185,0174,29,31,4,16,2025-02-21,Western Sydney - 3 Player Teams February,Necrons,Adeptus Custodes
+3,01,085,083,0454,0182,29,31,16,4,2025-02-21,Western Sydney - 3 Player Teams February,Leagues of Votann,Astra Militarum
+3,01,085,083,0173,0176,29,31,9,11,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Space Wolves
+3,02,084,086,0875,0404,38,22,0,20,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Space Marines (Astartes)
+3,02,084,086,0455,0103,38,22,20,0,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Adeptus Custodes
+3,02,084,086,0456,0457,38,22,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Leagues of Votann
+3,03,054,082,0458,0459,34,26,3,17,2025-02-21,Western Sydney - 3 Player Teams February,Grey Knights,Adeptus Custodes
+3,03,054,082,0460,0461,34,26,17,3,2025-02-21,Western Sydney - 3 Player Teams February,Necrons,Space Marines (Astartes)
+3,03,054,082,0462,0463,34,26,14,6,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Genestealer Cult
+3,04,056,027,0093,0027,42,18,10,10,2025-02-21,Western Sydney - 3 Player Teams February,Space Marines (Astartes),Astra Militarum
+3,04,056,027,0464,0465,42,18,20,0,2025-02-21,Western Sydney - 3 Player Teams February,World Eaters,Imperial Knights
+3,04,056,027,0466,0467,42,18,12,8,2025-02-21,Western Sydney - 3 Player Teams February,Chaos Space Marines,Space Marines (Astartes)
+3,05,089,087,0468,0079,30,30,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Astra Militarum,Space Marines (Astartes)
+3,05,089,087,0469,0117,30,30,7,13,2025-02-21,Western Sydney - 3 Player Teams February,Necrons,Aeldari
+3,05,089,087,0084,0110,30,30,5,15,2025-02-21,Western Sydney - 3 Player Teams February,Genestealer Cult,Chaos Daemons
+3,06,081,090,0470,0096,24,36,3,17,2025-02-21,Western Sydney - 3 Player Teams February,Grey Knights,Astra Militarum
+3,06,081,090,0471,0071,24,36,2,18,2025-02-21,Western Sydney - 3 Player Teams February,Dark Angels,Black Templars
+3,06,081,090,0472,0473,24,36,19,1,2025-02-21,Western Sydney - 3 Player Teams February,Tyranids,Orks
+3,07,088,080,0200,0474,45,15,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Thousand Sons,Chaos Knights
+3,07,088,080,0104,0090,45,15,18,2,2025-02-21,Western Sydney - 3 Player Teams February,Blood Angels,T'au Empire
+3,07,088,080,0475,0095,45,15,9,11,2025-02-21,Western Sydney - 3 Player Teams February,Adeptus Custodes,Black Templars
+1,01,092,096,0087,0887,45,115,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Leagues of Votann
+1,01,092,096,0162,0878,45,115,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Aeldari
+1,01,092,096,0626,0796,45,115,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Genestealer Cult
+1,01,092,096,0096,0877,45,115,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Adeptus Mechanicus
+1,01,092,096,0150,0890,45,115,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,T'au Empire,Adepta Sororitas
+1,01,092,096,0462,0879,45,115,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),T'au Empire
+1,01,092,096,0167,0882,45,115,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Orks
+1,01,092,096,0164,0888,45,115,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Astra Militarum
+1,02,072,099,0883,0509,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Grey Knights
+1,02,072,099,0860,0880,147,13,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Dark Angels,Genestealer Cult
+1,02,072,099,0866,0071,147,13,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,--------
+1,02,072,099,0863,0363,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Death Guard
+1,02,072,099,0856,0889,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Chaos Knights
+1,02,072,099,0867,0093,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Space Marines (Astartes)
+1,02,072,099,0864,0091,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Space Marines,Adeptus Custodes
+1,02,072,099,0855,0464,147,13,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,World Eaters
+1,03,098,095,0219,0156,68,92,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Necrons
+1,03,098,095,0115,0065,68,92,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Chaos Space Marines
+1,03,098,095,0053,0152,68,92,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Genestealer Cult
+1,03,098,095,0126,0110,68,92,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Grey Knights,Chaos Daemons
+1,03,098,095,0094,0202,68,92,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Drukhari
+1,03,098,095,0099,0123,68,92,2,18,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,T'au Empire
+1,03,098,095,0120,0149,68,92,6,14,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Chaos Knights
+1,03,098,095,0607,0198,68,92,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos,Aeldari
+1,04,093,097,0229,0061,123,37,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Blood Angels
+1,04,093,097,0430,0054,123,37,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Drukhari
+1,04,093,097,0308,0445,123,37,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Orks
+1,04,093,097,0442,0440,123,37,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Death Guard
+1,04,093,097,0427,0437,123,37,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Forces of the Hive Mind
+1,04,093,097,0064,0078,123,37,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Necrons
+1,04,093,097,0429,0081,123,37,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),--------
+1,04,093,097,0051,0431,123,37,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,--------
+1,05,094,086,0885,0107,101,59,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Space Marines (Astartes)
+1,05,094,086,0732,0707,101,59,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Chaos Daemons
+1,05,094,086,0122,0404,101,59,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Leagues of Votann
+1,05,094,086,0305,0457,101,59,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Tyranids
+1,05,094,086,0222,0876,101,59,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Astra Militarum
+1,05,094,086,0881,0705,101,59,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Grey Knights
+1,05,094,086,0689,0103,101,59,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Adeptus Custodes
+1,05,094,086,0884,0765,101,59,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Thousand Sons
+1,06,091,089,0886,0095,121,39,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Space Marines (Astartes)
+1,06,091,089,0085,0090,121,39,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Wolves,T'au Empire
+1,06,091,089,0394,0084,121,39,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Genestealer Cult
+1,06,091,089,0082,0474,121,39,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Chaos Knights
+1,06,091,089,0050,0468,121,39,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Astra Militarum
+1,06,091,089,0070,0469,121,39,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Necrons
+1,06,091,089,0052,0112,121,39,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Adeptus Custodes
+1,06,091,089,0057,0089,121,39,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Death Guard
+2,01,072,091,0864,0886,89,71,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Space Marines,Genestealer Cult
+2,01,072,091,0883,0085,89,71,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Space Wolves
+2,01,072,091,0867,0394,89,71,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Astra Militarum
+2,01,072,091,0866,0082,89,71,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Chaos Knights
+2,01,072,091,0856,0050,89,71,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Imperial Knights
+2,01,072,091,0855,0070,89,71,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Leagues of Votann
+2,01,072,091,0863,0057,89,71,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Orks
+2,01,072,091,0860,0052,89,71,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Dark Angels,Adeptus Mechanicus
+2,02,095,086,0065,0876,137,23,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Space Marines,Astra Militarum
+2,02,095,086,0149,0457,137,23,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Tyranids
+2,02,095,086,0152,0103,137,23,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Adeptus Custodes
+2,02,095,086,0202,0765,137,23,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Thousand Sons
+2,02,095,086,0110,0404,137,23,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Leagues of Votann
+2,02,095,086,0198,0705,137,23,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Grey Knights
+2,02,095,086,0123,0707,137,23,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,T'au Empire,Chaos Daemons
+2,02,095,086,0156,0107,137,23,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Space Marines (Astartes)
+2,03,097,089,0445,0112,98,62,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Adeptus Custodes
+2,03,097,089,0431,0084,98,62,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Genestealer Cult
+2,03,097,089,0054,0090,98,62,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,T'au Empire
+2,03,097,089,0437,0095,98,62,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Forces of the Hive Mind,Space Marines (Astartes)
+2,03,097,089,0061,0089,98,62,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Blood Angels,Death Guard
+2,03,097,089,0078,0474,98,62,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Chaos Knights
+2,03,097,089,0081,0468,98,62,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Astra Militarum
+2,03,097,089,0440,0469,98,62,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Necrons
+2,04,037,093,0200,0430,28,132,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Imperial Knights
+2,04,037,093,0364,0427,28,132,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Genestealer Cult
+2,04,037,093,0507,0308,28,132,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,Aeldari
+2,04,037,093,0475,0051,28,132,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Death Guard
+2,04,037,093,0104,0429,28,132,2,18,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Blood Angels,Space Marines (Astartes)
+2,04,037,093,0208,0229,28,132,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Astra Militarum
+2,04,037,093,0361,0442,28,132,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Adeptus Custodes
+2,04,037,093,0508,0064,28,132,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Tyranids
+2,05,098,092,0126,0167,102,58,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Grey Knights,Chaos Knights
+2,05,098,092,0219,0164,102,58,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Aeldari
+2,05,098,092,0607,0626,102,58,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos,World Eaters
+2,05,098,092,0120,0150,102,58,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,T'au Empire
+2,05,098,092,0053,0162,102,58,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Adeptus Custodes
+2,05,098,092,0115,0462,102,58,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Space Marines (Astartes)
+2,05,098,092,0099,0087,102,58,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Orks
+2,05,098,092,0094,0096,102,58,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Astra Militarum
+2,06,096,094,0878,0881,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Adeptus Custodes
+2,06,096,094,0888,0884,129,31,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Death Guard
+2,06,096,094,0877,0885,129,31,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Drukhari
+2,06,096,094,0882,0732,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Necrons
+2,06,096,094,0796,0222,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Chaos Daemons
+2,06,096,094,0890,0305,129,31,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,World Eaters
+2,06,096,094,0887,0689,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Black Templars
+2,06,096,094,0879,0122,129,31,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,T'au Empire,Astra Militarum
+3,01,093,095,0064,0156,86,74,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Necrons
+3,01,093,095,0051,0149,86,74,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Chaos Knights
+3,01,093,095,0308,0202,86,74,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Drukhari
+3,01,093,095,0430,0152,86,74,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Genestealer Cult
+3,01,093,095,0442,0123,86,74,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,T'au Empire
+3,01,093,095,0229,0065,86,74,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Space Marines
+3,01,093,095,0427,0198,86,74,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Aeldari
+3,01,093,095,0429,0110,86,74,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Chaos Daemons
+3,02,037,099,0200,0071,122,38,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,--------
+3,02,037,099,0508,0889,122,38,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Chaos Knights
+3,02,037,099,0507,0363,122,38,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,Death Guard
+3,02,037,099,0361,0880,122,38,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Genestealer Cult
+3,02,037,099,0364,0464,122,38,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,World Eaters
+3,02,037,099,0104,0091,122,38,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Blood Angels,Adeptus Custodes
+3,02,037,099,0208,0093,122,38,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Space Marines (Astartes)
+3,02,037,099,0475,0509,122,38,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Grey Knights
+3,03,096,072,0890,0864,42,118,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,Chaos Space Marines
+3,03,096,072,0796,0856,42,118,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Aeldari
+3,03,096,072,0888,0855,42,118,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Orks
+3,03,096,072,0879,0883,42,118,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,T'au Empire,Thousand Sons
+3,03,096,072,0878,0867,42,118,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Chaos Daemons
+3,03,096,072,0887,0860,42,118,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Dark Angels
+3,03,096,072,0877,0866,42,118,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Necrons
+3,03,096,072,0882,0863,42,118,1,19,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Genestealer Cult
+3,04,091,098,0886,0099,117,43,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,World Eaters
+3,04,091,098,0085,0094,117,43,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Wolves,Space Marines (Astartes)
+3,04,091,098,0394,0607,117,43,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos
+3,04,091,098,0082,0115,117,43,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Orks
+3,04,091,098,0050,0053,117,43,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Tyranids
+3,04,091,098,0070,0126,117,43,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Grey Knights
+3,04,091,098,0057,0219,117,43,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Aeldari
+3,04,091,098,0052,0120,117,43,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Leagues of Votann
+3,05,094,097,0689,0440,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Death Guard
+3,05,094,097,0732,0437,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Forces of the Hive Mind
+3,05,094,097,0881,0431,74,86,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,--------
+3,05,094,097,0122,0061,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Blood Angels
+3,05,094,097,0305,0078,74,86,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Necrons
+3,05,094,097,0222,0081,74,86,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,--------
+3,05,094,097,0885,0445,74,86,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Orks
+3,05,094,097,0884,0054,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Drukhari
+4,01,093,072,0064,0867,40,120,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Chaos Daemons
+4,01,093,072,0430,0883,40,120,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Thousand Sons
+4,01,093,072,0442,0860,40,120,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Dark Angels
+4,01,093,072,0429,0855,40,120,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Orks
+4,01,093,072,0427,0856,40,120,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Aeldari
+4,01,093,072,0229,0863,40,120,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Genestealer Cult
+4,01,093,072,0051,0866,40,120,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Necrons
+4,01,093,072,0308,0864,40,120,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Chaos Space Marines
+4,02,094,099,0881,0509,71,89,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Grey Knights
+4,02,094,099,0222,0093,71,89,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Space Marines (Astartes)
+4,02,094,099,0305,0071,71,89,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,--------
+4,02,094,099,0732,0091,71,89,1,19,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Adeptus Custodes
+4,02,094,099,0885,0464,71,89,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,World Eaters
+4,02,094,099,0122,0889,71,89,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Knights
+4,02,094,099,0884,0880,71,89,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Genestealer Cult
+4,02,094,099,0689,0363,71,89,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Death Guard
+4,04,091,095,0886,0156,119,41,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Necrons
+4,04,091,095,0085,0198,119,41,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Wolves,Aeldari
+4,04,091,095,0394,0065,119,41,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Space Marines
+4,04,091,095,0082,0149,119,41,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Chaos Knights
+4,04,091,095,0050,0123,119,41,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,T'au Empire
+4,04,091,095,0070,0110,119,41,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Chaos Daemons
+4,04,091,095,0057,0202,119,41,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Drukhari
+4,04,091,095,0052,0152,119,41,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Genestealer Cult
+4,05,097,092,0078,0087,106,54,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Orks
+4,05,097,092,0061,0150,106,54,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Blood Angels,T'au Empire
+4,05,097,092,0437,0167,106,54,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Forces of the Hive Mind,Chaos Knights
+4,05,097,092,0445,0096,106,54,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Astra Militarum
+4,05,097,092,0440,0162,106,54,6,14,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Adeptus Custodes
+4,05,097,092,0081,0626,106,54,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,World Eaters
+4,05,097,092,0054,0164,106,54,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Aeldari
+4,05,097,092,0431,0462,106,54,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Space Marines (Astartes)
+4,06,037,096,0104,0887,37,123,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Blood Angels,Leagues of Votann
+4,06,037,096,0475,0878,37,123,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Aeldari
+4,06,037,096,0507,0888,37,123,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,Astra Militarum
+4,06,037,096,0208,0879,37,123,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,T'au Empire
+4,06,037,096,0508,0882,37,123,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Orks
+4,06,037,096,0200,0796,37,123,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Genestealer Cult
+4,06,037,096,0361,0890,37,123,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Adepta Sororitas
+4,06,037,096,0364,0877,37,123,2,18,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Adeptus Mechanicus
+4,07,086,098,0457,0219,22,138,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Aeldari
+4,07,086,098,0103,0094,22,138,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Space Marines (Astartes)
+4,07,086,098,0876,0115,22,138,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Orks
+4,07,086,098,0107,0099,22,138,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),World Eaters
+4,07,086,098,0705,0053,22,138,6,14,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Grey Knights,Tyranids
+4,07,086,098,0707,0120,22,138,5,15,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Leagues of Votann
+4,07,086,098,0404,0607,22,138,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Chaos
+4,07,086,098,0765,0126,22,138,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Grey Knights
+5,01,096,095,0878,0198,72,88,1,19,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Aeldari
+5,01,096,095,0879,0149,72,88,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,T'au Empire,Chaos Knights
+5,01,096,095,0877,0152,72,88,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Genestealer Cult
+5,01,096,095,0890,0202,72,88,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,Drukhari
+5,01,096,095,0796,0065,72,88,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Chaos Space Marines
+5,01,096,095,0882,0156,72,88,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Necrons
+5,01,096,095,0887,0110,72,88,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Chaos Daemons
+5,01,096,095,0888,0123,72,88,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,T'au Empire
+5,02,091,093,0886,0430,110,50,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Imperial Knights
+5,02,091,093,0085,0442,110,50,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Wolves,Adeptus Custodes
+5,02,091,093,0394,0064,110,50,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Tyranids
+5,02,091,093,0082,0429,110,50,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,Space Marines (Astartes)
+5,02,091,093,0050,0051,110,50,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Death Guard
+5,02,091,093,0070,0308,110,50,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Aeldari
+5,02,091,093,0057,0427,110,50,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Genestealer Cult
+5,02,091,093,0052,0229,110,50,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Astra Militarum
+5,04,072,097,0860,0440,121,39,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Dark Angels,Death Guard
+5,04,072,097,0855,0078,121,39,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Necrons
+5,04,072,097,0864,0054,121,39,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Space Marines,Drukhari
+5,04,072,097,0883,0061,121,39,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Thousand Sons,Blood Angels
+5,04,072,097,0867,0445,121,39,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Orks
+5,04,072,097,0866,0081,121,39,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,--------
+5,04,072,097,0856,0437,121,39,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Forces of the Hive Mind
+5,04,072,097,0863,0431,121,39,13,7,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,--------
+5,05,098,037,0126,0208,135,25,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Grey Knights,Chaos Daemons
+5,05,098,037,0115,0361,135,25,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Chaos Knights
+5,05,098,037,0120,0507,135,25,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Leagues of Votann,Adepta Sororitas
+5,05,098,037,0607,0364,135,25,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos,Aeldari
+5,05,098,037,0053,0508,135,25,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,--------
+5,05,098,037,0219,0200,135,25,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Thousand Sons
+5,05,098,037,0099,0475,135,25,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Adeptus Custodes
+5,05,098,037,0094,0104,135,25,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Blood Angels
+5,06,094,086,0884,0876,106,54,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Astra Militarum
+5,06,094,086,0222,0404,106,54,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Leagues of Votann
+5,06,094,086,0881,0457,106,54,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Tyranids
+5,06,094,086,0885,0765,106,54,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Thousand Sons
+5,06,094,086,0732,0107,106,54,6,14,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Space Marines (Astartes)
+5,06,094,086,0122,0707,106,54,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Daemons
+5,06,094,086,0689,0705,106,54,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Grey Knights
+5,06,094,086,0305,0103,106,54,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Adeptus Custodes
+5,07,099,089,0093,0112,54,106,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Adeptus Custodes
+5,07,099,089,0071,0469,54,106,7,13,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,--------,Necrons
+5,07,099,089,0509,0474,54,106,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Grey Knights,Chaos Knights
+5,07,099,089,0464,0095,54,106,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Space Marines (Astartes)
+5,07,099,089,0880,0089,54,106,4,16,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Death Guard
+5,07,099,089,0363,0468,54,106,9,11,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Astra Militarum
+5,07,099,089,0889,0090,54,106,1,19,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Knights,T'au Empire
+5,07,099,089,0091,0084,54,106,8,12,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Genestealer Cult
+1,01,035,103,0069,0893,31,29,12,8,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Imperial Knights
+1,01,035,103,0642,0892,31,29,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Daemons,Astra Militarum
+1,01,035,103,0396,0900,31,29,9,11,2025-03-21,Shed Hammer - 3 Player Teams,Orks,Deathwatch
+1,02,108,104,0163,0898,36,24,15,5,2025-03-21,Shed Hammer - 3 Player Teams,Aeldari,Tyranids
+1,02,108,104,0137,0372,36,24,9,11,2025-03-21,Shed Hammer - 3 Player Teams,Adepta Sororitas,Aeldari
+1,02,108,104,0171,0899,36,24,12,8,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Daemons,Deathwatch
+1,03,107,109,0167,0066,20,40,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Knights,Orks
+1,03,107,109,0157,0135,20,40,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Necrons,T'au Empire
+1,03,107,109,0218,0068,20,40,0,20,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Chaos Knights
+1,04,105,102,0156,0894,39,21,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Thousand Sons,Space Marines (Astartes)
+1,04,105,102,0047,0895,39,21,11,9,2025-03-21,Shed Hammer - 3 Player Teams,Leagues of Votann,Orks
+1,04,105,102,0165,0891,39,21,8,12,2025-03-21,Shed Hammer - 3 Player Teams,Dark Angels,Adeptus Custodes
+1,05,106,100,0215,0274,57,3,17,3,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Grey Knights
+1,05,106,100,0154,0897,57,3,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Tyranids,Tyranids
+1,05,106,100,0216,0896,57,3,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Orks,Death Guard
+1,06,110,101,0059,0615,34,26,0,20,2025-03-21,Shed Hammer - 3 Player Teams,Imperial Knights,Chaos Daemons
+1,06,110,101,0128,0617,34,26,16,4,2025-03-21,Shed Hammer - 3 Player Teams,Adeptus Custodes,T'au Empire
+1,06,110,101,0116,0612,34,26,18,2,2025-03-21,Shed Hammer - 3 Player Teams,Astra Militarum,Orks
+2,01,105,108,0156,0171,41,19,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Thousand Sons,Chaos Daemons
+2,01,105,108,0165,0137,41,19,16,4,2025-03-21,Shed Hammer - 3 Player Teams,Dark Angels,Adepta Sororitas
+2,01,105,108,0047,0163,41,19,5,15,2025-03-21,Shed Hammer - 3 Player Teams,Leagues of Votann,Aeldari
+2,02,110,035,0128,0069,23,37,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Adeptus Custodes,Space Marines (Astartes)
+2,02,110,035,0116,0642,23,37,4,16,2025-03-21,Shed Hammer - 3 Player Teams,Astra Militarum,Chaos Daemons
+2,02,110,035,0059,0396,23,37,9,11,2025-03-21,Shed Hammer - 3 Player Teams,Imperial Knights,Orks
+2,03,107,100,0167,0897,45,15,16,4,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Knights,Tyranids
+2,03,107,100,0157,0896,45,15,19,1,2025-03-21,Shed Hammer - 3 Player Teams,Necrons,Death Guard
+2,03,107,100,0218,0274,45,15,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Grey Knights
+2,04,106,109,0215,0068,34,26,18,2,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Chaos Knights
+2,04,106,109,0154,0066,34,26,6,14,2025-03-21,Shed Hammer - 3 Player Teams,Tyranids,Orks
+2,04,106,109,0216,0135,34,26,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Orks,T'au Empire
+2,05,104,102,0372,0891,35,25,11,9,2025-03-21,Shed Hammer - 3 Player Teams,Aeldari,Adeptus Custodes
+2,05,104,102,0899,0895,35,25,12,8,2025-03-21,Shed Hammer - 3 Player Teams,Deathwatch,Orks
+2,05,104,102,0898,0894,35,25,12,8,2025-03-21,Shed Hammer - 3 Player Teams,Tyranids,Space Marines (Astartes)
+2,06,103,101,0900,0615,41,19,11,9,2025-03-21,Shed Hammer - 3 Player Teams,Deathwatch,Chaos Daemons
+2,06,103,101,0892,0612,41,19,16,4,2025-03-21,Shed Hammer - 3 Player Teams,Astra Militarum,Orks
+2,06,103,101,0893,0617,41,19,14,6,2025-03-21,Shed Hammer - 3 Player Teams,Imperial Knights,T'au Empire
+3,01,035,109,0069,0135,28,32,13,7,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),T'au Empire
+3,01,035,109,0642,0068,28,32,6,14,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Daemons,Chaos Knights
+3,01,035,109,0396,0066,28,32,9,11,2025-03-21,Shed Hammer - 3 Player Teams,Orks,Orks
+3,02,107,108,0167,0171,0,0,0,0,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Knights,Chaos Daemons
+3,02,107,108,0157,0163,0,0,0,0,2025-03-21,Shed Hammer - 3 Player Teams,Necrons,Aeldari
+3,02,107,108,0218,0137,0,0,0,0,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Adepta Sororitas
+3,03,106,105,0215,0165,33,27,17,3,2025-03-21,Shed Hammer - 3 Player Teams,Space Marines (Astartes),Dark Angels
+3,03,106,105,0216,0156,33,27,7,13,2025-03-21,Shed Hammer - 3 Player Teams,Orks,Thousand Sons
+3,03,106,105,0154,0047,33,27,9,11,2025-03-21,Shed Hammer - 3 Player Teams,Tyranids,Leagues of Votann
+3,04,103,104,0900,0372,40,20,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Deathwatch,Aeldari
+3,04,103,104,0892,0898,40,20,10,10,2025-03-21,Shed Hammer - 3 Player Teams,Astra Militarum,Tyranids
+3,04,103,104,0893,0899,40,20,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Imperial Knights,Deathwatch
+3,05,101,100,0612,0274,49,11,13,7,2025-03-21,Shed Hammer - 3 Player Teams,Orks,Grey Knights
+3,05,101,100,0615,0897,49,11,20,0,2025-03-21,Shed Hammer - 3 Player Teams,Chaos Daemons,Tyranids
+3,05,101,100,0617,0896,49,11,16,4,2025-03-21,Shed Hammer - 3 Player Teams,T'au Empire,Death Guard
+3,06,110,102,0128,0891,45,15,19,1,2025-03-21,Shed Hammer - 3 Player Teams,Adeptus Custodes,Adeptus Custodes
+3,06,110,102,0116,0895,45,15,12,8,2025-03-21,Shed Hammer - 3 Player Teams,Astra Militarum,Orks
+3,06,110,102,0059,0894,45,15,14,6,2025-03-21,Shed Hammer - 3 Player Teams,Imperial Knights,Space Marines (Astartes)
+1,01,113,112,0503,0504,19,101,5,15,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,World Eaters
+1,01,113,112,0505,0198,19,101,4,16,2025-05-16,South Pacific War Gaming - 6 Player Teams,Imperial Knights,Necrons
+1,01,113,112,0506,0597,19,101,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Blood Angels,Genestealer Cult
+1,01,113,112,0457,0360,19,101,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Tyranids,Chaos Knights
+1,01,113,112,0103,0094,19,101,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adeptus Custodes,Space Marines (Astartes)
+1,01,113,112,0404,0110,19,101,4,16,2025-05-16,South Pacific War Gaming - 6 Player Teams,Leagues of Votann,Chaos Daemons
+1,02,114,111,0126,0089,96,24,12,8,2025-05-16,South Pacific War Gaming - 6 Player Teams,Emperor's Children,Death Guard
+1,02,114,111,0156,0012,96,24,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Adeptus Mechanicus
+1,02,114,111,0065,0071,96,24,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Orks
+1,02,114,111,0070,0458,96,24,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Grey Knights
+1,02,114,111,0096,0083,96,24,11,9,2025-05-16,South Pacific War Gaming - 6 Player Teams,Astra Militarum,Adepta Sororitas
+1,02,114,111,0057,0074,96,24,14,6,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Space Marines (Astartes)
+1,03,115,116,0509,0468,43,77,7,13,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Space Marines (Astartes)
+1,03,115,116,0093,0469,43,77,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Chaos Knights
+1,03,115,116,0507,0097,43,77,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adepta Sororitas,Adeptus Custodes
+1,03,115,116,0508,0095,43,77,5,15,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Necrons
+1,03,115,116,0338,0027,43,77,12,8,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Chaos Space Marines
+1,03,115,116,0361,0099,43,77,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,--------,Drukhari
+2,01,115,113,0509,0457,73,47,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Tyranids
+2,01,115,113,0361,0506,73,47,15,5,2025-05-16,South Pacific War Gaming - 6 Player Teams,--------,Blood Angels
+2,01,115,113,0338,0404,73,47,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Leagues of Votann
+2,01,115,113,0508,0505,73,47,15,5,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Imperial Knights
+2,01,115,113,0507,0103,73,47,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adepta Sororitas,Adeptus Custodes
+2,01,115,113,0093,0503,73,47,3,17,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Death Guard
+2,02,112,111,0597,0012,82,38,6,14,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Adeptus Mechanicus
+2,02,112,111,0504,0074,82,38,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,World Eaters,Space Marines (Astartes)
+2,02,112,111,0110,0071,82,38,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Daemons,Orks
+2,02,112,111,0094,0083,82,38,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Adepta Sororitas
+2,02,112,111,0198,0458,82,38,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Necrons,Grey Knights
+2,02,112,111,0360,0089,82,38,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Death Guard
+2,03,116,114,0469,0096,18,102,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Astra Militarum
+2,03,116,114,0027,0065,18,102,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Chaos Space Marines
+2,03,116,114,0468,0156,18,102,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Death Guard
+2,03,116,114,0099,0057,18,102,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,Drukhari,Genestealer Cult
+2,03,116,114,0095,0070,18,102,6,14,2025-05-16,South Pacific War Gaming - 6 Player Teams,Necrons,Orks
+2,03,116,114,0097,0126,18,102,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adeptus Custodes,Emperor's Children
+3,01,116,113,0469,0505,60,60,7,13,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Imperial Knights
+3,01,116,113,0099,0506,60,60,9,11,2025-05-16,South Pacific War Gaming - 6 Player Teams,Drukhari,Blood Angels
+3,01,116,113,0027,0103,60,60,11,9,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Adeptus Custodes
+3,01,116,113,0095,0404,60,60,12,8,2025-05-16,South Pacific War Gaming - 6 Player Teams,Necrons,Leagues of Votann
+3,01,116,113,0097,0457,60,60,13,7,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adeptus Custodes,Tyranids
+3,01,116,113,0468,0503,60,60,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Death Guard
+3,02,115,111,0509,0071,42,78,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Orks
+3,02,115,111,0093,0458,42,78,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Grey Knights
+3,02,115,111,0507,0089,42,78,5,15,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adepta Sororitas,Death Guard
+3,02,115,111,0508,0012,42,78,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Adeptus Mechanicus
+3,02,115,111,0338,0083,42,78,9,11,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Adepta Sororitas
+3,02,115,111,0361,0074,42,78,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,--------,Space Marines (Astartes)
+3,03,114,112,0126,0094,65,55,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Emperor's Children,Space Marines (Astartes)
+3,03,114,112,0156,0360,65,55,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Chaos Knights
+3,03,114,112,0065,0504,65,55,9,11,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,World Eaters
+3,03,114,112,0070,0597,65,55,11,9,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Genestealer Cult
+3,03,114,112,0096,0110,65,55,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,Astra Militarum,Chaos Daemons
+3,03,114,112,0057,0198,65,55,7,13,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Necrons
+4,01,114,115,0057,0509,95,25,13,7,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Chaos Space Marines
+4,01,114,115,0070,0507,95,25,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Adepta Sororitas
+4,01,114,115,0096,0361,95,25,4,16,2025-05-16,South Pacific War Gaming - 6 Player Teams,Astra Militarum,--------
+4,01,114,115,0126,0338,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Emperor's Children,Chaos Knights
+4,01,114,115,0065,0508,95,25,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Death Guard
+4,01,114,115,0156,0093,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Space Marines (Astartes)
+4,02,111,113,0071,0505,95,25,15,5,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Imperial Knights
+4,02,111,113,0074,0506,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Blood Angels
+4,02,111,113,0012,0404,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adeptus Mechanicus,Leagues of Votann
+4,02,111,113,0458,0503,95,25,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Grey Knights,Death Guard
+4,02,111,113,0083,0457,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adepta Sororitas,Tyranids
+4,02,111,113,0089,0103,95,25,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Adeptus Custodes
+4,03,112,116,0198,0469,109,11,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Necrons,Chaos Knights
+4,03,112,116,0094,0027,109,11,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Chaos Space Marines
+4,03,112,116,0360,0099,109,11,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Drukhari
+4,03,112,116,0110,0095,109,11,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Daemons,Necrons
+4,03,112,116,0504,0097,109,11,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,World Eaters,Adeptus Custodes
+4,03,112,116,0597,0468,109,11,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Space Marines (Astartes)
+5,01,114,113,0156,0103,89,31,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Adeptus Custodes
+5,01,114,113,0126,0506,89,31,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Emperor's Children,Blood Angels
+5,01,114,113,0065,0404,89,31,18,2,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Space Marines,Leagues of Votann
+5,01,114,113,0070,0457,89,31,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Tyranids
+5,01,114,113,0057,0503,89,31,0,20,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,Death Guard
+5,01,114,113,0096,0505,89,31,11,9,2025-05-16,South Pacific War Gaming - 6 Player Teams,Astra Militarum,Imperial Knights
+5,02,111,116,0089,0027,63,57,12,8,2025-05-16,South Pacific War Gaming - 6 Player Teams,Death Guard,Chaos Space Marines
+5,02,111,116,0012,0469,63,57,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adeptus Mechanicus,Chaos Knights
+5,02,111,116,0071,0099,63,57,10,10,2025-05-16,South Pacific War Gaming - 6 Player Teams,Orks,Drukhari
+5,02,111,116,0458,0095,63,57,2,18,2025-05-16,South Pacific War Gaming - 6 Player Teams,Grey Knights,Necrons
+5,02,111,116,0074,0468,63,57,11,9,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Space Marines (Astartes)
+5,02,111,116,0083,0097,63,57,8,12,2025-05-16,South Pacific War Gaming - 6 Player Teams,Adepta Sororitas,Adeptus Custodes
+5,03,112,115,0597,0361,115,5,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Genestealer Cult,--------
+5,03,112,115,0198,0509,115,5,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,Necrons,Chaos Space Marines
+5,03,112,115,0110,0508,115,5,18,2,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Daemons,Death Guard
+5,03,112,115,0504,0093,115,5,20,0,2025-05-16,South Pacific War Gaming - 6 Player Teams,World Eaters,Space Marines (Astartes)
+5,03,112,115,0360,0338,115,5,18,2,2025-05-16,South Pacific War Gaming - 6 Player Teams,Chaos Knights,Chaos Knights
+5,03,112,115,0094,0507,115,5,19,1,2025-05-16,South Pacific War Gaming - 6 Player Teams,Space Marines (Astartes),Adepta Sororitas
+1,01,124,121,0883,0037,136,24,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Grey Knights
+1,01,124,121,0863,0031,136,24,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Chaos Daemons
+1,01,124,121,0855,0041,136,24,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Necrons
+1,01,124,121,0860,0931,136,24,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Orks
+1,01,124,121,0856,0933,136,24,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Chaos Space Marines
+1,01,124,121,0864,0934,136,24,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Space Marines (Astartes)
+1,01,124,121,0923,0032,136,24,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Aeldari
+1,01,124,121,0867,0932,136,24,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Genestealer Cult
+1,02,123,126,0950,0427,69,91,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Dark Angels
+1,02,123,126,0943,0442,69,91,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Deathwatch,Adeptus Custodes
+1,02,123,126,0947,0308,69,91,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,--------
+1,02,123,126,0948,0029,69,91,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Chaos Space Marines
+1,02,123,126,0949,0051,69,91,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Death Guard
+1,02,123,126,0945,0064,69,91,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Leagues of Votann,Chaos Daemons
+1,02,123,126,0946,0429,69,91,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Orks
+1,02,123,126,0944,0430,69,91,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Imperial Knights
+1,03,122,125,0937,0085,85,75,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Space Wolves
+1,03,122,125,0939,0070,85,75,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Chaos Knights
+1,03,122,125,0942,0607,85,75,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Emperor's Children
+1,03,122,125,0936,0050,85,75,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Imperial Knights
+1,03,122,125,0941,0052,85,75,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Adeptus Mechanicus
+1,03,122,125,0938,0057,85,75,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Orks
+1,03,122,125,0935,0219,85,75,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Aeldari
+1,03,122,125,0940,0394,85,75,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Astra Militarum
+1,04,118,120,0902,0925,87,73,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Adeptus Custodes
+1,04,118,120,0907,0928,87,73,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Leagues of Votann
+1,04,118,120,0906,0930,87,73,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Aeldari
+1,04,118,120,0901,0637,87,73,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Blood Angels,Chaos Daemons
+1,04,118,120,0904,0927,87,73,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Knights
+1,04,118,120,0905,0926,87,73,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Grey Knights
+1,04,118,120,0903,0929,87,73,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Genestealer Cult
+1,04,118,120,0908,0924,87,73,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Orks
+1,05,119,117,0909,0921,43,117,2,18,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Leagues of Votann
+1,05,119,117,0910,0919,43,117,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Space Marines (Astartes)
+1,05,119,117,0912,0917,43,117,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Tyranids
+1,05,119,117,0702,0918,43,117,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Aeldari
+1,05,119,117,0045,0922,43,117,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,--------
+1,05,119,117,0914,0916,43,117,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,Adepta Sororitas
+1,05,119,117,0913,0920,43,117,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,--------
+1,05,119,117,0911,0915,43,117,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Chaos Knights
+2,01,125,123,0057,0946,94,66,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Daemons
+2,01,125,123,0219,0948,94,66,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Adeptus Custodes
+2,01,125,123,0070,0950,94,66,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,Astra Militarum
+2,01,125,123,0052,0944,94,66,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Mechanicus,Orks
+2,01,125,123,0085,0947,94,66,1,19,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Wolves,Aeldari
+2,01,125,123,0607,0949,94,66,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Emperor's Children,Chaos Space Marines
+2,01,125,123,0394,0943,94,66,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Deathwatch
+2,01,125,123,0050,0945,94,66,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Leagues of Votann
+2,02,124,117,0863,0920,112,48,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,--------
+2,02,124,117,0923,0921,112,48,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Leagues of Votann
+2,02,124,117,0883,0918,112,48,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Aeldari
+2,02,124,117,0864,0922,112,48,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,--------
+2,02,124,117,0867,0919,112,48,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Space Marines (Astartes)
+2,02,124,117,0860,0915,112,48,1,19,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Chaos Knights
+2,02,124,117,0855,0917,112,48,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Tyranids
+2,02,124,117,0856,0916,112,48,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Adepta Sororitas
+2,03,122,120,0935,0929,120,40,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Genestealer Cult
+2,03,122,120,0938,0926,120,40,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Grey Knights
+2,03,122,120,0941,0930,120,40,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Aeldari
+2,03,122,120,0937,0928,120,40,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Leagues of Votann
+2,03,122,120,0940,0927,120,40,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Knights
+2,03,122,120,0942,0637,120,40,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Chaos Daemons
+2,03,122,120,0936,0925,120,40,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Adeptus Custodes
+2,03,122,120,0939,0924,120,40,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Orks
+2,04,126,118,0308,0906,84,76,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,--------,Adepta Sororitas
+2,04,126,118,0064,0904,84,76,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Orks
+2,04,126,118,0429,0903,84,76,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Grey Knights
+2,04,126,118,0427,0908,84,76,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Genestealer Cult
+2,04,126,118,0442,0902,84,76,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Astra Militarum
+2,04,126,118,0029,0901,84,76,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Blood Angels
+2,04,126,118,0430,0905,84,76,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Aeldari
+2,04,126,118,0051,0907,84,76,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Necrons
+2,05,119,121,0912,0037,49,111,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Grey Knights
+2,05,119,121,0914,0931,49,111,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,Orks
+2,05,119,121,0045,0041,49,111,3,17,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Necrons
+2,05,119,121,0910,0031,49,111,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Chaos Daemons
+2,05,119,121,0911,0932,49,111,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Genestealer Cult
+2,05,119,121,0702,0933,49,111,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Space Marines
+2,05,119,121,0913,0934,49,111,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Space Marines (Astartes)
+2,05,119,121,0909,0032,49,111,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Aeldari
+3,01,124,122,0883,0939,98,62,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Dark Angels
+3,01,124,122,0855,0941,98,62,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Adepta Sororitas
+3,01,124,122,0860,0940,98,62,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Orks
+3,01,124,122,0856,0936,98,62,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Necrons
+3,01,124,122,0867,0937,98,62,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Chaos Space Marines
+3,01,124,122,0923,0935,98,62,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Grey Knights
+3,01,124,122,0863,0938,98,62,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Aeldari
+3,01,124,122,0864,0942,98,62,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Tyranids
+3,02,126,125,0429,0085,74,86,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Space Wolves
+3,02,126,125,0064,0607,74,86,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Emperor's Children
+3,02,126,125,0051,0052,74,86,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Adeptus Mechanicus
+3,02,126,125,0029,0070,74,86,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Chaos Knights
+3,02,126,125,0430,0057,74,86,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Orks
+3,02,126,125,0427,0219,74,86,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Aeldari
+3,02,126,125,0442,0394,74,86,3,17,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Astra Militarum
+3,02,126,125,0308,0050,74,86,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,--------,Imperial Knights
+3,03,121,123,0931,0945,66,94,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Leagues of Votann
+3,03,121,123,0037,0944,66,94,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Orks
+3,03,121,123,0934,0947,66,94,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Aeldari
+3,03,121,123,0933,0946,66,94,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Chaos Daemons
+3,03,121,123,0032,0949,66,94,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Chaos Space Marines
+3,03,121,123,0041,0943,66,94,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Deathwatch
+3,03,121,123,0932,0950,66,94,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Astra Militarum
+3,03,121,123,0031,0948,66,94,2,18,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Adeptus Custodes
+3,04,118,117,0907,0921,103,57,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Leagues of Votann
+3,04,118,117,0904,0920,103,57,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,--------
+3,04,118,117,0908,0916,103,57,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Adepta Sororitas
+3,04,118,117,0905,0917,103,57,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Tyranids
+3,04,118,117,0902,0919,103,57,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Space Marines (Astartes)
+3,04,118,117,0906,0922,103,57,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,--------
+3,04,118,117,0903,0918,103,57,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Aeldari
+3,04,118,117,0901,0915,103,57,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Blood Angels,Chaos Knights
+3,05,120,119,0930,0702,101,59,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Orks
+3,05,120,119,0925,0045,101,59,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Adepta Sororitas
+3,05,120,119,0637,0909,101,59,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Adeptus Custodes
+3,05,120,119,0927,0910,101,59,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,Space Marines (Astartes)
+3,05,120,119,0929,0914,101,59,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Chaos Knights
+3,05,120,119,0928,0912,101,59,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Leagues of Votann,Aeldari
+3,05,120,119,0926,0911,101,59,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Tyranids
+3,05,120,119,0924,0913,101,59,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Grey Knights
+4,01,125,117,0052,0921,105,55,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Mechanicus,Leagues of Votann
+4,01,125,117,0219,0919,105,55,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Space Marines (Astartes)
+4,01,125,117,0050,0916,105,55,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Adepta Sororitas
+4,01,125,117,0394,0917,105,55,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Tyranids
+4,01,125,117,0057,0915,105,55,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Knights
+4,01,125,117,0070,0920,105,55,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,--------
+4,01,125,117,0607,0922,105,55,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Emperor's Children,--------
+4,01,125,117,0085,0918,105,55,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Wolves,Aeldari
+4,02,123,119,0946,0912,137,23,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Aeldari
+4,02,123,119,0945,0910,137,23,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Leagues of Votann,Space Marines (Astartes)
+4,02,123,119,0949,0045,137,23,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Adepta Sororitas
+4,02,123,119,0948,0914,137,23,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Chaos Knights
+4,02,123,119,0950,0702,137,23,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Orks
+4,02,123,119,0944,0913,137,23,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Grey Knights
+4,02,123,119,0943,0909,137,23,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Deathwatch,Adeptus Custodes
+4,02,123,119,0947,0911,137,23,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Tyranids
+4,03,122,126,0937,0064,80,80,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Chaos Daemons
+4,03,122,126,0940,0308,80,80,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,--------
+4,03,122,126,0935,0442,80,80,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Adeptus Custodes
+4,03,122,126,0941,0029,80,80,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Chaos Space Marines
+4,03,122,126,0942,0051,80,80,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Death Guard
+4,03,122,126,0939,0429,80,80,5,15,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Orks
+4,03,122,126,0938,0427,80,80,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Dark Angels
+4,03,122,126,0936,0430,80,80,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Imperial Knights
+4,04,124,118,0860,0906,128,32,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Adepta Sororitas
+4,04,124,118,0864,0905,128,32,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Aeldari
+4,04,124,118,0867,0903,128,32,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Grey Knights
+4,04,124,118,0923,0902,128,32,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Astra Militarum
+4,04,124,118,0863,0904,128,32,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Orks
+4,04,124,118,0883,0908,128,32,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Genestealer Cult
+4,04,124,118,0856,0901,128,32,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Blood Angels
+4,04,124,118,0855,0907,128,32,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Necrons
+4,05,121,120,0041,0929,88,72,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Genestealer Cult
+4,05,121,120,0931,0930,88,72,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Aeldari
+4,05,121,120,0032,0926,88,72,11,9,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Grey Knights
+4,05,121,120,0031,0925,88,72,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Adeptus Custodes
+4,05,121,120,0037,0924,88,72,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Orks
+4,05,121,120,0933,0637,88,72,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Chaos Daemons
+4,05,121,120,0932,0927,88,72,3,17,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Chaos Knights
+4,05,121,120,0934,0928,88,72,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Leagues of Votann
+5,01,118,119,0902,0045,116,44,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Adepta Sororitas
+5,01,118,119,0907,0702,116,44,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Orks
+5,01,118,119,0901,0913,116,44,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Blood Angels,Grey Knights
+5,01,118,119,0903,0910,116,44,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Space Marines (Astartes)
+5,01,118,119,0905,0914,116,44,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Chaos Knights
+5,01,118,119,0906,0909,116,44,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Adeptus Custodes
+5,01,118,119,0904,0912,116,44,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Aeldari
+5,01,118,119,0908,0911,116,44,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Tyranids
+5,02,124,125,0923,0057,106,54,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Orks
+5,02,124,125,0860,0050,106,54,3,17,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Imperial Knights
+5,02,124,125,0883,0070,106,54,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Chaos Knights
+5,02,124,125,0856,0052,106,54,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Adeptus Mechanicus
+5,02,124,125,0863,0085,106,54,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Space Wolves
+5,02,124,125,0864,0607,106,54,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Emperor's Children
+5,02,124,125,0867,0394,106,54,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Astra Militarum
+5,02,124,125,0855,0219,106,54,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Aeldari
+5,03,122,121,0935,0031,108,52,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Chaos Daemons
+5,03,122,121,0938,0931,108,52,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Orks
+5,03,122,121,0941,0032,108,52,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Aeldari
+5,03,122,121,0940,0037,108,52,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Grey Knights
+5,03,122,121,0936,0934,108,52,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Space Marines (Astartes)
+5,03,122,121,0942,0933,108,52,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Chaos Space Marines
+5,03,122,121,0939,0932,108,52,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Genestealer Cult
+5,03,122,121,0937,0041,108,52,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Necrons
+5,04,126,117,0429,0921,98,62,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Leagues of Votann
+5,04,126,117,0029,0918,98,62,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Aeldari
+5,04,126,117,0427,0915,98,62,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Chaos Knights
+5,04,126,117,0308,0917,98,62,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,--------,Tyranids
+5,04,126,117,0051,0922,98,62,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,--------
+5,04,126,117,0064,0920,98,62,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,--------
+5,04,126,117,0442,0919,98,62,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Space Marines (Astartes)
+5,04,126,117,0430,0916,98,62,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Adepta Sororitas
+5,05,120,123,0927,0949,50,110,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Knights,Chaos Space Marines
+5,05,120,123,0925,0947,50,110,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Aeldari
+5,05,120,123,0926,0945,50,110,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Leagues of Votann
+5,05,120,123,0929,0948,50,110,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Adeptus Custodes
+5,05,120,123,0924,0950,50,110,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Astra Militarum
+5,05,120,123,0637,0944,50,110,2,18,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Orks
+5,05,120,123,0928,0943,50,110,3,17,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Leagues of Votann,Deathwatch
+5,05,120,123,0930,0946,50,110,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Chaos Daemons
+6,01,124,123,0883,0950,110,50,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Astra Militarum
+6,01,124,123,0864,0948,110,50,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Adeptus Custodes
+6,01,124,123,0867,0947,110,50,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Aeldari
+6,01,124,123,0863,0945,110,50,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Leagues of Votann
+6,01,124,123,0923,0946,110,50,15,5,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Chaos Daemons
+6,01,124,123,0860,0944,110,50,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Orks
+6,01,124,123,0856,0943,110,50,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Drukhari,Deathwatch
+6,01,124,123,0855,0949,110,50,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Chaos Space Marines
+6,02,122,119,0941,0914,134,26,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Chaos Knights
+6,02,122,119,0936,0045,134,26,16,4,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Adepta Sororitas
+6,02,122,119,0937,0913,134,26,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Grey Knights
+6,02,122,119,0938,0912,134,26,18,2,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Aeldari
+6,02,122,119,0939,0910,134,26,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Space Marines (Astartes)
+6,02,122,119,0935,0909,134,26,20,0,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Adeptus Custodes
+6,02,122,119,0940,0702,134,26,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Orks
+6,02,122,119,0942,0911,134,26,13,7,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Tyranids,Tyranids
+6,03,126,120,0051,0929,89,71,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Death Guard,Genestealer Cult
+6,03,126,120,0064,0927,89,71,14,6,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,Chaos Knights
+6,03,126,120,0430,0928,89,71,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Imperial Knights,Leagues of Votann
+6,03,126,120,0427,0925,89,71,12,8,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Dark Angels,Adeptus Custodes
+6,03,126,120,0429,0924,89,71,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Orks
+6,03,126,120,0308,0926,89,71,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,--------,Grey Knights
+6,03,126,120,0442,0637,89,71,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adeptus Custodes,Chaos Daemons
+6,03,126,120,0029,0930,89,71,19,1,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Aeldari
+6,04,118,125,0906,0070,45,115,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Adepta Sororitas,Chaos Knights
+6,04,118,125,0902,0394,45,115,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Astra Militarum,Astra Militarum
+6,04,118,125,0901,0607,45,115,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Blood Angels,Emperor's Children
+6,04,118,125,0903,0219,45,115,6,14,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,Aeldari
+6,04,118,125,0907,0085,45,115,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Space Wolves
+6,04,118,125,0905,0050,45,115,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Imperial Knights
+6,04,118,125,0908,0057,45,115,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Orks
+6,04,118,125,0904,0052,45,115,7,13,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Adeptus Mechanicus
+6,05,121,117,0037,0920,66,94,8,12,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Grey Knights,--------
+6,05,121,117,0031,0922,66,94,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Daemons,--------
+6,05,121,117,0931,0917,66,94,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Orks,Tyranids
+6,05,121,117,0032,0921,66,94,9,11,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Aeldari,Leagues of Votann
+6,05,121,117,0932,0915,66,94,0,20,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Genestealer Cult,Chaos Knights
+6,05,121,117,0934,0919,66,94,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Space Marines (Astartes)
+6,05,121,117,0933,0918,66,94,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Aeldari
+6,05,121,117,0041,0916,66,94,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Adepta Sororitas

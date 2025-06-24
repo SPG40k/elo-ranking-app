@@ -18,7 +18,7 @@ const stateColors = {
 const australiaStates = ['ACT', 'NSW', 'NT', 'QLD', 'SA', 'TAS', 'VIC', 'WA'];
 const newZealandStates = ['NZN', 'NZS'];
 
-export default function Leaderboard({ allPlayers }) {
+export default function TeamsLeaderboard({ allPlayers }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [stateFilter, setStateFilter] = useState('All');
   const [visibleCount, setVisibleCount] = useState(25);
@@ -90,7 +90,7 @@ export default function Leaderboard({ allPlayers }) {
 
   return (
     <div className="max-w-4xl mx-auto p-6">
-      <h1 className="text-3xl font-bold text-indigo-700 dark:text-indigo-200 mb-4">Singles Leaderboard</h1>
+      <h1 className="text-3xl font-bold text-indigo-700 dark:text-indigo-200 mb-4">Teams Leaderboard</h1>
 
       <div className="mb-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <input
@@ -166,7 +166,7 @@ export default function Leaderboard({ allPlayers }) {
                 </td>
                 <td className="px-4 py-2">
                   <Link
-                    to={`/player/${player.id}`}
+                    to={`/teams/player/${player.id}`}
                     className="text-indigo-700 dark:text-indigo-300 hover:underline font-medium"
                   >
                     {player.name}
@@ -198,24 +198,21 @@ export default function Leaderboard({ allPlayers }) {
       )}
 
       {filteredPlayers.length > visiblePlayers.length && (
-        <div className="flex gap-4 justify-center mt-6">
+        <div className="mt-4 flex gap-2">
           <button
             onClick={handleShowMore}
-            className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition"
+            className="px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors"
           >
             Show More
           </button>
-
-          {visibleCount + 10 < filteredPlayers.length && (
-            <button
-              onClick={handleShowAll}
-              className="px-4 py-2 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition"
-            >
-              Show All
-            </button>
-          )}
+          <button
+            onClick={handleShowAll}
+            className="px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+          >
+            Show All ({filteredPlayers.length})
+          </button>
         </div>
       )}
     </div>
   );
-}
+} 

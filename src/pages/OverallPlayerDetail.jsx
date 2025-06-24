@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import {
-  LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
-} from 'recharts';
+import { useParams, Link } from 'react-router-dom';
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
+import Papa from 'papaparse';
+import { calculateEloForMatch } from '../utils/eloUtils';
 
-// State color mapping (copied from Leaderboard)
+const SINGLES_CSV = process.env.PUBLIC_URL + '/singles_matches.csv';
+const TEAMS_CSV = process.env.PUBLIC_URL + '/teams_matches.csv';
+const PLAYERS_CSV = process.env.PUBLIC_URL + '/players.csv';
+
 const stateColors = {
   ACT: 'bg-blue-900 text-white',
   NSW: 'bg-blue-300 text-blue-900',
@@ -18,26 +21,178 @@ const stateColors = {
   NZS: 'bg-gray-700 text-white',
 };
 
-export default function PlayerDetail({ allPlayers }) {
+function normalizeSinglesMatch(row) {
+  return {
+    date: row.date,
+    player1_id: row.player1_id,
+    player2_id: row.player2_id,
+    score1: Number(row.score1),
+    score2: Number(row.score2),
+    player1Faction: row.player1Faction,
+    player2Faction: row.player2Faction,
+  };
+}
+
+function normalizeTeamsMatch(row) {
+  return {
+    date: row.date,
+    player1_id: row.player1_id,
+    player2_id: row.player2_id,
+    score1: Number(row.score1),
+    score2: Number(row.score2),
+    player1Faction: row.player1Faction,
+    player2Faction: row.player2Faction,
+  };
+}
+
+export default function OverallPlayerDetail() {
   const { id } = useParams();
   const [showMoreMatches, setShowMoreMatches] = useState(false);
   const [showStats, setShowStats] = useState(false);
-  // For background image
   const [factionBgImage, setFactionBgImage] = useState(null);
+  const [player, setPlayer] = useState(null);
+  const [allPlayers, setAllPlayers] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  const player = allPlayers.find((p) => p.id === id);
+  useEffect(() => { window.scrollTo(0, 0); }, [id]);
 
-  // Scroll to top when component mounts
   useEffect(() => {
-    window.scrollTo(0, 0);
+    async function fetchData() {
+      setLoading(true);
+      // Load players
+      const playersData = await fetch(PLAYERS_CSV).then(r => r.text());
+      const parsedPlayers = Papa.parse(playersData, { header: true }).data;
+      const playerMap = {};
+      parsedPlayers.forEach(p => { playerMap[p.id] = p; });
+
+      // Load singles matches
+      const singlesData = await fetch(SINGLES_CSV).then(r => r.text());
+      const singlesMatches = Papa.parse(singlesData, { header: true }).data
+        .filter(row => row.player1_id && row.player2_id)
+        .map(normalizeSinglesMatch);
+
+      // Load teams matches
+      const teamsData = await fetch(TEAMS_CSV).then(r => r.text());
+      const teamsMatches = Papa.parse(teamsData, { header: true }).data
+        .filter(row => row.player1_id && row.player2_id)
+        .map(normalizeTeamsMatch);
+
+      // Merge and sort all matches by date
+      const allMatches = [...singlesMatches, ...teamsMatches].sort((a, b) => new Date(a.date) - new Date(b.date));
+
+      // Recalculate Elo for all players from scratch
+      const eloMap = {};
+      const statsMap = {};
+      const matchesMap = {};
+      allMatches.forEach(match => {
+        const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction } = match;
+        if (!eloMap[player1_id]) eloMap[player1_id] = 1500;
+        if (!eloMap[player2_id]) eloMap[player2_id] = 1500;
+        if (!statsMap[player1_id]) statsMap[player1_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
+        if (!statsMap[player2_id]) statsMap[player2_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
+        if (!matchesMap[player1_id]) matchesMap[player1_id] = [];
+        if (!matchesMap[player2_id]) matchesMap[player2_id] = [];
+        // Determine result
+        let result1, result2;
+        if (score1 > score2) {
+          result1 = 1; result2 = 0;
+          statsMap[player1_id].wins++;
+          statsMap[player2_id].losses++;
+        } else if (score1 < score2) {
+          result1 = 0; result2 = 1;
+          statsMap[player2_id].wins++;
+          statsMap[player1_id].losses++;
+        } else {
+          result1 = 0.5; result2 = 0.5;
+          statsMap[player1_id].draws++;
+          statsMap[player2_id].draws++;
+        }
+        statsMap[player1_id].games++;
+        statsMap[player2_id].games++;
+        // Update Elo
+        const [newElo1, newElo2] = calculateEloForMatch(eloMap[player1_id], eloMap[player2_id], score1, score2);
+        // Save match info for player detail
+        matchesMap[player1_id].push({
+          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Singles',
+        });
+        matchesMap[player2_id].push({
+          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Singles',
+        });
+        eloMap[player1_id] = newElo1;
+        eloMap[player2_id] = newElo2;
+      });
+
+      // Process teams matches separately
+      const teamsDataRaw = await fetch(TEAMS_CSV).then(r => r.text());
+      const teamsMatchesRaw = Papa.parse(teamsDataRaw, { header: true }).data
+        .filter(row => row.player1_id && row.player2_id);
+      
+      teamsMatchesRaw.forEach(match => {
+        const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction } = match;
+        if (!eloMap[player1_id]) eloMap[player1_id] = 1500;
+        if (!eloMap[player2_id]) eloMap[player2_id] = 1500;
+        if (!statsMap[player1_id]) statsMap[player1_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
+        if (!statsMap[player2_id]) statsMap[player2_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
+        if (!matchesMap[player1_id]) matchesMap[player1_id] = [];
+        if (!matchesMap[player2_id]) matchesMap[player2_id] = [];
+        
+        // Determine result
+        let result1, result2;
+        if (score1 > score2) {
+          result1 = 1; result2 = 0;
+          statsMap[player1_id].wins++;
+          statsMap[player2_id].losses++;
+        } else if (score1 < score2) {
+          result1 = 0; result2 = 1;
+          statsMap[player2_id].wins++;
+          statsMap[player1_id].losses++;
+        } else {
+          result1 = 0.5; result2 = 0.5;
+          statsMap[player1_id].draws++;
+          statsMap[player2_id].draws++;
+        }
+        statsMap[player1_id].games++;
+        statsMap[player2_id].games++;
+        
+        // Update Elo
+        const [newElo1, newElo2] = calculateEloForMatch(eloMap[player1_id], eloMap[player2_id], score1, score2);
+        
+        // Save match info for player detail with Teams type
+        matchesMap[player1_id].push({
+          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Teams',
+        });
+        matchesMap[player2_id].push({
+          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Teams',
+        });
+        eloMap[player1_id] = newElo1;
+        eloMap[player2_id] = newElo2;
+      });
+
+      // Build leaderboard array
+      const leaderboardArr = Object.keys(eloMap).map(pid => ({
+        player_id: pid,
+        name: playerMap[pid]?.name || playerMap[pid]?.id || pid,
+        state: playerMap[pid]?.state || '',
+        elo: Math.round(eloMap[pid]),
+        ...statsMap[pid],
+        matches: matchesMap[pid] || [],
+      }));
+      leaderboardArr.sort((a, b) => b.elo - a.elo);
+      setAllPlayers(leaderboardArr);
+      
+      // Find the specific player
+      const foundPlayer = leaderboardArr.find(p => p.player_id === id);
+      setPlayer(foundPlayer);
+      setLoading(false);
+    }
+    fetchData();
   }, [id]);
 
-  // Helper to get possible image filenames from faction name
   function getFactionImageCandidates(faction) {
     if (!faction) return [];
     const trimmed = faction.trim();
-    const noParens = trimmed.replace(/[()']/g, '');
-    const noSpecial = noParens.replace(/[^a-zA-Z0-9 \-_]/g, '');
+    const noParens = trimmed.replace(/[()]/g, ''); // Only remove parentheses, keep apostrophes
+    const noSpecial = noParens.replace(/[^a-zA-Z0-9 \-_']/g, ''); // Keep apostrophes
     const underscore = noSpecial.replace(/\s+/g, '_');
     const noSpace = noSpecial.replace(/\s+/g, '');
     const lower = noSpecial.toLowerCase();
@@ -59,11 +214,10 @@ export default function PlayerDetail({ allPlayers }) {
       }
     }
     console.log('Faction image candidates for', faction, ':', candidates);
-    window.factionImageCandidates = candidates; // For manual inspection
     return candidates;
   }
 
-  // Calculate most played faction logic only if player exists
+  // Most played faction
   let mostPlayedFactions = '';
   let mainFaction = null;
   if (player) {
@@ -92,38 +246,48 @@ export default function PlayerDetail({ allPlayers }) {
     (async () => {
       for (const url of candidates) {
         try {
-          // Try to load the image directly instead of using HEAD request
-          const img = new Image();
-          img.onload = () => {
-            setFactionBgImage(url);
+          const res = await fetch(url, { method: 'HEAD' });
+          if (res.ok) {
             console.log('Faction image found:', url);
-          };
-          img.onerror = () => {
-            console.log('Image failed to load:', url);
-          };
-          img.src = url;
-          
-          // Wait a bit to see if the image loads
-          await new Promise((resolve) => {
-            setTimeout(resolve, 100);
-          });
-          
-          if (img.complete && img.naturalWidth > 0) {
+            setFactionBgImage(url);
             found = true;
             break;
+          } else {
+            console.log('Faction image not found:', url, 'Status:', res.status);
           }
-        } catch (e) { 
-          console.log('Error loading image', url, e); 
+        } catch (e) {
+          console.log('Error fetching', url, e);
         }
       }
       if (!found) {
-        setFactionBgImage(null);
         console.log('No faction image found for', mainFaction);
+        setFactionBgImage(null);
       }
     })();
   }, [mainFaction]);
 
-  if (!player) return <div className="p-6">Player not found.</div>;
+  if (loading) {
+    return (
+      <div className="max-w-4xl mx-auto p-6">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Loading...</h1>
+        </div>
+      </div>
+    );
+  }
+
+  if (!player) {
+    return (
+      <div className="max-w-4xl mx-auto p-6">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Player Not Found</h1>
+          <Link to="/overall-leaderboard" className="text-indigo-600 dark:text-indigo-400 hover:underline">
+            ← Back to Overall Leaderboard
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   const getRankLabel = (elo, rankPosition = null) => {
     if (rankPosition && rankPosition > 0 && rankPosition <= 10) return 'War-Master';
@@ -153,7 +317,7 @@ export default function PlayerDetail({ allPlayers }) {
   };
 
   const sortedByElo = [...allPlayers].sort((a, b) => b.elo - a.elo);
-  const rankPosition = sortedByElo.findIndex((p) => p.id === player.id) + 1;
+  const rankPosition = sortedByElo.findIndex((p) => p.player_id === player.player_id) + 1;
   const { rank, color } = getRankInfo(player.elo, rankPosition);
 
   const totalMatches = player.matches.length;
@@ -164,7 +328,7 @@ export default function PlayerDetail({ allPlayers }) {
 
   // Calculate Average Opponent Elo
   const totalOpponentElo = player.matches.reduce((sum, match) => {
-    return sum + (match.opponentElo || 0);
+    return sum + (match.eloBefore || 0);
   }, 0);
   const averageOpponentElo = totalMatches > 0 ? Math.round(totalOpponentElo / totalMatches) : 0;
 
@@ -203,22 +367,8 @@ export default function PlayerDetail({ allPlayers }) {
       rankNote = (match.eloChange > 0 ? 'Promoted to' : 'Demoted to') + ` ${newRank}`;
     }
 
-    let score = match.score;
-    let opponentScore = match.opponentScore;
-    if (score === undefined || opponentScore === undefined) {
-      if (match.player1_id === player.id) {
-        score = match.score1;
-        opponentScore = match.score2;
-      } else {
-        score = match.score2;
-        opponentScore = match.score1;
-      }
-    }
-
     return {
       ...match,
-      score,
-      opponentScore,
       rankNote,
       cumulativeElo: Math.round(runningEloForAnnotation),
     };
@@ -430,7 +580,7 @@ export default function PlayerDetail({ allPlayers }) {
 
             // Calculate Elo for player and opponent before this match
             let playerEloBefore = match.cumulativeElo - (match.eloChange || 0);
-            let opponentEloBefore = match.opponentElo;
+            let opponentEloBefore = match.eloBefore;
             // If opponentElo is not present, fallback to 1500
             if (opponentEloBefore === undefined) opponentEloBefore = 1500;
             const playerRankAtMatch = getRankLabel(playerEloBefore, null);
@@ -448,6 +598,9 @@ export default function PlayerDetail({ allPlayers }) {
                     >
                       {opponentRankAtMatch}
                     </span>
+                    <span className={`ml-2 inline-flex items-center px-2 py-1 rounded-full text-xs font-bold ${match.matchType === 'Teams' ? 'bg-blue-100 text-blue-800' : 'bg-purple-100 text-purple-800'}`}>
+                      {match.matchType}
+                    </span>
                   </p>
                   <p className="text-xs text-gray-600 dark:text-gray-300 mb-1 mt-1">
                     ({match.playerFaction} vs {match.opponentFaction})
@@ -455,7 +608,7 @@ export default function PlayerDetail({ allPlayers }) {
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
-                    })} | Game {match.gameNumber || idx + 1} {match.eventName && `| ${match.eventName}`}
+                    })}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore}
@@ -515,4 +668,4 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
     </div>
   );
-}
+} 

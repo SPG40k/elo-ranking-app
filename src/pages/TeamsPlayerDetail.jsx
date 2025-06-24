@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from 'recharts';
 
-// State color mapping (copied from Leaderboard)
 const stateColors = {
   ACT: 'bg-blue-900 text-white',
   NSW: 'bg-blue-300 text-blue-900',
@@ -18,11 +17,10 @@ const stateColors = {
   NZS: 'bg-gray-700 text-white',
 };
 
-export default function PlayerDetail({ allPlayers }) {
+export default function TeamsPlayerDetail({ allPlayers }) {
   const { id } = useParams();
   const [showMoreMatches, setShowMoreMatches] = useState(false);
   const [showStats, setShowStats] = useState(false);
-  // For background image
   const [factionBgImage, setFactionBgImage] = useState(null);
 
   const player = allPlayers.find((p) => p.id === id);
@@ -123,7 +121,18 @@ export default function PlayerDetail({ allPlayers }) {
     })();
   }, [mainFaction]);
 
-  if (!player) return <div className="p-6">Player not found.</div>;
+  if (!player) {
+    return (
+      <div className="max-w-4xl mx-auto p-6">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white mb-4">Player Not Found</h1>
+          <Link to="/teams" className="text-indigo-600 dark:text-indigo-400 hover:underline">
+            ← Back to Teams Leaderboard
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   const getRankLabel = (elo, rankPosition = null) => {
     if (rankPosition && rankPosition > 0 && rankPosition <= 10) return 'War-Master';
@@ -203,22 +212,8 @@ export default function PlayerDetail({ allPlayers }) {
       rankNote = (match.eloChange > 0 ? 'Promoted to' : 'Demoted to') + ` ${newRank}`;
     }
 
-    let score = match.score;
-    let opponentScore = match.opponentScore;
-    if (score === undefined || opponentScore === undefined) {
-      if (match.player1_id === player.id) {
-        score = match.score1;
-        opponentScore = match.score2;
-      } else {
-        score = match.score2;
-        opponentScore = match.score1;
-      }
-    }
-
     return {
       ...match,
-      score,
-      opponentScore,
       rankNote,
       cumulativeElo: Math.round(runningEloForAnnotation),
     };
@@ -250,8 +245,17 @@ export default function PlayerDetail({ allPlayers }) {
   const worstLoss = player.matches.filter(m => m.result === 'Loss')
     .reduce((prev, curr) => (curr.eloChange < (prev?.eloChange || Infinity) ? curr : prev), null);
 
+  const stateCode = player.state || '';
+  const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600 dark:text-gray-300';
+
   return (
     <div className="max-w-4xl mx-auto p-2 sm:p-3 md:p-6">
+      <div className="mb-6">
+        <Link to="/teams" className="text-indigo-600 dark:text-indigo-400 hover:underline">
+          ← Back to Teams Leaderboard
+        </Link>
+      </div>
+
       {/* Player Info Header */}
       <div
         className="shadow-lg rounded-2xl p-3 sm:p-4 md:p-6 mb-4 sm:mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
@@ -277,7 +281,7 @@ export default function PlayerDetail({ allPlayers }) {
         {player.state && (
           <div className="my-1 sm:my-2 md:my-4">
             <span
-              className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
+              className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${stateColorClass}`}
               style={{ minWidth: 50, textAlign: 'center' }}
               title={player.state}
             >
@@ -424,9 +428,26 @@ export default function PlayerDetail({ allPlayers }) {
         <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-700 dark:text-white mb-3 sm:mb-4">Match History</h2>
         <ul className="space-y-3">
           {(showMoreMatches ? annotatedMatches.slice().reverse() : annotatedMatches.slice().reverse().slice(0, 3)).map((match, idx) => {
+            // Color code by team result, using draw logic
             let resultClass = 'bg-gray-100 border-gray-300 dark:bg-gray-800 dark:border-gray-600';
-            if (match.result === 'Win') resultClass = 'bg-green-200 border-green-400 dark:bg-green-900 dark:border-green-500';
-            else if (match.result === 'Loss') resultClass = 'bg-red-200 border-red-400 dark:bg-red-900 dark:border-red-500';
+            if (typeof match.teamScore === 'number' && typeof match.opponentTeamScore === 'number') {
+              const total = match.teamScore + match.opponentTeamScore;
+              const midpoint = total / 2;
+              const drawMin = midpoint - 5;
+              const drawMax = midpoint + 5;
+              if (match.teamScore >= drawMin && match.teamScore <= drawMax) {
+                resultClass = 'bg-yellow-100 border-yellow-400 dark:bg-yellow-900 dark:border-yellow-500'; // Draw
+              } else if (match.teamScore > match.opponentTeamScore) {
+                resultClass = 'bg-green-200 border-green-400 dark:bg-green-900 dark:border-green-500'; // Win
+              } else if (match.teamScore < match.opponentTeamScore) {
+                resultClass = 'bg-red-200 border-red-400 dark:bg-red-900 dark:border-red-500'; // Loss
+              }
+            } else {
+              // fallback for singles or missing data
+              if (match.result === 'Win') resultClass = 'bg-green-200 border-green-400 dark:bg-green-900 dark:border-green-500';
+              else if (match.result === 'Loss') resultClass = 'bg-red-200 border-red-400 dark:bg-red-900 dark:border-red-500';
+              else if (match.result === 'Draw') resultClass = 'bg-yellow-100 border-yellow-400 dark:bg-yellow-900 dark:border-yellow-500';
+            }
 
             // Calculate Elo for player and opponent before this match
             let playerEloBefore = match.cumulativeElo - (match.eloChange || 0);
@@ -455,10 +476,10 @@ export default function PlayerDetail({ allPlayers }) {
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
-                    })} | Game {match.gameNumber || idx + 1} {match.eventName && `| ${match.eventName}`}
+                    })} | Game {match.gameNumber || idx + 1} (Table {match.tableNumber}) {match.eventName && `| ${match.eventName}`}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
-                    Score: {match.score} - {match.opponentScore}
+                    Score: {match.score} - {match.opponentScore} | Team: {match.teamScore} - {match.opponentTeamScore}
                   </p>
                   {match.rankNote && (() => {
                     // Parse the rankNote, e.g., 'Promoted to War-Master' or 'Demoted to Chapter-Master'
@@ -515,4 +536,4 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
     </div>
   );
-}
+} 

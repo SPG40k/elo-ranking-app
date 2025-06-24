@@ -2,10 +2,10 @@ function Leaderboard({ allPlayers }) {
   const sorted = [...allPlayers].sort((a, b) => b.elo - a.elo);
 
   return (
-    <div className="w-screen sm:w-full mx-auto p-0 sm:p-2 md:p-4 lg:p-8 bg-indigo-950">
-      <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-indigo-100 mb-2 sm:mb-3 md:mb-4">Leaderboard</h2>
+    <div className="w-full max-w-full mx-0 p-0 bg-indigo-950">
+      <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl font-bold text-indigo-100 mb-2 sm:mb-3 md:mb-4 pl-2">Leaderboard</h2>
       <div className="w-full overflow-x-auto">
-        <table className="min-w-max table-auto border border-indigo-300 text-xs sm:text-sm md:text-base bg-indigo-900">
+        <table className="min-w-[400px] table-auto border border-indigo-300 text-xs sm:text-sm md:text-base bg-indigo-900 mx-0">
           <thead className="bg-indigo-800">
             <tr>
               <th className="p-1 text-left w-6 sm:w-8 md:w-auto whitespace-nowrap text-indigo-100">#</th>

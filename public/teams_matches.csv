@@ -1014,7 +1014,7 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 1,04,093,097,0064,0078,123,37,15,5,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Necrons
 1,04,093,097,0429,0081,123,37,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),--------
 1,04,093,097,0051,0431,123,37,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,--------
-1,05,094,086,0885,0107,101,59,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Space Marines (Astartes)
+1,05,094,086,0597,0107,101,59,17,3,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Space Marines (Astartes)
 1,05,094,086,0732,0707,101,59,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Chaos Daemons
 1,05,094,086,0122,0404,101,59,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Leagues of Votann
 1,05,094,086,0305,0457,101,59,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Tyranids
@@ -1072,7 +1072,7 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 2,05,098,092,0094,0096,102,58,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Space Marines (Astartes),Astra Militarum
 2,06,096,094,0878,0881,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Aeldari,Adeptus Custodes
 2,06,096,094,0888,0884,129,31,14,6,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Death Guard
-2,06,096,094,0877,0885,129,31,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Drukhari
+2,06,096,094,0877,0597,129,31,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Mechanicus,Drukhari
 2,06,096,094,0882,0732,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Orks,Necrons
 2,06,096,094,0796,0222,129,31,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Genestealer Cult,Chaos Daemons
 2,06,096,094,0890,0305,129,31,18,2,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adepta Sororitas,World Eaters
@@ -1116,7 +1116,7 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 3,05,094,097,0122,0061,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Blood Angels
 3,05,094,097,0305,0078,74,86,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,Necrons
 3,05,094,097,0222,0081,74,86,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,--------
-3,05,094,097,0885,0445,74,86,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Orks
+3,05,094,097,0597,0445,74,86,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Orks
 3,05,094,097,0884,0054,74,86,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Drukhari
 4,01,093,072,0064,0867,40,120,3,17,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Tyranids,Chaos Daemons
 4,01,093,072,0430,0883,40,120,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Imperial Knights,Thousand Sons
@@ -1130,7 +1130,7 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 4,02,094,099,0222,0093,71,89,16,4,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Space Marines (Astartes)
 4,02,094,099,0305,0071,71,89,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,World Eaters,--------
 4,02,094,099,0732,0091,71,89,1,19,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Adeptus Custodes
-4,02,094,099,0885,0464,71,89,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,World Eaters
+4,02,094,099,0597,0464,71,89,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,World Eaters
 4,02,094,099,0122,0889,71,89,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Knights
 4,02,094,099,0884,0880,71,89,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Genestealer Cult
 4,02,094,099,0689,0363,71,89,0,20,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Death Guard
@@ -1201,7 +1201,7 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 5,06,094,086,0884,0876,106,54,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Death Guard,Astra Militarum
 5,06,094,086,0222,0404,106,54,12,8,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Chaos Daemons,Leagues of Votann
 5,06,094,086,0881,0457,106,54,10,10,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Adeptus Custodes,Tyranids
-5,06,094,086,0885,0765,106,54,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Thousand Sons
+5,06,094,086,0597,0765,106,54,20,0,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Drukhari,Thousand Sons
 5,06,094,086,0732,0107,106,54,6,14,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Necrons,Space Marines (Astartes)
 5,06,094,086,0122,0707,106,54,11,9,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Astra Militarum,Chaos Daemons
 5,06,094,086,0689,0705,106,54,19,1,2025-03-14,South Pacific War Gaming - 8 Player Teams - The Horsemen Return,Black Templars,Grey Knights

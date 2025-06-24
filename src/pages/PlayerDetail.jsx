@@ -236,34 +236,34 @@ export default function PlayerDetail({ allPlayers }) {
     .reduce((prev, curr) => (curr.eloChange < (prev?.eloChange || Infinity) ? curr : prev), null);
 
   return (
-    <div className="w-full mx-auto p-0 sm:p-3 md:p-6">
+    <div className="max-w-4xl mx-auto p-2 sm:p-3 md:p-6">
       {/* Player Info Header */}
       <div
-        className="shadow-lg rounded-none sm:rounded-2xl p-4 sm:p-6 mb-6 border-0 sm:border border-gray-200 dark:border-gray-700 relative overflow-hidden"
+        className="shadow-lg rounded-2xl p-3 sm:p-4 md:p-6 mb-4 sm:mb-6 border border-gray-200 dark:border-gray-700 relative overflow-hidden"
         style={factionBgImage ? {
-          minHeight: '280px',
+          minHeight: '200px',
           backgroundColor: 'transparent',
           backgroundImage: `url('${factionBgImage}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
         } : {
-          minHeight: '280px',
+          minHeight: '200px',
           backgroundColor: 'transparent'
         }}
       >
         {/* Rank badge and Elo */}
         <div className="absolute top-2 sm:top-4 right-2 sm:right-4 flex flex-col items-end gap-1 sm:gap-2">
-          <span className={`px-4 sm:px-8 py-2 sm:py-3 rounded-full font-bold text-sm sm:text-lg shadow ${color}`}>{rank}</span>
-          <span className="text-lg sm:text-xl font-bold text-white border-white rounded px-2 sm:px-4 py-1 shadow border mt-1">Elo: {Math.round(player.elo)}</span>
+          <span className={`px-3 sm:px-4 md:px-8 py-1.5 sm:py-2 md:py-3 rounded-full font-bold text-xs sm:text-sm md:text-lg shadow ${color}`}>{rank}</span>
+          <span className="text-sm sm:text-lg md:text-xl font-bold text-white border-white rounded px-1.5 sm:px-2 md:px-4 py-0.5 sm:py-1 shadow border mt-1">Elo: {Math.round(player.elo)}</span>
         </div>
         {/* Player name and location */}
-        <h1 className="text-2xl sm:text-4xl md:text-5xl font-extrabold text-white mb-1 pr-20 sm:pr-0">{player.name}</h1>
+        <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-extrabold text-white mb-1 pr-16 sm:pr-20 md:pr-0">{player.name}</h1>
         {player.state && (
-          <div className="my-2 sm:my-4">
+          <div className="my-1 sm:my-2 md:my-4">
             <span
-              className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
-              style={{ minWidth: 60, textAlign: 'center' }}
+              className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${stateColors[player.state.toUpperCase()] || 'text-gray-600 dark:text-gray-300'}`}
+              style={{ minWidth: 50, textAlign: 'center' }}
               title={player.state}
             >
               {player.state}
@@ -272,13 +272,13 @@ export default function PlayerDetail({ allPlayers }) {
         )}
 
         {/* Avg Opponent Elo as a pill */}
-        <div className="mb-2 sm:mb-4">
+        <div className="mb-1 sm:mb-2 md:mb-4">
           {(() => {
             const { color } = getRankInfo(averageOpponentElo, null);
             return (
               <span
-                className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color}`}
-                style={{ minWidth: 60, textAlign: 'center' }}
+                className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color}`}
+                style={{ minWidth: 50, textAlign: 'center' }}
                 title={`Avg. Opponent Elo: ${averageOpponentElo}`}
               >
                 <span className="hidden sm:inline">Avg. Opponent Elo: </span>
@@ -289,7 +289,7 @@ export default function PlayerDetail({ allPlayers }) {
           })()}
         </div>
 
-        <div className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color} mb-4`} style={{ minWidth: 60, textAlign: 'center' }}>
+        <div className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color} mb-4`} style={{ minWidth: 50, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
       </div>
@@ -297,14 +297,14 @@ export default function PlayerDetail({ allPlayers }) {
       {/* Show More Stats button and dropdown as a separate card */}
       <div className="flex justify-center">
         <button
-          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-4 rounded-lg shadow-md transition duration-300 ease-in-out mb-4 text-sm sm:text-base"
+          className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-1.5 sm:py-2 px-3 sm:px-4 rounded-lg shadow-md transition duration-300 ease-in-out mb-3 sm:mb-4 text-xs sm:text-sm md:text-base"
           onClick={() => setShowStats(!showStats)}
         >
           {showStats ? 'Hide Stats' : 'Show More Stats'}
         </button>
       </div>
       {showStats && (
-        <div className="space-y-4 mt-0 mb-6 bg-white dark:bg-gray-900 shadow p-4 sm:p-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
+        <div className="space-y-3 sm:space-y-4 mt-0 mb-4 sm:mb-6 bg-white dark:bg-gray-900 rounded-2xl shadow p-3 sm:p-4 md:p-6 border border-gray-200 dark:border-gray-700">
           {/* Highest Achieved Elo and Rank */}
           <div className="mb-2">
             {(() => {
@@ -330,59 +330,59 @@ export default function PlayerDetail({ allPlayers }) {
                 color = getRankInfo(maxElo, null).color;
               }
               return (
-                <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-3 sm:px-4 py-3 font-bold text-base sm:text-lg text-center flex flex-col items-center gap-2">
-                  <span className={`inline-block px-2 sm:px-3 py-1 sm:py-1.5 rounded-full text-sm sm:text-lg font-bold ${color}`}
-                    style={{ minWidth: 60, textAlign: 'center' }}
+                <div className="bg-indigo-100 dark:bg-indigo-900 text-indigo-900 dark:text-indigo-100 rounded-lg px-2 sm:px-3 md:px-4 py-2 sm:py-3 font-bold text-sm sm:text-base md:text-lg text-center flex flex-col items-center gap-1 sm:gap-2">
+                  <span className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color}`}
+                    style={{ minWidth: 50, textAlign: 'center' }}
                     title={highestRank}
                   >
                     {highestRank}
                   </span>
-                  <span className="text-sm sm:text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
+                  <span className="text-xs sm:text-sm md:text-base font-semibold text-indigo-900 dark:text-indigo-100">Peak Elo: {Math.round(maxElo)}</span>
                 </div>
               );
             })()}
           </div>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-4 text-center">
-            <div className="bg-gray-100 dark:bg-gray-800 p-2 sm:p-3 rounded-lg text-gray-800 dark:text-gray-100">
-              <p className="text-xs sm:text-sm text-gray-500">Games Played</p>
-              <p className="text-lg sm:text-xl font-bold">{totalMatches}</p>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1.5 sm:gap-2 md:gap-4 text-center">
+            <div className="bg-gray-100 dark:bg-gray-800 p-1.5 sm:p-2 md:p-3 rounded-lg text-gray-800 dark:text-gray-100">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-500">Games Played</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold">{totalMatches}</p>
             </div>
-            <div className="bg-green-100 p-2 sm:p-3 rounded-lg">
-              <p className="text-xs sm:text-sm text-gray-600">Wins</p>
-              <p className="text-lg sm:text-xl font-bold text-green-800">{totalWins}</p>
+            <div className="bg-green-100 p-1.5 sm:p-2 md:p-3 rounded-lg">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">Wins</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold text-green-800">{totalWins}</p>
             </div>
-            <div className="bg-red-100 p-2 sm:p-3 rounded-lg">
-              <p className="text-xs sm:text-sm text-gray-600">Losses</p>
-              <p className="text-lg sm:text-xl font-bold text-red-700">{totalLosses}</p>
+            <div className="bg-red-100 p-1.5 sm:p-2 md:p-3 rounded-lg">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">Losses</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold text-red-700">{totalLosses}</p>
             </div>
-            <div className="bg-yellow-100 p-2 sm:p-3 rounded-lg">
-              <p className="text-xs sm:text-sm text-gray-600">Draws</p>
-              <p className="text-lg sm:text-xl font-bold text-yellow-700">{totalDraws}</p>
+            <div className="bg-yellow-100 p-1.5 sm:p-2 md:p-3 rounded-lg">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">Draws</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold text-yellow-700">{totalDraws}</p>
             </div>
           </div>
 
-          <div className="grid grid-cols-2 gap-2 sm:gap-4 text-center">
-            <div className="bg-green-50 p-2 sm:p-3 rounded-lg">
-              <p className="text-xs sm:text-sm text-gray-600">Longest Win Streak</p>
-              <p className="text-lg sm:text-xl font-bold">{maxWinStreak}</p>
+          <div className="grid grid-cols-2 gap-1.5 sm:gap-2 md:gap-4 text-center">
+            <div className="bg-green-50 p-1.5 sm:p-2 md:p-3 rounded-lg">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">Longest Win Streak</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold">{maxWinStreak}</p>
             </div>
-            <div className="bg-rose-50 p-2 sm:p-3 rounded-lg">
-              <p className="text-xs sm:text-sm text-gray-600">Longest Loss Streak</p>
-              <p className="text-lg sm:text-xl font-bold">{maxLossStreak}</p>
+            <div className="bg-rose-50 p-1.5 sm:p-2 md:p-3 rounded-lg">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">Longest Loss Streak</p>
+              <p className="text-sm sm:text-lg md:text-xl font-bold">{maxLossStreak}</p>
             </div>
           </div>
 
           {bestWin && (
-            <div className="bg-green-100 p-2 sm:p-3 rounded-lg text-center">
-              <p className="text-xs sm:text-sm text-gray-600">
+            <div className="bg-green-100 p-1.5 sm:p-2 md:p-3 rounded-lg text-center">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">
                 Best Win: +{bestWin.eloChange} Elo vs {bestWin.opponentName}
               </p>
             </div>
           )}
 
           {worstLoss && (
-            <div className="bg-red-100 p-2 sm:p-3 rounded-lg text-center">
-              <p className="text-xs sm:text-sm text-gray-600">
+            <div className="bg-red-100 p-1.5 sm:p-2 md:p-3 rounded-lg text-center">
+              <p className="text-xs sm:text-xs md:text-sm text-gray-600">
                 Worst Loss: {worstLoss.eloChange} Elo vs {worstLoss.opponentName}
               </p>
             </div>
@@ -391,9 +391,9 @@ export default function PlayerDetail({ allPlayers }) {
       )}
 
       {/* Elo Progression Chart */}
-      <div className="bg-white dark:bg-gray-900 shadow p-4 sm:p-6 mb-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
-        <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Elo Progression</h2>
-        <ResponsiveContainer width="100%" height={250}>
+      <div className="bg-white dark:bg-gray-900 rounded-2xl shadow p-3 sm:p-4 md:p-6 mb-4 sm:mb-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-700 dark:text-white mb-3 sm:mb-4">Elo Progression</h2>
+        <ResponsiveContainer width="100%" height={200}>
           <LineChart data={eloHistory}>
             <CartesianGrid stroke="#eee" strokeDasharray="5 5" />
             <XAxis dataKey="match" tick={{ fill: '#6b7280' }} />
@@ -405,8 +405,8 @@ export default function PlayerDetail({ allPlayers }) {
       </div>
 
       {/* Match History */}
-      <div className="bg-white dark:bg-gray-900 shadow p-4 sm:p-6 border-0 sm:border border-gray-200 dark:border-gray-700 rounded-none sm:rounded-2xl">
-        <h2 className="text-lg sm:text-xl font-bold text-gray-700 dark:text-white mb-4">Match History</h2>
+      <div className="bg-white dark:bg-gray-900 shadow rounded-2xl p-3 sm:p-4 md:p-6 border border-gray-200 dark:border-gray-700">
+        <h2 className="text-base sm:text-lg md:text-xl font-bold text-gray-700 dark:text-white mb-3 sm:mb-4">Match History</h2>
         <ul className="space-y-3">
           {(showMoreMatches ? annotatedMatches.slice().reverse() : annotatedMatches.slice().reverse().slice(0, 3)).map((match, idx) => {
             let resultClass = 'bg-gray-100 border-gray-300 dark:bg-gray-800 dark:border-gray-600';

@@ -4235,13 +4235,13 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 1,0005,0120,79,78,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Space Wolves
 1,0082,0086,84,61,2025-06-06,South Pacific Gaming 40k Super Major,World Eaters,Deathwatch
 1,0115,0509,89,37,2025-06-06,South Pacific Gaming 40k Super Major,Orks,Adeptus Custodes
-1,0789,0219,68,57,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Knights,Aeldari
+1,0789,0219,68,57,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Knights,Genestealer Cult
 2,0120,0096,98,56,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Astra Militarum
 2,0126,0115,100,64,2025-06-06,South Pacific Gaming 40k Super Major,Emperor's Children,Orks
 2,0086,0818,86,70,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Space Wolves
 2,0817,0093,87,82,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Space Marines,Space Marines (Astartes)
 2,0337,0377,82,32,2025-06-06,South Pacific Gaming 40k Super Major,Leagues of Votann,Chaos Space Marines
-2,0071,0219,92,89,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Aeldari
+2,0071,0219,92,89,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Genestealer Cult
 2,0507,0404,79,55,2025-06-06,South Pacific Gaming 40k Super Major,Adepta Sororitas,T'au Empire
 2,0001,0365,59,10,2025-06-06,South Pacific Gaming 40k Super Major,Thousand Sons,Necrons
 2,0065,0789,87,61,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Chaos Knights
@@ -4259,14 +4259,14 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,0082,0817,73,63,2025-06-06,South Pacific Gaming 40k Super Major,World Eaters,Chaos Space Marines
 3,0507,0337,76,66,2025-06-06,South Pacific Gaming 40k Super Major,Adepta Sororitas,Leagues of Votann
 3,0372,0365,81,10,2025-06-06,South Pacific Gaming 40k Super Major,Aeldari,Necrons
-3,0219,0469,68,48,2025-06-06,South Pacific Gaming 40k Super Major,Aeldari,World Eaters
+3,0219,0469,68,48,2025-06-06,South Pacific Gaming 40k Super Major,Genestealer Cult,World Eaters
 3,0120,0002,100,40,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Adeptus Mechanicus
 3,0818,0093,98,30,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Space Marines (Astartes)
 3,0376,0377,92,60,2025-06-06,South Pacific Gaming 40k Super Major,Death Guard,Chaos Space Marines
 3,0071,0086,76,63,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Deathwatch
 4,0096,0003,69,64,2025-06-06,South Pacific Gaming 40k Super Major,Astra Militarum,Orks
 4,0005,0818,88,84,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Space Wolves
-4,0086,0219,92,90,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Aeldari
+4,0086,0219,92,90,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Genestealer Cult
 4,0071,0082,80,78,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),World Eaters
 4,0126,0365,100,61,2025-06-06,South Pacific Gaming 40k Super Major,Emperor's Children,Necrons
 4,0817,0002,94,60,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Space Marines,Adeptus Mechanicus
@@ -4279,7 +4279,7 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 4,0140,0120,96,90,2025-06-06,South Pacific Gaming 40k Super Major,Imperial Knights,Space Wolves
 4,0789,0507,95,45,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Knights,Adepta Sororitas
 5,0469,0507,66,45,2025-06-06,South Pacific Gaming 40k Super Major,World Eaters,Adepta Sororitas
-5,0219,0002,100,78,2025-06-06,South Pacific Gaming 40k Super Major,Aeldari,Adeptus Mechanicus
+5,0219,0002,100,78,2025-06-06,South Pacific Gaming 40k Super Major,Genestealer Cult,Adeptus Mechanicus
 5,0404,0377,84,67,2025-06-06,South Pacific Gaming 40k Super Major,T'au Empire,Chaos Space Marines
 5,0115,0365,95,74,2025-06-06,South Pacific Gaming 40k Super Major,Orks,Necrons
 5,0818,0003,90,45,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Orks
@@ -4292,7 +4292,7 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 5,0096,0817,98,50,2025-06-06,South Pacific Gaming 40k Super Major,Astra Militarum,Chaos Space Marines
 5,0222,0376,99,21,2025-06-06,South Pacific Gaming 40k Super Major,Necrons,Death Guard
 5,0086,0001,91,47,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Thousand Sons
-6,0219,0372,88,65,2025-06-06,South Pacific Gaming 40k Super Major,Aeldari,Aeldari
+6,0219,0372,88,65,2025-06-06,South Pacific Gaming 40k Super Major,Genestealer Cult,Aeldari
 6,0086,0070,80,57,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Chaos Knights
 6,0001,0817,71,63,2025-06-06,South Pacific Gaming 40k Super Major,Thousand Sons,Chaos Space Marines
 6,0337,0404,95,62,2025-06-06,South Pacific Gaming 40k Super Major,Leagues of Votann,T'au Empire
@@ -4315,14 +4315,14 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 7,0818,0372,73,44,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Aeldari
 7,0222,0005,64,62,2025-06-06,South Pacific Gaming 40k Super Major,Necrons,Space Marines (Astartes)
 7,0120,0507,89,73,2025-06-06,South Pacific Gaming 40k Super Major,Space Wolves,Adepta Sororitas
-7,0365,0219,77,63,2025-06-06,South Pacific Gaming 40k Super Major,Necrons,Aeldari
+7,0365,0219,77,63,2025-06-06,South Pacific Gaming 40k Super Major,Necrons,Genestealer Cult
 7,0097,0376,62,49,2025-06-06,South Pacific Gaming 40k Super Major,Space Marines (Astartes),Death Guard
 7,0086,0096,73,65,2025-06-06,South Pacific Gaming 40k Super Major,Deathwatch,Astra Militarum
 8,0050,0086,85,67,2025-06-06,South Pacific Gaming 40k Super Major,Thousand Sons,Deathwatch
 8,0817,0377,61,38,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Space Marines,Chaos Space Marines
 8,0003,0005,52,50,2025-06-06,South Pacific Gaming 40k Super Major,Orks,Space Marines (Astartes)
 8,0070,0096,71,43,2025-06-06,South Pacific Gaming 40k Super Major,Chaos Knights,Astra Militarum
-8,0219,0120,80,60,2025-06-06,South Pacific Gaming 40k Super Major,Aeldari,Space Wolves
+8,0219,0120,80,60,2025-06-06,South Pacific Gaming 40k Super Major,Genestealer Cult,Space Wolves
 8,0337,0002,65,63,2025-06-06,South Pacific Gaming 40k Super Major,Leagues of Votann,Adeptus Mechanicus
 8,0140,0001,89,20,2025-06-06,South Pacific Gaming 40k Super Major,Imperial Knights,Thousand Sons
 8,0376,0404,65,44,2025-06-06,South Pacific Gaming 40k Super Major,Death Guard,T'au Empire

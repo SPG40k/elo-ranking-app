@@ -8,6 +8,7 @@ import {
 
 import Leaderboard from './components/Leaderboard';
 import TeamsLeaderboard from './components/TeamsLeaderboard';
+import FactionWinrates from './components/FactionWinrates';
 import SubmitMatch from './pages/SubmitMatch';
 import UploadCSV from './components/UploadCSV';
 import PlayerDetail from './pages/PlayerDetail';
@@ -279,9 +280,15 @@ export default function App() {
             </Link>
             <Link 
               to="/teams" 
-              className="px-4 py-2 border border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200 rounded-r-lg"
+              className="px-4 py-2 border-t border-b border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200"
             >
               Teams Leaderboard
+            </Link>
+            <Link 
+              to="/faction-winrates" 
+              className="px-4 py-2 border border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200 rounded-r-lg"
+            >
+              Faction Winrates
             </Link>
           </div>
         </div>
@@ -300,6 +307,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Leaderboard allPlayers={allPlayers} />} />
           <Route path="/teams" element={<TeamsLeaderboard allPlayers={allTeamsPlayers} />} />
+          <Route path="/faction-winrates" element={<FactionWinrates />} />
           <Route path="/teams/player/:id" element={<TeamsPlayerDetail allPlayers={allTeamsPlayers} />} />
           <Route path="/submit" element={<SubmitMatch allPlayers={allPlayers} setAllPlayers={setAllPlayers} />} />
           <Route path="/upload" element={<UploadCSV setAllPlayers={setAllPlayers} />} />

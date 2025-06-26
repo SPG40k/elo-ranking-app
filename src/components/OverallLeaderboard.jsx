@@ -81,7 +81,7 @@ export default function OverallLeaderboard() {
   const [searchTerm, setSearchTerm] = useState('');
   const [stateFilter, setStateFilter] = useState('All');
   const [visibleCount, setVisibleCount] = useState(25);
-  const [hideNoMatches, setHideNoMatches] = useState(true);
+  const [hideNoMatches, setHideNoMatches] = useState(false);
 
   useEffect(() => {
     async function fetchData() {
@@ -189,7 +189,7 @@ export default function OverallLeaderboard() {
   
   const filteredPlayers = sortedPlayers.filter((player) => {
     const nameMatch = player.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const hasMatches = player.games > 0;
+    const hasMatches = player.matches && player.matches.length > 0;
     const stateCode = player.state ? player.state.toUpperCase() : '';
     let stateMatch = false;
     if (stateFilter === 'All') {
@@ -201,7 +201,7 @@ export default function OverallLeaderboard() {
     } else {
       stateMatch = stateCode === stateFilter;
     }
-    return nameMatch && stateMatch && (hideNoMatches ? hasMatches : true);
+    return nameMatch && stateMatch && (!hideNoMatches || hasMatches);
   });
   const visiblePlayers = filteredPlayers.slice(0, visibleCount);
 
@@ -251,11 +251,11 @@ export default function OverallLeaderboard() {
         <label className="flex items-center text-sm gap-2 dark:text-gray-200">
           <input
             type="checkbox"
-            checked={!hideNoMatches}
-            onChange={() => setHideNoMatches(hideNoMatches => !hideNoMatches)}
+            checked={hideNoMatches}
+            onChange={() => setHideNoMatches(!hideNoMatches)}
             className="accent-indigo-600"
           />
-          Show players with no matches
+          Hide players with no matches
         </label>
       </div>
       <table className="w-full border-collapse bg-white dark:bg-gray-900 shadow rounded-xl overflow-hidden">

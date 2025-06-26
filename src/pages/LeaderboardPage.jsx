@@ -1,28 +1,5 @@
-import React, { useState } from 'react';
-
 function Leaderboard({ allPlayers }) {
-  const [hideNoMatches, setHideNoMatches] = useState(true);
-  const [searchTerm, setSearchTerm] = useState('');
-  const [stateFilter, setStateFilter] = useState('All');
-
   const sorted = [...allPlayers].sort((a, b) => b.elo - a.elo);
-
-  const filteredPlayers = sorted.filter((player) => {
-    const nameMatch = player.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const hasMatches = player.games > 0;
-    const stateCode = player.state ? player.state.toUpperCase() : '';
-    let stateMatch = false;
-    if (stateFilter === 'All') {
-      stateMatch = true;
-    } else if (stateFilter === 'Australia') {
-      stateMatch = ['ACT', 'NSW', 'NT', 'QLD', 'SA', 'TAS', 'VIC', 'WA'].includes(stateCode);
-    } else if (stateFilter === 'New Zealand') {
-      stateMatch = ['NZN', 'NZS'].includes(stateCode);
-    } else {
-      stateMatch = stateCode === stateFilter;
-    }
-    return nameMatch && stateMatch && (hideNoMatches ? hasMatches : true);
-  });
 
   return (
     <div className="w-full max-w-full mx-0 p-0 bg-indigo-950">
@@ -39,7 +16,7 @@ function Leaderboard({ allPlayers }) {
             </tr>
           </thead>
           <tbody>
-            {filteredPlayers.map((player, index) => (
+            {sorted.map((player, index) => (
               <tr key={player.id} className="border-t border-indigo-800">
                 <td className="p-1 whitespace-nowrap text-indigo-50 text-center">
                   <span
@@ -78,33 +55,6 @@ function Leaderboard({ allPlayers }) {
             ))}
           </tbody>
         </table>
-      </div>
-      <div className="mt-4 flex items-center justify-between">
-        <label className="flex items-center text-sm gap-2 dark:text-gray-200">
-          <input
-            type="checkbox"
-            checked={!hideNoMatches}
-            onChange={() => setHideNoMatches(hideNoMatches => !hideNoMatches)}
-            className="accent-indigo-600"
-          />
-          Show players with no matches
-        </label>
-        <input
-          type="text"
-          placeholder="Search by name"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          className="p-2 border border-indigo-300 rounded-md"
-        />
-        <select
-          value={stateFilter}
-          onChange={(e) => setStateFilter(e.target.value)}
-          className="p-2 border border-indigo-300 rounded-md"
-        >
-          <option value="All">All States</option>
-          <option value="Australia">Australia</option>
-          <option value="New Zealand">New Zealand</option>
-        </select>
       </div>
     </div>
   );

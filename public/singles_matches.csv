@@ -5157,3 +5157,590 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,1049,1063,91,39,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Adeptus Custodes,Imperial Agents
 3,0909,1077,100,53,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Adeptus Custodes,Genestealer Cult
 3,1066,0701,61,50,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Chaos Space Marines,Black Templars
+1,1086,1081,44,31,2024-05-24,Rat Trader Tournament 23,Drukhari,Astra Militarum
+1,1088,1079,70,46,2024-05-24,Rat Trader Tournament 23,Space Wolves,Astra Militarum
+1,1080,1084,74,70,2024-05-24,Rat Trader Tournament 23,Hive Fleet Hyrda,Necrons
+1,0271,1087,95,94,2024-05-24,Rat Trader Tournament 23,Orks,Aeldari
+1,1083,1085,78,69,2024-05-24,Rat Trader Tournament 23,Genestealer Cult,Dark Angels
+1,0936,1082,96,65,2024-05-24,Rat Trader Tournament 23,Necrons,Blood Angels
+2,1083,1080,72,70,2024-05-24,Rat Trader Tournament 23,Genestealer Cult,Hive Fleet Hyrda
+2,1084,1087,75,71,2024-05-24,Rat Trader Tournament 23,Necrons,Aeldari
+2,1088,1086,78,45,2024-05-24,Rat Trader Tournament 23,Space Wolves,Drukhari
+2,1082,1085,100,78,2024-05-24,Rat Trader Tournament 23,Blood Angels,Dark Angels
+2,0936,0271,100,57,2024-05-24,Rat Trader Tournament 23,Necrons,Orks
+2,1079,1081,53,23,2024-05-24,Rat Trader Tournament 23,Astra Militarum,Astra Militarum
+3,1085,1081,56,37,2024-05-24,Rat Trader Tournament 23,Dark Angels,Astra Militarum
+3,1080,1079,90,70,2024-05-24,Rat Trader Tournament 23,Hive Fleet Hyrda,Astra Militarum
+3,1082,1088,87,37,2024-05-24,Rat Trader Tournament 23,Blood Angels,Space Wolves
+3,0271,1084,51,50,2024-05-24,Rat Trader Tournament 23,Orks,Necrons
+3,0936,1083,67,52,2024-05-24,Rat Trader Tournament 23,Necrons,Genestealer Cult
+3,1087,1086,73,47,2024-05-24,Rat Trader Tournament 23,Aeldari,Drukhari
+1,1094,1100,92,60,2024-07-26,Rat Trader Tournament 24,Death Guard,Adeptus Mechanicus
+1,1095,1092,61,53,2024-07-26,Rat Trader Tournament 24,Drukhari,Imperial Knights
+1,1088,1089,97,49,2024-07-26,Rat Trader Tournament 24,Space Wolves,Chaos Daemons
+1,1099,1101,86,59,2024-07-26,Rat Trader Tournament 24,Astra Militarum,Imperial Knights
+1,1096,1102,94,30,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Chaos Knights
+1,1103,1097,84,73,2024-07-26,Rat Trader Tournament 24,Adeptus Mechanicus,Imperial Knights
+1,1093,1086,100,32,2024-07-26,Rat Trader Tournament 24,World Eaters,--------
+1,1091,1090,50,40,2024-07-26,Rat Trader Tournament 24,Chaos Daemons,Adeptus Mechanicus
+1,1098,1079,45,34,2024-07-26,Rat Trader Tournament 24,--------,Astra Militarum
+2,1101,1100,94,41,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Adeptus Mechanicus
+2,1099,1103,86,62,2024-07-26,Rat Trader Tournament 24,Astra Militarum,Adeptus Mechanicus
+2,1092,1089,94,46,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Chaos Daemons
+2,1091,1095,57,37,2024-07-26,Rat Trader Tournament 24,Chaos Daemons,Drukhari
+2,1093,1088,100,14,2024-07-26,Rat Trader Tournament 24,World Eaters,Space Wolves
+2,1090,1079,40,39,2024-07-26,Rat Trader Tournament 24,Adeptus Mechanicus,Astra Militarum
+2,1086,1102,55,30,2024-07-26,Rat Trader Tournament 24,--------,Chaos Knights
+2,1098,1097,73,58,2024-07-26,Rat Trader Tournament 24,--------,Imperial Knights
+2,1096,1094,79,20,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Death Guard
+3,1088,1094,99,51,2024-07-26,Rat Trader Tournament 24,Space Wolves,Death Guard
+3,1097,1090,100,24,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Adeptus Mechanicus
+3,1101,1091,88,53,2024-07-26,Rat Trader Tournament 24,Imperial Knights,Chaos Daemons
+3,1086,1095,100,10,2024-07-26,Rat Trader Tournament 24,--------,Drukhari
+3,1089,1100,87,84,2024-07-26,Rat Trader Tournament 24,Chaos Daemons,Adeptus Mechanicus
+3,1096,1093,100,60,2024-07-26,Rat Trader Tournament 24,Imperial Knights,World Eaters
+3,1099,1098,80,45,2024-07-26,Rat Trader Tournament 24,Astra Militarum,--------
+3,1103,1092,89,57,2024-07-26,Rat Trader Tournament 24,Adeptus Mechanicus,Imperial Knights
+3,1079,1102,42,40,2024-07-26,Rat Trader Tournament 24,Astra Militarum,Chaos Knights
+1,1084,1079,55,49,2024-08-09,Rat Trader Tournament 25,Necrons,Astra Militarum
+1,0315,1097,74,73,2024-08-09,Rat Trader Tournament 25,Leagues of Votann,Imperial Knights
+1,0942,1086,100,31,2024-08-09,Rat Trader Tournament 25,Tyranids,Drukhari
+1,1096,0271,77,75,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Blood Angels
+1,1092,1088,77,69,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Deathwatch
+1,1105,1107,79,42,2024-08-09,Rat Trader Tournament 25,Adeptus Mechanicus,Necrons
+1,1104,1091,68,50,2024-08-09,Rat Trader Tournament 25,Chaos Knights,Chaos Knights
+1,1101,1106,78,44,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Chaos Space Marines
+2,1107,1086,56,47,2024-08-09,Rat Trader Tournament 25,Necrons,Drukhari
+2,0942,1105,85,76,2024-08-09,Rat Trader Tournament 25,Tyranids,Adeptus Mechanicus
+2,1084,1104,82,30,2024-08-09,Rat Trader Tournament 25,Necrons,Chaos Knights
+2,1096,1101,76,64,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Imperial Knights
+2,1088,1091,76,70,2024-08-09,Rat Trader Tournament 25,Deathwatch,Chaos Knights
+2,0315,1092,65,63,2024-08-09,Rat Trader Tournament 25,Leagues of Votann,Imperial Knights
+2,1097,0271,100,25,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Blood Angels
+3,1091,1079,67,47,2024-08-09,Rat Trader Tournament 25,Chaos Knights,Astra Militarum
+3,1088,1101,90,48,2024-08-09,Rat Trader Tournament 25,Deathwatch,Imperial Knights
+3,1086,1106,48,47,2024-08-09,Rat Trader Tournament 25,Drukhari,Chaos Space Marines
+3,1097,1105,100,20,2024-08-09,Rat Trader Tournament 25,Imperial Knights,Adeptus Mechanicus
+3,0315,1084,94,75,2024-08-09,Rat Trader Tournament 25,Leagues of Votann,Necrons
+3,1107,1104,87,24,2024-08-09,Rat Trader Tournament 25,Necrons,Chaos Knights
+3,0942,1096,95,59,2024-08-09,Rat Trader Tournament 25,Tyranids,Imperial Knights
+1,1083,0315,72,53,2024-10-11,Rat Trader Tournament 26,Grey Knights,Leagues of Votann
+1,1088,1115,87,70,2024-10-11,Rat Trader Tournament 26,Space Wolves,Orks
+1,1099,1114,95,73,2024-10-11,Rat Trader Tournament 26,Astra Militarum,Chaos Space Marines
+1,1098,1086,92,43,2024-10-11,Rat Trader Tournament 26,Adeptus Mechanicus,Drukhari
+1,1116,1079,85,81,2024-10-11,Rat Trader Tournament 26,Space Marines (Astartes),Astra Militarum
+1,1113,1110,76,75,2024-10-11,Rat Trader Tournament 26,T'au Empire,T'au Empire
+1,1112,1100,95,62,2024-10-11,Rat Trader Tournament 26,Chaos Daemons,Adeptus Mechanicus
+1,1109,1108,97,80,2024-10-11,Rat Trader Tournament 26,Orks,Chaos Space Marines
+1,1111,1085,80,73,2024-10-11,Rat Trader Tournament 26,Chaos Space Marines,Dark Angels
+2,0315,1086,78,52,2024-10-11,Rat Trader Tournament 26,Leagues of Votann,Drukhari
+2,1099,1109,92,79,2024-10-11,Rat Trader Tournament 26,Astra Militarum,Orks
+2,1088,1116,79,44,2024-10-11,Rat Trader Tournament 26,Space Wolves,Space Marines (Astartes)
+2,1083,1079,89,58,2024-10-11,Rat Trader Tournament 26,Grey Knights,Astra Militarum
+2,1112,1098,86,76,2024-10-11,Rat Trader Tournament 26,Chaos Daemons,Adeptus Mechanicus
+2,1113,1111,86,42,2024-10-11,Rat Trader Tournament 26,T'au Empire,Chaos Space Marines
+2,1108,1110,68,66,2024-10-11,Rat Trader Tournament 26,Chaos Space Marines,T'au Empire
+2,1114,1085,93,80,2024-10-11,Rat Trader Tournament 26,Chaos Space Marines,Dark Angels
+2,1115,1100,78,51,2024-10-11,Rat Trader Tournament 26,Orks,Adeptus Mechanicus
+3,1108,1115,64,52,2024-10-11,Rat Trader Tournament 26,Chaos Space Marines,Orks
+3,1083,1109,84,76,2024-10-11,Rat Trader Tournament 26,Grey Knights,Orks
+3,1088,1113,100,20,2024-10-11,Rat Trader Tournament 26,Space Wolves,T'au Empire
+3,1100,1086,74,24,2024-10-11,Rat Trader Tournament 26,Adeptus Mechanicus,Drukhari
+3,0315,1116,92,70,2024-10-11,Rat Trader Tournament 26,Leagues of Votann,Space Marines (Astartes)
+3,1085,1079,100,58,2024-10-11,Rat Trader Tournament 26,Dark Angels,Astra Militarum
+3,1110,1111,78,64,2024-10-11,Rat Trader Tournament 26,T'au Empire,Chaos Space Marines
+3,1098,1114,92,61,2024-10-11,Rat Trader Tournament 26,Adeptus Mechanicus,Chaos Space Marines
+3,1099,1112,90,52,2024-10-11,Rat Trader Tournament 26,Astra Militarum,Chaos Daemons
+1,1095,0271,81,68,2024-12-06,Rat Trader Tournament 27,Leagues of Votann,Death Guard
+1,0935,1117,96,42,2024-12-06,Rat Trader Tournament 27,Imperial Knights,Necrons
+1,1105,1118,71,41,2024-12-06,Rat Trader Tournament 27,Adeptus Mechanicus,World Eaters
+1,1106,1120,78,72,2024-12-06,Rat Trader Tournament 27,Chaos Space Marines,Drukhari
+1,1079,1119,39,25,2024-12-06,Rat Trader Tournament 27,Astra Militarum,T'au Empire
+2,1119,1118,48,44,2024-12-06,Rat Trader Tournament 27,T'au Empire,World Eaters
+2,0271,1117,50,0,2024-12-06,Rat Trader Tournament 27,Death Guard,Necrons
+2,1079,1120,45,37,2024-12-06,Rat Trader Tournament 27,Astra Militarum,Drukhari
+2,0935,1095,81,68,2024-12-06,Rat Trader Tournament 27,Imperial Knights,Leagues of Votann
+2,1105,1106,97,59,2024-12-06,Rat Trader Tournament 27,Adeptus Mechanicus,Chaos Space Marines
+3,0271,1106,77,73,2024-12-06,Rat Trader Tournament 27,Death Guard,Chaos Space Marines
+3,1119,1120,37,30,2024-12-06,Rat Trader Tournament 27,T'au Empire,Drukhari
+3,1118,1117,42,0,2024-12-06,Rat Trader Tournament 27,World Eaters,Necrons
+3,0935,1105,87,72,2024-12-06,Rat Trader Tournament 27,Imperial Knights,Adeptus Mechanicus
+3,1095,1079,95,67,2024-12-06,Rat Trader Tournament 27,Leagues of Votann,Astra Militarum
+1,1095,1121,84,68,2025-01-10,Rat Trader Tournament 28,Genestealer Cult,Space Marines (Astartes)
+1,1082,0315,82,62,2025-01-10,Rat Trader Tournament 28,Space Marines (Astartes),World Eaters
+1,0936,0935,77,66,2025-01-10,Rat Trader Tournament 28,Necrons,Imperial Knights
+1,0942,1113,87,68,2025-01-10,Rat Trader Tournament 28,Tyranids,Chaos Daemons
+1,1093,1125,79,47,2025-01-10,Rat Trader Tournament 28,World Eaters,Blood Angels
+1,1099,1124,83,51,2025-01-10,Rat Trader Tournament 28,Astra Militarum,World Eaters
+1,1123,1122,93,53,2025-01-10,Rat Trader Tournament 28,--------,Orks
+2,1113,0936,96,68,2025-01-10,Rat Trader Tournament 28,Chaos Daemons,Necrons
+2,1099,1095,92,82,2025-01-10,Rat Trader Tournament 28,Astra Militarum,Genestealer Cult
+2,0315,1122,78,76,2025-01-10,Rat Trader Tournament 28,World Eaters,Orks
+2,1125,1124,80,72,2025-01-10,Rat Trader Tournament 28,Blood Angels,World Eaters
+2,1082,1093,94,69,2025-01-10,Rat Trader Tournament 28,Space Marines (Astartes),World Eaters
+2,0935,1121,79,73,2025-01-10,Rat Trader Tournament 28,Imperial Knights,Space Marines (Astartes)
+2,0942,1123,88,87,2025-01-10,Rat Trader Tournament 28,Tyranids,--------
+3,1113,1095,100,22,2025-01-10,Rat Trader Tournament 28,Chaos Daemons,Genestealer Cult
+3,1123,1099,84,79,2025-01-10,Rat Trader Tournament 28,--------,Astra Militarum
+3,0942,1082,75,72,2025-01-10,Rat Trader Tournament 28,Tyranids,Space Marines (Astartes)
+3,1121,1125,94,55,2025-01-10,Rat Trader Tournament 28,Space Marines (Astartes),Blood Angels
+3,0935,0315,71,62,2025-01-10,Rat Trader Tournament 28,Imperial Knights,World Eaters
+3,0936,1093,89,81,2025-01-10,Rat Trader Tournament 28,Necrons,World Eaters
+3,1124,1122,49,44,2025-01-10,Rat Trader Tournament 28,World Eaters,Orks
+1,1113,1131,100,40,2024-04-05,Rataclysm 2024,Adeptus Custodes,Aeldari
+1,0315,1147,78,53,2024-04-05,Rataclysm 2024,Leagues of Votann,Adeptus Custodes
+1,1142,1140,72,21,2024-04-05,Rataclysm 2024,Astra Militarum,Thousand Sons
+1,1152,1159,72,45,2024-04-05,Rataclysm 2024,Black Templars,Tyranids
+1,0942,1106,77,52,2024-04-05,Rataclysm 2024,--------,Chaos Space Marines
+1,1129,1128,90,21,2024-04-05,Rataclysm 2024,Ultramarines,Astra Militarum
+1,1134,1116,96,24,2024-04-05,Rataclysm 2024,Necrons,Salamanders
+1,1104,1160,66,57,2024-04-05,Rataclysm 2024,Death Guard,Aeldari
+1,1093,1127,98,19,2024-04-05,Rataclysm 2024,Necrons,Imperial Knights
+1,0784,1148,100,39,2024-04-05,Rataclysm 2024,T'au Empire,Crimson Fists
+1,0941,1119,100,20,2024-04-05,Rataclysm 2024,Adepta Sororitas,T'au Empire
+1,0940,1154,87,22,2024-04-05,Rataclysm 2024,Thousand Sons,Orks
+1,1084,1150,66,61,2024-04-05,Rataclysm 2024,Necrons,Grey Knights
+1,0271,1139,71,38,2024-04-05,Rataclysm 2024,Blood Angels,Adeptus Custodes
+1,1153,1105,78,36,2024-04-05,Rataclysm 2024,Necrons,Aeldari
+1,1145,1126,80,63,2024-04-05,Rataclysm 2024,Adeptus Custodes,Tyranids
+1,1132,1081,100,24,2024-04-05,Rataclysm 2024,Adeptus Custodes,Astra Militarum
+1,1135,1165,76,27,2024-04-05,Rataclysm 2024,Drukhari,--------
+1,1109,1097,71,52,2024-04-05,Rataclysm 2024,Orks,Adeptus Mechanicus
+1,0936,1146,91,31,2024-04-05,Rataclysm 2024,Necrons,Orks
+1,1161,1138,45,42,2024-04-05,Rataclysm 2024,Aeldari,Black Templars
+1,1108,1130,67,41,2024-04-05,Rataclysm 2024,Necrons,Thousand Sons
+1,1158,1155,66,52,2024-04-05,Rataclysm 2024,Death Guard,Adeptus Custodes
+1,1163,1136,66,63,2024-04-05,Rataclysm 2024,Genestealer Cult,--------
+1,0925,1101,80,27,2024-04-05,Rataclysm 2024,Astra Militarum,Imperial Knights
+1,1110,1107,69,61,2024-04-05,Rataclysm 2024,T'au Empire,Necrons
+1,1144,1164,85,31,2024-04-05,Rataclysm 2024,Death Guard,Aeldari
+1,1124,1096,99,37,2024-04-05,Rataclysm 2024,World Eaters,Imperial Knights
+1,1112,1149,80,40,2024-04-05,Rataclysm 2024,Adeptus Custodes,Adeptus Custodes
+1,1080,1091,95,22,2024-04-05,Rataclysm 2024,Chaos Daemons,Chaos Knights
+1,1094,1103,70,69,2024-04-05,Rataclysm 2024,Chaos Daemons,Adepta Sororitas
+2,0315,0925,72,67,2024-04-05,Rataclysm 2024,Leagues of Votann,Astra Militarum
+2,1152,1142,73,15,2024-04-05,Rataclysm 2024,Black Templars,Astra Militarum
+2,1084,1104,52,49,2024-04-05,Rataclysm 2024,Necrons,Death Guard
+2,1159,1162,100,33,2024-04-05,Rataclysm 2024,Tyranids,Necrons
+2,1147,1106,100,32,2024-04-05,Rataclysm 2024,Adeptus Custodes,Chaos Space Marines
+2,1116,1091,49,40,2024-04-05,Rataclysm 2024,Salamanders,Chaos Knights
+2,1131,1149,70,47,2024-04-05,Rataclysm 2024,Aeldari,Adeptus Custodes
+2,1129,1115,48,39,2024-04-05,Rataclysm 2024,Ultramarines,Orks
+2,1113,0784,95,28,2024-04-05,Rataclysm 2024,Adeptus Custodes,T'au Empire
+2,1134,1093,97,26,2024-04-05,Rataclysm 2024,Necrons,Necrons
+2,1107,1150,85,54,2024-04-05,Rataclysm 2024,Necrons,Grey Knights
+2,1126,1136,53,20,2024-04-05,Rataclysm 2024,Tyranids,--------
+2,1146,1141,93,83,2024-04-05,Rataclysm 2024,Orks,Deathwatch
+2,0941,1132,70,66,2024-04-05,Rataclysm 2024,Adepta Sororitas,Adeptus Custodes
+2,1119,1140,98,28,2024-04-05,Rataclysm 2024,T'au Empire,Thousand Sons
+2,1112,1145,81,61,2024-04-05,Rataclysm 2024,Adeptus Custodes,Adeptus Custodes
+2,1103,1151,69,38,2024-04-05,Rataclysm 2024,Adepta Sororitas,T'au Empire
+2,1157,1135,90,60,2024-04-05,Rataclysm 2024,Death Guard,Drukhari
+2,1154,1128,85,57,2024-04-05,Rataclysm 2024,Orks,Astra Militarum
+2,1127,1166,80,15,2024-04-05,Rataclysm 2024,Imperial Knights,Astra Militarum
+2,1156,1160,67,57,2024-04-05,Rataclysm 2024,Chaos Knights,Aeldari
+2,0275,1124,87,36,2024-04-05,Rataclysm 2024,World Eaters,World Eaters
+2,0936,1080,100,33,2024-04-05,Rataclysm 2024,Necrons,Chaos Daemons
+2,1097,1155,78,62,2024-04-05,Rataclysm 2024,Adeptus Mechanicus,Adeptus Custodes
+2,1161,1100,100,27,2024-04-05,Rataclysm 2024,Aeldari,Adeptus Mechanicus
+2,0935,1143,91,47,2024-04-05,Rataclysm 2024,Astra Militarum,Adeptus Custodes
+2,0942,1153,73,57,2024-04-05,Rataclysm 2024,--------,Necrons
+2,0271,1109,85,59,2024-04-05,Rataclysm 2024,Blood Angels,Orks
+2,0927,1133,85,55,2024-04-05,Rataclysm 2024,Chaos Knights,Death Guard
+2,1101,1164,95,25,2024-04-05,Rataclysm 2024,Imperial Knights,Aeldari
+2,1108,1163,96,44,2024-04-05,Rataclysm 2024,Necrons,Genestealer Cult
+2,1081,1165,55,41,2024-04-05,Rataclysm 2024,Astra Militarum,--------
+3,1159,1100,100,63,2024-04-05,Rataclysm 2024,Tyranids,Adeptus Mechanicus
+3,1106,1128,100,50,2024-04-05,Rataclysm 2024,Chaos Space Marines,Astra Militarum
+3,1142,1104,92,63,2024-04-05,Rataclysm 2024,Astra Militarum,Death Guard
+3,1134,1129,97,56,2024-04-05,Rataclysm 2024,Necrons,Ultramarines
+3,1115,1116,66,31,2024-04-05,Rataclysm 2024,Orks,Salamanders
+3,1131,1154,76,73,2024-04-05,Rataclysm 2024,Aeldari,Orks
+3,1080,1093,89,48,2024-04-05,Rataclysm 2024,Chaos Daemons,Necrons
+3,1139,1149,89,48,2024-04-05,Rataclysm 2024,Adeptus Custodes,Adeptus Custodes
+3,0941,0315,100,69,2024-04-05,Rataclysm 2024,Adepta Sororitas,Leagues of Votann
+3,0924,0784,88,75,2024-04-05,Rataclysm 2024,Drukhari,T'au Empire
+3,1107,1081,96,22,2024-04-05,Rataclysm 2024,Necrons,Astra Militarum
+3,0942,1084,87,70,2024-04-05,Rataclysm 2024,--------,Necrons
+3,1143,1166,81,31,2024-04-05,Rataclysm 2024,Adeptus Custodes,Astra Militarum
+3,1112,0936,83,82,2024-04-05,Rataclysm 2024,Adeptus Custodes,Necrons
+3,1108,1161,99,62,2024-04-05,Rataclysm 2024,Necrons,Aeldari
+3,1157,1137,97,81,2024-04-05,Rataclysm 2024,Death Guard,White Scars
+3,1132,1153,78,67,2024-04-05,Rataclysm 2024,Adeptus Custodes,Necrons
+3,1096,1103,83,69,2024-04-05,Rataclysm 2024,Imperial Knights,Adepta Sororitas
+3,1160,1136,90,33,2024-04-05,Rataclysm 2024,Aeldari,--------
+3,0275,1152,98,49,2024-04-05,Rataclysm 2024,World Eaters,Black Templars
+3,0940,1158,99,65,2024-04-05,Rataclysm 2024,Thousand Sons,Death Guard
+3,1145,1146,77,66,2024-04-05,Rataclysm 2024,Adeptus Custodes,Orks
+3,0935,1094,98,86,2024-04-05,Rataclysm 2024,Astra Militarum,Chaos Daemons
+3,1155,1151,88,78,2024-04-05,Rataclysm 2024,Adeptus Custodes,T'au Empire
+3,1148,1156,88,45,2024-04-05,Rataclysm 2024,Crimson Fists,Chaos Knights
+3,1141,1091,65,55,2024-04-05,Rataclysm 2024,Deathwatch,Chaos Knights
+3,0927,1110,97,65,2024-04-05,Rataclysm 2024,Chaos Knights,T'au Empire
+3,1113,0271,98,77,2024-04-05,Rataclysm 2024,Adeptus Custodes,Blood Angels
+3,1140,1164,0,0,2024-04-05,Rataclysm 2024,Thousand Sons,Aeldari
+3,1163,1127,90,80,2024-04-05,Rataclysm 2024,Genestealer Cult,Imperial Knights
+3,1130,1124,93,68,2024-04-05,Rataclysm 2024,Thousand Sons,World Eaters
+3,1105,1165,100,64,2024-04-05,Rataclysm 2024,Aeldari,--------
+4,1158,1130,94,60,2024-04-05,Rataclysm 2024,Death Guard,Thousand Sons
+4,1093,0925,100,62,2024-04-05,Rataclysm 2024,Necrons,Astra Militarum
+4,1129,1142,100,22,2024-04-05,Rataclysm 2024,Ultramarines,Astra Militarum
+4,0315,1161,84,75,2024-04-05,Rataclysm 2024,Leagues of Votann,Aeldari
+4,1139,1155,91,65,2024-04-05,Rataclysm 2024,Adeptus Custodes,Adeptus Custodes
+4,1115,1163,100,33,2024-04-05,Rataclysm 2024,Orks,Genestealer Cult
+4,0927,1113,87,83,2024-04-05,Rataclysm 2024,Chaos Knights,Adeptus Custodes
+4,1116,1137,85,47,2024-04-05,Rataclysm 2024,Salamanders,White Scars
+4,1106,1135,95,89,2024-04-05,Rataclysm 2024,Chaos Space Marines,Drukhari
+4,1109,1131,75,66,2024-04-05,Rataclysm 2024,Orks,Aeldari
+4,1110,1084,85,65,2024-04-05,Rataclysm 2024,T'au Empire,Necrons
+4,1119,1148,90,79,2024-04-05,Rataclysm 2024,T'au Empire,Crimson Fists
+4,1128,1165,88,86,2024-04-05,Rataclysm 2024,Astra Militarum,--------
+4,1144,1107,83,66,2024-04-05,Rataclysm 2024,Death Guard,Necrons
+4,1164,1151,98,36,2024-04-05,Rataclysm 2024,Aeldari,T'au Empire
+4,1138,1166,100,53,2024-04-05,Rataclysm 2024,Black Templars,Astra Militarum
+4,1152,1143,91,27,2024-04-05,Rataclysm 2024,Black Templars,Adeptus Custodes
+4,1081,1103,87,69,2024-04-05,Rataclysm 2024,Astra Militarum,Adepta Sororitas
+4,0271,1096,84,63,2024-04-05,Rataclysm 2024,Blood Angels,Imperial Knights
+4,1080,1147,94,58,2024-04-05,Rataclysm 2024,Chaos Daemons,Adeptus Custodes
+4,1126,1153,78,68,2024-04-05,Rataclysm 2024,Tyranids,Necrons
+4,0941,1108,96,64,2024-04-05,Rataclysm 2024,Adepta Sororitas,Necrons
+4,1134,1157,93,52,2024-04-05,Rataclysm 2024,Necrons,Death Guard
+4,1150,1105,100,41,2024-04-05,Rataclysm 2024,Grey Knights,Aeldari
+4,1094,1101,100,35,2024-04-05,Rataclysm 2024,Chaos Daemons,Imperial Knights
+4,1097,1133,100,70,2024-04-05,Rataclysm 2024,Adeptus Mechanicus,Death Guard
+4,0942,0275,74,64,2024-04-05,Rataclysm 2024,--------,World Eaters
+4,1154,1141,100,29,2024-04-05,Rataclysm 2024,Orks,Deathwatch
+4,0940,1112,88,66,2024-04-05,Rataclysm 2024,Thousand Sons,Adeptus Custodes
+4,0936,1132,89,47,2024-04-05,Rataclysm 2024,Necrons,Adeptus Custodes
+4,1091,1149,85,44,2024-04-05,Rataclysm 2024,Chaos Knights,Adeptus Custodes
+5,1096,1116,93,67,2024-04-05,Rataclysm 2024,Imperial Knights,Salamanders
+5,1131,1146,79,67,2024-04-05,Rataclysm 2024,Aeldari,Orks
+5,1107,1106,97,74,2024-04-05,Rataclysm 2024,Necrons,Chaos Space Marines
+5,1156,1142,100,20,2024-04-05,Rataclysm 2024,Chaos Knights,Astra Militarum
+5,0275,1129,100,49,2024-04-05,Rataclysm 2024,World Eaters,Ultramarines
+5,1147,1124,97,55,2024-04-05,Rataclysm 2024,Adeptus Custodes,World Eaters
+5,1115,1157,100,75,2024-04-05,Rataclysm 2024,Orks,Death Guard
+5,1150,1093,92,62,2024-04-05,Rataclysm 2024,Grey Knights,Necrons
+5,0936,0315,100,43,2024-04-05,Rataclysm 2024,Necrons,Leagues of Votann
+5,1139,1154,85,79,2024-04-05,Rataclysm 2024,Adeptus Custodes,Orks
+5,1153,1128,98,42,2024-04-05,Rataclysm 2024,Necrons,Astra Militarum
+5,1165,1166,58,43,2024-04-05,Rataclysm 2024,--------,Astra Militarum
+5,1132,1094,86,79,2024-04-05,Rataclysm 2024,Adeptus Custodes,Chaos Daemons
+5,1108,1126,72,48,2024-04-05,Rataclysm 2024,Necrons,Tyranids
+5,1112,1158,97,79,2024-04-05,Rataclysm 2024,Adeptus Custodes,Death Guard
+5,1097,1148,88,44,2024-04-05,Rataclysm 2024,Adeptus Mechanicus,Crimson Fists
+5,1141,1127,89,78,2024-04-05,Rataclysm 2024,Deathwatch,Imperial Knights
+5,1084,1163,88,86,2024-04-05,Rataclysm 2024,Necrons,Genestealer Cult
+5,1110,1109,100,74,2024-04-05,Rataclysm 2024,T'au Empire,Orks
+5,0924,1144,100,88,2024-04-05,Rataclysm 2024,Drukhari,Death Guard
+5,0940,1134,98,75,2024-04-05,Rataclysm 2024,Thousand Sons,Necrons
+5,1101,1136,100,20,2024-04-05,Rataclysm 2024,Imperial Knights,--------
+5,1138,1103,91,69,2024-04-05,Rataclysm 2024,Black Templars,Adepta Sororitas
+5,1113,1119,95,38,2024-04-05,Rataclysm 2024,Adeptus Custodes,T'au Empire
+5,0925,1143,100,37,2024-04-05,Rataclysm 2024,Astra Militarum,Adeptus Custodes
+5,1133,1135,84,73,2024-04-05,Rataclysm 2024,Death Guard,Drukhari
+5,0271,0942,87,85,2024-04-05,Rataclysm 2024,Blood Angels,--------
+5,1160,1137,95,39,2024-04-05,Rataclysm 2024,Aeldari,White Scars
+5,1130,1161,86,56,2024-04-05,Rataclysm 2024,Thousand Sons,Aeldari
+6,1106,1141,100,50,2024-04-05,Rataclysm 2024,Chaos Space Marines,Deathwatch
+6,1093,1155,100,52,2024-04-05,Rataclysm 2024,Necrons,Adeptus Custodes
+6,1109,0315,85,82,2024-04-05,Rataclysm 2024,Orks,Leagues of Votann
+6,1116,1138,92,90,2024-04-05,Rataclysm 2024,Salamanders,Black Templars
+6,1149,1137,90,42,2024-04-05,Rataclysm 2024,Adeptus Custodes,White Scars
+6,1108,0275,100,72,2024-04-05,Rataclysm 2024,Necrons,World Eaters
+6,1119,1131,85,64,2024-04-05,Rataclysm 2024,T'au Empire,Aeldari
+6,1081,1124,55,40,2024-04-05,Rataclysm 2024,Astra Militarum,World Eaters
+6,0927,0940,89,80,2024-04-05,Rataclysm 2024,Chaos Knights,Thousand Sons
+6,1100,1103,81,69,2024-04-05,Rataclysm 2024,Adeptus Mechanicus,Adepta Sororitas
+6,0936,1130,92,72,2024-04-05,Rataclysm 2024,Necrons,Thousand Sons
+6,1113,1110,95,61,2024-04-05,Rataclysm 2024,Adeptus Custodes,T'au Empire
+6,1152,1112,83,64,2024-04-05,Rataclysm 2024,Black Templars,Adeptus Custodes
+6,1151,1136,58,53,2024-04-05,Rataclysm 2024,T'au Empire,--------
+6,1107,1156,83,65,2024-04-05,Rataclysm 2024,Necrons,Chaos Knights
+6,1153,1161,97,39,2024-04-05,Rataclysm 2024,Necrons,Aeldari
+6,1157,1147,72,71,2024-04-05,Rataclysm 2024,Death Guard,Adeptus Custodes
+6,0925,0924,90,70,2024-04-05,Rataclysm 2024,Astra Militarum,Drukhari
+6,1164,1143,90,72,2024-04-05,Rataclysm 2024,Aeldari,Adeptus Custodes
+6,0942,1115,84,57,2024-04-05,Rataclysm 2024,--------,Orks
+6,1134,0271,96,36,2024-04-05,Rataclysm 2024,Necrons,Blood Angels
+6,1154,1148,79,72,2024-04-05,Rataclysm 2024,Orks,Crimson Fists
+6,0941,1080,100,69,2024-04-05,Rataclysm 2024,Adepta Sororitas,Chaos Daemons
+6,1096,1158,90,81,2024-04-05,Rataclysm 2024,Imperial Knights,Death Guard
+6,1133,1126,85,74,2024-04-05,Rataclysm 2024,Death Guard,Tyranids
+6,1139,1144,83,79,2024-04-05,Rataclysm 2024,Adeptus Custodes,Death Guard
+6,1084,1097,73,65,2024-04-05,Rataclysm 2024,Necrons,Adeptus Mechanicus
+6,1094,1146,98,69,2024-04-05,Rataclysm 2024,Chaos Daemons,Orks
+6,1127,1128,78,38,2024-04-05,Rataclysm 2024,Imperial Knights,Astra Militarum
+6,1132,1129,92,25,2024-04-05,Rataclysm 2024,Adeptus Custodes,Ultramarines
+6,1091,1165,84,12,2024-04-05,Rataclysm 2024,Chaos Knights,--------
+1,1099,1168,88,49,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Imperial Knights
+1,1169,1166,60,20,2025-04-18,Rat Trader Tournament 29,Necrons,Astra Militarum
+1,1090,1103,48,47,2025-04-18,Rat Trader Tournament 29,Aeldari,Genestealer Cult
+1,0935,1084,100,52,2025-04-18,Rat Trader Tournament 29,Grey Knights,Necrons
+1,1079,1101,86,68,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Imperial Knights
+1,1086,1167,90,59,2025-04-18,Rat Trader Tournament 29,Drukhari,Necrons
+1,1098,1161,95,45,2025-04-18,Rat Trader Tournament 29,--------,Aeldari
+1,1097,1144,43,35,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Astra Militarum
+2,1144,1166,88,60,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Astra Militarum
+2,0935,1098,90,80,2025-04-18,Rat Trader Tournament 29,Grey Knights,--------
+2,1097,1090,72,69,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Aeldari
+2,1084,1168,82,50,2025-04-18,Rat Trader Tournament 29,Necrons,Imperial Knights
+2,1169,1079,67,52,2025-04-18,Rat Trader Tournament 29,Necrons,Astra Militarum
+2,1101,1167,98,32,2025-04-18,Rat Trader Tournament 29,Imperial Knights,Necrons
+2,1103,1161,100,66,2025-04-18,Rat Trader Tournament 29,Genestealer Cult,Aeldari
+2,1099,1086,88,55,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Drukhari
+3,1103,1086,86,62,2025-04-18,Rat Trader Tournament 29,Genestealer Cult,Drukhari
+3,1097,1169,78,52,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Necrons
+3,1144,1167,74,65,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Necrons
+3,1168,1161,78,56,2025-04-18,Rat Trader Tournament 29,Imperial Knights,Aeldari
+3,0935,1099,78,48,2025-04-18,Rat Trader Tournament 29,Grey Knights,Astra Militarum
+3,1084,1079,45,39,2025-04-18,Rat Trader Tournament 29,Necrons,Astra Militarum
+3,1166,1090,0,0,2025-04-18,Rat Trader Tournament 29,Astra Militarum,Aeldari
+3,1098,1101,94,48,2025-04-18,Rat Trader Tournament 29,--------,Imperial Knights
+1,1085,1172,90,24,2025-05-30,Rat Trader Tournament 30,Adeptus Custodes,Grey Knights
+1,1095,1166,88,24,2025-05-30,Rat Trader Tournament 30,Astra Militarum,Astra Militarum
+1,1171,1081,76,28,2025-05-30,Rat Trader Tournament 30,Chaos Daemons,Aeldari
+1,1103,1074,98,23,2025-05-30,Rat Trader Tournament 30,Adeptus Mechanicus,Blood Angels
+1,1098,1170,100,15,2025-05-30,Rat Trader Tournament 30,--------,Leagues of Votann
+1,1118,1120,0,0,2025-05-30,Rat Trader Tournament 30,World Eaters,Drukhari
+1,1100,1086,53,43,2025-05-30,Rat Trader Tournament 30,Imperial Knights,Drukhari
+1,0315,1079,77,70,2025-05-30,Rat Trader Tournament 30,Emperor's Children,Astra Militarum
+2,1081,1172,64,62,2025-05-30,Rat Trader Tournament 30,Aeldari,Grey Knights
+2,1170,1074,83,73,2025-05-30,Rat Trader Tournament 30,Leagues of Votann,Blood Angels
+2,1098,1103,88,83,2025-05-30,Rat Trader Tournament 30,--------,Adeptus Mechanicus
+2,1100,1171,78,57,2025-05-30,Rat Trader Tournament 30,Imperial Knights,Chaos Daemons
+2,1086,1079,29,28,2025-05-30,Rat Trader Tournament 30,Drukhari,Astra Militarum
+2,0315,1085,84,82,2025-05-30,Rat Trader Tournament 30,Emperor's Children,Adeptus Custodes
+3,0315,1098,62,58,2025-05-30,Rat Trader Tournament 30,Emperor's Children,--------
+3,1103,1100,100,57,2025-05-30,Rat Trader Tournament 30,Adeptus Mechanicus,Imperial Knights
+3,1086,1074,89,49,2025-05-30,Rat Trader Tournament 30,Drukhari,Blood Angels
+3,1170,1081,99,41,2025-05-30,Rat Trader Tournament 30,Leagues of Votann,Aeldari
+3,1079,1120,52,34,2025-05-30,Rat Trader Tournament 30,Astra Militarum,Drukhari
+3,1085,1171,100,47,2025-05-30,Rat Trader Tournament 30,Adeptus Custodes,Chaos Daemons
+3,1118,1172,100,24,2025-05-30,Rat Trader Tournament 30,World Eaters,Grey Knights
+1,1106,0109,87,66,2025-03-22,Road to Rataclysm 2025,Chaos Space Marines,Aeldari
+1,1118,1084,100,40,2025-03-22,Road to Rataclysm 2025,World Eaters,Necrons
+1,1109,1120,92,63,2025-03-22,Road to Rataclysm 2025,Chaos Knights,Drukhari
+1,1101,1168,89,44,2025-03-22,Road to Rataclysm 2025,Imperial Knights,Imperial Knights
+1,1141,1173,88,71,2025-03-22,Road to Rataclysm 2025,Deathwatch,Space Wolves
+1,1176,1174,90,14,2025-03-22,Road to Rataclysm 2025,Aeldari,T'au Empire
+1,1083,1175,82,51,2025-03-22,Road to Rataclysm 2025,Space Marines (Astartes),Chaos Daemons
+1,1177,1074,93,62,2025-03-22,Road to Rataclysm 2025,Adeptus Custodes,Blood Angels
+2,1101,1141,85,83,2025-03-22,Road to Rataclysm 2025,Imperial Knights,Deathwatch
+2,1120,1074,82,43,2025-03-22,Road to Rataclysm 2025,Drukhari,Blood Angels
+2,1083,1106,86,53,2025-03-22,Road to Rataclysm 2025,Space Marines (Astartes),Chaos Space Marines
+2,1084,1174,90,59,2025-03-22,Road to Rataclysm 2025,Necrons,T'au Empire
+2,1175,1168,91,70,2025-03-22,Road to Rataclysm 2025,Chaos Daemons,Imperial Knights
+2,1176,1109,100,0,2025-03-22,Road to Rataclysm 2025,Aeldari,Chaos Knights
+2,1118,1177,89,64,2025-03-22,Road to Rataclysm 2025,World Eaters,Adeptus Custodes
+2,1173,0109,85,77,2025-03-22,Road to Rataclysm 2025,Space Wolves,Aeldari
+3,1168,0109,79,42,2025-03-22,Road to Rataclysm 2025,Imperial Knights,Aeldari
+3,1118,1176,49,28,2025-03-22,Road to Rataclysm 2025,World Eaters,Aeldari
+3,1175,1106,76,75,2025-03-22,Road to Rataclysm 2025,Chaos Daemons,Chaos Space Marines
+3,1141,1177,70,57,2025-03-22,Road to Rataclysm 2025,Deathwatch,Adeptus Custodes
+3,1083,1101,79,39,2025-03-22,Road to Rataclysm 2025,Space Marines (Astartes),Imperial Knights
+3,1120,1173,80,67,2025-03-22,Road to Rataclysm 2025,Drukhari,Space Wolves
+3,1109,1084,65,61,2025-03-22,Road to Rataclysm 2025,Chaos Knights,Necrons
+3,1074,1174,95,28,2025-03-22,Road to Rataclysm 2025,Blood Angels,T'au Empire
+4,1083,1118,77,48,2025-03-22,Road to Rataclysm 2025,Space Marines (Astartes),World Eaters
+4,0109,1174,73,43,2025-03-22,Road to Rataclysm 2025,Aeldari,T'au Empire
+4,1120,1141,80,63,2025-03-22,Road to Rataclysm 2025,Drukhari,Deathwatch
+4,1106,1173,95,64,2025-03-22,Road to Rataclysm 2025,Chaos Space Marines,Space Wolves
+4,1176,1175,83,56,2025-03-22,Road to Rataclysm 2025,Aeldari,Chaos Daemons
+4,1084,1074,86,58,2025-03-22,Road to Rataclysm 2025,Necrons,Blood Angels
+4,1101,1109,100,10,2025-03-22,Road to Rataclysm 2025,Imperial Knights,Chaos Knights
+5,1118,1106,100,27,2025-03-22,Road to Rataclysm 2025,World Eaters,Chaos Space Marines
+5,1084,1141,90,37,2025-03-22,Road to Rataclysm 2025,Necrons,Deathwatch
+5,1177,1173,84,79,2025-03-22,Road to Rataclysm 2025,Adeptus Custodes,Space Wolves
+5,1101,1176,90,62,2025-03-22,Road to Rataclysm 2025,Imperial Knights,Aeldari
+5,1175,1109,100,10,2025-03-22,Road to Rataclysm 2025,Chaos Daemons,Chaos Knights
+5,0109,1074,100,54,2025-03-22,Road to Rataclysm 2025,Aeldari,Blood Angels
+5,1083,1120,75,60,2025-03-22,Road to Rataclysm 2025,Space Marines (Astartes),Drukhari
+1,0935,1189,90,82,2025-05-02,Rataclysm 2025,Imperial Knights,Space Marines (Astartes)
+1,1139,1120,85,79,2025-05-02,Rataclysm 2025,Adeptus Custodes,Drukhari
+1,1116,1104,92,55,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Chaos Daemons
+1,1183,1108,85,82,2025-05-02,Rataclysm 2025,Death Guard,Chaos Daemons
+1,1158,1097,88,86,2025-05-02,Rataclysm 2025,Astra Militarum,Astra Militarum
+1,1093,1107,86,69,2025-05-02,Rataclysm 2025,World Eaters,Necrons
+1,0938,1205,95,49,2025-05-02,Rataclysm 2025,Aeldari,Tyranids
+1,1202,1192,91,49,2025-05-02,Rataclysm 2025,Chaos Daemons,Space Marines (Astartes)
+1,1130,1212,79,67,2025-05-02,Rataclysm 2025,Deathwatch,Orks
+1,0942,1111,99,65,2025-05-02,Rataclysm 2025,Tyranids,Deathwatch
+1,1190,1200,100,35,2025-05-02,Rataclysm 2025,Deathwatch,Tyranids
+1,1170,1188,81,46,2025-05-02,Rataclysm 2025,Leagues of Votann,T'au Empire
+1,1209,1181,68,65,2025-05-02,Rataclysm 2025,Tyranids,Grey Knights
+1,0315,1186,71,65,2025-05-02,Rataclysm 2025,World Eaters,Blood Angels
+1,1099,1159,90,65,2025-05-02,Rataclysm 2025,Astra Militarum,Space Marines (Astartes)
+1,0360,1112,75,50,2025-05-02,Rataclysm 2025,Chaos Daemons,Death Guard
+1,1197,1171,100,59,2025-05-02,Rataclysm 2025,Adepta Sororitas,Chaos Daemons
+1,1125,1126,83,71,2025-05-02,Rataclysm 2025,Blood Angels,Astra Militarum
+1,1109,1110,78,62,2025-05-02,Rataclysm 2025,Leagues of Votann,Orks
+1,1118,1204,55,33,2025-05-02,Rataclysm 2025,World Eaters,Orks
+1,1091,1184,100,50,2025-05-02,Rataclysm 2025,Chaos Daemons,Chaos Knights
+1,1173,1141,82,80,2025-05-02,Rataclysm 2025,Space Wolves,Deathwatch
+1,1169,1145,91,63,2025-05-02,Rataclysm 2025,Tyranids,Leagues of Votann
+1,1198,1172,88,53,2025-05-02,Rataclysm 2025,World Eaters,Grey Knights
+1,1193,1166,95,70,2025-05-02,Rataclysm 2025,T'au Empire,Astra Militarum
+1,1211,1195,95,76,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Space Marines (Astartes)
+1,1201,1206,100,32,2025-05-02,Rataclysm 2025,Adeptus Mechanicus,Necrons
+1,1133,1114,78,71,2025-05-02,Rataclysm 2025,World Eaters,Chaos Daemons
+1,0765,1168,82,54,2025-05-02,Rataclysm 2025,Orks,Imperial Knights
+1,1115,1182,93,66,2025-05-02,Rataclysm 2025,Orks,Dark Angels
+1,1178,1161,90,71,2025-05-02,Rataclysm 2025,Necrons,Aeldari
+1,0412,1196,97,72,2025-05-02,Rataclysm 2025,Tyranids,Death Guard
+2,1214,1188,98,40,2025-05-02,Rataclysm 2025,Dark Angels,T'au Empire
+2,1195,1194,100,27,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Space Marines (Astartes)
+2,1200,1081,65,49,2025-05-02,Rataclysm 2025,Tyranids,Aeldari
+2,1126,1206,84,24,2025-05-02,Rataclysm 2025,Astra Militarum,Necrons
+2,0765,1125,70,51,2025-05-02,Rataclysm 2025,Orks,Blood Angels
+2,1212,1199,73,58,2025-05-02,Rataclysm 2025,Orks,Adepta Sororitas
+2,1181,1210,91,82,2025-05-02,Rataclysm 2025,Grey Knights,Necrons
+2,1205,1186,95,32,2025-05-02,Rataclysm 2025,Tyranids,Blood Angels
+2,1093,1209,83,35,2025-05-02,Rataclysm 2025,World Eaters,Tyranids
+2,0942,1133,84,77,2025-05-02,Rataclysm 2025,Tyranids,World Eaters
+2,1110,1182,82,73,2025-05-02,Rataclysm 2025,Orks,Dark Angels
+2,1111,1161,87,48,2025-05-02,Rataclysm 2025,Deathwatch,Aeldari
+2,1091,1139,85,83,2025-05-02,Rataclysm 2025,Chaos Daemons,Adeptus Custodes
+2,1179,1198,97,28,2025-05-02,Rataclysm 2025,Death Guard,World Eaters
+2,1130,1103,88,86,2025-05-02,Rataclysm 2025,Deathwatch,Genestealer Cult
+2,1166,1192,57,54,2025-05-02,Rataclysm 2025,Astra Militarum,Space Marines (Astartes)
+2,1173,1208,65,64,2025-05-02,Rataclysm 2025,Space Wolves,Tyranids
+2,1141,1172,65,58,2025-05-02,Rataclysm 2025,Deathwatch,Grey Knights
+2,1201,1203,78,72,2025-05-02,Rataclysm 2025,Adeptus Mechanicus,Thousand Sons
+2,1114,1187,78,36,2025-05-02,Rataclysm 2025,Chaos Daemons,Adeptus Custodes
+2,1171,1090,85,74,2025-05-02,Rataclysm 2025,Chaos Daemons,Aeldari
+2,0936,1213,93,74,2025-05-02,Rataclysm 2025,Necrons,Adeptus Custodes
+2,1120,1207,68,44,2025-05-02,Rataclysm 2025,Drukhari,Imperial Knights
+2,1189,1184,84,68,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Chaos Knights
+2,1118,1101,78,77,2025-05-02,Rataclysm 2025,World Eaters,Imperial Knights
+2,0360,1115,90,79,2025-05-02,Rataclysm 2025,Chaos Daemons,Orks
+2,1099,1109,83,79,2025-05-02,Rataclysm 2025,Astra Militarum,Leagues of Votann
+2,0315,1180,84,69,2025-05-02,Rataclysm 2025,World Eaters,Thousand Sons
+2,1107,1145,97,80,2025-05-02,Rataclysm 2025,Necrons,Leagues of Votann
+2,0935,1158,100,82,2025-05-02,Rataclysm 2025,Imperial Knights,Astra Militarum
+2,1097,1185,100,50,2025-05-02,Rataclysm 2025,Astra Militarum,Aeldari
+3,1161,1192,83,43,2025-05-02,Rataclysm 2025,Aeldari,Space Marines (Astartes)
+3,1093,1091,100,49,2025-05-02,Rataclysm 2025,World Eaters,Chaos Daemons
+3,1197,1202,92,46,2025-05-02,Rataclysm 2025,Adepta Sororitas,Chaos Daemons
+3,1158,1209,95,70,2025-05-02,Rataclysm 2025,Astra Militarum,Tyranids
+3,1203,1200,95,56,2025-05-02,Rataclysm 2025,Thousand Sons,Tyranids
+3,0360,0315,100,91,2025-05-02,Rataclysm 2025,Chaos Daemons,World Eaters
+3,1185,1184,100,64,2025-05-02,Rataclysm 2025,Aeldari,Chaos Knights
+3,1182,1194,95,47,2025-05-02,Rataclysm 2025,Dark Angels,Space Marines (Astartes)
+3,1114,1125,94,87,2025-05-02,Rataclysm 2025,Chaos Daemons,Blood Angels
+3,1115,1110,92,73,2025-05-02,Rataclysm 2025,Orks,Orks
+3,1205,1193,88,70,2025-05-02,Rataclysm 2025,Tyranids,T'au Empire
+3,1208,1189,89,84,2025-05-02,Rataclysm 2025,Tyranids,Space Marines (Astartes)
+3,1196,1171,90,86,2025-05-02,Rataclysm 2025,Death Guard,Chaos Daemons
+3,1191,1181,87,80,2025-05-02,Rataclysm 2025,Aeldari,Grey Knights
+3,1101,1097,99,93,2025-05-02,Rataclysm 2025,Imperial Knights,Astra Militarum
+3,1187,1081,85,67,2025-05-02,Rataclysm 2025,Adeptus Custodes,Aeldari
+3,1186,1172,100,26,2025-05-02,Rataclysm 2025,Blood Angels,Grey Knights
+3,1206,1199,100,80,2025-05-02,Rataclysm 2025,Necrons,Adepta Sororitas
+3,1133,1213,99,92,2025-05-02,Rataclysm 2025,World Eaters,Adeptus Custodes
+3,1159,1210,100,73,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Necrons
+3,1175,1103,100,63,2025-05-02,Rataclysm 2025,Chaos Daemons,Genestealer Cult
+3,1180,1195,87,69,2025-05-02,Rataclysm 2025,Thousand Sons,Space Marines (Astartes)
+3,1099,1183,80,74,2025-05-02,Rataclysm 2025,Astra Militarum,Death Guard
+3,0935,1170,100,94,2025-05-02,Rataclysm 2025,Imperial Knights,Leagues of Votann
+3,1190,1178,96,85,2025-05-02,Rataclysm 2025,Deathwatch,Necrons
+3,1145,1168,94,42,2025-05-02,Rataclysm 2025,Leagues of Votann,Imperial Knights
+3,1089,1166,100,85,2025-05-02,Rataclysm 2025,Chaos Daemons,Astra Militarum
+3,1204,1169,80,42,2025-05-02,Rataclysm 2025,Orks,Tyranids
+3,0765,1118,95,67,2025-05-02,Rataclysm 2025,Orks,World Eaters
+3,1109,1107,94,78,2025-05-02,Rataclysm 2025,Leagues of Votann,Necrons
+3,1141,1211,93,85,2025-05-02,Rataclysm 2025,Deathwatch,Space Marines (Astartes)
+3,1111,1116,100,50,2025-05-02,Rataclysm 2025,Deathwatch,Space Marines (Astartes)
+4,1183,1091,100,68,2025-05-02,Rataclysm 2025,Death Guard,Chaos Daemons
+4,1185,1200,100,36,2025-05-02,Rataclysm 2025,Aeldari,Tyranids
+4,0271,1201,59,48,2025-05-02,Rataclysm 2025,Orks,Adeptus Mechanicus
+4,1118,1205,100,75,2025-05-02,Rataclysm 2025,World Eaters,Tyranids
+4,1213,1116,90,59,2025-05-02,Rataclysm 2025,Adeptus Custodes,Space Marines (Astartes)
+4,1103,1145,86,76,2025-05-02,Rataclysm 2025,Genestealer Cult,Leagues of Votann
+4,1089,1208,85,71,2025-05-02,Rataclysm 2025,Chaos Daemons,Tyranids
+4,1110,1209,98,47,2025-05-02,Rataclysm 2025,Orks,Tyranids
+4,1111,1178,96,76,2025-05-02,Rataclysm 2025,Deathwatch,Necrons
+4,1114,1180,88,81,2025-05-02,Rataclysm 2025,Chaos Daemons,Thousand Sons
+4,0315,1173,93,71,2025-05-02,Rataclysm 2025,World Eaters,Space Wolves
+4,1112,1196,83,72,2025-05-02,Rataclysm 2025,Death Guard,Death Guard
+4,1125,1171,100,57,2025-05-02,Rataclysm 2025,Blood Angels,Chaos Daemons
+4,1139,1159,98,79,2025-05-02,Rataclysm 2025,Adeptus Custodes,Space Marines (Astartes)
+4,1115,1191,72,67,2025-05-02,Rataclysm 2025,Orks,Aeldari
+4,1158,1141,72,69,2025-05-02,Rataclysm 2025,Astra Militarum,Deathwatch
+4,1152,1212,85,72,2025-05-02,Rataclysm 2025,Death Guard,Orks
+4,1187,1193,88,63,2025-05-02,Rataclysm 2025,Adeptus Custodes,T'au Empire
+4,0360,0765,98,73,2025-05-02,Rataclysm 2025,Chaos Daemons,Orks
+4,1107,1126,94,90,2025-05-02,Rataclysm 2025,Necrons,Astra Militarum
+4,1168,1207,75,60,2025-05-02,Rataclysm 2025,Imperial Knights,Imperial Knights
+4,1203,1202,94,59,2025-05-02,Rataclysm 2025,Thousand Sons,Chaos Daemons
+4,1081,1172,66,60,2025-05-02,Rataclysm 2025,Aeldari,Grey Knights
+4,0935,1197,90,74,2025-05-02,Rataclysm 2025,Imperial Knights,Adepta Sororitas
+4,0938,0412,99,62,2025-05-02,Rataclysm 2025,Aeldari,Tyranids
+4,1093,1130,98,54,2025-05-02,Rataclysm 2025,World Eaters,Deathwatch
+4,1214,1195,93,79,2025-05-02,Rataclysm 2025,Dark Angels,Space Marines (Astartes)
+4,1133,1204,78,74,2025-05-02,Rataclysm 2025,World Eaters,Orks
+4,1189,1166,74,60,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Astra Militarum
+4,1181,1161,100,61,2025-05-02,Rataclysm 2025,Grey Knights,Aeldari
+4,1210,1199,76,74,2025-05-02,Rataclysm 2025,Necrons,Adepta Sororitas
+5,1201,1139,94,47,2025-05-02,Rataclysm 2025,Adeptus Mechanicus,Adeptus Custodes
+5,1130,1179,79,63,2025-05-02,Rataclysm 2025,Deathwatch,Death Guard
+5,0942,1203,87,61,2025-05-02,Rataclysm 2025,Tyranids,Thousand Sons
+5,1110,1187,95,32,2025-05-02,Rataclysm 2025,Orks,Adeptus Custodes
+5,1081,1166,68,59,2025-05-02,Rataclysm 2025,Aeldari,Astra Militarum
+5,1099,1093,79,54,2025-05-02,Rataclysm 2025,Astra Militarum,World Eaters
+5,1213,1170,89,54,2025-05-02,Rataclysm 2025,Adeptus Custodes,Leagues of Votann
+5,0271,1114,79,32,2025-05-02,Rataclysm 2025,Orks,Chaos Daemons
+5,0936,0938,100,81,2025-05-02,Rataclysm 2025,Necrons,Aeldari
+5,1211,1208,61,58,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Tyranids
+5,1202,1141,90,86,2025-05-02,Rataclysm 2025,Chaos Daemons,Deathwatch
+5,1182,1116,92,52,2025-05-02,Rataclysm 2025,Dark Angels,Space Marines (Astartes)
+5,1190,1183,72,65,2025-05-02,Rataclysm 2025,Deathwatch,Death Guard
+5,1175,1204,95,58,2025-05-02,Rataclysm 2025,Chaos Daemons,Orks
+5,1172,1188,92,48,2025-05-02,Rataclysm 2025,Grey Knights,T'au Empire
+5,1199,1207,90,85,2025-05-02,Rataclysm 2025,Adepta Sororitas,Imperial Knights
+5,0784,1212,92,32,2025-05-02,Rataclysm 2025,Imperial Knights,Orks
+5,1107,1178,78,61,2025-05-02,Rataclysm 2025,Necrons,Necrons
+5,0412,1125,81,46,2025-05-02,Rataclysm 2025,Tyranids,Blood Angels
+5,0935,0360,98,59,2025-05-02,Rataclysm 2025,Imperial Knights,Chaos Daemons
+5,1111,0765,96,22,2025-05-02,Rataclysm 2025,Deathwatch,Orks
+5,1200,1171,92,60,2025-05-02,Rataclysm 2025,Tyranids,Chaos Daemons
+5,1118,0315,93,62,2025-05-02,Rataclysm 2025,World Eaters,World Eaters
+5,1109,1191,89,68,2025-05-02,Rataclysm 2025,Leagues of Votann,Aeldari
+5,1181,1198,96,63,2025-05-02,Rataclysm 2025,Grey Knights,World Eaters
+5,1103,1186,88,76,2025-05-02,Rataclysm 2025,Genestealer Cult,Blood Angels
+5,1104,1145,85,52,2025-05-02,Rataclysm 2025,Chaos Daemons,Leagues of Votann
+5,1206,1185,73,39,2025-05-02,Rataclysm 2025,Necrons,Aeldari
+5,1097,1168,76,47,2025-05-02,Rataclysm 2025,Astra Militarum,Imperial Knights
+5,1169,1194,90,41,2025-05-02,Rataclysm 2025,Tyranids,Space Marines (Astartes)
+6,0271,1111,92,79,2025-05-02,Rataclysm 2025,Orks,Deathwatch
+6,1194,1207,92,71,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Imperial Knights
+6,1178,1104,88,59,2025-05-02,Rataclysm 2025,Necrons,Chaos Daemons
+6,1191,1170,89,63,2025-05-02,Rataclysm 2025,Aeldari,Leagues of Votann
+6,0315,1107,100,73,2025-05-02,Rataclysm 2025,World Eaters,Necrons
+6,0942,1109,88,71,2025-05-02,Rataclysm 2025,Tyranids,Leagues of Votann
+6,1152,1115,78,77,2025-05-02,Rataclysm 2025,Death Guard,Orks
+6,1116,1188,92,53,2025-05-02,Rataclysm 2025,Space Marines (Astartes),T'au Empire
+6,1108,1181,90,55,2025-05-02,Rataclysm 2025,Chaos Daemons,Grey Knights
+6,1110,1114,91,38,2025-05-02,Rataclysm 2025,Orks,Chaos Daemons
+6,1126,1168,83,48,2025-05-02,Rataclysm 2025,Astra Militarum,Imperial Knights
+6,1190,0360,87,82,2025-05-02,Rataclysm 2025,Deathwatch,Chaos Daemons
+6,1099,1158,72,70,2025-05-02,Rataclysm 2025,Astra Militarum,Astra Militarum
+6,0765,1089,88,78,2025-05-02,Rataclysm 2025,Orks,Chaos Daemons
+6,1199,1184,97,48,2025-05-02,Rataclysm 2025,Adepta Sororitas,Chaos Knights
+6,0935,0936,97,72,2025-05-02,Rataclysm 2025,Imperial Knights,Necrons
+6,1180,1206,97,61,2025-05-02,Rataclysm 2025,Thousand Sons,Necrons
+6,1139,1212,88,54,2025-05-02,Rataclysm 2025,Adeptus Custodes,Orks
+6,1196,1133,91,70,2025-05-02,Rataclysm 2025,Death Guard,World Eaters
+6,0938,1118,100,38,2025-05-02,Rataclysm 2025,Aeldari,World Eaters
+6,1166,1210,82,46,2025-05-02,Rataclysm 2025,Astra Militarum,Necrons
+6,1205,1202,77,67,2025-05-02,Rataclysm 2025,Tyranids,Chaos Daemons
+6,1112,1093,87,66,2025-05-02,Rataclysm 2025,Death Guard,World Eaters
+6,1183,0412,73,71,2025-05-02,Rataclysm 2025,Death Guard,Tyranids
+6,1204,1091,99,57,2025-05-02,Rataclysm 2025,Orks,Chaos Daemons
+6,1193,1198,100,88,2025-05-02,Rataclysm 2025,T'au Empire,World Eaters
+6,1208,1185,87,69,2025-05-02,Rataclysm 2025,Tyranids,Aeldari
+6,1214,1173,100,32,2025-05-02,Rataclysm 2025,Dark Angels,Space Wolves
+6,1189,1169,85,79,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Tyranids
+6,1171,1172,85,82,2025-05-02,Rataclysm 2025,Chaos Daemons,Grey Knights
+6,1159,1187,90,47,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Adeptus Custodes
+6,1179,1213,82,46,2025-05-02,Rataclysm 2025,Death Guard,Adeptus Custodes

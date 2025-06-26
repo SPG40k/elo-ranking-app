@@ -22,7 +22,7 @@ export default function Leaderboard({ allPlayers }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [stateFilter, setStateFilter] = useState('All');
   const [visibleCount, setVisibleCount] = useState(25);
-  const [hideNoMatches, setHideNoMatches] = useState(false);
+  const [hideNoMatches, setHideNoMatches] = useState(true);
 
   const sortedPlayers = [...allPlayers].sort((a, b) => b.elo - a.elo);
   
@@ -31,23 +31,19 @@ export default function Leaderboard({ allPlayers }) {
 
   const filteredPlayers = sortedPlayers.filter((player) => {
     const nameMatch = player.name.toLowerCase().includes(searchTerm.toLowerCase());
-    const hasMatches = player.matches && player.matches.length > 0;
-
-    // Determine if player state matches filter
+    const hasMatches = player.games > 0;
     const stateCode = player.state ? player.state.toUpperCase() : '';
-
     let stateMatch = false;
     if (stateFilter === 'All') {
       stateMatch = true;
     } else if (stateFilter === 'Australia') {
-      stateMatch = australiaStates.includes(stateCode);
+      stateMatch = ['ACT', 'NSW', 'NT', 'QLD', 'SA', 'TAS', 'VIC', 'WA'].includes(stateCode);
     } else if (stateFilter === 'New Zealand') {
-      stateMatch = newZealandStates.includes(stateCode);
+      stateMatch = ['NZN', 'NZS'].includes(stateCode);
     } else {
       stateMatch = stateCode === stateFilter;
     }
-
-    return nameMatch && stateMatch && (!hideNoMatches || hasMatches);
+    return nameMatch && stateMatch && (hideNoMatches ? hasMatches : true);
   });
 
   const visiblePlayers = filteredPlayers.slice(0, visibleCount);
@@ -132,11 +128,11 @@ export default function Leaderboard({ allPlayers }) {
         <label className="flex items-center text-sm gap-2 dark:text-gray-200">
           <input
             type="checkbox"
-            checked={hideNoMatches}
-            onChange={() => setHideNoMatches(!hideNoMatches)}
+            checked={!hideNoMatches}
+            onChange={() => setHideNoMatches(hideNoMatches => !hideNoMatches)}
             className="accent-indigo-600"
           />
-          Hide players with no matches
+          Show players with no matches
         </label>
       </div>
 
@@ -163,7 +159,35 @@ export default function Leaderboard({ allPlayers }) {
 
             return (
               <tr key={player.id} className="border-t border-gray-200 dark:border-gray-700 hover:opacity-90 transition">
-                <td className="px-4 py-2 font-medium text-gray-800 dark:text-white">{rankPosition}</td>
+                <td className="px-4 py-2 font-medium text-gray-800 dark:text-white text-center">
+                  <span
+                    className={
+                      rankPosition === 1
+                        ? 'inline-flex items-center justify-center rounded-full font-bold text-white mr-2 bg-opacity-80 backdrop-blur-sm border border-white border-opacity-30 bg-gradient-to-br from-yellow-400 via-yellow-500 to-yellow-300'
+                        : rankPosition === 2
+                        ? 'inline-flex items-center justify-center rounded-full font-bold text-white mr-2 bg-opacity-80 backdrop-blur-sm border border-white border-opacity-30 bg-gradient-to-br from-gray-200 via-gray-400 to-gray-300'
+                        : rankPosition === 3
+                        ? 'inline-flex items-center justify-center rounded-full font-bold text-white mr-2 bg-opacity-80 backdrop-blur-sm border border-white border-opacity-30 bg-gradient-to-br from-amber-600 via-amber-700 to-yellow-600'
+                        : 'font-bold text-white flex items-center justify-center ml-[-8px]'
+                    }
+                    style={
+                      rankPosition === 1 || rankPosition === 2 || rankPosition === 3
+                        ? { width: 28, height: 28, minWidth: 28, minHeight: 28, fontSize: 16 }
+                        : { fontSize: 16, height: 28, minHeight: 28, width: 28, minWidth: 28, display: 'inline-flex', alignItems: 'center', justifyContent: 'center' }
+                    }
+                    title={
+                      rankPosition === 1
+                        ? '1st Place'
+                        : rankPosition === 2
+                        ? '2nd Place'
+                        : rankPosition === 3
+                        ? '3rd Place'
+                        : `Rank #${rankPosition}`
+                    }
+                  >
+                    {rankPosition}
+                  </span>
+                </td>
                 <td className="px-4 py-2">
                   <span className={`text-sm font-semibold px-2 py-1 rounded-full ${color}`}>
                     {rank}

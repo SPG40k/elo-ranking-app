@@ -251,136 +251,76 @@ export default function FactionSpecificLeaderboard({ factionName }) {
         const statsMap = {};
         const matchesMap = {};
         
-        // First, calculate overall ELO for all players (same as overall leaderboard)
-        const overallEloMap = {};
-        const overallStatsMap = {};
-        const overallMatchesMap = {};
-        
-        allMatches.forEach(match => {
-          const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction, isTeams, teamscore1, teamscore2 } = match;
-          if (!overallEloMap[player1_id]) overallEloMap[player1_id] = 1500;
-          if (!overallEloMap[player2_id]) overallEloMap[player2_id] = 1500;
-          if (!overallStatsMap[player1_id]) overallStatsMap[player1_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
-          if (!overallStatsMap[player2_id]) overallStatsMap[player2_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
-          if (!overallMatchesMap[player1_id]) overallMatchesMap[player1_id] = [];
-          if (!overallMatchesMap[player2_id]) overallMatchesMap[player2_id] = [];
-          
-          // Determine result
-          let result1, result2;
-          if (score1 > score2) {
-            result1 = 1; result2 = 0;
-            overallStatsMap[player1_id].wins++;
-            overallStatsMap[player2_id].losses++;
-          } else if (score1 < score2) {
-            result1 = 0; result2 = 1;
-            overallStatsMap[player2_id].wins++;
-            overallStatsMap[player1_id].losses++;
-          } else {
-            result1 = 0.5; result2 = 0.5;
-            overallStatsMap[player1_id].draws++;
-            overallStatsMap[player2_id].draws++;
-          }
-          overallStatsMap[player1_id].games++;
-          overallStatsMap[player2_id].games++;
-          
-          // Update Elo
-          let newElo1, newElo2, eloChange1, eloChange2;
-          if (isTeams) {
-            eloChange1 = calculateTeamEloForMatch(overallEloMap[player1_id], overallEloMap[player2_id], score1, score2, teamscore1, teamscore2);
-            eloChange2 = calculateTeamEloForMatch(overallEloMap[player2_id], overallEloMap[player1_id], score2, score1, teamscore2, teamscore1);
-            newElo1 = overallEloMap[player1_id] + eloChange1;
-            newElo2 = overallEloMap[player2_id] + eloChange2;
-          } else {
-            [newElo1, newElo2] = calculateEloForMatch(overallEloMap[player1_id], overallEloMap[player2_id], score1, score2);
-            eloChange1 = newElo1 - overallEloMap[player1_id];
-            eloChange2 = newElo2 - overallEloMap[player2_id];
-          }
-          
-          // Save match info for overall leaderboard
-          overallMatchesMap[player1_id].push({
-            date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: overallEloMap[player1_id], eloAfter: newElo1, eloChange: eloChange1, matchType: isTeams ? 'Teams' : 'Singles', teamscore1, teamscore2
-          });
-          overallMatchesMap[player2_id].push({
-            date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: overallEloMap[player2_id], eloAfter: newElo2, eloChange: eloChange2, matchType: isTeams ? 'Teams' : 'Singles', teamscore1: teamscore2, teamscore2: teamscore1
-          });
-          
-          overallEloMap[player1_id] = newElo1;
-          overallEloMap[player2_id] = newElo2;
-        });
-        
-        // Now extract faction-specific data using the overall ELO calculations
+        // For the Faction Leaderboard, always use calculateEloForMatch for both singles and teams matches
+        // Only consider matches where the player played as the target faction
         factionMatches.forEach(match => {
-          const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction, isTeams, teamscore1, teamscore2 } = match;
+          const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction } = match;
           const p1Faction = normalizeFactionName(player1Faction);
           const p2Faction = normalizeFactionName(player2Faction);
-          
           // Only include players who actually played AS the target faction
           let shouldIncludePlayer1 = p1Faction === factionName;
           let shouldIncludePlayer2 = p2Faction === factionName;
-          
           if (!shouldIncludePlayer1 && !shouldIncludePlayer2) return;
-          
-          // Find the corresponding match in overall matches to get the exact ELO changes
-          const player1Match = overallMatchesMap[player1_id]?.find(m => 
-            m.date === date && m.opponentId === player2_id && m.score === score1 && m.opponentScore === score2
-          );
-          const player2Match = overallMatchesMap[player2_id]?.find(m => 
-            m.date === date && m.opponentId === player1_id && m.score === score2 && m.opponentScore === score1
-          );
-          
+          // Initialize ELO and stats
           if (shouldIncludePlayer1) {
             if (!eloMap[player1_id]) eloMap[player1_id] = 1500;
             if (!statsMap[player1_id]) statsMap[player1_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
             if (!matchesMap[player1_id]) matchesMap[player1_id] = [];
-            
-            // Add stats
-            if (score1 > score2) {
-              statsMap[player1_id].wins++;
-            } else if (score1 < score2) {
-              statsMap[player1_id].losses++;
-            } else {
-              statsMap[player1_id].draws++;
-            }
-            statsMap[player1_id].games++;
-            
-            // Add ELO change from overall calculation
-            if (player1Match) {
-              eloMap[player1_id] += player1Match.eloChange;
-              matchesMap[player1_id].push({
-                ...player1Match,
-                eloBefore: eloMap[player1_id] - player1Match.eloChange,
-                eloAfter: eloMap[player1_id]
-              });
-            }
           }
-          
           if (shouldIncludePlayer2) {
             if (!eloMap[player2_id]) eloMap[player2_id] = 1500;
             if (!statsMap[player2_id]) statsMap[player2_id] = { wins: 0, losses: 0, draws: 0, games: 0 };
             if (!matchesMap[player2_id]) matchesMap[player2_id] = [];
-            
-            // Add stats
-            if (score2 > score1) {
-              statsMap[player2_id].wins++;
-            } else if (score2 < score1) {
-              statsMap[player2_id].losses++;
-            } else {
-              statsMap[player2_id].draws++;
-            }
+          }
+          // Calculate ELO change for this match (always use calculateEloForMatch)
+          let elo1 = shouldIncludePlayer1 ? eloMap[player1_id] : 1500;
+          let elo2 = shouldIncludePlayer2 ? eloMap[player2_id] : 1500;
+          let [newElo1, newElo2] = calculateEloForMatch(elo1, elo2, score1, score2);
+          // Update stats and match history for player1 if relevant
+          if (shouldIncludePlayer1) {
+            if (score1 > score2) statsMap[player1_id].wins++;
+            else if (score1 < score2) statsMap[player1_id].losses++;
+            else statsMap[player1_id].draws++;
+            statsMap[player1_id].games++;
+            matchesMap[player1_id].push({
+              date,
+              opponentId: player2_id,
+              opponentName: playerMap[player2_id]?.name || player2_id,
+              score: score1,
+              opponentScore: score2,
+              playerFaction: player1Faction,
+              opponentFaction: player2Faction,
+              result: score1 > score2 ? 'Win' : score1 < score2 ? 'Loss' : 'Draw',
+              eloBefore: elo1,
+              eloAfter: newElo1,
+              eloChange: newElo1 - elo1,
+              matchType: match.isTeams ? 'Teams' : 'Singles',
+            });
+            eloMap[player1_id] = newElo1;
+          }
+          // Update stats and match history for player2 if relevant
+          if (shouldIncludePlayer2) {
+            if (score2 > score1) statsMap[player2_id].wins++;
+            else if (score2 < score1) statsMap[player2_id].losses++;
+            else statsMap[player2_id].draws++;
             statsMap[player2_id].games++;
-            
-            // Add ELO change from overall calculation
-            if (player2Match) {
-              eloMap[player2_id] += player2Match.eloChange;
-              matchesMap[player2_id].push({
-                ...player2Match,
-                eloBefore: eloMap[player2_id] - player2Match.eloChange,
-                eloAfter: eloMap[player2_id]
-              });
-            }
+            matchesMap[player2_id].push({
+              date,
+              opponentId: player1_id,
+              opponentName: playerMap[player1_id]?.name || player1_id,
+              score: score2,
+              opponentScore: score1,
+              playerFaction: player2Faction,
+              opponentFaction: player1Faction,
+              result: score2 > score1 ? 'Win' : score2 < score1 ? 'Loss' : 'Draw',
+              eloBefore: elo2,
+              eloAfter: newElo2,
+              eloChange: newElo2 - elo2,
+              matchType: match.isTeams ? 'Teams' : 'Singles',
+            });
+            eloMap[player2_id] = newElo2;
           }
         });
-
         // Build leaderboard array - only include players who have played this faction
         const leaderboardArr = Object.keys(eloMap)
           .filter(pid => statsMap[pid] && statsMap[pid].games > 0)
@@ -392,18 +332,14 @@ export default function FactionSpecificLeaderboard({ factionName }) {
             ...statsMap[pid],
             matches: matchesMap[pid] || [],
           }));
-        
         leaderboardArr.sort((a, b) => b.elo - a.elo);
-
         // Calculate faction-specific stats for the showcase card
         const factionStatsData = { wins: 0, losses: 0, draws: 0, totalGames: 0 };
         factionMatches.forEach(match => {
           const p1Faction = normalizeFactionName(match.player1Faction);
           const p2Faction = normalizeFactionName(match.player2Faction);
-          
           if (p1Faction === factionName || p2Faction === factionName) {
             factionStatsData.totalGames++;
-            
             if (match.score1 > match.score2) {
               if (p1Faction === factionName) {
                 factionStatsData.wins++;
@@ -422,7 +358,6 @@ export default function FactionSpecificLeaderboard({ factionName }) {
           }
         });
         setFactionStats(factionStatsData);
-
         setLeaderboard(leaderboardArr);
         setLoading(false);
       } catch (err) {

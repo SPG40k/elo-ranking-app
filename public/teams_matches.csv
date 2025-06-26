@@ -1598,3 +1598,103 @@ gameNumber,tableNumber,player1team_id,player2team_id,player1_id,player2_id,teams
 6,05,121,117,0934,0919,66,94,10,10,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Space Marines (Astartes),Space Marines (Astartes)
 6,05,121,117,0933,0918,66,94,4,16,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Chaos Space Marines,Aeldari
 6,05,121,117,0041,0916,66,94,17,3,2025-04-25,ANZTC 2025 - The Australia and New Zealand Teams Championship,Necrons,Adepta Sororitas
+1,01,125,130,0091,1014,73,27,16,4,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Tyranids
+1,01,125,130,0113,0031,73,27,13,7,2025-02-28,Tasmanian Teams Tournament 2025,Blood Angels,Chaos Daemons
+1,01,125,130,0065,1034,73,27,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Orks
+1,01,125,130,0123,0035,73,27,5,15,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Space Marines (Astartes)
+1,01,125,130,0363,0978,73,27,19,1,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Adeptus Mechanicus
+1,03,140,129,1045,1044,28,72,6,14,2025-02-28,Tasmanian Teams Tournament 2025,Orks,Space Marines (Astartes)
+1,03,140,129,0966,0993,28,72,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Mechanicus,Death Guard
+1,03,140,129,0976,0975,28,72,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Tyranids
+1,03,140,129,0959,0956,28,72,3,17,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Aeldari
+1,03,140,129,0979,0977,28,72,15,5,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Astra Militarum
+1,05,136,127,1039,0041,8,92,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Necrons
+1,05,136,127,1036,0043,8,92,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Leagues of Votann,Orks
+1,05,136,127,1046,0934,8,92,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Blood Angels,Dark Angels
+1,05,136,127,1035,0037,8,92,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Grey Knights
+1,05,136,127,1040,0032,8,92,0,20,2025-02-28,Tasmanian Teams Tournament 2025,T'au Empire,Aeldari
+1,07,133,135,0982,1030,68,32,11,9,2025-02-28,Tasmanian Teams Tournament 2025,Imperial Knights,Orks
+1,07,133,135,0985,0970,68,32,18,2,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Genestealer Cult
+1,07,133,135,0980,0995,68,32,17,3,2025-02-28,Tasmanian Teams Tournament 2025,Tyranids,Necrons
+1,07,133,135,0973,1007,68,32,14,6,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,Dark Angels
+1,07,133,135,0984,0987,68,32,8,12,2025-02-28,Tasmanian Teams Tournament 2025,Space Marines (Astartes),Tyranids
+2,01,127,125,0041,0123,45,55,15,5,2025-02-28,Tasmanian Teams Tournament 2025,Necrons,Aeldari
+2,01,127,125,0037,0091,45,55,19,1,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Adeptus Custodes
+2,01,127,125,0032,0065,45,55,6,14,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Chaos Space Marines
+2,01,127,125,0043,0113,45,55,5,15,2025-02-28,Tasmanian Teams Tournament 2025,Orks,Blood Angels
+2,01,127,125,0934,0363,45,55,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Dark Angels,Chaos Daemons
+2,03,137,128,0958,0988,54,46,2,18,2025-02-28,Tasmanian Teams Tournament 2025,Space Wolves,Chaos Knights
+2,03,137,128,0961,0998,54,46,11,9,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Genestealer Cult
+2,03,137,128,0981,0964,54,46,14,6,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Astra Militarum
+2,03,137,128,0968,1038,54,46,17,3,2025-02-28,Tasmanian Teams Tournament 2025,Leagues of Votann,Imperial Knights
+2,03,137,128,0960,0963,54,46,10,10,2025-02-28,Tasmanian Teams Tournament 2025,Necrons,Space Marines (Astartes)
+2,05,132,138,0969,1032,49,51,16,4,2025-02-28,Tasmanian Teams Tournament 2025,Death Guard,Thousand Sons
+2,05,132,138,1042,0967,49,51,1,19,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,Chaos Space Marines
+2,05,132,138,0933,1010,49,51,14,6,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,World Eaters
+2,05,132,138,1033,0974,49,51,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Death Guard
+2,05,132,138,0955,0972,49,51,18,2,2025-02-28,Tasmanian Teams Tournament 2025,Deathwatch,Chaos Knights
+2,07,136,130,1035,0978,24,76,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Adeptus Mechanicus
+2,07,136,130,1036,0035,24,76,8,12,2025-02-28,Tasmanian Teams Tournament 2025,Leagues of Votann,Space Marines (Astartes)
+2,07,136,130,1046,1034,24,76,13,7,2025-02-28,Tasmanian Teams Tournament 2025,Blood Angels,Orks
+2,07,136,130,1039,0031,24,76,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Chaos Daemons
+2,07,136,130,1040,1014,24,76,3,17,2025-02-28,Tasmanian Teams Tournament 2025,T'au Empire,Tyranids
+3,01,129,125,1044,0091,22,78,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Space Marines (Astartes),Adeptus Custodes
+3,01,129,125,0975,0363,22,78,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Tyranids,Chaos Daemons
+3,01,129,125,0993,0113,22,78,9,11,2025-02-28,Tasmanian Teams Tournament 2025,Death Guard,Blood Angels
+3,01,129,125,0977,0123,22,78,9,11,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,Aeldari
+3,01,129,125,0956,0065,22,78,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Chaos Space Marines
+3,03,128,127,0964,0032,15,85,3,17,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,Aeldari
+3,03,128,127,0998,0041,15,85,3,17,2025-02-28,Tasmanian Teams Tournament 2025,Genestealer Cult,Necrons
+3,03,128,127,0988,0037,15,85,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Knights,Grey Knights
+3,03,128,127,0963,0934,15,85,5,15,2025-02-28,Tasmanian Teams Tournament 2025,Space Marines (Astartes),Dark Angels
+3,03,128,127,1038,0043,15,85,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Imperial Knights,Orks
+3,05,140,139,0979,1023,24,76,17,3,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Imperial Knights
+3,05,140,139,0959,1043,24,76,6,14,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Aeldari
+3,05,140,139,0976,0931,24,76,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Astra Militarum
+3,05,140,139,0966,0932,24,76,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Mechanicus,Adeptus Mechanicus
+3,05,140,139,1045,0990,24,76,1,19,2025-02-28,Tasmanian Teams Tournament 2025,Orks,Chaos Knights
+3,07,138,135,0974,0995,66,34,10,10,2025-02-28,Tasmanian Teams Tournament 2025,Death Guard,Necrons
+3,07,138,135,1032,0970,66,34,15,5,2025-02-28,Tasmanian Teams Tournament 2025,Thousand Sons,Genestealer Cult
+3,07,138,135,0967,0987,66,34,17,3,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Tyranids
+3,07,138,135,1010,1030,66,34,19,1,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Orks
+3,07,138,135,0972,1007,66,34,5,15,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Knights,Dark Angels
+4,01,125,133,0065,0985,91,9,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,World Eaters
+4,01,125,133,0363,0984,91,9,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Space Marines (Astartes)
+4,01,125,133,0123,0973,91,9,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Astra Militarum
+4,01,125,133,0113,0980,91,9,11,9,2025-02-28,Tasmanian Teams Tournament 2025,Blood Angels,Tyranids
+4,01,125,133,0091,0982,91,9,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Imperial Knights
+4,03,134,139,0962,0931,39,61,4,16,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Astra Militarum
+4,03,134,139,1004,1023,39,61,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Imperial Knights
+4,03,134,139,1001,0990,39,61,4,16,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Chaos Knights
+4,03,134,139,1037,0932,39,61,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Dark Angels,Adeptus Mechanicus
+4,03,134,139,0039,1043,39,61,11,9,2025-02-28,Tasmanian Teams Tournament 2025,Imperial Knights,Aeldari
+4,05,131,128,0989,0964,30,70,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Adepta Sororitas,Astra Militarum
+4,05,131,128,0996,1038,30,70,17,3,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Imperial Knights
+4,05,131,128,1031,0998,30,70,1,19,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Knights,Genestealer Cult
+4,05,131,128,1041,0988,30,70,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Chaos Knights
+4,05,131,128,0992,0963,30,70,12,8,2025-02-28,Tasmanian Teams Tournament 2025,Dark Angels,Space Marines (Astartes)
+4,07,132,136,0969,1039,81,19,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Death Guard,Grey Knights
+4,07,132,136,0955,1046,81,19,14,6,2025-02-28,Tasmanian Teams Tournament 2025,Deathwatch,Blood Angels
+4,07,132,136,1042,1040,81,19,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,T'au Empire
+4,07,132,136,1033,1035,81,19,9,11,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Adeptus Custodes
+4,07,132,136,0933,1036,81,19,18,2,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Leagues of Votann
+5,01,125,139,0091,0932,78,22,11,9,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Adeptus Mechanicus
+5,01,125,139,0065,1043,78,22,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Space Marines,Aeldari
+5,01,125,139,0123,0931,78,22,10,10,2025-02-28,Tasmanian Teams Tournament 2025,Aeldari,Astra Militarum
+5,01,125,139,0363,1023,78,22,20,0,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Daemons,Imperial Knights
+5,01,125,139,0113,0990,78,22,17,3,2025-02-28,Tasmanian Teams Tournament 2025,Blood Angels,Chaos Knights
+5,03,128,134,0988,0962,52,48,9,11,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Knights,World Eaters
+5,03,128,134,1038,0039,52,48,5,15,2025-02-28,Tasmanian Teams Tournament 2025,Imperial Knights,Imperial Knights
+5,03,128,134,0998,1001,52,48,19,1,2025-02-28,Tasmanian Teams Tournament 2025,Genestealer Cult,Chaos Space Marines
+5,03,128,134,0964,1037,52,48,19,1,2025-02-28,Tasmanian Teams Tournament 2025,Astra Militarum,Dark Angels
+5,03,128,134,0963,1004,52,48,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Space Marines (Astartes),Chaos Daemons
+5,05,135,136,1025,1035,57,43,16,4,2025-02-28,Tasmanian Teams Tournament 2025,Adeptus Custodes,Adeptus Custodes
+5,05,135,136,1030,1036,57,43,10,10,2025-02-28,Tasmanian Teams Tournament 2025,Orks,Leagues of Votann
+5,05,135,136,0970,1040,57,43,15,5,2025-02-28,Tasmanian Teams Tournament 2025,Genestealer Cult,T'au Empire
+5,05,135,136,0987,1039,57,43,15,5,2025-02-28,Tasmanian Teams Tournament 2025,Tyranids,Grey Knights
+5,05,135,136,1007,1046,57,43,1,19,2025-02-28,Tasmanian Teams Tournament 2025,Dark Angels,Blood Angels
+5,06,131,138,0992,1010,40,60,6,14,2025-02-28,Tasmanian Teams Tournament 2025,Dark Angels,World Eaters
+5,06,131,138,0989,0972,40,60,14,6,2025-02-28,Tasmanian Teams Tournament 2025,Adepta Sororitas,Chaos Knights
+5,06,131,138,1041,0967,40,60,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Grey Knights,Chaos Space Marines
+5,06,131,138,0996,1032,40,60,20,0,2025-02-28,Tasmanian Teams Tournament 2025,World Eaters,Thousand Sons
+5,06,131,138,1031,0974,40,60,0,20,2025-02-28,Tasmanian Teams Tournament 2025,Chaos Knights,Death Guard

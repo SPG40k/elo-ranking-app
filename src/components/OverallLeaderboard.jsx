@@ -183,6 +183,10 @@ export default function OverallLeaderboard() {
   // Filtering and search logic
   const sortedPlayers = [...leaderboard];
   const top10Ids = new Set(sortedPlayers.slice(0, 10).map(p => p.player_id));
+  
+  // Create global rank map from all players
+  const globalRankMap = new Map(sortedPlayers.map((p, i) => [p.player_id, i + 1]));
+  
   const filteredPlayers = sortedPlayers.filter((player) => {
     const nameMatch = player.name.toLowerCase().includes(searchTerm.toLowerCase());
     const hasMatches = player.matches && player.matches.length > 0;
@@ -268,7 +272,10 @@ export default function OverallLeaderboard() {
         </thead>
         <tbody>
           {visiblePlayers.map((player, idx) => {
-            const rankPosition = idx + 1;
+            // Use global ranking for 'All' filter and name searches, contextual ranking only for state filters
+            const rankPosition = (stateFilter === 'All' || searchTerm !== '' || hideNoMatches)
+              ? globalRankMap.get(player.player_id) 
+              : idx + 1;
             const { rank, color } = getRankInfo(player.elo, player.player_id, top10Ids);
             const stateCode = player.state || '';
             const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600 dark:text-gray-300';

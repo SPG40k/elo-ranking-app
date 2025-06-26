@@ -4457,3 +4457,478 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,0304,0226,86,73,2025-06-20,Gash Hammer Gaming June RTT French's Forest NSW,Tyranids,T'au Empire
 3,0224,0742,84,57,2025-06-20,Gash Hammer Gaming June RTT French's Forest NSW,Death Guard,Leagues of Votann
 3,0404,0118,63,51,2025-06-20,Gash Hammer Gaming June RTT French's Forest NSW,T'au Empire,Chaos Space Marines
+1,0972,0970,93,20,2024-05-31,Thylacine Cup GT,Chaos Space Marines,Genestealer Cult
+1,0978,0966,97,34,2024-05-31,Thylacine Cup GT,Adeptus Mechanicus,Tyranids
+1,0031,0968,95,32,2024-05-31,Thylacine Cup GT,Chaos Daemons,Leagues of Votann
+1,0041,0958,78,46,2024-05-31,Thylacine Cup GT,Chaos Space Marines,Space Wolves
+1,0037,0961,96,31,2024-05-31,Thylacine Cup GT,Grey Knights,Grey Knights
+1,0955,0973,79,45,2024-05-31,Thylacine Cup GT,Death Guard,Black Templars
+1,0039,0953,70,66,2024-05-31,Thylacine Cup GT,Death Guard,Genestealer Cult
+1,0932,0974,100,26,2024-05-31,Thylacine Cup GT,T'au Empire,Death Guard
+1,0952,0971,85,36,2024-05-31,Thylacine Cup GT,Adeptus Custodes,Lamenters
+1,0965,0969,100,25,2024-05-31,Thylacine Cup GT,Grey Knights,Death Guard
+1,0931,0977,96,47,2024-05-31,Thylacine Cup GT,Orks,Aeldari
+1,0957,0960,68,27,2024-05-31,Thylacine Cup GT,Thousand Sons,Imperial Knights
+1,0954,0975,94,37,2024-05-31,Thylacine Cup GT,Chaos Knights,Chaos Knights
+1,0035,0979,36,33,2024-05-31,Thylacine Cup GT,Chaos Knights,Thousand Sons
+1,0032,0967,88,30,2024-05-31,Thylacine Cup GT,Grey Knights,Chaos Space Marines
+1,0964,0959,96,23,2024-05-31,Thylacine Cup GT,Space Wolves,Aeldari
+1,0933,0951,85,28,2024-05-31,Thylacine Cup GT,Iron Warriors,Aeldari
+1,0956,0963,82,32,2024-05-31,Thylacine Cup GT,Necrons,Raptors
+1,0962,0976,90,41,2024-05-31,Thylacine Cup GT,World Eaters,World Eaters
+2,0975,0974,90,48,2024-05-31,Thylacine Cup GT,Chaos Knights,Death Guard
+2,0958,0976,100,25,2024-05-31,Thylacine Cup GT,Space Wolves,World Eaters
+2,0969,0971,67,62,2024-05-31,Thylacine Cup GT,Death Guard,Lamenters
+2,0931,0972,100,39,2024-05-31,Thylacine Cup GT,Orks,Chaos Space Marines
+2,0954,0039,96,39,2024-05-31,Thylacine Cup GT,Chaos Knights,Death Guard
+2,0965,0035,76,63,2024-05-31,Thylacine Cup GT,Grey Knights,Chaos Knights
+2,0978,0952,48,44,2024-05-31,Thylacine Cup GT,Adeptus Mechanicus,Adeptus Custodes
+2,0032,0933,73,40,2024-05-31,Thylacine Cup GT,Grey Knights,Iron Warriors
+2,0960,0970,74,43,2024-05-31,Thylacine Cup GT,Imperial Knights,Genestealer Cult
+2,0966,0957,78,66,2024-05-31,Thylacine Cup GT,Tyranids,Thousand Sons
+2,0977,0963,82,64,2024-05-31,Thylacine Cup GT,Aeldari,Raptors
+2,0979,0961,61,57,2024-05-31,Thylacine Cup GT,Thousand Sons,Grey Knights
+2,0953,0967,73,71,2024-05-31,Thylacine Cup GT,Genestealer Cult,Chaos Space Marines
+2,0973,0951,73,57,2024-05-31,Thylacine Cup GT,Black Templars,Aeldari
+2,0956,0962,95,40,2024-05-31,Thylacine Cup GT,Necrons,World Eaters
+2,0041,0955,81,48,2024-05-31,Thylacine Cup GT,Chaos Space Marines,Death Guard
+2,0037,0031,75,67,2024-05-31,Thylacine Cup GT,Grey Knights,Chaos Daemons
+2,0968,0959,76,64,2024-05-31,Thylacine Cup GT,Leagues of Votann,Aeldari
+2,0932,0964,68,57,2024-05-31,Thylacine Cup GT,T'au Empire,Space Wolves
+3,0032,0956,100,33,2024-05-31,Thylacine Cup GT,Grey Knights,Necrons
+3,0952,0955,94,55,2024-05-31,Thylacine Cup GT,Adeptus Custodes,Death Guard
+3,0932,0978,81,73,2024-05-31,Thylacine Cup GT,T'au Empire,Adeptus Mechanicus
+3,0963,0974,100,60,2024-05-31,Thylacine Cup GT,Raptors,Death Guard
+3,0979,0962,93,40,2024-05-31,Thylacine Cup GT,Thousand Sons,World Eaters
+3,0960,0975,55,50,2024-05-31,Thylacine Cup GT,Imperial Knights,Chaos Knights
+3,0967,0976,90,36,2024-05-31,Thylacine Cup GT,Chaos Space Marines,World Eaters
+3,0965,0041,79,41,2024-05-31,Thylacine Cup GT,Grey Knights,Chaos Space Marines
+3,0964,0933,91,65,2024-05-31,Thylacine Cup GT,Space Wolves,Iron Warriors
+3,0035,0039,85,37,2024-05-31,Thylacine Cup GT,Chaos Knights,Death Guard
+3,0973,0969,86,85,2024-05-31,Thylacine Cup GT,Black Templars,Death Guard
+3,0971,0961,93,59,2024-05-31,Thylacine Cup GT,Lamenters,Grey Knights
+3,0037,0954,88,54,2024-05-31,Thylacine Cup GT,Grey Knights,Chaos Knights
+3,0931,0031,100,33,2024-05-31,Thylacine Cup GT,Orks,Chaos Daemons
+3,0957,0972,96,43,2024-05-31,Thylacine Cup GT,Thousand Sons,Chaos Space Marines
+3,0970,0951,69,65,2024-05-31,Thylacine Cup GT,Genestealer Cult,Aeldari
+3,0959,0953,87,65,2024-05-31,Thylacine Cup GT,Aeldari,Genestealer Cult
+3,0966,0968,100,80,2024-05-31,Thylacine Cup GT,Tyranids,Leagues of Votann
+3,0977,0958,77,66,2024-05-31,Thylacine Cup GT,Aeldari,Space Wolves
+4,0037,0956,90,86,2024-05-31,Thylacine Cup GT,Grey Knights,Necrons
+4,0976,0974,72,67,2024-05-31,Thylacine Cup GT,World Eaters,Death Guard
+4,0960,0972,88,55,2024-05-31,Thylacine Cup GT,Imperial Knights,Chaos Space Marines
+4,0035,0977,92,86,2024-05-31,Thylacine Cup GT,Chaos Knights,Aeldari
+4,0958,0953,97,46,2024-05-31,Thylacine Cup GT,Space Wolves,Genestealer Cult
+4,0931,0932,100,66,2024-05-31,Thylacine Cup GT,Orks,T'au Empire
+4,0955,0039,98,78,2024-05-31,Thylacine Cup GT,Death Guard,Death Guard
+4,0041,0954,100,85,2024-05-31,Thylacine Cup GT,Chaos Space Marines,Chaos Knights
+4,0933,0962,94,64,2024-05-31,Thylacine Cup GT,Iron Warriors,World Eaters
+4,0957,0978,95,66,2024-05-31,Thylacine Cup GT,Thousand Sons,Adeptus Mechanicus
+4,0967,0959,87,75,2024-05-31,Thylacine Cup GT,Chaos Space Marines,Aeldari
+4,0968,0970,100,35,2024-05-31,Thylacine Cup GT,Leagues of Votann,Genestealer Cult
+4,0979,0973,99,49,2024-05-31,Thylacine Cup GT,Thousand Sons,Black Templars
+4,0964,0952,95,68,2024-05-31,Thylacine Cup GT,Space Wolves,Adeptus Custodes
+4,0032,0965,100,50,2024-05-31,Thylacine Cup GT,Grey Knights,Grey Knights
+4,0961,0963,79,70,2024-05-31,Thylacine Cup GT,Grey Knights,Raptors
+4,0031,0975,92,76,2024-05-31,Thylacine Cup GT,Chaos Daemons,Chaos Knights
+5,0931,0032,99,58,2024-05-31,Thylacine Cup GT,Orks,Grey Knights
+5,0965,0037,88,82,2024-05-31,Thylacine Cup GT,Grey Knights,Grey Knights
+5,0035,0960,72,67,2024-05-31,Thylacine Cup GT,Chaos Knights,Imperial Knights
+5,0041,0932,94,46,2024-05-31,Thylacine Cup GT,Chaos Space Marines,T'au Empire
+5,0964,0957,100,32,2024-05-31,Thylacine Cup GT,Space Wolves,Thousand Sons
+5,0039,0972,87,47,2024-05-31,Thylacine Cup GT,Death Guard,Chaos Space Marines
+5,0954,0979,54,52,2024-05-31,Thylacine Cup GT,Chaos Knights,Thousand Sons
+5,0978,0956,82,80,2024-05-31,Thylacine Cup GT,Adeptus Mechanicus,Necrons
+5,0961,0974,80,50,2024-05-31,Thylacine Cup GT,Grey Knights,Death Guard
+5,0977,0973,68,66,2024-05-31,Thylacine Cup GT,Aeldari,Black Templars
+5,0933,0955,86,61,2024-05-31,Thylacine Cup GT,Iron Warriors,Death Guard
+5,0963,0976,88,24,2024-05-31,Thylacine Cup GT,Raptors,World Eaters
+5,0967,0962,95,62,2024-05-31,Thylacine Cup GT,Chaos Space Marines,World Eaters
+5,0968,0958,100,60,2024-05-31,Thylacine Cup GT,Leagues of Votann,Space Wolves
+5,0031,0952,91,76,2024-05-31,Thylacine Cup GT,Chaos Daemons,Adeptus Custodes
+5,0959,0970,75,40,2024-05-31,Thylacine Cup GT,Aeldari,Genestealer Cult
+5,0975,0953,99,49,2024-05-31,Thylacine Cup GT,Chaos Knights,Genestealer Cult
+1,0958,0984,61,57,2024-07-13,Torantis Crusade RTT,Space Wolves,Space Marines (Astartes)
+1,0982,0983,26,10,2024-07-13,Torantis Crusade RTT,Adeptus Custodes,--------
+1,0933,0981,63,29,2024-07-13,Torantis Crusade RTT,--------,--------
+1,0043,0967,71,42,2024-07-13,Torantis Crusade RTT,Orks,Chaos Space Marines
+1,0974,0972,77,51,2024-07-13,Torantis Crusade RTT,--------,Xenos
+1,0980,0985,86,26,2024-07-13,Torantis Crusade RTT,--------,--------
+2,0981,0985,68,57,2024-07-13,Torantis Crusade RTT,--------,--------
+2,0967,0972,90,36,2024-07-13,Torantis Crusade RTT,Chaos Space Marines,Xenos
+2,0980,0974,83,32,2024-07-13,Torantis Crusade RTT,--------,--------
+2,0968,0984,60,52,2024-07-13,Torantis Crusade RTT,--------,Space Marines (Astartes)
+2,0958,0982,66,64,2024-07-13,Torantis Crusade RTT,Space Wolves,Adeptus Custodes
+2,0933,0043,89,45,2024-07-13,Torantis Crusade RTT,--------,Orks
+2,0983,0932,92,69,2024-07-13,Torantis Crusade RTT,--------,Adepta Sororitas
+3,0933,0980,88,39,2024-07-13,Torantis Crusade RTT,--------,--------
+3,0043,0974,90,6,2024-07-13,Torantis Crusade RTT,Orks,--------
+3,0967,0960,21,19,2024-07-13,Torantis Crusade RTT,Chaos Space Marines,--------
+3,0981,0983,66,14,2024-07-13,Torantis Crusade RTT,--------,--------
+3,0985,0982,70,16,2024-07-13,Torantis Crusade RTT,--------,Adeptus Custodes
+3,0968,0958,72,46,2024-07-13,Torantis Crusade RTT,--------,Space Wolves
+3,0984,0972,84,12,2024-07-13,Torantis Crusade RTT,Space Marines (Astartes),Xenos
+1,0991,0974,81,43,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adepta Sororitas,Orks
+1,0932,0984,95,58,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,T'au Empire,Space Marines (Astartes)
+1,0041,0961,91,47,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Dark Angels
+1,0996,0952,88,56,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Adeptus Custodes
+1,0968,0986,71,57,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,T'au Empire,Orks
+1,0043,0990,100,17,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Chaos Knights
+1,0975,0997,70,47,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,Black Templars
+1,0987,0958,80,78,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Tyranids,Space Wolves
+1,0032,0993,68,64,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Aeldari,Death Guard
+1,0980,0995,100,49,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,Necrons
+1,0967,0970,100,41,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Chaos Space Marines
+1,0988,0039,94,13,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Astra Militarum,Adepta Sororitas
+1,0973,0933,80,75,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Black Templars,Adepta Sororitas
+1,0031,0989,89,51,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Aeldari,Adepta Sororitas
+1,0956,0931,80,25,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adeptus Custodes,Orks
+1,0994,0981,86,47,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Space Marines (Astartes)
+1,0969,0966,82,56,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Adeptus Mechanicus
+1,0977,0951,74,43,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adeptus Mechanicus,Aeldari
+1,0037,0992,84,77,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Dark Angels
+2,0956,0977,45,40,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adeptus Custodes,Adeptus Mechanicus
+2,0933,0992,67,49,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adepta Sororitas,Dark Angels
+2,0975,0968,55,26,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,T'au Empire
+2,0974,0951,84,61,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Aeldari
+2,0994,0037,90,89,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Chaos Space Marines
+2,0980,0967,79,67,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,Chaos Space Marines
+2,0966,0989,78,36,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adeptus Mechanicus,Adepta Sororitas
+2,0931,0970,54,51,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Chaos Space Marines
+2,0969,0991,82,61,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Adepta Sororitas
+2,0986,0952,76,23,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Adeptus Custodes
+2,0973,0987,47,35,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Black Templars,Tyranids
+2,0031,0996,74,39,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Aeldari,Chaos Space Marines
+2,0961,0995,49,45,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Dark Angels,Necrons
+2,0993,0984,82,31,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Space Marines (Astartes)
+2,0032,0958,76,16,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Aeldari,Space Wolves
+2,0990,0039,88,28,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,Adepta Sororitas
+2,0932,0043,90,66,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,T'au Empire,Orks
+2,0981,0997,35,18,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Space Marines (Astartes),Black Templars
+2,0041,0988,79,53,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Astra Militarum
+3,0996,0986,70,40,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Orks
+3,0984,0970,68,33,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Space Marines (Astartes),Chaos Space Marines
+3,0974,0987,76,2,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Tyranids
+3,0956,0973,59,30,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adeptus Custodes,Black Templars
+3,0032,0031,89,31,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Aeldari,Aeldari
+3,0932,0980,74,37,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,T'au Empire,Chaos Knights
+3,0989,0952,80,62,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adepta Sororitas,Adeptus Custodes
+3,0997,0039,84,22,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Black Templars,Adepta Sororitas
+3,0933,0966,90,25,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Adepta Sororitas,Adeptus Mechanicus
+3,0990,0977,88,15,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Knights,Adeptus Mechanicus
+3,0994,0969,100,48,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Death Guard
+3,0967,0043,66,44,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Orks
+3,0992,0951,68,32,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Dark Angels,Aeldari
+3,0037,0975,69,65,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Chaos Space Marines,Chaos Knights
+3,0958,0995,92,23,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Space Wolves,Necrons
+3,0931,0981,86,19,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Orks,Space Marines (Astartes)
+3,0968,0961,49,39,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,T'au Empire,Dark Angels
+3,0993,0991,71,61,2024-07-27,Winter Waaagh! Obey/Disobey CARTT - Legends now permitted,Death Guard,Adepta Sororitas
+1,0985,0966,95,26,2024-08-16,North and South GT 2024,World Eaters,Adeptus Mechanicus
+1,0031,1004,100,46,2024-08-16,North and South GT 2024,Chaos Daemons,Tyranids
+1,0035,0965,84,42,2024-08-16,North and South GT 2024,Death Guard,Dark Angels
+1,0037,0973,100,38,2024-08-16,North and South GT 2024,Grey Knights,Necrons
+1,0041,0981,89,45,2024-08-16,North and South GT 2024,Adepta Sororitas,Chaos Daemons
+1,0931,0951,74,71,2024-08-16,North and South GT 2024,Orks,Aeldari
+1,0957,0999,100,34,2024-08-16,North and South GT 2024,Thousand Sons,Space Marines (Astartes)
+1,1006,0932,74,67,2024-08-16,North and South GT 2024,Chaos Daemons,T'au Empire
+1,0039,0960,79,65,2024-08-16,North and South GT 2024,Imperial Knights,Imperial Knights
+1,0964,1005,100,30,2024-08-16,North and South GT 2024,Space Marines (Astartes),Necrons
+1,0988,0974,92,36,2024-08-16,North and South GT 2024,Chaos Knights,Death Guard
+1,0043,0977,76,74,2024-08-16,North and South GT 2024,Aeldari,Astra Militarum
+1,0933,0963,76,72,2024-08-16,North and South GT 2024,Chaos Space Marines,Space Marines (Astartes)
+1,0955,1001,79,53,2024-08-16,North and South GT 2024,Deathwatch,Astra Militarum
+1,0990,0970,39,36,2024-08-16,North and South GT 2024,T'au Empire,Chaos Space Marines
+1,0998,1002,98,20,2024-08-16,North and South GT 2024,Tyranids,Orks
+1,0934,0968,87,32,2024-08-16,North and South GT 2024,Dark Angels,T'au Empire
+2,0931,1006,96,53,2024-08-16,North and South GT 2024,Orks,Chaos Daemons
+2,0977,1003,97,52,2024-08-16,North and South GT 2024,Astra Militarum,Tyranids
+2,0933,0043,83,49,2024-08-16,North and South GT 2024,Chaos Space Marines,Aeldari
+2,1000,0990,94,54,2024-08-16,North and South GT 2024,Space Wolves,T'au Empire
+2,0934,0035,93,69,2024-08-16,North and South GT 2024,Dark Angels,Death Guard
+2,0037,0031,84,70,2024-08-16,North and South GT 2024,Grey Knights,Chaos Daemons
+2,0974,0973,92,65,2024-08-16,North and South GT 2024,Death Guard,Necrons
+2,0955,0039,94,53,2024-08-16,North and South GT 2024,Deathwatch,Imperial Knights
+2,0963,0951,71,35,2024-08-16,North and South GT 2024,Space Marines (Astartes),Aeldari
+2,0981,0965,89,45,2024-08-16,North and South GT 2024,Chaos Daemons,Dark Angels
+2,0964,0957,97,61,2024-08-16,North and South GT 2024,Space Marines (Astartes),Thousand Sons
+2,0966,1002,82,70,2024-08-16,North and South GT 2024,Adeptus Mechanicus,Orks
+2,0960,0932,100,48,2024-08-16,North and South GT 2024,Imperial Knights,T'au Empire
+2,0985,0998,85,82,2024-08-16,North and South GT 2024,World Eaters,Tyranids
+2,0968,1005,73,68,2024-08-16,North and South GT 2024,T'au Empire,Necrons
+2,0999,0970,67,54,2024-08-16,North and South GT 2024,Space Marines (Astartes),Chaos Space Marines
+2,0041,0988,88,37,2024-08-16,North and South GT 2024,Adepta Sororitas,Chaos Knights
+3,0039,0981,89,79,2024-08-16,North and South GT 2024,Imperial Knights,Chaos Daemons
+3,1004,0932,82,75,2024-08-16,North and South GT 2024,Tyranids,T'au Empire
+3,0960,0957,82,41,2024-08-16,North and South GT 2024,Imperial Knights,Thousand Sons
+3,0988,1006,85,37,2024-08-16,North and South GT 2024,Chaos Knights,Chaos Daemons
+3,0973,0951,63,58,2024-08-16,North and South GT 2024,Necrons,Aeldari
+3,0037,0964,87,72,2024-08-16,North and South GT 2024,Grey Knights,Space Marines (Astartes)
+3,0043,0974,93,65,2024-08-16,North and South GT 2024,Aeldari,Death Guard
+3,0965,0970,100,60,2024-08-16,North and South GT 2024,Dark Angels,Chaos Space Marines
+3,0041,0955,81,31,2024-08-16,North and South GT 2024,Adepta Sororitas,Deathwatch
+3,0998,1000,82,50,2024-08-16,North and South GT 2024,Tyranids,Space Wolves
+3,0934,0985,89,35,2024-08-16,North and South GT 2024,Dark Angels,World Eaters
+3,0035,0963,61,56,2024-08-16,North and South GT 2024,Death Guard,Space Marines (Astartes)
+3,0990,0999,100,35,2024-08-16,North and South GT 2024,T'au Empire,Space Marines (Astartes)
+3,0933,0931,79,62,2024-08-16,North and South GT 2024,Chaos Space Marines,Orks
+3,1001,1003,95,74,2024-08-16,North and South GT 2024,Astra Militarum,Tyranids
+3,1005,1002,70,24,2024-08-16,North and South GT 2024,Necrons,Orks
+3,0966,0968,88,41,2024-08-16,North and South GT 2024,Adeptus Mechanicus,T'au Empire
+4,0035,0985,90,63,2024-08-16,North and South GT 2024,Death Guard,World Eaters
+4,0932,1003,100,64,2024-08-16,North and South GT 2024,T'au Empire,Tyranids
+4,0977,1001,95,69,2024-08-16,North and South GT 2024,Astra Militarum,Astra Militarum
+4,0043,0039,97,54,2024-08-16,North and South GT 2024,Aeldari,Imperial Knights
+4,0964,0998,100,78,2024-08-16,North and South GT 2024,Space Marines (Astartes),Tyranids
+4,0974,1005,84,76,2024-08-16,North and South GT 2024,Death Guard,Necrons
+4,0988,0955,81,77,2024-08-16,North and South GT 2024,Chaos Knights,Deathwatch
+4,0990,0966,99,83,2024-08-16,North and South GT 2024,T'au Empire,Adeptus Mechanicus
+4,0037,0934,99,68,2024-08-16,North and South GT 2024,Grey Knights,Dark Angels
+4,0960,0931,98,53,2024-08-16,North and South GT 2024,Imperial Knights,Orks
+4,0970,1002,52,41,2024-08-16,North and South GT 2024,Chaos Space Marines,Orks
+4,0041,0933,94,28,2024-08-16,North and South GT 2024,Adepta Sororitas,Chaos Space Marines
+4,1000,0031,88,42,2024-08-16,North and South GT 2024,Space Wolves,Chaos Daemons
+4,0957,0963,93,68,2024-08-16,North and South GT 2024,Thousand Sons,Space Marines (Astartes)
+4,1006,0973,100,63,2024-08-16,North and South GT 2024,Chaos Daemons,Necrons
+4,0968,0999,90,39,2024-08-16,North and South GT 2024,T'au Empire,Space Marines (Astartes)
+4,0981,1004,97,75,2024-08-16,North and South GT 2024,Chaos Daemons,Tyranids
+5,0988,0035,91,43,2024-08-16,North and South GT 2024,Chaos Knights,Death Guard
+5,0977,1000,75,72,2024-08-16,North and South GT 2024,Astra Militarum,Space Wolves
+5,1003,0999,47,45,2024-08-16,North and South GT 2024,Tyranids,Space Marines (Astartes)
+5,0934,0043,89,45,2024-08-16,North and South GT 2024,Dark Angels,Aeldari
+5,0932,1005,83,55,2024-08-16,North and South GT 2024,T'au Empire,Necrons
+5,0968,1006,89,52,2024-08-16,North and South GT 2024,T'au Empire,Chaos Daemons
+5,0973,0970,80,76,2024-08-16,North and South GT 2024,Necrons,Chaos Space Marines
+5,0958,1002,85,25,2024-08-16,North and South GT 2024,Space Wolves,Orks
+5,0981,0957,83,67,2024-08-16,North and South GT 2024,Chaos Daemons,Thousand Sons
+5,0037,0041,80,74,2024-08-16,North and South GT 2024,Grey Knights,Adepta Sororitas
+5,0031,1001,74,68,2024-08-16,North and South GT 2024,Chaos Daemons,Astra Militarum
+5,0955,0931,65,61,2024-08-16,North and South GT 2024,Deathwatch,Orks
+5,0039,0985,93,44,2024-08-16,North and South GT 2024,Imperial Knights,World Eaters
+5,1004,0963,81,72,2024-08-16,North and South GT 2024,Tyranids,Space Marines (Astartes)
+5,0964,0960,86,59,2024-08-16,North and South GT 2024,Space Marines (Astartes),Imperial Knights
+5,0933,0990,77,48,2024-08-16,North and South GT 2024,Chaos Space Marines,T'au Empire
+1,1008,0980,98,33,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Daemons,Chaos Knights
+1,0987,0991,61,41,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Tyranids,Chaos Space Marines
+1,0958,0974,64,15,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Space Wolves,Death Guard
+1,0955,1007,46,22,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Space Marines,T'au Empire
+1,1009,0933,77,29,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Adepta Sororitas,Chaos Daemons
+1,0932,0039,64,54,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,T'au Empire,Imperial Knights
+1,0031,0968,87,40,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Daemons,Adeptus Mechanicus
+1,0952,0961,77,38,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Adeptus Custodes,Dark Angels
+1,0970,0931,62,30,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Space Marines,Drukhari
+2,0987,0970,90,63,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Tyranids,Chaos Space Marines
+2,0932,0958,98,33,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,T'au Empire,Space Wolves
+2,0933,0931,92,32,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Daemons,Drukhari
+2,0991,0968,83,22,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Space Marines,Adeptus Mechanicus
+2,1008,0031,86,60,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Daemons,Chaos Daemons
+2,0980,0961,100,14,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Knights,Dark Angels
+2,1007,0974,69,66,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,T'au Empire,Death Guard
+2,1009,0952,79,68,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Adepta Sororitas,Adeptus Custodes
+2,0039,0955,78,63,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Imperial Knights,Chaos Space Marines
+3,0958,1007,83,37,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Space Wolves,T'au Empire
+3,0991,0970,86,43,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Space Marines,Chaos Space Marines
+3,0931,0961,65,59,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Drukhari,Dark Angels
+3,0932,1008,77,69,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,T'au Empire,Chaos Daemons
+3,0039,0980,100,51,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Imperial Knights,Chaos Knights
+3,0974,0968,89,40,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Death Guard,Adeptus Mechanicus
+3,0987,1009,51,36,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Tyranids,Adepta Sororitas
+3,0933,0955,98,46,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Chaos Daemons,Chaos Space Marines
+3,0952,0031,68,52,2024-10-19,Warhammer 40k - 2000 Points - But Make It Spooky Halloween Event,Adeptus Custodes,Chaos Daemons
+1,0504,0957,82,38,2024-11-15,The Hobart GT 2024,World Eaters,Drukhari
+1,0035,1007,99,30,2024-11-15,The Hobart GT 2024,Imperial Knights,T'au Empire
+1,1014,1020,79,34,2024-11-15,The Hobart GT 2024,Tyranids,Chaos Knights
+1,1015,0963,66,40,2024-11-15,The Hobart GT 2024,Chaos Knights,Space Marines (Astartes)
+1,0991,1019,71,37,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Imperial Knights
+1,0933,0039,78,37,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Imperial Knights
+1,1011,0952,85,50,2024-11-15,The Hobart GT 2024,Tyranids,Adeptus Custodes
+1,0978,0960,54,49,2024-11-15,The Hobart GT 2024,Adeptus Mechanicus,Imperial Knights
+1,0988,1018,92,10,2024-11-15,The Hobart GT 2024,Chaos Knights,Chaos Knights
+1,0975,1002,83,23,2024-11-15,The Hobart GT 2024,Tyranids,Orks
+1,0990,1012,76,53,2024-11-15,The Hobart GT 2024,T'au Empire,Necrons
+1,1004,1017,89,30,2024-11-15,The Hobart GT 2024,Tyranids,Imperial Knights
+1,0043,0956,58,25,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Aeldari
+1,0031,0041,61,55,2024-11-15,The Hobart GT 2024,Chaos Daemons,Necrons
+1,0931,1005,81,40,2024-11-15,The Hobart GT 2024,Astra Militarum,Necrons
+1,1010,0961,57,18,2024-11-15,The Hobart GT 2024,World Eaters,Imperial Knights
+1,0980,0970,91,53,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Space Marines
+1,1022,0974,76,22,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+1,0032,1016,100,24,2024-11-15,The Hobart GT 2024,Drukhari,Imperial Knights
+1,0082,1021,100,19,2024-11-15,The Hobart GT 2024,World Eaters,Imperial Knights
+1,0597,0985,80,45,2024-11-15,The Hobart GT 2024,Genestealer Cult,Chaos Knights
+2,0991,1022,95,41,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Imperial Knights
+2,0597,1014,100,75,2024-11-15,The Hobart GT 2024,Genestealer Cult,Tyranids
+2,0082,0032,85,77,2024-11-15,The Hobart GT 2024,World Eaters,Drukhari
+2,0960,0952,93,74,2024-11-15,The Hobart GT 2024,Imperial Knights,Adeptus Custodes
+2,0970,1012,62,53,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Necrons
+2,1002,1016,90,75,2024-11-15,The Hobart GT 2024,Orks,Imperial Knights
+2,1019,0039,95,50,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+2,0504,0931,87,86,2024-11-15,The Hobart GT 2024,World Eaters,Astra Militarum
+2,0031,1015,96,35,2024-11-15,The Hobart GT 2024,Chaos Daemons,Chaos Knights
+2,1004,0980,100,50,2024-11-15,The Hobart GT 2024,Tyranids,Imperial Knights
+2,0975,1011,93,75,2024-11-15,The Hobart GT 2024,Tyranids,Tyranids
+2,0988,0035,50,47,2024-11-15,The Hobart GT 2024,Chaos Knights,Imperial Knights
+2,0043,1010,89,44,2024-11-15,The Hobart GT 2024,Chaos Space Marines,World Eaters
+2,1007,1020,93,90,2024-11-15,The Hobart GT 2024,T'au Empire,Chaos Knights
+2,1021,0961,85,16,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+2,0933,0990,90,54,2024-11-15,The Hobart GT 2024,Chaos Space Marines,T'au Empire
+2,0957,0963,78,46,2024-11-15,The Hobart GT 2024,Drukhari,Space Marines (Astartes)
+2,0041,0978,81,59,2024-11-15,The Hobart GT 2024,Necrons,Adeptus Mechanicus
+2,0985,1005,98,65,2024-11-15,The Hobart GT 2024,Chaos Knights,Necrons
+2,1017,0956,80,74,2024-11-15,The Hobart GT 2024,Imperial Knights,Aeldari
+2,0990,1007,98,60,2024-11-15,The Hobart GT 2024,T'au Empire,T'au Empire
+2,1016,0039,75,53,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+2,0043,0988,74,64,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Chaos Knights
+2,0597,0975,95,74,2024-11-15,The Hobart GT 2024,Genestealer Cult,Tyranids
+2,1015,1021,69,65,2024-11-15,The Hobart GT 2024,Chaos Knights,Imperial Knights
+2,0960,0980,73,56,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+2,0035,0985,66,46,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Knights
+2,1011,1014,62,54,2024-11-15,The Hobart GT 2024,Tyranids,Tyranids
+2,1010,1018,84,32,2024-11-15,The Hobart GT 2024,World Eaters,Chaos Knights
+2,0032,0931,93,67,2024-11-15,The Hobart GT 2024,Drukhari,Astra Militarum
+2,0957,1022,60,57,2024-11-15,The Hobart GT 2024,Drukhari,Imperial Knights
+2,0963,0961,81,59,2024-11-15,The Hobart GT 2024,Space Marines (Astartes),Imperial Knights
+2,0956,1005,83,47,2024-11-15,The Hobart GT 2024,Aeldari,Necrons
+2,0978,0970,92,31,2024-11-15,The Hobart GT 2024,Adeptus Mechanicus,Chaos Space Marines
+2,0504,0933,64,0,2024-11-15,The Hobart GT 2024,World Eaters,Chaos Space Marines
+2,0952,1020,96,40,2024-11-15,The Hobart GT 2024,Adeptus Custodes,Chaos Knights
+2,1017,1002,85,34,2024-11-15,The Hobart GT 2024,Imperial Knights,Orks
+2,0041,1019,93,34,2024-11-15,The Hobart GT 2024,Necrons,Imperial Knights
+2,0082,1004,47,44,2024-11-15,The Hobart GT 2024,World Eaters,Tyranids
+2,0031,0991,76,49,2024-11-15,The Hobart GT 2024,Chaos Daemons,Chaos Space Marines
+4,0082,0504,92,76,2024-11-15,The Hobart GT 2024,World Eaters,World Eaters
+4,1004,0975,78,57,2024-11-15,The Hobart GT 2024,Tyranids,Tyranids
+4,1005,1020,60,39,2024-11-15,The Hobart GT 2024,Necrons,Chaos Knights
+4,1019,1002,77,57,2024-11-15,The Hobart GT 2024,Imperial Knights,Orks
+4,0032,0043,87,25,2024-11-15,The Hobart GT 2024,Drukhari,Chaos Space Marines
+4,0952,1014,88,31,2024-11-15,The Hobart GT 2024,Adeptus Custodes,Tyranids
+4,0960,0035,56,41,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+4,1017,1010,77,10,2024-11-15,The Hobart GT 2024,Imperial Knights,World Eaters
+4,0931,0933,88,27,2024-11-15,The Hobart GT 2024,Astra Militarum,Chaos Space Marines
+4,0988,0978,88,34,2024-11-15,The Hobart GT 2024,Chaos Knights,Adeptus Mechanicus
+4,1018,0970,96,35,2024-11-15,The Hobart GT 2024,Chaos Knights,Chaos Space Marines
+4,0991,1011,77,40,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Tyranids
+4,1022,1016,51,48,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+4,0597,0031,59,55,2024-11-15,The Hobart GT 2024,Genestealer Cult,Chaos Daemons
+4,1015,0957,80,38,2024-11-15,The Hobart GT 2024,Chaos Knights,Drukhari
+4,0039,0961,66,17,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+4,0980,0985,86,42,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Knights
+4,0956,1007,83,53,2024-11-15,The Hobart GT 2024,Aeldari,T'au Empire
+4,0041,0990,90,29,2024-11-15,The Hobart GT 2024,Necrons,T'au Empire
+4,0963,1021,82,39,2024-11-15,The Hobart GT 2024,Space Marines (Astartes),Imperial Knights
+5,0985,1007,100,63,2024-11-15,The Hobart GT 2024,Chaos Knights,T'au Empire
+5,0933,0957,90,18,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Drukhari
+5,1016,1005,92,76,2024-11-15,The Hobart GT 2024,Imperial Knights,Necrons
+5,0960,1015,100,31,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Knights
+5,0975,0952,88,58,2024-11-15,The Hobart GT 2024,Tyranids,Adeptus Custodes
+5,1019,0978,83,80,2024-11-15,The Hobart GT 2024,Imperial Knights,Adeptus Mechanicus
+5,0504,1004,72,58,2024-11-15,The Hobart GT 2024,World Eaters,Tyranids
+5,0032,0041,95,63,2024-11-15,The Hobart GT 2024,Drukhari,Necrons
+5,0039,1021,93,43,2024-11-15,The Hobart GT 2024,Imperial Knights,Imperial Knights
+5,0035,0963,82,67,2024-11-15,The Hobart GT 2024,Imperial Knights,Space Marines (Astartes)
+5,1010,1014,88,37,2024-11-15,The Hobart GT 2024,World Eaters,Tyranids
+5,0961,1020,70,38,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Knights
+5,1017,0031,95,45,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Daemons
+5,0991,0988,70,64,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Chaos Knights
+5,0082,0597,76,69,2024-11-15,The Hobart GT 2024,World Eaters,Genestealer Cult
+5,1022,1018,76,49,2024-11-15,The Hobart GT 2024,Imperial Knights,Chaos Knights
+5,1011,0990,83,59,2024-11-15,The Hobart GT 2024,Tyranids,T'au Empire
+5,0956,0980,77,54,2024-11-15,The Hobart GT 2024,Aeldari,Imperial Knights
+5,1002,0970,80,48,2024-11-15,The Hobart GT 2024,Orks,Chaos Space Marines
+5,0043,0931,85,84,2024-11-15,The Hobart GT 2024,Chaos Space Marines,Astra Militarum
+1,0043,1023,96,21,2024-12-07,The Iron Halo - Hobart,Orks,Imperial Knights
+1,0957,0958,63,45,2024-12-07,The Iron Halo - Hobart,Thousand Sons,Space Wolves
+1,0954,0960,80,58,2024-12-07,The Iron Halo - Hobart,Chaos Knights,Necrons
+1,0035,1007,82,18,2024-12-07,The Iron Halo - Hobart,Chaos,Dark Angels
+1,1024,0961,73,40,2024-12-07,The Iron Halo - Hobart,Space Marines (Astartes),Dark Angels
+1,0041,0968,91,30,2024-12-07,The Iron Halo - Hobart,Necrons,Leagues of Votann
+1,1027,1026,63,30,2024-12-07,The Iron Halo - Hobart,World Eaters,Adeptus Mechanicus
+1,0931,0039,55,32,2024-12-07,The Iron Halo - Hobart,Astra Militarum,Blood Angels
+1,0967,0972,86,34,2024-12-07,The Iron Halo - Hobart,Chaos Space Marines,Chaos Knights
+1,0952,1025,70,46,2024-12-07,The Iron Halo - Hobart,Adeptus Custodes,World Eaters
+2,0041,0043,58,40,2024-12-07,The Iron Halo - Hobart,Necrons,Orks
+2,0934,0960,84,32,2024-12-07,The Iron Halo - Hobart,World Eaters,Necrons
+2,0954,1024,94,59,2024-12-07,The Iron Halo - Hobart,Chaos Knights,Space Marines (Astartes)
+2,0961,0972,78,76,2024-12-07,The Iron Halo - Hobart,Dark Angels,Chaos Knights
+2,1023,1026,88,71,2024-12-07,The Iron Halo - Hobart,Imperial Knights,Adeptus Mechanicus
+2,0968,0039,88,62,2024-12-07,The Iron Halo - Hobart,Leagues of Votann,Blood Angels
+2,1027,0957,78,54,2024-12-07,The Iron Halo - Hobart,World Eaters,Thousand Sons
+2,0967,0035,73,64,2024-12-07,The Iron Halo - Hobart,Chaos Space Marines,Chaos
+2,0932,0931,85,70,2024-12-07,The Iron Halo - Hobart,Genestealer Cult,Astra Militarum
+2,0952,0974,85,71,2024-12-07,The Iron Halo - Hobart,Adeptus Custodes,Death Guard
+3,0931,1024,90,66,2024-12-07,The Iron Halo - Hobart,Astra Militarum,Space Marines (Astartes)
+3,0041,0952,71,52,2024-12-07,The Iron Halo - Hobart,Necrons,Adeptus Custodes
+3,0932,1027,76,41,2024-12-07,The Iron Halo - Hobart,Genestealer Cult,World Eaters
+3,0934,0035,79,53,2024-12-07,The Iron Halo - Hobart,World Eaters,Chaos
+3,0957,1023,74,49,2024-12-07,The Iron Halo - Hobart,Thousand Sons,Imperial Knights
+3,0954,0967,100,15,2024-12-07,The Iron Halo - Hobart,Chaos Knights,Chaos Space Marines
+3,0960,1025,95,20,2024-12-07,The Iron Halo - Hobart,Necrons,World Eaters
+3,1026,0039,70,42,2024-12-07,The Iron Halo - Hobart,Adeptus Mechanicus,Blood Angels
+3,1007,0972,60,57,2024-12-07,The Iron Halo - Hobart,Dark Angels,Chaos Knights
+3,0968,0961,75,27,2024-12-07,The Iron Halo - Hobart,Leagues of Votann,Dark Angels
+3,0043,0974,91,24,2024-12-07,The Iron Halo - Hobart,Orks,Death Guard
+4,0961,1025,76,27,2024-12-07,The Iron Halo - Hobart,Dark Angels,World Eaters
+4,0972,0039,85,64,2024-12-07,The Iron Halo - Hobart,Chaos Knights,Blood Angels
+4,1023,0974,85,38,2024-12-07,The Iron Halo - Hobart,Imperial Knights,Death Guard
+4,0035,0960,79,63,2024-12-07,The Iron Halo - Hobart,Chaos,Necrons
+4,0958,1027,30,0,2024-12-07,The Iron Halo - Hobart,Space Wolves,World Eaters
+4,0931,0968,82,74,2024-12-07,The Iron Halo - Hobart,Astra Militarum,Leagues of Votann
+4,0043,0934,92,64,2024-12-07,The Iron Halo - Hobart,Orks,World Eaters
+4,1024,1007,99,70,2024-12-07,The Iron Halo - Hobart,Space Marines (Astartes),Dark Angels
+4,0041,0954,75,46,2024-12-07,The Iron Halo - Hobart,Necrons,Chaos Knights
+4,0932,0952,82,81,2024-12-07,The Iron Halo - Hobart,Genestealer Cult,Adeptus Custodes
+4,0957,0967,92,80,2024-12-07,The Iron Halo - Hobart,Thousand Sons,Chaos Space Marines
+5,0934,1024,91,63,2024-12-07,The Iron Halo - Hobart,World Eaters,Space Marines (Astartes)
+5,0968,0967,73,65,2024-12-07,The Iron Halo - Hobart,Leagues of Votann,Chaos Space Marines
+5,0932,0041,83,79,2024-12-07,The Iron Halo - Hobart,Genestealer Cult,Necrons
+5,0960,1007,97,46,2024-12-07,The Iron Halo - Hobart,Necrons,Dark Angels
+5,0931,0957,85,51,2024-12-07,The Iron Halo - Hobart,Astra Militarum,Thousand Sons
+5,0974,0972,80,45,2024-12-07,The Iron Halo - Hobart,Death Guard,Chaos Knights
+5,0043,0954,77,66,2024-12-07,The Iron Halo - Hobart,Orks,Chaos Knights
+5,0039,1025,54,50,2024-12-07,The Iron Halo - Hobart,Blood Angels,World Eaters
+5,1023,0961,76,74,2024-12-07,The Iron Halo - Hobart,Imperial Knights,Dark Angels
+5,0952,0035,75,63,2024-12-07,The Iron Halo - Hobart,Adeptus Custodes,Chaos
+1,0933,0965,74,31,2025-05-24,Autumn Assault - Highlander RTT,Chaos Space Marines,Dark Angels
+1,0954,0972,90,38,2025-05-24,Autumn Assault - Highlander RTT,Astra Militarum,Chaos Space Marines
+1,0960,1029,62,53,2025-05-24,Autumn Assault - Highlander RTT,Imperial Knights,T'au Empire
+1,1007,1023,70,44,2025-05-24,Autumn Assault - Highlander RTT,Dark Angels,Imperial Knights
+1,0931,1028,72,55,2025-05-24,Autumn Assault - Highlander RTT,Orks,Dark Angels
+1,0957,0999,73,31,2025-05-24,Autumn Assault - Highlander RTT,Drukhari,Space Marines (Astartes)
+1,0989,1013,55,53,2025-05-24,Autumn Assault - Highlander RTT,Necrons,Space Marines (Astartes)
+1,0037,0031,65,54,2025-05-24,Autumn Assault - Highlander RTT,Blood Angels,Chaos Daemons
+1,0934,0961,72,37,2025-05-24,Autumn Assault - Highlander RTT,World Eaters,Emperor's Children
+1,0932,0035,69,40,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Blood Angels
+1,0990,0958,74,24,2025-05-24,Autumn Assault - Highlander RTT,Chaos Knights,Space Wolves
+1,0043,0992,78,41,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Dark Angels
+1,0969,0970,81,37,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Chaos Space Marines
+1,0952,1014,65,34,2025-05-24,Autumn Assault - Highlander RTT,Adeptus Custodes,Tyranids
+1,1010,0973,78,33,2025-05-24,Autumn Assault - Highlander RTT,World Eaters,Necrons
+2,0958,0999,93,24,2025-05-24,Autumn Assault - Highlander RTT,Space Wolves,Space Marines (Astartes)
+2,0990,0933,79,35,2025-05-24,Autumn Assault - Highlander RTT,Chaos Knights,Chaos Space Marines
+2,1028,0989,79,75,2025-05-24,Autumn Assault - Highlander RTT,Dark Angels,Necrons
+2,0035,0992,85,43,2025-05-24,Autumn Assault - Highlander RTT,Blood Angels,Dark Angels
+2,0043,1010,85,18,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,World Eaters
+2,0934,1007,100,16,2025-05-24,Autumn Assault - Highlander RTT,World Eaters,Dark Angels
+2,0932,0037,73,55,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Blood Angels
+2,0965,0973,96,30,2025-05-24,Autumn Assault - Highlander RTT,Dark Angels,Necrons
+2,0954,0969,100,45,2025-05-24,Autumn Assault - Highlander RTT,Astra Militarum,Death Guard
+2,0972,0970,88,65,2025-05-24,Autumn Assault - Highlander RTT,Chaos Space Marines,Chaos Space Marines
+2,0031,1029,87,50,2025-05-24,Autumn Assault - Highlander RTT,Chaos Daemons,T'au Empire
+2,0961,1014,77,70,2025-05-24,Autumn Assault - Highlander RTT,Emperor's Children,Tyranids
+2,0960,0952,90,51,2025-05-24,Autumn Assault - Highlander RTT,Imperial Knights,Adeptus Custodes
+2,1013,1023,67,64,2025-05-24,Autumn Assault - Highlander RTT,Space Marines (Astartes),Imperial Knights
+2,0931,0957,78,62,2025-05-24,Autumn Assault - Highlander RTT,Orks,Drukhari
+3,0932,0031,75,72,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Chaos Daemons
+3,0043,0990,87,52,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Chaos Knights
+3,0952,0961,98,26,2025-05-24,Autumn Assault - Highlander RTT,Adeptus Custodes,Emperor's Children
+3,0992,0970,80,40,2025-05-24,Autumn Assault - Highlander RTT,Dark Angels,Chaos Space Marines
+3,0957,1028,41,35,2025-05-24,Autumn Assault - Highlander RTT,Drukhari,Dark Angels
+3,0933,1010,90,18,2025-05-24,Autumn Assault - Highlander RTT,Chaos Space Marines,World Eaters
+3,0965,0989,98,21,2025-05-24,Autumn Assault - Highlander RTT,Dark Angels,Necrons
+3,1029,1023,86,67,2025-05-24,Autumn Assault - Highlander RTT,T'au Empire,Imperial Knights
+3,0958,1013,78,48,2025-05-24,Autumn Assault - Highlander RTT,Space Wolves,Space Marines (Astartes)
+3,0969,0972,92,28,2025-05-24,Autumn Assault - Highlander RTT,Death Guard,Chaos Space Marines
+3,0037,0035,66,53,2025-05-24,Autumn Assault - Highlander RTT,Blood Angels,Blood Angels
+3,0934,0954,81,67,2025-05-24,Autumn Assault - Highlander RTT,World Eaters,Astra Militarum
+3,1014,1007,81,54,2025-05-24,Autumn Assault - Highlander RTT,Tyranids,Dark Angels
+3,0931,0960,77,66,2025-05-24,Autumn Assault - Highlander RTT,Orks,Imperial Knights

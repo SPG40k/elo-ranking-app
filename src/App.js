@@ -9,6 +9,7 @@ import {
 import Leaderboard from './components/Leaderboard';
 import TeamsLeaderboard from './components/TeamsLeaderboard';
 import FactionWinrates from './components/FactionWinrates';
+import FactionLeaderboardsHub from './components/FactionLeaderboardsHub';
 import SubmitMatch from './pages/SubmitMatch';
 import UploadCSV from './components/UploadCSV';
 import PlayerDetail from './pages/PlayerDetail';
@@ -18,6 +19,7 @@ import Papa from 'papaparse';
 import { calculateElo, getRankFromElo, calculateTeamEloForMatch } from './utils/eloUtils';
 import OverallLeaderboard from './components/OverallLeaderboard';
 import OverallPlayerDetail from './pages/OverallPlayerDetail';
+import FactionSpecificLeaderboard from './components/FactionSpecificLeaderboard';
 
 function safeTrim(value) {
   return typeof value === 'string' ? value.trim() : '';
@@ -288,7 +290,7 @@ export default function App() {
               to="/faction-winrates" 
               className="px-4 py-2 border border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200 rounded-r-lg"
             >
-              Faction Winrates
+              Faction Leaderboard
             </Link>
           </div>
         </div>
@@ -308,6 +310,8 @@ export default function App() {
           <Route path="/" element={<Leaderboard allPlayers={allPlayers} />} />
           <Route path="/teams" element={<TeamsLeaderboard allPlayers={allTeamsPlayers} />} />
           <Route path="/faction-winrates" element={<FactionWinrates />} />
+          <Route path="/faction-leaderboards" element={<FactionLeaderboardsHub />} />
+          <Route path="/faction-leaderboard/:factionName" element={<FactionSpecificLeaderboardWrapper />} />
           <Route path="/teams/player/:id" element={<TeamsPlayerDetail allPlayers={allTeamsPlayers} />} />
           <Route path="/submit" element={<SubmitMatch allPlayers={allPlayers} setAllPlayers={setAllPlayers} />} />
           <Route path="/upload" element={<UploadCSV setAllPlayers={setAllPlayers} />} />
@@ -319,4 +323,9 @@ export default function App() {
       </div>
     </Router>
   );
+}
+
+function FactionSpecificLeaderboardWrapper() {
+  const { factionName } = require('react-router-dom').useParams();
+  return <FactionSpecificLeaderboard factionName={decodeURIComponent(factionName)} />;
 }

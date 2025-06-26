@@ -25,7 +25,9 @@ export default function Leaderboard({ allPlayers }) {
   const [hideNoMatches, setHideNoMatches] = useState(false);
 
   const sortedPlayers = [...allPlayers].sort((a, b) => b.elo - a.elo);
-  const rankMap = new Map(sortedPlayers.map((p, i) => [p.id, i + 1]));
+  
+  // Create global rank map from all players
+  const globalRankMap = new Map(sortedPlayers.map((p, i) => [p.id, i + 1]));
 
   const filteredPlayers = sortedPlayers.filter((player) => {
     const nameMatch = player.name.toLowerCase().includes(searchTerm.toLowerCase());
@@ -151,7 +153,10 @@ export default function Leaderboard({ allPlayers }) {
         </thead>
         <tbody>
           {visiblePlayers.map((player, idx) => {
-            const rankPosition = idx + 1;
+            // Use global ranking for 'All' filter and name searches, contextual ranking only for state filters
+            const rankPosition = (stateFilter === 'All' || searchTerm !== '' || hideNoMatches)
+              ? globalRankMap.get(player.id) 
+              : idx + 1;
             const { rank, color } = getRankInfo(player.elo, player.id);
             const stateCode = player.state || '';
             const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600 dark:text-gray-300';

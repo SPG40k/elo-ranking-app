@@ -4932,3 +4932,228 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,0934,0954,81,67,2025-05-24,Autumn Assault - Highlander RTT,World Eaters,Astra Militarum
 3,1014,1007,81,54,2025-05-24,Autumn Assault - Highlander RTT,Tyranids,Dark Angels
 3,0931,0960,77,66,2025-05-24,Autumn Assault - Highlander RTT,Orks,Imperial Knights
+1,1051,0911,70,59,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Death Guard,Tyranids
+1,0912,1048,92,43,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Salamanders,Chaos Space Marines
+1,1047,1049,65,40,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Leagues of Votann,Adeptus Custodes
+1,0702,1050,100,28,2024-05-17,Hobby Hub Warmaster Series Tournament 19,--------,Tyranids
+2,1048,0911,85,79,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Chaos Space Marines,Tyranids
+2,1051,1047,76,65,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Death Guard,Leagues of Votann
+2,0702,0912,100,95,2024-05-17,Hobby Hub Warmaster Series Tournament 19,--------,Salamanders
+2,1050,1049,86,76,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Tyranids,Adeptus Custodes
+3,0912,1047,98,45,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Salamanders,Leagues of Votann
+3,1048,1050,91,12,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Chaos Space Marines,Tyranids
+3,0911,1049,42,13,2024-05-17,Hobby Hub Warmaster Series Tournament 19,Tyranids,Adeptus Custodes
+3,0702,1051,87,24,2024-05-17,Hobby Hub Warmaster Series Tournament 19,--------,Death Guard
+1,0909,0701,90,32,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Orks,Black Templars
+1,1061,1060,88,78,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Adepta Sororitas,Imperial Knights
+1,1056,1054,83,34,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Astra Militarum,Space Wolves
+1,1052,1059,96,32,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Necrons,Orks
+1,1053,1058,95,33,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Chaos,Aeldari
+1,0702,0910,100,54,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Death Guard,Astra Militarum
+1,0912,0913,96,45,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Dark Angels,Chaos Knights
+1,0045,1055,86,50,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Exorcists,Grey Knights
+1,1057,0047,69,30,2024-06-21,Hobby Hub Warmaster Series Tournament 20,T'au Empire,Leagues of Votann
+2,1052,1053,65,53,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Necrons,Chaos
+2,1058,1059,84,62,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Aeldari,Orks
+2,0913,1054,77,56,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Chaos Knights,Space Wolves
+2,0910,1055,83,51,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Astra Militarum,Grey Knights
+2,0702,0912,90,54,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Death Guard,Dark Angels
+2,1057,1060,66,41,2024-06-21,Hobby Hub Warmaster Series Tournament 20,T'au Empire,Imperial Knights
+2,0701,0047,71,56,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Black Templars,Leagues of Votann
+2,0045,1056,75,64,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Exorcists,Astra Militarum
+2,1061,0909,74,44,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Adepta Sororitas,Orks
+3,0912,1057,100,44,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Dark Angels,T'au Empire
+3,0045,1052,86,82,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Exorcists,Necrons
+3,1055,1054,92,73,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Grey Knights,Space Wolves
+3,0910,0909,95,51,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Astra Militarum,Orks
+3,0913,1058,89,59,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Chaos Knights,Aeldari
+3,1060,0701,72,51,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Imperial Knights,Black Templars
+3,0702,1061,100,40,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Death Guard,Adepta Sororitas
+3,1053,1056,92,75,2024-06-21,Hobby Hub Warmaster Series Tournament 20,Chaos,Astra Militarum
+1,0702,0909,100,28,2024-07-19,Hobby Hub Warmaster Series Tournament 21,Grey Knights,Space Marines (Astartes)
+1,0911,1062,72,36,2024-07-19,Hobby Hub Warmaster Series Tournament 21,Tyranids,Drukhari
+1,0910,1057,100,68,2024-07-19,Hobby Hub Warmaster Series Tournament 21,--------,World Eaters
+2,0910,0702,92,88,2024-07-19,Hobby Hub Warmaster Series Tournament 21,--------,Grey Knights
+2,0909,1062,100,23,2024-07-19,Hobby Hub Warmaster Series Tournament 21,Space Marines (Astartes),Drukhari
+2,1057,0911,85,44,2024-07-19,Hobby Hub Warmaster Series Tournament 21,World Eaters,Tyranids
+3,1057,1062,86,36,2024-07-19,Hobby Hub Warmaster Series Tournament 21,World Eaters,Drukhari
+3,0910,0909,93,57,2024-07-19,Hobby Hub Warmaster Series Tournament 21,--------,Space Marines (Astartes)
+3,0702,0911,85,59,2024-07-19,Hobby Hub Warmaster Series Tournament 21,Grey Knights,Tyranids
+1,1049,1065,67,36,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Adeptus Custodes,Adeptus Custodes
+1,0910,1063,100,65,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Grey Knights,Leagues of Votann
+1,1057,0045,62,54,2024-08-16,Hobby Hub Warmaster Series Tournament 22,T'au Empire,Adepta Sororitas
+1,1064,1051,79,72,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Astra Militarum,Chaos Space Marines
+1,1052,1048,65,64,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Necrons,Orks
+1,1066,1050,100,0,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Chaos Space Marines,Tyranids
+2,1050,1065,74,56,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Tyranids,Adeptus Custodes
+2,1064,1049,83,38,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Astra Militarum,Adeptus Custodes
+2,1051,1063,91,20,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Chaos Space Marines,Leagues of Votann
+2,1057,1052,93,56,2024-08-16,Hobby Hub Warmaster Series Tournament 22,T'au Empire,Necrons
+2,0045,1048,85,64,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Adepta Sororitas,Orks
+2,0910,1066,58,34,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Grey Knights,Chaos Space Marines
+3,1048,1050,100,0,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Orks,Tyranids
+3,1057,1051,74,35,2024-08-16,Hobby Hub Warmaster Series Tournament 22,T'au Empire,Chaos Space Marines
+3,1065,1063,77,13,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Adeptus Custodes,Leagues of Votann
+3,0045,1066,84,38,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Adepta Sororitas,Chaos Space Marines
+3,1052,1049,75,41,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Necrons,Adeptus Custodes
+3,0910,1064,84,76,2024-08-16,Hobby Hub Warmaster Series Tournament 22,Grey Knights,Astra Militarum
+1,0702,1061,85,76,2024-10-04,GCCNT Trial by Fire,Drukhari,Dark Angels
+1,0912,0911,90,65,2024-10-04,GCCNT Trial by Fire,Space Wolves,Tyranids
+1,0913,1058,63,57,2024-10-04,GCCNT Trial by Fire,Chaos Knights,Aeldari
+1,0909,1053,82,59,2024-10-04,GCCNT Trial by Fire,Blood Angels,Chaos Knights
+2,1061,0911,66,36,2024-10-04,GCCNT Trial by Fire,Dark Angels,Tyranids
+2,0913,0909,66,47,2024-10-04,GCCNT Trial by Fire,Chaos Knights,Blood Angels
+2,1058,1053,63,53,2024-10-04,GCCNT Trial by Fire,Aeldari,Chaos Knights
+2,0702,0912,59,42,2024-10-04,GCCNT Trial by Fire,Drukhari,Space Wolves
+3,0702,0913,86,31,2024-10-04,GCCNT Trial by Fire,Drukhari,Chaos Knights
+3,0912,1061,95,70,2024-10-04,GCCNT Trial by Fire,Space Wolves,Dark Angels
+3,0909,1058,80,43,2024-10-04,GCCNT Trial by Fire,Blood Angels,Aeldari
+3,0911,1053,57,55,2024-10-04,GCCNT Trial by Fire,Tyranids,Chaos Knights
+1,0910,1060,100,46,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Chaos Knights,Imperial Knights
+1,0911,0701,80,60,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Tyranids,Black Templars
+1,0909,0913,78,16,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Blood Angels,Orks
+1,1056,1053,82,78,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Astra Militarum,T'au Empire
+1,0702,1063,100,16,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Death Guard,Leagues of Votann
+1,1068,1059,67,30,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Space Marines (Astartes),Orks
+2,0702,0910,92,78,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Death Guard,Chaos Knights
+2,1053,1058,96,30,2024-10-25,Hobby Hub Warmaster Series Tournament 23,T'au Empire,Aeldari
+2,1056,0911,61,45,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Astra Militarum,Tyranids
+2,0913,1063,91,12,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Orks,Leagues of Votann
+2,0701,1067,94,44,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Black Templars,Grey Knights
+2,1060,1059,89,17,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Imperial Knights,Orks
+2,0909,1068,81,15,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Blood Angels,Space Marines (Astartes)
+3,1060,0911,52,49,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Imperial Knights,Tyranids
+3,0910,1056,94,51,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Chaos Knights,Astra Militarum
+3,1053,0701,92,38,2024-10-25,Hobby Hub Warmaster Series Tournament 23,T'au Empire,Black Templars
+3,0702,0909,100,69,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Death Guard,Blood Angels
+3,1067,1059,69,41,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Grey Knights,Orks
+3,0913,1068,100,32,2024-10-25,Hobby Hub Warmaster Series Tournament 23,Orks,Space Marines (Astartes)
+1,0910,1049,100,69,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Chaos Daemons,Adeptus Custodes
+1,1064,1058,97,72,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Astra Militarum,Aeldari
+1,1068,1063,45,44,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Space Marines (Astartes),Leagues of Votann
+1,1052,1050,89,84,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Necrons,Tyranids
+1,0702,1059,89,16,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Death Guard,Orks
+1,1071,1069,77,59,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Space Marines (Astartes),Chaos Space Marines
+1,0909,0701,100,39,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Blood Angels,Black Templars
+1,1070,1051,77,60,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Grey Knights,Blood Angels
+1,1055,1056,59,56,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Grey Knights,Astra Militarum
+1,1057,1048,82,71,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Chaos Space Marines,Adepta Sororitas
+2,0910,0909,89,71,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Chaos Daemons,Blood Angels
+2,1071,1070,87,68,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Space Marines (Astartes),Grey Knights
+2,0702,1057,94,40,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Death Guard,Chaos Space Marines
+2,1050,1058,85,82,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Tyranids,Aeldari
+2,1052,1064,86,84,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Necrons,Astra Militarum
+2,1051,1069,84,45,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Blood Angels,Chaos Space Marines
+2,0701,1063,83,36,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Black Templars,Leagues of Votann
+2,1048,1049,96,35,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Adepta Sororitas,Adeptus Custodes
+2,1055,1068,89,71,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Grey Knights,Space Marines (Astartes)
+3,0702,0910,90,60,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Death Guard,Chaos Daemons
+3,1049,1058,69,62,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Adeptus Custodes,Aeldari
+3,1071,1052,90,36,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Space Marines (Astartes),Necrons
+3,1070,1057,85,59,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Grey Knights,Chaos Space Marines
+3,1048,1050,84,28,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Adepta Sororitas,Tyranids
+3,1068,1059,85,33,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Space Marines (Astartes),Orks
+3,1051,0701,67,51,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Blood Angels,Black Templars
+3,1069,1063,57,35,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Chaos Space Marines,Leagues of Votann
+3,0909,1055,64,45,2024-11-22,Hobby Hub Warmaster Series Tournament 24,Blood Angels,Grey Knights
+1,0911,0702,90,40,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Tyranids,Tyranids
+1,0702,1067,100,30,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Adeptus Custodes,Grey Knights
+1,0910,0701,100,41,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Death Guard,Imperial Knights
+1,1066,0912,80,77,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Astra Militarum,Grey Knights
+1,1053,1056,79,70,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Black Templars,Astra Militarum
+1,1072,1054,96,57,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Orks,Space Wolves
+1,1057,0913,99,69,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Chaos Space Marines,Orks
+2,1056,0702,73,52,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Astra Militarum,Tyranids
+2,0911,1054,68,31,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Tyranids,Space Wolves
+2,0701,1067,100,25,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Imperial Knights,Grey Knights
+2,1066,1053,73,34,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Astra Militarum,Black Templars
+2,0702,1057,100,10,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Adeptus Custodes,Chaos Space Marines
+2,0910,1072,100,24,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Death Guard,Orks
+2,0912,0913,92,37,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Grey Knights,Orks
+3,1057,1072,86,51,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Chaos Space Marines,Orks
+3,1067,1054,77,69,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Grey Knights,Space Wolves
+3,0912,0702,98,36,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Grey Knights,Tyranids
+3,1056,0701,78,72,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Astra Militarum,Imperial Knights
+3,0910,0702,56,55,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Death Guard,Adeptus Custodes
+3,1066,0911,55,54,2025-01-17,Games Shed Warmaster Series Season 2 Tournament 1,Astra Militarum,Tyranids
+1,1073,1056,71,60,2025-02-07,GCCNT Trial by Fire,World Eaters,Astra Militarum
+1,1053,0913,81,74,2025-02-07,GCCNT Trial by Fire,Chaos Space Marines,Orks
+1,1071,1061,82,48,2025-02-07,GCCNT Trial by Fire,Space Marines (Astartes),Imperial Knights
+1,1057,0701,90,74,2025-02-07,GCCNT Trial by Fire,T'au Empire,Imperial Knights
+1,0912,1074,85,51,2025-02-07,GCCNT Trial by Fire,Grey Knights,Death Guard
+1,0909,1066,36,15,2025-02-07,GCCNT Trial by Fire,Adeptus Custodes,--------
+2,1057,1053,78,48,2025-02-07,GCCNT Trial by Fire,T'au Empire,Chaos Space Marines
+2,0913,1056,43,37,2025-02-07,GCCNT Trial by Fire,Orks,Astra Militarum
+2,0912,1073,62,46,2025-02-07,GCCNT Trial by Fire,Grey Knights,World Eaters
+2,1071,0909,73,28,2025-02-07,GCCNT Trial by Fire,Space Marines (Astartes),Adeptus Custodes
+2,1074,0701,69,50,2025-02-07,GCCNT Trial by Fire,Death Guard,Imperial Knights
+2,1061,1066,62,60,2025-02-07,GCCNT Trial by Fire,Imperial Knights,--------
+3,1066,1056,51,48,2025-02-07,GCCNT Trial by Fire,--------,Astra Militarum
+3,1061,1053,98,28,2025-02-07,GCCNT Trial by Fire,Imperial Knights,Chaos Space Marines
+3,0912,1057,85,41,2025-02-07,GCCNT Trial by Fire,Grey Knights,T'au Empire
+3,1071,1073,91,19,2025-02-07,GCCNT Trial by Fire,Space Marines (Astartes),World Eaters
+3,0909,1074,82,39,2025-02-07,GCCNT Trial by Fire,Adeptus Custodes,Death Guard
+3,0701,0913,98,28,2025-02-07,GCCNT Trial by Fire,Imperial Knights,Orks
+1,0702,1054,100,17,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Adeptus Custodes,Space Wolves
+1,0910,0911,71,56,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Space Marines (Astartes),Tyranids
+1,0912,1063,98,30,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Chaos Daemons,Leagues of Votann
+1,1061,1057,76,25,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Grey Knights,T'au Empire
+1,1071,0701,87,45,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Space Marines (Astartes),Black Templars
+1,1056,UNKNOWN,89,0,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Astra Militarum,Space Marines (Astartes)
+1,1052,1059,99,39,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Necrons,Orks
+2,1056,1063,100,60,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Astra Militarum,Leagues of Votann
+2,0702,1061,100,39,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Adeptus Custodes,Grey Knights
+2,1071,0910,68,60,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Space Marines (Astartes),Space Marines (Astartes)
+2,0912,1052,100,38,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Chaos Daemons,Necrons
+2,0701,0911,66,52,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Black Templars,Tyranids
+2,1057,1059,77,40,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,T'au Empire,Orks
+3,1052,1061,78,48,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Necrons,Grey Knights
+3,0701,1054,87,68,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Black Templars,Space Wolves
+3,0702,1056,100,29,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Adeptus Custodes,Astra Militarum
+3,0912,1071,79,66,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Chaos Daemons,Space Marines (Astartes)
+3,0910,1057,96,76,2025-02-21,Games Shed Warmaster Series Tournament Season 2 Tournament 2,Space Marines (Astartes),T'au Empire
+1,1070,1061,78,47,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Imperial Knights,Grey Knights
+1,1055,1052,67,66,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Grey Knights,Necrons
+1,0912,1065,100,34,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Aeldari,Astra Militarum
+1,0910,0658,96,54,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Space Marines (Astartes),Chaos Daemons
+1,1057,0913,87,34,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,World Eaters,Grey Knights
+1,0909,1056,61,55,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Adeptus Custodes,Astra Militarum
+1,1071,0701,63,39,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Blood Angels,Imperial Knights
+1,0911,1076,63,18,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Tyranids,Necrons
+2,0912,0909,97,73,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Aeldari,Adeptus Custodes
+2,0658,0913,100,69,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Chaos Daemons,Grey Knights
+2,1070,0911,97,54,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Imperial Knights,Tyranids
+2,1057,1071,92,75,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,World Eaters,Blood Angels
+2,0910,1052,100,69,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Space Marines (Astartes),Necrons
+2,1061,1065,100,45,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Grey Knights,Astra Militarum
+2,1056,1055,78,77,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Astra Militarum,Grey Knights
+2,0701,1076,99,51,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Imperial Knights,Necrons
+3,1071,0909,84,65,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Blood Angels,Adeptus Custodes
+3,0658,0701,96,54,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Chaos Daemons,Imperial Knights
+3,0913,1076,99,40,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Grey Knights,Necrons
+3,0912,1057,100,27,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Aeldari,World Eaters
+3,1070,0910,94,87,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Imperial Knights,Space Marines (Astartes)
+3,1052,1065,96,51,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Necrons,Astra Militarum
+3,0911,1055,76,49,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Tyranids,Grey Knights
+3,1061,1056,95,46,2025-03-21,Games Shed Warmaster Series Tournament Season 2 Tournament 3,Grey Knights,Astra Militarum
+1,0910,1049,98,54,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Space Wolves,Adeptus Custodes
+1,0911,1063,98,38,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Tyranids,Imperial Agents
+1,0912,1077,96,60,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Chaos Daemons,Genestealer Cult
+1,1071,0701,98,47,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Necrons,Black Templars
+1,1048,1066,77,76,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Aeldari,Chaos Space Marines
+1,0702,1078,100,27,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Death Guard,Emperor's Children
+1,1051,0909,90,65,2025-05-23,Games Shed Warmaster Series Tournament May 2025,World Eaters,Adeptus Custodes
+2,0702,1071,98,72,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Death Guard,Necrons
+2,1066,0909,79,77,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Chaos Space Marines,Adeptus Custodes
+2,0911,1077,94,73,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Tyranids,Genestealer Cult
+2,0910,1051,82,68,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Space Wolves,World Eaters
+2,0912,1048,92,45,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Chaos Daemons,Aeldari
+2,0701,1063,100,51,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Black Templars,Imperial Agents
+2,1078,1049,90,45,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Emperor's Children,Adeptus Custodes
+3,1048,1051,81,61,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Aeldari,World Eaters
+3,0910,0911,83,63,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Space Wolves,Tyranids
+3,1071,1078,87,45,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Necrons,Emperor's Children
+3,0702,0912,84,60,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Death Guard,Chaos Daemons
+3,1049,1063,91,39,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Adeptus Custodes,Imperial Agents
+3,0909,1077,100,53,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Adeptus Custodes,Genestealer Cult
+3,1066,0701,61,50,2025-05-23,Games Shed Warmaster Series Tournament May 2025,Chaos Space Marines,Black Templars

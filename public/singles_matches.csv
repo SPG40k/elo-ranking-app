@@ -5744,3 +5744,465 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 6,1171,1172,85,82,2025-05-02,Rataclysm 2025,Chaos Daemons,Grey Knights
 6,1159,1187,90,47,2025-05-02,Rataclysm 2025,Space Marines (Astartes),Adeptus Custodes
 6,1179,1213,82,46,2025-05-02,Rataclysm 2025,Death Guard,Adeptus Custodes
+1,0068,0327,100,54,2025-06-20,Behind Enemy Lines 2025,Tyranids,Adeptus Custodes
+1,0116,1218,94,90,2025-06-20,Behind Enemy Lines 2025,Astra Militarum,Space Marines (Astartes)
+1,0253,0245,93,57,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,T'au Empire
+1,0243,0062,92,60,2025-06-20,Behind Enemy Lines 2025,Orks,Thousand Sons
+1,0133,0326,93,72,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Deathwatch
+1,0248,0066,81,75,2025-06-20,Behind Enemy Lines 2025,Death Guard,Orks
+1,1216,1170,95,56,2025-06-20,Behind Enemy Lines 2025,Tyranids,Leagues of Votann
+1,0478,0328,100,67,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),Aeldari
+1,0134,1215,100,64,2025-06-20,Behind Enemy Lines 2025,Necrons,Dark Angels
+1,0395,1219,75,37,2025-06-20,Behind Enemy Lines 2025,Emperor's Children,Necrons
+1,0288,0132,100,60,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Imperial Knights
+1,0137,0246,45,39,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),T'au Empire
+1,0131,0324,98,62,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Death Guard
+1,0748,0289,100,35,2025-06-20,Behind Enemy Lines 2025,Blood Angels,T'au Empire
+1,0399,1217,95,65,2025-06-20,Behind Enemy Lines 2025,Tyranids,Orks
+1,0252,0251,88,71,2025-06-20,Behind Enemy Lines 2025,Adeptus Custodes,Space Marines (Astartes)
+2,0748,0134,95,52,2025-06-20,Behind Enemy Lines 2025,Blood Angels,Necrons
+2,0478,0068,78,66,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),Tyranids
+2,0131,0288,100,74,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Chaos Daemons
+2,1216,0399,95,70,2025-06-20,Behind Enemy Lines 2025,Tyranids,Tyranids
+2,0243,0133,90,38,2025-06-20,Behind Enemy Lines 2025,Orks,Imperial Knights
+2,0248,0252,80,75,2025-06-20,Behind Enemy Lines 2025,Death Guard,Adeptus Custodes
+2,0128,0395,100,57,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Emperor's Children
+2,0511,0137,73,67,2025-06-20,Behind Enemy Lines 2025,World Eaters,Space Marines (Astartes)
+2,1218,0250,44,42,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),Thousand Sons
+2,0066,0326,99,24,2025-06-20,Behind Enemy Lines 2025,Orks,Deathwatch
+2,0251,0328,84,36,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),Aeldari
+2,1215,1217,98,18,2025-06-20,Behind Enemy Lines 2025,Dark Angels,Orks
+2,0132,0324,93,54,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Death Guard
+2,0062,0245,43,35,2025-06-20,Behind Enemy Lines 2025,Thousand Sons,T'au Empire
+2,1170,0327,90,39,2025-06-20,Behind Enemy Lines 2025,Leagues of Votann,Adeptus Custodes
+2,0246,1219,72,71,2025-06-20,Behind Enemy Lines 2025,T'au Empire,Necrons
+3,0131,0748,84,56,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Blood Angels
+3,0243,1216,77,68,2025-06-20,Behind Enemy Lines 2025,Orks,Tyranids
+3,0128,0478,81,41,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Space Marines (Astartes)
+3,0116,0248,74,46,2025-06-20,Behind Enemy Lines 2025,Astra Militarum,Death Guard
+3,0253,0511,89,38,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,World Eaters
+3,0288,0068,100,29,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Tyranids
+3,0252,0399,69,56,2025-06-20,Behind Enemy Lines 2025,Adeptus Custodes,Tyranids
+3,0395,0134,80,52,2025-06-20,Behind Enemy Lines 2025,Emperor's Children,Necrons
+3,0133,0137,71,62,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Space Marines (Astartes)
+3,0066,1215,88,44,2025-06-20,Behind Enemy Lines 2025,Orks,Dark Angels
+3,0132,0251,70,35,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Space Marines (Astartes)
+3,1218,1170,60,58,2025-06-20,Behind Enemy Lines 2025,Space Marines (Astartes),Leagues of Votann
+3,0246,0289,60,50,2025-06-20,Behind Enemy Lines 2025,T'au Empire,T'au Empire
+3,0062,0250,76,59,2025-06-20,Behind Enemy Lines 2025,Thousand Sons,Thousand Sons
+3,0324,1219,64,38,2025-06-20,Behind Enemy Lines 2025,Death Guard,Necrons
+3,0326,0328,87,40,2025-06-20,Behind Enemy Lines 2025,Deathwatch,Aeldari
+3,0327,0245,88,28,2025-06-20,Behind Enemy Lines 2025,Adeptus Custodes,T'au Empire
+4,0128,0131,100,57,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Imperial Knights
+4,0243,0253,97,79,2025-06-20,Behind Enemy Lines 2025,Orks,Chaos Daemons
+4,0116,1216,95,74,2025-06-20,Behind Enemy Lines 2025,Astra Militarum,Tyranids
+4,0288,0248,97,62,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Death Guard
+4,0395,0252,92,68,2025-06-20,Behind Enemy Lines 2025,Emperor's Children,Adeptus Custodes
+4,0133,0066,90,64,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Orks
+4,0132,1218,89,76,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Space Marines (Astartes)
+4,0062,0246,72,71,2025-06-20,Behind Enemy Lines 2025,Thousand Sons,T'au Empire
+4,0399,0511,89,52,2025-06-20,Behind Enemy Lines 2025,Tyranids,World Eaters
+4,0068,0134,98,63,2025-06-20,Behind Enemy Lines 2025,Tyranids,Necrons
+4,1215,0137,70,49,2025-06-20,Behind Enemy Lines 2025,Dark Angels,Space Marines (Astartes)
+4,1170,0251,91,47,2025-06-20,Behind Enemy Lines 2025,Leagues of Votann,Space Marines (Astartes)
+4,0289,0326,82,64,2025-06-20,Behind Enemy Lines 2025,T'au Empire,Deathwatch
+4,0324,0327,97,79,2025-06-20,Behind Enemy Lines 2025,Death Guard,Adeptus Custodes
+4,0250,1217,79,70,2025-06-20,Behind Enemy Lines 2025,Thousand Sons,Orks
+4,1219,0328,91,40,2025-06-20,Behind Enemy Lines 2025,Necrons,Aeldari
+5,0128,0243,95,55,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Orks
+5,0131,0116,77,27,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Astra Militarum
+5,0395,0288,72,33,2025-06-20,Behind Enemy Lines 2025,Emperor's Children,Chaos Daemons
+5,0132,0133,82,51,2025-06-20,Behind Enemy Lines 2025,Imperial Knights,Imperial Knights
+5,0253,0062,93,53,2025-06-20,Behind Enemy Lines 2025,Chaos Daemons,Thousand Sons
+5,1216,0248,99,66,2025-06-20,Behind Enemy Lines 2025,Tyranids,Death Guard
+5,0252,0068,80,54,2025-06-20,Behind Enemy Lines 2025,Adeptus Custodes,Tyranids
+5,0066,0399,96,54,2025-06-20,Behind Enemy Lines 2025,Orks,Tyranids
+5,0246,1218,89,72,2025-06-20,Behind Enemy Lines 2025,T'au Empire,Space Marines (Astartes)
+5,1170,1215,97,41,2025-06-20,Behind Enemy Lines 2025,Leagues of Votann,Dark Angels
+5,0324,0289,87,68,2025-06-20,Behind Enemy Lines 2025,Death Guard,T'au Empire
+5,0511,0134,89,76,2025-06-20,Behind Enemy Lines 2025,World Eaters,Necrons
+5,0250,0137,42,28,2025-06-20,Behind Enemy Lines 2025,Thousand Sons,Space Marines (Astartes)
+5,0327,0251,72,52,2025-06-20,Behind Enemy Lines 2025,Adeptus Custodes,Space Marines (Astartes)
+5,0326,1217,100,20,2025-06-20,Behind Enemy Lines 2025,Deathwatch,Orks
+5,1219,0245,52,49,2025-06-20,Behind Enemy Lines 2025,Necrons,T'au Empire
+1,0122,0088,90,61,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Emperor's Children
+1,0094,0508,86,61,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,Adeptus Mechanicus
+1,0070,0404,93,27,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,T'au Empire
+1,0113,0254,92,49,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Adeptus Mechanicus
+1,0115,0188,100,8,2025-06-27,Sydney GT Winter - NSWTC,Orks,Space Marines (Astartes)
+1,0394,0051,95,52,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Emperor's Children
+1,0050,0056,92,71,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Chaos Daemons
+1,0298,0139,100,55,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Tyranids
+1,0182,0090,80,57,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,T'au Empire
+1,0120,0091,83,75,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Adeptus Custodes
+1,0104,0082,68,55,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Chaos Knights
+1,0221,0357,89,38,2025-06-27,Sydney GT Winter - NSWTC,Grey Knights,Death Guard
+1,0183,0103,74,53,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Adeptus Custodes
+1,0365,0220,73,67,2025-06-27,Sydney GT Winter - NSWTC,Necrons,Chaos Daemons
+1,0084,0597,75,64,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Thousand Sons
+1,0055,0649,83,44,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,Tyranids
+1,0141,0458,97,44,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Blood Angels
+1,0361,0332,94,57,2025-06-27,Sydney GT Winter - NSWTC,--------,World Eaters
+1,0346,1220,92,53,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Custodes,Aeldari
+1,0822,0089,84,70,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Leagues of Votann
+1,0065,0505,79,50,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Imperial Knights
+1,0219,0493,84,36,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,Necrons
+1,0360,0445,77,59,2025-06-27,Sydney GT Winter - NSWTC,Leagues of Votann,Orks
+1,0140,0300,71,45,2025-06-27,Sydney GT Winter - NSWTC,--------,Chaos Space Marines
+1,0074,0800,87,75,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Chaos Daemons
+1,0085,0236,85,40,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Aeldari
+1,0114,0409,75,44,2025-06-27,Sydney GT Winter - NSWTC,Dark Angels,Necrons
+2,0365,0361,89,42,2025-06-27,Sydney GT Winter - NSWTC,Necrons,--------
+2,0394,0115,79,58,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Orks
+2,0346,0140,67,48,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Custodes,--------
+2,0065,0055,52,37,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Aeldari
+2,0219,0822,79,65,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,Death Guard
+2,0094,0120,65,61,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,Imperial Knights
+2,0113,0114,83,54,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Dark Angels
+2,0070,0298,96,37,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Chaos Space Marines
+2,0360,0074,89,44,2025-06-27,Sydney GT Winter - NSWTC,Leagues of Votann,Adepta Sororitas
+2,0221,0084,75,55,2025-06-27,Sydney GT Winter - NSWTC,Grey Knights,Adepta Sororitas
+2,0141,0183,97,55,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Astra Militarum
+2,0182,0104,73,48,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Blood Angels
+2,0085,0050,54,51,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Imperial Knights
+2,0122,0188,100,14,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Space Marines (Astartes)
+2,0139,0254,100,54,2025-06-27,Sydney GT Winter - NSWTC,Tyranids,Adeptus Mechanicus
+2,0088,0409,97,42,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Necrons
+2,0493,0103,68,67,2025-06-27,Sydney GT Winter - NSWTC,Necrons,Adeptus Custodes
+2,0082,0091,76,65,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Adeptus Custodes
+2,0300,0649,76,68,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Tyranids
+2,0597,0332,90,50,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,World Eaters
+2,0051,0508,81,41,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Adeptus Mechanicus
+2,0089,0236,84,54,2025-06-27,Sydney GT Winter - NSWTC,Leagues of Votann,Aeldari
+2,0220,0800,88,55,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Chaos Daemons
+2,0056,0404,98,23,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,T'au Empire
+2,0458,0357,88,66,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Death Guard
+2,0445,1220,65,54,2025-06-27,Sydney GT Winter - NSWTC,Orks,Aeldari
+2,0505,0090,74,44,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,T'au Empire
+3,0113,0182,84,50,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Astra Militarum
+3,0085,0094,90,72,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Thousand Sons
+3,0065,0365,100,22,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Necrons
+3,0141,0219,93,55,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Aeldari
+3,0221,0070,84,74,2025-06-27,Sydney GT Winter - NSWTC,Grey Knights,Blood Angels
+3,0394,0346,78,77,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Adeptus Custodes
+3,0056,0183,97,74,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Astra Militarum
+3,0445,0120,91,70,2025-06-27,Sydney GT Winter - NSWTC,Orks,Imperial Knights
+3,0082,0140,95,70,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,--------
+3,0220,0089,69,40,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Leagues of Votann
+3,0298,0458,83,80,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Blood Angels
+3,0505,0114,89,58,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Dark Angels
+3,0822,0139,89,65,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Tyranids
+3,0084,0300,87,60,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Chaos Space Marines
+3,0074,0051,79,77,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Emperor's Children
+3,0088,0493,92,80,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Necrons
+3,0361,0115,98,72,2025-06-27,Sydney GT Winter - NSWTC,--------,Orks
+3,0597,0055,64,53,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,Aeldari
+3,0050,0104,86,77,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Blood Angels
+3,0800,0508,97,45,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Adeptus Mechanicus
+3,0332,0254,100,75,2025-06-27,Sydney GT Winter - NSWTC,World Eaters,Adeptus Mechanicus
+3,0236,0103,87,80,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,Adeptus Custodes
+3,1220,0188,100,16,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,Space Marines (Astartes)
+3,0357,0091,81,72,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,Adeptus Custodes
+3,0409,0649,79,63,2025-06-27,Sydney GT Winter - NSWTC,Necrons,Tyranids
+3,0090,0404,89,46,2025-06-27,Sydney GT Winter - NSWTC,T'au Empire,T'au Empire
+4,0221,0113,85,70,2025-06-27,Sydney GT Winter - NSWTC,Grey Knights,Blood Angels
+4,0141,0065,94,72,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Chaos Space Marines
+4,0050,0360,100,73,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Leagues of Votann
+4,0122,0365,87,79,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Necrons
+4,0082,0074,100,25,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Adepta Sororitas
+4,0219,0361,91,82,2025-06-27,Sydney GT Winter - NSWTC,Aeldari,--------
+4,0070,0822,96,64,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Death Guard
+4,0346,0298,87,36,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Custodes,Chaos Space Marines
+4,0088,0505,89,77,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Imperial Knights
+4,0597,0220,83,43,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,Chaos Daemons
+4,0084,0182,82,80,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Astra Militarum
+4,0056,0300,100,35,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Chaos Space Marines
+4,0120,0409,100,17,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Necrons
+4,0183,0357,83,79,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Death Guard
+4,0051,1220,93,57,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Aeldari
+4,0104,0115,100,50,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Orks
+4,0458,0114,87,76,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Dark Angels
+4,0139,0493,71,54,2025-06-27,Sydney GT Winter - NSWTC,Tyranids,Necrons
+4,0332,0140,90,86,2025-06-27,Sydney GT Winter - NSWTC,World Eaters,--------
+4,0089,0090,92,76,2025-06-27,Sydney GT Winter - NSWTC,Leagues of Votann,T'au Empire
+4,0508,0404,82,66,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Mechanicus,T'au Empire
+4,0649,0188,95,71,2025-06-27,Sydney GT Winter - NSWTC,Tyranids,Space Marines (Astartes)
+4,0254,0103,100,95,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Mechanicus,Adeptus Custodes
+5,0141,0221,97,56,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Grey Knights
+5,0056,0122,89,72,2025-06-27,Sydney GT Winter - NSWTC,Chaos Daemons,Astra Militarum
+5,0088,0070,83,55,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Blood Angels
+5,0050,0113,92,84,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Blood Angels
+5,0082,0346,84,70,2025-06-27,Sydney GT Winter - NSWTC,Chaos Knights,Adeptus Custodes
+5,0065,0219,70,44,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Aeldari
+5,0597,0360,89,68,2025-06-27,Sydney GT Winter - NSWTC,Thousand Sons,Leagues of Votann
+5,0084,0094,82,80,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Thousand Sons
+5,0445,0361,77,64,2025-06-27,Sydney GT Winter - NSWTC,Orks,--------
+5,0051,0120,95,78,2025-06-27,Sydney GT Winter - NSWTC,Emperor's Children,Imperial Knights
+5,0458,0822,92,88,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,Death Guard
+5,0104,0332,87,60,2025-06-27,Sydney GT Winter - NSWTC,Blood Angels,World Eaters
+5,0505,0139,79,58,2025-06-27,Sydney GT Winter - NSWTC,Imperial Knights,Tyranids
+5,0183,0089,60,57,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Leagues of Votann
+5,0182,0220,94,70,2025-06-27,Sydney GT Winter - NSWTC,Astra Militarum,Chaos Daemons
+5,0074,0365,61,52,2025-06-27,Sydney GT Winter - NSWTC,Adepta Sororitas,Necrons
+5,0115,0254,100,30,2025-06-27,Sydney GT Winter - NSWTC,Orks,Adeptus Mechanicus
+5,0140,0649,94,80,2025-06-27,Sydney GT Winter - NSWTC,--------,Tyranids
+5,0357,0090,78,75,2025-06-27,Sydney GT Winter - NSWTC,Death Guard,T'au Empire
+5,0300,0508,80,56,2025-06-27,Sydney GT Winter - NSWTC,Chaos Space Marines,Adeptus Mechanicus
+5,0103,0409,79,60,2025-06-27,Sydney GT Winter - NSWTC,Adeptus Custodes,Necrons
+5,0404,0188,82,31,2025-06-27,Sydney GT Winter - NSWTC,T'au Empire,Space Marines (Astartes)
+1,0413,0411,74,42,2025-06-27,South Coast Siege 4,Death Guard,Orks
+1,0601,0416,80,57,2025-06-27,South Coast Siege 4,Emperor's Children,Adeptus Custodes
+1,0212,1227,87,38,2025-06-27,South Coast Siege 4,Space Wolves,Necrons
+1,1224,0086,75,67,2025-06-27,South Coast Siege 4,Imperial Knights,Astra Militarum
+1,0206,1225,84,48,2025-06-27,South Coast Siege 4,Death Guard,Aeldari
+1,1228,0406,86,70,2025-06-27,South Coast Siege 4,T'au Empire,Necrons
+1,0199,0410,82,78,2025-06-27,South Coast Siege 4,Tyranids,Dark Angels
+1,0205,1222,92,54,2025-06-27,South Coast Siege 4,World Eaters,Chaos Space Marines
+1,0421,0017,89,76,2025-06-27,South Coast Siege 4,Grey Knights,Chaos Daemons
+1,1223,0201,78,73,2025-06-27,South Coast Siege 4,Space Marines (Astartes),Astra Militarum
+1,0067,0405,88,45,2025-06-27,South Coast Siege 4,Adeptus Custodes,Aeldari
+1,0200,0725,100,54,2025-06-27,South Coast Siege 4,Thousand Sons,Emperor's Children
+1,0202,0423,100,46,2025-06-27,South Coast Siege 4,Drukhari,World Eaters
+1,0408,0424,100,37,2025-06-27,South Coast Siege 4,Death Guard,Death Guard
+1,0708,1226,90,73,2025-06-27,South Coast Siege 4,Dark Angels,World Eaters
+1,0210,1221,81,50,2025-06-27,South Coast Siege 4,Blood Angels,Necrons
+1,0425,0296,48,36,2025-06-27,South Coast Siege 4,Death Guard,Imperial Knights
+2,0408,0200,95,92,2025-06-27,South Coast Siege 4,Death Guard,Thousand Sons
+2,0202,0205,84,70,2025-06-27,South Coast Siege 4,Drukhari,World Eaters
+2,0421,0708,76,68,2025-06-27,South Coast Siege 4,Grey Knights,Dark Angels
+2,0067,0212,96,44,2025-06-27,South Coast Siege 4,Adeptus Custodes,Space Wolves
+2,0206,1228,77,66,2025-06-27,South Coast Siege 4,Death Guard,T'au Empire
+2,0199,0210,81,55,2025-06-27,South Coast Siege 4,Tyranids,Blood Angels
+2,1223,0601,73,70,2025-06-27,South Coast Siege 4,Space Marines (Astartes),Emperor's Children
+2,1224,0413,81,61,2025-06-27,South Coast Siege 4,Imperial Knights,Death Guard
+2,0410,0425,91,73,2025-06-27,South Coast Siege 4,Dark Angels,Death Guard
+2,0017,1226,99,40,2025-06-27,South Coast Siege 4,Chaos Daemons,World Eaters
+2,0201,0406,75,61,2025-06-27,South Coast Siege 4,Astra Militarum,Necrons
+2,0086,0416,96,65,2025-06-27,South Coast Siege 4,Astra Militarum,Adeptus Custodes
+2,0725,1222,83,17,2025-06-27,South Coast Siege 4,Emperor's Children,Chaos Space Marines
+2,1221,1225,61,55,2025-06-27,South Coast Siege 4,Necrons,Aeldari
+2,0405,0423,100,61,2025-06-27,South Coast Siege 4,Aeldari,World Eaters
+2,1227,0411,36,32,2025-06-27,South Coast Siege 4,Necrons,Orks
+2,0424,0296,44,43,2025-06-27,South Coast Siege 4,Death Guard,Imperial Knights
+3,0408,0067,95,62,2025-06-27,South Coast Siege 4,Death Guard,Adeptus Custodes
+3,0202,0421,99,74,2025-06-27,South Coast Siege 4,Drukhari,Grey Knights
+3,0206,0199,96,70,2025-06-27,South Coast Siege 4,Death Guard,Tyranids
+3,1224,1223,94,70,2025-06-27,South Coast Siege 4,Imperial Knights,Space Marines (Astartes)
+3,0200,0017,100,62,2025-06-27,South Coast Siege 4,Thousand Sons,Chaos Daemons
+3,0086,0410,98,71,2025-06-27,South Coast Siege 4,Astra Militarum,Dark Angels
+3,0205,0708,89,59,2025-06-27,South Coast Siege 4,World Eaters,Dark Angels
+3,0601,1228,78,71,2025-06-27,South Coast Siege 4,Emperor's Children,T'au Empire
+3,0405,0725,72,67,2025-06-27,South Coast Siege 4,Aeldari,Emperor's Children
+3,0413,0210,79,70,2025-06-27,South Coast Siege 4,Death Guard,Blood Angels
+3,0212,0425,98,40,2025-06-27,South Coast Siege 4,Space Wolves,Death Guard
+3,1221,1227,33,22,2025-06-27,South Coast Siege 4,Necrons,Necrons
+3,0406,0416,75,74,2025-06-27,South Coast Siege 4,Necrons,Adeptus Custodes
+3,1226,0423,98,49,2025-06-27,South Coast Siege 4,World Eaters,World Eaters
+3,0411,1225,73,50,2025-06-27,South Coast Siege 4,Orks,Aeldari
+1,0435,0873,90,10,2025-06-27,Grim Series 5,Chaos Knights,Space Marines (Astartes)
+1,0810,0446,77,65,2025-06-27,Grim Series 5,Chaos Space Marines,World Eaters
+1,0433,1229,89,33,2025-06-27,Grim Series 5,Emperor's Children,Dark Angels
+1,0061,0441,61,58,2025-06-27,Grim Series 5,Blood Angels,Death Guard
+1,0431,1232,83,20,2025-06-27,Grim Series 5,Chaos Knights,Leagues of Votann
+1,0430,0284,77,73,2025-06-27,Grim Series 5,Imperial Knights,Leagues of Votann
+1,0442,0756,78,38,2025-06-27,Grim Series 5,Adeptus Custodes,Necrons
+1,0229,0449,80,46,2025-06-27,Grim Series 5,Black Templars,Chaos Space Marines
+1,0439,0715,78,70,2025-06-27,Grim Series 5,Space Marines (Astartes),Thousand Sons
+1,1231,0444,61,48,2025-06-27,Grim Series 5,--------,World Eaters
+1,0078,0451,65,39,2025-06-27,Grim Series 5,Necrons,Adeptus Custodes
+1,0447,0767,90,37,2025-06-27,Grim Series 5,Adeptus Custodes,Adeptus Custodes
+2,0435,0447,85,29,2025-06-27,Grim Series 5,Chaos Knights,Adeptus Custodes
+2,0431,0433,90,13,2025-06-27,Grim Series 5,Chaos Knights,Emperor's Children
+2,0061,1231,66,49,2025-06-27,Grim Series 5,Blood Angels,--------
+2,0449,0451,64,38,2025-06-27,Grim Series 5,Chaos Space Marines,Adeptus Custodes
+2,0284,1230,77,24,2025-06-27,Grim Series 5,Leagues of Votann,T'au Empire
+2,1229,1232,55,45,2025-06-27,Grim Series 5,Dark Angels,Leagues of Votann
+2,0810,0078,30,17,2025-06-27,Grim Series 5,Chaos Space Marines,Necrons
+2,0441,0444,64,51,2025-06-27,Grim Series 5,Death Guard,World Eaters
+2,0767,0756,65,13,2025-06-27,Grim Series 5,Adeptus Custodes,Necrons
+2,0446,0715,87,28,2025-06-27,Grim Series 5,World Eaters,Thousand Sons
+2,0439,0229,64,53,2025-06-27,Grim Series 5,Space Marines (Astartes),Black Templars
+2,0430,0442,83,52,2025-06-27,Grim Series 5,Imperial Knights,Adeptus Custodes
+3,0441,0447,66,33,2025-06-27,Grim Series 5,Death Guard,Adeptus Custodes
+3,0431,0435,90,8,2025-06-27,Grim Series 5,Chaos Knights,Chaos Knights
+3,0449,1231,72,49,2025-06-27,Grim Series 5,Chaos Space Marines,--------
+3,0433,0767,80,33,2025-06-27,Grim Series 5,Emperor's Children,Adeptus Custodes
+3,0873,0078,65,58,2025-06-27,Grim Series 5,Space Marines (Astartes),Necrons
+3,1232,0451,59,51,2025-06-27,Grim Series 5,Leagues of Votann,Adeptus Custodes
+3,0284,0446,67,58,2025-06-27,Grim Series 5,Leagues of Votann,World Eaters
+3,0715,0444,79,69,2025-06-27,Grim Series 5,Thousand Sons,World Eaters
+3,0442,0229,77,54,2025-06-27,Grim Series 5,Adeptus Custodes,Black Templars
+3,0430,0439,90,3,2025-06-27,Grim Series 5,Imperial Knights,Space Marines (Astartes)
+3,0061,0810,44,22,2025-06-27,Grim Series 5,Blood Angels,Chaos Space Marines
+3,1230,1229,68,30,2025-06-27,Grim Series 5,T'au Empire,Dark Angels
+1,0015,0257,90,11,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Tyranids,Space Marines (Astartes)
+1,0191,1234,80,41,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Adepta Sororitas,Necrons
+1,0022,0021,42,19,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Emperor's Children,Emperor's Children
+1,0258,0192,31,23,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Space Marines (Astartes),Space Wolves
+1,0465,1233,46,43,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Imperial Knights,Astra Militarum
+1,0023,0026,90,52,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Necrons,Chaos Knights
+2,0257,0021,65,41,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Space Marines (Astartes),Emperor's Children
+2,0023,0015,90,36,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Necrons,Tyranids
+2,0191,0465,64,50,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Adepta Sororitas,Imperial Knights
+2,0258,0022,34,19,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Space Marines (Astartes),Emperor's Children
+2,1233,0026,50,33,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Astra Militarum,Chaos Knights
+2,0192,1234,51,22,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Space Wolves,Necrons
+3,1234,0026,80,69,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Necrons,Chaos Knights
+3,0023,0258,48,40,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Necrons,Space Marines (Astartes)
+3,1233,0257,71,50,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Astra Militarum,Space Marines (Astartes)
+3,0015,0465,69,62,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Tyranids,Imperial Knights
+3,0192,0022,62,37,2025-07-04,Warhammer 40000: 2025 Championship Monthly Tournament,Space Wolves,Emperor's Children
+1,0415,1235,75,35,2025-07-11,Steel City Games RTT - July,Grey Knights,Adeptus Custodes
+1,0200,1236,96,38,2025-07-11,Steel City Games RTT - July,Chaos Knights,Tyranids
+2,1236,1235,100,36,2025-07-11,Steel City Games RTT - July,Tyranids,Adeptus Custodes
+2,0200,0415,87,28,2025-07-11,Steel City Games RTT - July,Chaos Knights,Grey Knights
+3,0200,1235,100,0,2025-07-11,Steel City Games RTT - July,Chaos Knights,Adeptus Custodes
+3,1236,0415,98,87,2025-07-11,Steel City Games RTT - July,Tyranids,Grey Knights
+1,0822,0090,89,73,2025-07-11,South Pacific Gaming - 40k July RTT,Death Guard,T'au Empire
+1,0115,0093,100,22,2025-07-11,South Pacific Gaming - 40k July RTT,Orks,Thousand Sons
+1,0597,0095,92,76,2025-07-11,South Pacific Gaming - 40k July RTT,Thousand Sons,--------
+1,0120,0122,96,67,2025-07-11,South Pacific Gaming - 40k July RTT,Space Wolves,Astra Militarum
+1,0065,0113,70,67,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Space Marines,Blood Angels
+1,0027,1237,56,45,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Space Marines,Drukhari
+1,0091,0364,85,10,2025-07-11,South Pacific Gaming - 40k July RTT,Adeptus Custodes,Aeldari
+1,0474,0104,80,73,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Knights,Blood Angels
+2,0113,1237,100,46,2025-07-11,South Pacific Gaming - 40k July RTT,Blood Angels,Drukhari
+2,0122,0104,90,77,2025-07-11,South Pacific Gaming - 40k July RTT,Astra Militarum,Blood Angels
+2,0065,0027,94,35,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Space Marines,Chaos Space Marines
+2,0091,0474,87,74,2025-07-11,South Pacific Gaming - 40k July RTT,Adeptus Custodes,Chaos Knights
+2,0120,0115,82,68,2025-07-11,South Pacific Gaming - 40k July RTT,Space Wolves,Orks
+2,0597,0822,89,87,2025-07-11,South Pacific Gaming - 40k July RTT,Thousand Sons,Death Guard
+2,0095,0090,88,58,2025-07-11,South Pacific Gaming - 40k July RTT,--------,T'au Empire
+3,0113,0822,86,76,2025-07-11,South Pacific Gaming - 40k July RTT,Blood Angels,Death Guard
+3,0065,0091,78,75,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Space Marines,Adeptus Custodes
+3,0474,0093,99,32,2025-07-11,South Pacific Gaming - 40k July RTT,Chaos Knights,Thousand Sons
+3,0104,0027,58,54,2025-07-11,South Pacific Gaming - 40k July RTT,Blood Angels,Chaos Space Marines
+3,1237,0090,64,61,2025-07-11,South Pacific Gaming - 40k July RTT,Drukhari,T'au Empire
+3,0120,0597,73,58,2025-07-11,South Pacific Gaming - 40k July RTT,Space Wolves,Thousand Sons
+3,0122,0095,89,70,2025-07-11,South Pacific Gaming - 40k July RTT,Astra Militarum,--------
+1,1239,1244,50,19,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Space Marines (Astartes),Adepta Sororitas
+1,1238,1243,77,44,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Tyranids,Emperor's Children
+1,1245,1242,45,28,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Deathwatch,Necrons
+1,1240,1241,84,77,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Adeptus Custodes,Imperial Knights
+1,0602,1246,98,37,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Orks,Emperor's Children
+2,1243,1241,25,23,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Emperor's Children,Imperial Knights
+2,0602,1245,100,21,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Orks,Deathwatch
+2,1240,1239,98,27,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Adeptus Custodes,Space Marines (Astartes)
+2,1246,1242,90,24,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Emperor's Children,Necrons
+2,0494,1238,94,44,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Astra Militarum,Tyranids
+3,1246,1243,99,30,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Emperor's Children,Emperor's Children
+3,0494,1239,86,36,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Astra Militarum,Space Marines (Astartes)
+3,0602,1240,100,30,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Orks,Adeptus Custodes
+3,1238,1245,75,46,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Tyranids,Deathwatch
+3,1244,1242,37,13,2025-07-12,The Far South Coast Rumble: Bega 40k RTT,Adepta Sororitas,Necrons
+1,0229,0078,88,86,2025-07-18,Capital Clash - Dakka Dakka!,Black Templars,Necrons
+1,0427,0379,90,43,2025-07-18,Capital Clash - Dakka Dakka!,Dark Angels,Imperial Knights
+1,0431,0065,89,72,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Chaos Space Marines
+1,0064,0313,90,69,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Genestealer Cult
+1,0069,0446,95,64,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),World Eaters
+1,0430,0810,96,27,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Chaos Space Marines
+1,0284,1249,96,29,2025-07-18,Capital Clash - Dakka Dakka!,Leagues of Votann,Tyranids
+1,0429,1248,56,41,2025-07-18,Capital Clash - Dakka Dakka!,Space Wolves,Death Guard
+1,0386,0495,55,36,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Deathwatch
+1,0051,0444,98,54,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,World Eaters
+1,0602,0425,97,72,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Death Guard
+1,0580,1251,45,28,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Chaos Knights
+1,0063,0447,90,53,2025-07-18,Capital Clash - Dakka Dakka!,Astra Militarum,Adeptus Custodes
+1,0308,0381,82,53,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Space Marines (Astartes)
+1,0435,0433,100,31,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Imperial Knights
+1,0298,0753,78,65,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Adeptus Mechanicus
+1,0056,0080,100,38,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Daemons,Astra Militarum
+1,0086,1247,100,18,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,Emperor's Children
+1,0819,0437,97,47,2025-07-18,Capital Clash - Dakka Dakka!,Space Wolves,Adepta Sororitas
+1,0579,1250,85,42,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Adeptus Custodes
+1,0071,0104,86,55,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),Blood Angels
+1,0445,0061,77,73,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Blood Angels
+1,0442,0432,80,70,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Death Guard
+2,0435,0056,85,72,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Chaos Daemons
+2,0051,0086,95,55,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Deathwatch
+2,0602,0819,81,76,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Space Wolves
+2,0430,0284,96,66,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Leagues of Votann
+2,0064,0069,85,55,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Space Marines (Astartes)
+2,0063,0427,76,73,2025-07-18,Capital Clash - Dakka Dakka!,Astra Militarum,Dark Angels
+2,0431,0229,80,75,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Black Templars
+2,0071,0579,88,53,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),Imperial Knights
+2,0308,0439,87,46,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Space Marines (Astartes)
+2,0442,0298,71,49,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Chaos Space Marines
+2,0429,0445,68,39,2025-07-18,Capital Clash - Dakka Dakka!,Space Wolves,Orks
+2,0386,0580,56,34,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Adeptus Mechanicus
+2,0079,0078,82,64,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Necrons
+2,0061,0494,41,40,2025-07-18,Capital Clash - Dakka Dakka!,Blood Angels,Astra Militarum
+2,0065,0425,77,50,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Death Guard
+2,0432,0313,47,23,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Genestealer Cult
+2,0753,0446,80,60,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,World Eaters
+2,0444,0104,50,39,2025-07-18,Capital Clash - Dakka Dakka!,World Eaters,Blood Angels
+2,0447,0381,89,60,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Space Marines (Astartes)
+2,0379,0437,98,26,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Adepta Sororitas
+2,1248,1250,74,72,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Adeptus Custodes
+2,0495,0080,97,46,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,Astra Militarum
+2,0433,1249,95,17,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Tyranids
+2,0810,1251,81,25,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Chaos Knights
+3,0430,0051,80,74,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Death Guard
+3,0435,0602,82,23,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Orks
+3,0064,0071,84,63,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Space Marines (Astartes)
+3,0431,0308,86,39,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Adeptus Mechanicus
+3,0442,0063,91,51,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Astra Militarum
+3,0429,0386,74,47,2025-07-18,Capital Clash - Dakka Dakka!,Space Wolves,Tyranids
+3,0819,0079,76,68,2025-07-18,Capital Clash - Dakka Dakka!,Space Wolves,Imperial Knights
+3,0427,0056,79,70,2025-07-18,Capital Clash - Dakka Dakka!,Dark Angels,Chaos Daemons
+3,0229,0284,92,77,2025-07-18,Capital Clash - Dakka Dakka!,Black Templars,Leagues of Votann
+3,0086,0069,67,64,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,Space Marines (Astartes)
+3,0065,0753,77,63,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Adeptus Mechanicus
+3,0379,0447,87,53,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Adeptus Custodes
+3,0495,0579,64,63,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,Imperial Knights
+3,0439,0298,64,61,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),Chaos Space Marines
+3,0432,0433,92,51,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Imperial Knights
+3,0445,1248,61,52,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Death Guard
+3,0061,0810,71,54,2025-07-18,Capital Clash - Dakka Dakka!,Blood Angels,Chaos Space Marines
+3,0444,1247,94,35,2025-07-18,Capital Clash - Dakka Dakka!,World Eaters,Emperor's Children
+3,0580,0494,46,43,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Astra Militarum
+3,0446,0078,89,49,2025-07-18,Capital Clash - Dakka Dakka!,World Eaters,Necrons
+3,1250,0425,79,54,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Death Guard
+3,0104,0381,98,36,2025-07-18,Capital Clash - Dakka Dakka!,Blood Angels,Space Marines (Astartes)
+3,0313,0080,95,38,2025-07-18,Capital Clash - Dakka Dakka!,Genestealer Cult,Astra Militarum
+3,0437,1251,82,22,2025-07-18,Capital Clash - Dakka Dakka!,Adepta Sororitas,Chaos Knights
+4,0430,0435,96,40,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Chaos Knights
+4,0431,0064,91,88,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Tyranids
+4,0442,0429,81,76,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Custodes,Space Wolves
+4,0051,0229,92,72,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Black Templars
+4,0427,0819,82,72,2025-07-18,Capital Clash - Dakka Dakka!,Dark Angels,Space Wolves
+4,0386,0379,83,60,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Imperial Knights
+4,0065,0086,100,52,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Deathwatch
+4,0432,0063,90,49,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Astra Militarum
+4,0308,0602,72,51,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Orks
+4,0495,0444,88,73,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,World Eaters
+4,0439,0061,82,75,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),Blood Angels
+4,0445,1251,95,38,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Chaos Knights
+4,0580,0079,56,43,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Imperial Knights
+4,0056,0284,100,57,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Daemons,Leagues of Votann
+4,0753,0069,95,88,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Space Marines (Astartes)
+4,0104,0447,81,65,2025-07-18,Capital Clash - Dakka Dakka!,Blood Angels,Adeptus Custodes
+4,0433,0313,75,45,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Genestealer Cult
+4,0437,0810,39,32,2025-07-18,Capital Clash - Dakka Dakka!,Adepta Sororitas,Chaos Space Marines
+4,0494,1247,75,0,2025-07-18,Capital Clash - Dakka Dakka!,Astra Militarum,Emperor's Children
+4,0078,0425,80,73,2025-07-18,Capital Clash - Dakka Dakka!,Necrons,Death Guard
+4,0381,0080,100,28,2025-07-18,Capital Clash - Dakka Dakka!,Space Marines (Astartes),Astra Militarum
+5,0431,0430,100,57,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Imperial Knights
+5,0051,0442,89,71,2025-07-18,Capital Clash - Dakka Dakka!,Death Guard,Adeptus Custodes
+5,0064,0065,79,75,2025-07-18,Capital Clash - Dakka Dakka!,Tyranids,Chaos Space Marines
+5,0427,0435,82,68,2025-07-18,Capital Clash - Dakka Dakka!,Dark Angels,Chaos Knights
+5,0495,0432,93,45,2025-07-18,Capital Clash - Dakka Dakka!,Deathwatch,Death Guard
+5,0445,0439,88,84,2025-07-18,Capital Clash - Dakka Dakka!,Orks,Space Marines (Astartes)
+5,0056,0580,98,59,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Daemons,Adeptus Mechanicus
+5,0229,0819,100,69,2025-07-18,Capital Clash - Dakka Dakka!,Black Templars,Space Wolves
+5,0753,0379,95,55,2025-07-18,Capital Clash - Dakka Dakka!,Adeptus Mechanicus,Imperial Knights
+5,0104,0086,59,44,2025-07-18,Capital Clash - Dakka Dakka!,Blood Angels,Deathwatch
+5,0063,0444,82,73,2025-07-18,Capital Clash - Dakka Dakka!,Astra Militarum,World Eaters
+5,0433,0071,85,70,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Space Marines (Astartes)
+5,0446,0437,88,62,2025-07-18,Capital Clash - Dakka Dakka!,World Eaters,Adepta Sororitas
+5,0579,0079,71,56,2025-07-18,Capital Clash - Dakka Dakka!,Imperial Knights,Imperial Knights
+5,0284,0069,88,81,2025-07-18,Capital Clash - Dakka Dakka!,Leagues of Votann,Space Marines (Astartes)
+5,0078,0447,89,82,2025-07-18,Capital Clash - Dakka Dakka!,Necrons,Adeptus Custodes
+5,0313,0381,72,30,2025-07-18,Capital Clash - Dakka Dakka!,Genestealer Cult,Space Marines (Astartes)
+5,0810,0425,57,49,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Space Marines,Death Guard
+5,1251,0080,82,72,2025-07-18,Capital Clash - Dakka Dakka!,Chaos Knights,Astra Militarum

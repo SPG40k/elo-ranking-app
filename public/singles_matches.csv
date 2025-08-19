@@ -6338,12 +6338,11 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 1,0115,0124,100,49,2025-08-08,Krootcon 2025 - NSWTC,Orks,Necrons
 1,0165,0418,81,13,2025-08-08,Krootcon 2025 - NSWTC,Dark Angels,Adeptus Mechanicus
 1,0120,0180,98,57,2025-08-08,Krootcon 2025 - NSWTC,Space Wolves,Space Marines (Astartes)
-1,0152,0113,80,60,2025-08-08,Krootcon 2025 - NSWTC,--------,Blood Angels
+1,0152,0113,80,60,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Blood Angels
 1,0084,0108,99,59,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,World Eaters
 1,0820,0404,100,61,2025-08-08,Krootcon 2025 - NSWTC,Tyranids,Chaos Knights
 1,0186,0061,76,74,2025-08-08,Krootcon 2025 - NSWTC,Leagues of Votann,Blood Angels
 1,0057,0504,86,65,2025-08-08,Krootcon 2025 - NSWTC,Genestealer Cult,World Eaters
-1,1258,0709,45,34,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Genestealer Cult
 1,0101,0162,93,39,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,Blood Angels
 1,0183,0181,97,34,2025-08-08,Krootcon 2025 - NSWTC,Thousand Sons,Drukhari
 1,0429,0298,76,71,2025-08-08,Krootcon 2025 - NSWTC,Space Wolves,Chaos Space Marines
@@ -6362,6 +6361,12 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 1,0056,0104,93,52,2025-08-08,Krootcon 2025 - NSWTC,Chaos Daemons,Blood Angels
 1,0141,0137,72,44,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Space Marines (Astartes)
 1,0085,0431,73,72,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,Chaos Knights
+1,0182,0090,78,63,2025-08-08,Krootcon 2025 - NSWTC,Astra Militarum,T'au Empire
+1,0446,0474,91,66,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Chaos Knights
+1,0359,0074,79,67,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Adepta Sororitas
+1,0408,1267,92,53,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,Chaos Knights
+1,0442,0149,71,65,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Custodes,Chaos Space Marines
+1,0064,0457,88,70,2025-08-08,Krootcon 2025 - NSWTC,Tyranids,Space Marines (Astartes)
 2,0051,0186,96,46,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Leagues of Votann
 2,0113,0397,98,74,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,World Eaters
 2,0141,0101,99,64,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Death Guard
@@ -6387,12 +6392,17 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 2,0115,0458,86,82,2025-08-08,Krootcon 2025 - NSWTC,Orks,Blood Angels
 2,0504,0180,83,53,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Space Marines (Astartes)
 2,0182,0236,85,78,2025-08-08,Krootcon 2025 - NSWTC,Astra Militarum,Aeldari
-2,0152,1258,84,67,2025-08-08,Krootcon 2025 - NSWTC,--------,Imperial Knights
+2,0152,1258,84,67,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Imperial Knights
 2,0085,0446,87,63,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,World Eaters
 2,1268,1267,84,66,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Custodes,Chaos Knights
 2,0108,0137,53,26,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Space Marines (Astartes)
 2,0149,0709,100,40,2025-08-08,Krootcon 2025 - NSWTC,Chaos Space Marines,Genestealer Cult
 2,0607,0122,91,87,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Mechanicus,Astra Militarum
+2,0298,0162,94,29,2025-08-08,Krootcon 2025 - NSWTC,Chaos Space Marines,Blood Angels
+2,0430,0359,95,66,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Imperial Knights
+2,0061,0332,76,72,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Death Guard
+2,0057,0056,98,89,2025-08-08,Krootcon 2025 - NSWTC,Genestealer Cult,Chaos Daemons
+2,0071,0308,75,56,2025-08-08,Krootcon 2025 - NSWTC,Space Marines (Astartes),Aeldari
 3,0149,0298,85,33,2025-08-08,Krootcon 2025 - NSWTC,Chaos Space Marines,Chaos Space Marines
 3,0162,0332,87,55,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Death Guard
 3,0141,0183,83,59,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Thousand Sons
@@ -6417,7 +6427,7 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,0397,0357,68,57,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Death Guard
 3,0458,0457,86,59,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Space Marines (Astartes)
 3,0079,0086,85,63,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Tyranids
-3,0152,0607,67,62,2025-08-08,Krootcon 2025 - NSWTC,--------,Adeptus Mechanicus
+3,0152,0607,67,62,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Adeptus Mechanicus
 3,1258,0220,100,55,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Chaos Daemons
 3,1267,0409,80,51,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Necrons
 3,0137,0124,67,0,2025-08-08,Krootcon 2025 - NSWTC,Space Marines (Astartes),Necrons
@@ -6425,8 +6435,13 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 3,0507,0418,90,53,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Adeptus Mechanicus
 3,0445,0186,77,52,2025-08-08,Krootcon 2025 - NSWTC,Orks,Leagues of Votann
 3,0359,0089,87,48,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Death Guard
+3,0597,0051,42,34,2025-08-08,Krootcon 2025 - NSWTC,Thousand Sons,World Eaters
+3,0056,0446,91,42,2025-08-08,Krootcon 2025 - NSWTC,Chaos Daemons,World Eaters
+3,0070,0120,75,71,2025-08-08,Krootcon 2025 - NSWTC,T'au Empire,Space Wolves
+3,0113,0101,83,65,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Death Guard
+3,1268,0108,64,51,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Custodes,World Eaters
 4,0104,0172,87,44,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Adeptus Custodes
-4,0152,0156,90,59,2025-08-08,Krootcon 2025 - NSWTC,--------,Death Guard
+4,0152,0156,90,59,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Death Guard
 4,0508,0180,88,72,2025-08-08,Krootcon 2025 - NSWTC,Imperial Knights,Space Marines (Astartes)
 4,0298,1267,82,51,2025-08-08,Krootcon 2025 - NSWTC,Chaos Space Marines,Chaos Knights
 4,0412,0089,87,62,2025-08-08,Krootcon 2025 - NSWTC,Tyranids,Death Guard
@@ -6457,8 +6472,10 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 4,0186,0457,91,68,2025-08-08,Krootcon 2025 - NSWTC,Leagues of Votann,Space Marines (Astartes)
 4,0408,0183,96,32,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,Thousand Sons
 4,0061,0086,77,76,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Tyranids
+4,0442,1258,97,40,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Custodes,Imperial Knights
+4,0332,0418,90,37,2025-08-08,Krootcon 2025 - NSWTC,Death Guard,Adeptus Mechanicus
 5,0057,0430,91,65,2025-08-08,Krootcon 2025 - NSWTC,Genestealer Cult,Imperial Knights
-5,0152,0085,83,73,2025-08-08,Krootcon 2025 - NSWTC,--------,Death Guard
+5,0152,0085,83,73,2025-08-08,Krootcon 2025 - NSWTC,Adepta Sororitas,Death Guard
 5,0082,0126,100,60,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Adepta Sororitas
 5,0431,0064,83,57,2025-08-08,Krootcon 2025 - NSWTC,Chaos Knights,Tyranids
 5,0149,0607,100,50,2025-08-08,Krootcon 2025 - NSWTC,Chaos Space Marines,Adeptus Mechanicus
@@ -6488,6 +6505,8 @@ gameNumber,player1_id,player2_id,score1,score2,date,eventName,player1Faction,pla
 5,0108,0709,88,66,2025-08-08,Krootcon 2025 - NSWTC,World Eaters,Genestealer Cult
 5,0162,0181,99,22,2025-08-08,Krootcon 2025 - NSWTC,Blood Angels,Drukhari
 5,0688,0137,83,75,2025-08-08,Krootcon 2025 - NSWTC,T'au Empire,Space Marines (Astartes)
+5,0172,0409,100,42,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Custodes,Necrons
+5,0418,0124,88,69,2025-08-08,Krootcon 2025 - NSWTC,Adeptus Mechanicus,Necrons
 1,1236,0671,54,20,2025-08-08,Steel City Games RTT - August,Tyranids,Astra Militarum
 1,0295,0599,82,57,2025-08-08,Steel City Games RTT - August,Adeptus Custodes,Space Wolves
 2,0671,0599,47,29,2025-08-08,Steel City Games RTT - August,Astra Militarum,Space Wolves

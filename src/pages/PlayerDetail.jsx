@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import {
   LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid,
 } from 'recharts';
@@ -25,7 +25,11 @@ export default function PlayerDetail({ allPlayers }) {
   // For background image
   const [factionBgImage, setFactionBgImage] = useState(null);
 
-  const player = allPlayers.find((p) => p.id === id);
+
+
+  const player = allPlayers?.find((p) => p.id === id);
+
+
 
   // Scroll to top when component mounts
   useEffect(() => {
@@ -250,6 +254,118 @@ export default function PlayerDetail({ allPlayers }) {
   const worstLoss = player.matches.filter(m => m.result === 'Loss')
     .reduce((prev, curr) => (curr.eloChange < (prev?.eloChange || Infinity) ? curr : prev), null);
 
+  // Helper functions for event URLs
+  function slugify(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function dateToDDMMYY(dateStr) {
+    const d = new Date(dateStr);
+    const dd = String(d.getDate()).padStart(2, '0');
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const yy = String(d.getFullYear()).slice(-2);
+    return `${dd}${mm}${yy}`;
+  }
+
+  // Helper function to determine if player won an event
+  function didPlayerWinEvent(eventName, playerId) {
+    if (!allPlayers || allPlayers.length === 0) {
+      return false;
+    }
+    
+    // Group matches by player to calculate their event performance
+    const playerEventStats = {};
+    
+    // Process each player's matches for this event
+    allPlayers.forEach(player => {
+      const playerEventMatches = player.matches.filter(match => match.eventName === eventName);
+      
+      if (playerEventMatches.length > 0) {
+        // Initialize stats for this player
+        if (!playerEventStats[player.id]) {
+          playerEventStats[player.id] = { wins: 0, losses: 0, draws: 0, totalPoints: 0 };
+        }
+        
+        // Process each match for this player
+        playerEventMatches.forEach(match => {
+          if (match.result === 'Win') {
+            playerEventStats[player.id].wins++;
+          } else if (match.result === 'Loss') {
+            playerEventStats[player.id].losses++;
+          } else {
+            playerEventStats[player.id].draws++;
+          }
+          
+          // Add points (score is the current player's score)
+          playerEventStats[player.id].totalPoints += match.score || 0;
+        });
+        
+
+      }
+    });
+    
+    if (Object.keys(playerEventStats).length === 0) {
+      return false;
+    }
+    
+    // Find the winner (player with most wins, then most points)
+    let winner = null;
+    let maxWins = -1;
+    let maxPoints = -1;
+    
+    Object.entries(playerEventStats).forEach(([pid, stats]) => {
+      if (stats.wins > maxWins || (stats.wins === maxWins && stats.totalPoints > maxPoints)) {
+        maxWins = stats.wins;
+        maxPoints = stats.totalPoints;
+        winner = pid;
+      }
+    });
+    
+
+    
+    // Return true if this player is the winner
+    return winner === playerId;
+  }
+
+  // Helper function to count total events won
+  function getTotalEventsWon() {
+    // Check if player and allPlayers are available
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return 0;
+    }
+    
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+    
+    // Count how many events they won
+    let eventsWon = 0;
+    uniqueEvents.forEach(eventName => {
+      if (didPlayerWinEvent(eventName, player.id)) {
+        eventsWon++;
+      }
+    });
+    
+    return eventsWon;
+  }
+
+  // Helper function to get list of events won
+  function getEventsWon() {
+    // Check if player and allPlayers are available
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return [];
+    }
+    
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+    
+    // Return list of events they won
+    const eventsWon = uniqueEvents.filter(eventName => didPlayerWinEvent(eventName, player.id));
+    
+
+    
+    return eventsWon;
+  }
+
   return (
     <div className="max-w-4xl mx-auto p-2 sm:p-3 md:p-6">
       {/* Player Info Header */}
@@ -307,6 +423,31 @@ export default function PlayerDetail({ allPlayers }) {
         <div className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color} mb-4`} style={{ minWidth: 50, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
+
+        {/* Event Trophies - aligned to the left */}
+        {getEventsWon().length > 0 && (
+          <div className="mb-4">
+            <div className="flex items-center gap-2">
+              <span className="text-yellow-500 text-lg sm:text-xl md:text-2xl">🏆</span>
+              <span className="text-white font-semibold text-sm sm:text-base md:text-lg">
+                Events Won: {getTotalEventsWon()}
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-1 sm:gap-2 mt-2">
+              {getEventsWon().map((eventName, index) => (
+                <Link
+                  key={index}
+                  to={`/events/${slugify(eventName)}/${dateToDDMMYY(player.matches.find(m => m.eventName === eventName)?.date || '')}`}
+                  className="inline-flex items-center gap-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded-full text-xs font-medium hover:bg-yellow-200 dark:hover:bg-yellow-800 transition-colors"
+                  title={`Won ${eventName}`}
+                >
+                  <span className="text-yellow-500">🏆</span>
+                  <span className="truncate max-w-32 sm:max-w-48">{eventName}</span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Show More Stats button and dropdown as a separate card */}
@@ -455,7 +596,19 @@ export default function PlayerDetail({ allPlayers }) {
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
-                    })} | Game {match.gameNumber || idx + 1} {match.eventName && `| ${match.eventName}`}
+                    })} | Game {match.gameNumber || idx + 1} {match.eventName && (
+                      <>
+                        | <Link 
+                          to={`/events/${slugify(match.eventName)}/${dateToDDMMYY(match.date)}`}
+                          className="text-indigo-600 dark:text-indigo-400 hover:underline"
+                        >
+                          {match.eventName}
+                        </Link>
+                        {didPlayerWinEvent(match.eventName, player.id) && (
+                          <span className="ml-2 text-green-500 dark:text-green-400" title="Event Winner">🏆</span>
+                        )}
+                      </>
+                    )}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore}

@@ -20,6 +20,14 @@ import { calculateElo, getRankFromElo, calculateTeamEloForMatch } from './utils/
 import OverallLeaderboard from './components/OverallLeaderboard';
 import OverallPlayerDetail from './pages/OverallPlayerDetail';
 import FactionSpecificLeaderboard from './components/FactionSpecificLeaderboard';
+import Events from './components/Events';
+import CapitalClashDakkaDakka from './components/CapitalClashDakkaDakka';
+import GashHammerGamingJulyRTT from './components/GashHammerGamingJulyRTT';
+import TheFarSouthCoastRumbleBega40kRTT from './components/TheFarSouthCoastRumbleBega40kRTT';
+import SteelCityGamesRTTJuly from './components/SteelCityGamesRTTJuly';
+import SouthPacificGaming40kJulyRTT from './components/SouthPacificGaming40kJulyRTT';
+import Warhammer2025ChampionshipMonthlyTournament from './components/Warhammer2025ChampionshipMonthlyTournament';
+import EventPage from './components/EventPage';
 
 function safeTrim(value) {
   return typeof value === 'string' ? value.trim() : '';
@@ -165,6 +173,8 @@ export default function App() {
           const p2Faction = safeTrim(match.player2Faction) || safeTrim(match.player2_faction) || 'Unknown';
           const teamScore1 = Number(match.teamscore1) || 0;
           const teamScore2 = Number(match.teamscore2) || 0;
+          const p1TeamId = safeTrim(match.player1team_id);
+          const p2TeamId = safeTrim(match.player2team_id);
           
           if (!p1Id || !p2Id || isNaN(score1) || isNaN(score2)) return;
           const matchKey = `${p1Id}_${p2Id}_${gameNumber}_${tableNumber}_${eventName}`;
@@ -200,6 +210,8 @@ export default function App() {
             opponentScore: score2,
             teamScore: teamScore1,
             opponentTeamScore: teamScore2,
+            teamId: p1TeamId,
+            opponentTeamId: p2TeamId,
             result: score1 === score2 ? 'Draw' : score1 > score2 ? 'Win' : 'Loss',
             eloChange: p1EloChange,
             date: matchDate,
@@ -218,6 +230,8 @@ export default function App() {
             opponentScore: score1,
             teamScore: teamScore2,
             opponentTeamScore: teamScore1,
+            teamId: p2TeamId,
+            opponentTeamId: p1TeamId,
             result: score2 === score1 ? 'Draw' : score2 > score1 ? 'Win' : 'Loss',
             eloChange: p2EloChange,
             date: matchDate,
@@ -288,9 +302,15 @@ export default function App() {
             </Link>
             <Link 
               to="/faction-winrates" 
-              className="px-4 py-2 border border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200 rounded-r-lg"
+              className="px-4 py-2 border-t border-b border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200"
             >
               Faction Leaderboard
+            </Link>
+            <Link 
+              to="/events" 
+              className="px-4 py-2 border border-indigo-300 dark:border-indigo-600 hover:bg-indigo-200 dark:hover:bg-indigo-800 transition-colors duration-200 rounded-r-lg"
+            >
+              Events
             </Link>
           </div>
         </div>
@@ -319,6 +339,21 @@ export default function App() {
           <Route path="/manage" element={<MatchManager allPlayers={allPlayers} setAllPlayers={setAllPlayers} />} />
           <Route path="/overall-leaderboard" element={<OverallLeaderboard />} />
           <Route path="/overall-player/:id" element={<OverallPlayerDetail />} />
+          <Route path="/events" element={<Events />} />
+          <Route path="/events/:eventSlug/:eventDate" element={<EventPage />} />
+          <Route path="/events/:eventSlug/:eventDate/round/:roundNum" element={<EventPage />} />
+          <Route path="/events/capital-clash-dakka-dakka" element={<CapitalClashDakkaDakka />} />
+          <Route path="/events/capital-clash-dakka-dakka-round/:roundNum" element={<CapitalClashDakkaDakka />} />
+          <Route path="/events/gash-hammer-gaming-july-rtt" element={<GashHammerGamingJulyRTT />} />
+          <Route path="/events/gash-hammer-gaming-july-rtt-round/:roundNum" element={<GashHammerGamingJulyRTT />} />
+          <Route path="/events/the-far-south-coast-rumble-bega-40k-rtt" element={<TheFarSouthCoastRumbleBega40kRTT />} />
+          <Route path="/events/the-far-south-coast-rumble-bega-40k-rtt-round/:roundNum" element={<TheFarSouthCoastRumbleBega40kRTT />} />
+          <Route path="/events/steel-city-games-rtt-july" element={<SteelCityGamesRTTJuly />} />
+          <Route path="/events/steel-city-games-rtt-july-round/:roundNum" element={<SteelCityGamesRTTJuly />} />
+          <Route path="/events/south-pacific-gaming-40k-july-rtt" element={<SouthPacificGaming40kJulyRTT />} />
+          <Route path="/events/south-pacific-gaming-40k-july-rtt-round/:roundNum" element={<SouthPacificGaming40kJulyRTT />} />
+          <Route path="/events/warhammer-2025-championship-monthly-tournament" element={<Warhammer2025ChampionshipMonthlyTournament />} />
+          <Route path="/events/warhammer-2025-championship-monthly-tournament-round/:roundNum" element={<Warhammer2025ChampionshipMonthlyTournament />} />
         </Routes>
       </div>
     </Router>

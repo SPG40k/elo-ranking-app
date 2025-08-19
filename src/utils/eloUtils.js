@@ -1,6 +1,19 @@
 // utils/eloUtils.js
 
 export function calculateElo(winnerElo, loserElo, winnerScore, loserScore) {
+  // Check for bye round: if one player scores 0 and total doesn't equal 20 (singles game)
+  const totalScore = winnerScore + loserScore;
+  if ((winnerScore === 0 || loserScore === 0) && totalScore !== 20) {
+    // This is a bye round - player with 0 dropped/forfeited
+    if (loserScore === 0) {
+      // Loser dropped (scored 0), winner gets no change
+      return 0; // Winner gets +0 ELO
+    } else {
+      // Winner dropped (scored 0), this shouldn't happen but handle it
+      return -10; // Loser gets -10 ELO
+    }
+  }
+
   const K = 32;
   const scoreDiff = winnerScore - loserScore;
   const marginFactor = Math.log(Math.abs(scoreDiff) + 1) * (2.2 / ((winnerElo - loserElo) * 0.001 + 2.2));
@@ -17,6 +30,19 @@ export function calculateElo(winnerElo, loserElo, winnerScore, loserScore) {
 }
 
 export function calculateEloForMatch(elo1, elo2, score1, score2) {
+  // Check for bye round: if one player scores 0 and total doesn't equal 20 (singles game)
+  const totalScore = score1 + score2;
+  if ((score1 === 0 || score2 === 0) && totalScore !== 20) {
+    // This is a bye round - player with 0 dropped/forfeited
+    if (score1 === 0) {
+      // Player 1 dropped (scored 0), Player 2 gets no change
+      return [elo1 - 10, elo2]; // Player 1 loses 10 ELO, Player 2 gets no change
+    } else {
+      // Player 2 dropped (scored 0), Player 1 gets no change
+      return [elo1, elo2 - 10]; // Player 1 gets no change, Player 2 loses 10 ELO
+    }
+  }
+
   // Calculate expected scores
   const expected1 = 1 / (1 + Math.pow(10, (elo2 - elo1) / 400));
   const expected2 = 1 / (1 + Math.pow(10, (elo1 - elo2) / 400));

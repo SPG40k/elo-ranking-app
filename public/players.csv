@@ -33,7 +33,7 @@ id,name,elo,state,country
 0032,Shannen Butters,1500,TAS,Australia
 0033,Benjamin Discord,1500,NSW,Australia
 0034,Darcy Dawson,1500,NSW,Australia
-0035,Luis Dante Fantarella,1500,NSW,Australia
+0035,Luis Dante Fantarella,1500,TAS,Australia
 0036,Gavin Thormark,1500,NSW,Australia
 0037,Ethan Armstrong,1500,TAS,Australia
 0038,Mathew Fenech,1500,NSW,Australia
@@ -41,7 +41,7 @@ id,name,elo,state,country
 0040,David Heath,1500,NSW,Australia
 0041,Tyler Walsh,1500,TAS,Australia
 0042,adam walker,1500,NSW,Australia
-0043,Adam Douglas,1500,NSW,Australia
+0043,Adam Douglas,1500,TAS,Australia
 0044,Sam Lemin,1500,NSW,Australia
 0045,Levon Leastman,1500,NT,Australia
 0046,Charles Benstead,1500,NSW,Australia
@@ -1191,7 +1191,7 @@ id,name,elo,state,country
 1197,Jesse Peterson,1500,VIC,Australia
 1198,Jordan Commons,1500,VIC,Australia
 1199,Lachlan Fitzsimmons,1500,VIC,Australia
-1200,Lachlan Niemann,1500,VIC,Australia
+1500,Lachlan Niemann,1500,VIC,Australia
 1201,Luke Beveridge,1500,VIC,Australia
 1202,Matt Campi,1500,VIC,Australia
 1203,Merric Butler,1500,VIC,Australia
@@ -1248,3 +1248,15 @@ id,name,elo,state,country
 1254,Joe Raciborski,1500,NSW,Australia
 1255,Nik Casule,1500,NSW,Australia
 1256,Stephen Comley,1500,NSW,Australia
+1257,Julie Low,1500,NSW,Australia
+1258,Alex Selth,1500,ACT,Australia
+1259,Christian Snell,1500,ACT,Australia
+1260,Joseph Nancarrow,1500,ACT,Australia
+1261,Mitchell Higgins,1500,ACT,Australia
+1262,Nick Lee,1500,ACT,Australia
+1263,Oskar Powl,1500,ACT,Australia
+1264,Ram Ghantala,1500,ACT,Australia
+1265,cassidy Reissis,1500,ACT,Australia
+1266,colin inch,1500,ACT,Australia
+1267,David Still,1500,NSW,Australia
+1268,Shaun Simmons,1500,NSW,Australia

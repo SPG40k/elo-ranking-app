@@ -23,7 +23,7 @@ export default function TeamsPlayerDetail({ allPlayers }) {
   const [showStats, setShowStats] = useState(false);
   const [factionBgImage, setFactionBgImage] = useState(null);
 
-  const player = allPlayers.find((p) => p.id === id);
+  const player = allPlayers?.find((p) => p.id === id);
 
   // Scroll to top when component mounts
   useEffect(() => {
@@ -248,6 +248,161 @@ export default function TeamsPlayerDetail({ allPlayers }) {
   const stateCode = player.state || '';
   const stateColorClass = stateColors[stateCode.toUpperCase()] || 'text-gray-600 dark:text-gray-300';
 
+  // Helper functions for event URLs
+  function slugify(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function dateToDDMMYY(dateStr) {
+    const d = new Date(dateStr);
+    const dd = String(d.getDate()).padStart(2, '0');
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const yy = String(d.getFullYear()).slice(-2);
+    return `${dd}${mm}${yy}`;
+  }
+
+  // Helper function to determine if player's team won a teams event
+  function didPlayerTeamWinEvent(eventName, playerId) {
+    if (!allPlayers || allPlayers.length === 0) {
+      return false;
+    }
+
+    // First, find which team this player belongs to in this event
+    const playerEventMatches = allPlayers
+      .find(p => p.id === playerId)?.matches
+      .filter(match => match.eventName === eventName);
+
+    if (!playerEventMatches || playerEventMatches.length === 0) {
+      return false;
+    }
+
+    // Get the team ID from the first match (all matches in an event should have the same team)
+    const teamId = playerEventMatches[0].teamId;
+    if (!teamId) {
+      return false;
+    }
+
+    // Collect all unique team-vs-team pairings for this event
+    const teamPairs = new Map();
+    const processedPairs = new Set();
+
+    // Process each player's matches for this event
+    allPlayers.forEach(player => {
+      const playerEventMatches = player.matches.filter(match => match.eventName === eventName);
+      
+      playerEventMatches.forEach(match => {
+        const team1Id = match.teamId;
+        const team2Id = match.opponentTeamId;
+        
+        if (!team1Id || !team2Id) return;
+        
+        // Create a unique key for this team pairing
+        const pairKey = [team1Id, team2Id].sort().join('_');
+        
+        if (processedPairs.has(pairKey)) return;
+        processedPairs.add(pairKey);
+        
+        // Determine which team won this round
+        const team1Score = match.teamScore || 0;
+        const team2Score = match.opponentTeamScore || 0;
+        const scoreDiff = Math.abs(team1Score - team2Score);
+        
+        let winner = null;
+        if (scoreDiff > 10) {
+          winner = team1Score > team2Score ? team1Id : team2Id;
+        }
+        // If scoreDiff <= 10, it's a draw, so no winner
+        
+        teamPairs.set(pairKey, {
+          team1: team1Id,
+          team2: team2Id,
+          team1Score,
+          team2Score,
+          winner
+        });
+      });
+    });
+
+    // Calculate team stats
+    const teamEventStats = {};
+    
+    teamPairs.forEach((pair, key) => {
+      if (!teamEventStats[pair.team1]) {
+        teamEventStats[pair.team1] = { roundWins: 0, totalPoints: 0 };
+      }
+      if (!teamEventStats[pair.team2]) {
+        teamEventStats[pair.team2] = { roundWins: 0, totalPoints: 0 };
+      }
+      
+      // Add round wins
+      if (pair.winner === pair.team1) {
+        teamEventStats[pair.team1].roundWins++;
+      } else if (pair.winner === pair.team2) {
+        teamEventStats[pair.team2].roundWins++;
+      }
+      // If no winner (draw), no round wins for either team
+      
+      // Add total points (only count once per team)
+      teamEventStats[pair.team1].totalPoints += pair.team1Score;
+      teamEventStats[pair.team2].totalPoints += pair.team2Score;
+    });
+
+    if (Object.keys(teamEventStats).length === 0) {
+      return false;
+    }
+
+    // Find the winning team (team with most round wins, then most points)
+    let winner = null;
+    let maxRoundWins = -1;
+    let maxPoints = -1;
+
+    Object.entries(teamEventStats).forEach(([teamId, stats]) => {
+      if (stats.roundWins > maxRoundWins || (stats.roundWins === maxRoundWins && stats.totalPoints > maxPoints)) {
+        maxRoundWins = stats.roundWins;
+        maxPoints = stats.totalPoints;
+        winner = teamId;
+      }
+    });
+
+    // Return true if this player's team is the winner
+    return winner === teamId;
+  }
+
+  // Helper function to count total team events won
+  function getTotalTeamEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return 0;
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Count how many events their team won
+    let eventsWon = 0;
+    uniqueEvents.forEach(eventName => {
+      if (didPlayerTeamWinEvent(eventName, player.id)) {
+        eventsWon++;
+      }
+    });
+
+    return eventsWon;
+  }
+
+  // Helper function to get list of team events won
+  function getTeamEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return [];
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Return list of events their team won
+    const eventsWon = uniqueEvents.filter(eventName => didPlayerTeamWinEvent(eventName, player.id));
+
+    return eventsWon;
+  }
+
   return (
     <div className="max-w-4xl mx-auto p-2 sm:p-3 md:p-6">
       <div className="mb-6">
@@ -311,6 +466,37 @@ export default function TeamsPlayerDetail({ allPlayers }) {
         <div className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color} mb-4`} style={{ minWidth: 50, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
+
+        {/* Team Event Trophies */}
+        {(() => {
+          const teamEventsWon = getTeamEventsWon();
+          if (teamEventsWon.length > 0) {
+            return (
+              <div className="mb-4">
+                <div className="flex items-center gap-2 mb-2">
+                  <span className="text-yellow-500 text-lg sm:text-xl md:text-2xl">🏆</span>
+                  <span className="text-white font-semibold text-sm sm:text-base md:text-lg">
+                    Team Events Won: {getTotalTeamEventsWon()}
+                  </span>
+                </div>
+                <div className="flex flex-wrap gap-1 sm:gap-2">
+                  {teamEventsWon.map((eventName, index) => (
+                    <Link
+                      key={index}
+                      to={`/events/${slugify(eventName)}/${dateToDDMMYY(player.matches.find(m => m.eventName === eventName)?.date || '')}`}
+                      className="inline-flex items-center gap-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded-full text-xs font-medium hover:bg-yellow-200 dark:hover:bg-yellow-800 transition-colors"
+                      title={`Won ${eventName}`}
+                    >
+                      <span className="text-yellow-500">🏆</span>
+                      <span className="truncate max-w-32 sm:max-w-48">{eventName}</span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            );
+          }
+          return null;
+        })()}
       </div>
 
       {/* Show More Stats button and dropdown as a separate card */}
@@ -476,7 +662,16 @@ export default function TeamsPlayerDetail({ allPlayers }) {
                   <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-300">
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
-                    })} | Game {match.gameNumber || idx + 1} (Table {match.tableNumber}) {match.eventName && `| ${match.eventName}`}
+                    })} | Game {match.gameNumber || idx + 1} (Table {match.tableNumber}) {match.eventName && (
+                      <>
+                        | <Link 
+                          to={`/events/${slugify(match.eventName)}/${dateToDDMMYY(match.date)}`}
+                          className="text-indigo-600 dark:text-indigo-400 hover:underline"
+                        >
+                          {match.eventName}
+                        </Link>
+                      </>
+                    )}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore} | Team: {match.teamScore} - {match.opponentTeamScore}

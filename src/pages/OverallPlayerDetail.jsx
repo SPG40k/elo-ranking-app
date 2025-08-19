@@ -30,6 +30,7 @@ function normalizeSinglesMatch(row) {
     score2: Number(row.score2),
     player1Faction: row.player1Faction,
     player2Faction: row.player2Faction,
+    eventName: row.eventName,
   };
 }
 
@@ -42,10 +43,16 @@ function normalizeTeamsMatch(row) {
     score2: Number(row.score2),
     player1Faction: row.player1Faction,
     player2Faction: row.player2Faction,
+    eventName: row.eventName,
+    player1team_id: row.player1team_id,
+    player2team_id: row.player2team_id,
+    teamscore1: Number(row.teamscore1),
+    teamscore2: Number(row.teamscore2),
   };
 }
 
 export default function OverallPlayerDetail() {
+  console.log('OverallPlayerDetail component loaded');
   const { id } = useParams();
   const [showMoreMatches, setShowMoreMatches] = useState(false);
   const [showStats, setShowStats] = useState(false);
@@ -56,8 +63,283 @@ export default function OverallPlayerDetail() {
 
   useEffect(() => { window.scrollTo(0, 0); }, [id]);
 
+  // Helper functions for event URLs
+  function slugify(name) {
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function dateToDDMMYY(dateStr) {
+    const d = new Date(dateStr);
+    const dd = String(d.getDate()).padStart(2, '0');
+    const mm = String(d.getMonth() + 1).padStart(2, '0');
+    const yy = String(d.getFullYear()).slice(-2);
+    return `${dd}${mm}${yy}`;
+  }
+
+  // Helper function to determine if player won a singles event
+  function didPlayerWinSinglesEvent(eventName, playerId) {
+    if (!allPlayers || allPlayers.length === 0) {
+      return false;
+    }
+
+    // Group matches by player to calculate their event performance
+    const playerEventStats = {};
+
+    // Process each player's matches for this event
+    allPlayers.forEach(player => {
+      const playerEventMatches = player.matches.filter(match => match.eventName === eventName);
+      
+      if (playerEventMatches.length > 0) {
+        // Initialize stats for this player
+        if (!playerEventStats[player.id]) {
+          playerEventStats[player.id] = { wins: 0, losses: 0, draws: 0, totalPoints: 0 };
+        }
+        
+        // Process each match for this player
+        playerEventMatches.forEach(match => {
+          if (match.result === 'Win') {
+            playerEventStats[player.id].wins++;
+          } else if (match.result === 'Loss') {
+            playerEventStats[player.id].losses++;
+          } else {
+            playerEventStats[player.id].draws++;
+          }
+          
+          // Add points (score is the current player's score)
+          playerEventStats[player.id].totalPoints += match.score || 0;
+        });
+      }
+    });
+
+    if (Object.keys(playerEventStats).length === 0) {
+      return false;
+    }
+
+    // Find the winner (player with most wins, then most points)
+    let winner = null;
+    let maxWins = -1;
+    let maxPoints = -1;
+
+    Object.entries(playerEventStats).forEach(([pid, stats]) => {
+      if (stats.wins > maxWins || (stats.wins === maxWins && stats.totalPoints > maxPoints)) {
+        maxWins = stats.wins;
+        maxPoints = stats.totalPoints;
+        winner = pid;
+      }
+    });
+
+    // Return true if this player is the winner
+    return winner === playerId;
+  }
+
+  // Helper function to determine if player's team won a teams event
+  function didPlayerTeamWinEvent(eventName, playerId) {
+    if (!allPlayers || allPlayers.length === 0) {
+      console.log('No allPlayers data');
+      return false;
+    }
+
+    // First, find which team this player belongs to in this event
+    const playerEventMatches = allPlayers
+      .find(p => p.id === playerId)?.matches
+      .filter(match => match.eventName === eventName);
+
+    console.log(`Player ${playerId} event ${eventName} matches:`, playerEventMatches?.length || 0);
+
+    if (!playerEventMatches || playerEventMatches.length === 0) {
+      console.log('No player event matches found');
+      return false;
+    }
+
+    // Get the team ID from the first match (all matches in an event should have the same team)
+    const teamId = playerEventMatches[0].teamId;
+    console.log('Team ID:', teamId);
+    if (!teamId) {
+      console.log('No team ID found');
+      return false;
+    }
+
+    // Collect all unique team-vs-team pairings for this event
+    const teamPairs = new Map();
+    const processedPairs = new Set();
+
+    // Process each player's matches for this event
+    allPlayers.forEach(player => {
+      const playerEventMatches = player.matches.filter(match => match.eventName === eventName);
+      
+      playerEventMatches.forEach(match => {
+        const team1Id = match.teamId;
+        const team2Id = match.opponentTeamId;
+        
+        if (!team1Id || !team2Id) return;
+        
+        // Create a unique key for this team pairing
+        const pairKey = [team1Id, team2Id].sort().join('_');
+        
+        if (processedPairs.has(pairKey)) return;
+        processedPairs.add(pairKey);
+        
+        // Determine which team won this round
+        const team1Score = match.teamScore || 0;
+        const team2Score = match.opponentTeamScore || 0;
+        const scoreDiff = Math.abs(team1Score - team2Score);
+        
+        let winner = null;
+        if (scoreDiff > 10) {
+          winner = team1Score > team2Score ? team1Id : team2Id;
+        }
+        // If scoreDiff <= 10, it's a draw, so no winner
+        
+        teamPairs.set(pairKey, {
+          team1: team1Id,
+          team2: team2Id,
+          team1Score,
+          team2Score,
+          winner
+        });
+      });
+    });
+
+    // Calculate team stats
+    const teamEventStats = {};
+    
+    console.log('Team pairs found:', teamPairs.size);
+    teamPairs.forEach((pair, key) => {
+      console.log('Processing pair:', pair);
+      if (!teamEventStats[pair.team1]) {
+        teamEventStats[pair.team1] = { roundWins: 0, totalPoints: 0 };
+      }
+      if (!teamEventStats[pair.team2]) {
+        teamEventStats[pair.team2] = { roundWins: 0, totalPoints: 0 };
+      }
+      
+      // Add round wins
+      if (pair.winner === pair.team1) {
+        teamEventStats[pair.team1].roundWins++;
+      } else if (pair.winner === pair.team2) {
+        teamEventStats[pair.team2].roundWins++;
+      }
+      // If no winner (draw), no round wins for either team
+      
+      // Add total points (only count once per team)
+      teamEventStats[pair.team1].totalPoints += pair.team1Score;
+      teamEventStats[pair.team2].totalPoints += pair.team2Score;
+    });
+
+    console.log('Team event stats:', teamEventStats);
+
+    if (Object.keys(teamEventStats).length === 0) {
+      console.log('No team event stats found');
+      return false;
+    }
+
+    // Find the winning team (team with most round wins, then most points)
+    let winner = null;
+    let maxRoundWins = -1;
+    let maxPoints = -1;
+
+    Object.entries(teamEventStats).forEach(([teamId, stats]) => {
+      if (stats.roundWins > maxRoundWins || (stats.roundWins === maxRoundWins && stats.totalPoints > maxPoints)) {
+        maxRoundWins = stats.roundWins;
+        maxPoints = stats.totalPoints;
+        winner = teamId;
+      }
+    });
+
+    console.log(`Winner: ${winner}, Player's team: ${teamId}, Result: ${winner === teamId}`);
+
+    // Return true if this player's team is the winner
+    return winner === teamId;
+  }
+
+  // Helper function to get singles events won
+  function getSinglesEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return [];
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Return list of singles events they won
+    const eventsWon = uniqueEvents.filter(eventName => didPlayerWinSinglesEvent(eventName, player.id));
+
+    return eventsWon;
+  }
+
+  // Helper function to get team events won
+  function getTeamEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return [];
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Debug: Check if player has any teams matches
+    const teamsMatches = player.matches.filter(match => match.matchType === 'Teams');
+    console.log('Player teams matches:', teamsMatches.length);
+    if (teamsMatches.length > 0) {
+      console.log('Sample teams match:', teamsMatches[0]);
+      console.log('Sample teams match teamId:', teamsMatches[0].teamId);
+      console.log('Sample teams match opponentTeamId:', teamsMatches[0].opponentTeamId);
+      console.log('Sample teams match teamScore:', teamsMatches[0].teamScore);
+      console.log('Sample teams match opponentTeamScore:', teamsMatches[0].opponentTeamScore);
+    }
+
+    // Return list of team events their team won
+    const eventsWon = uniqueEvents.filter(eventName => {
+      const result = didPlayerTeamWinEvent(eventName, player.id);
+      console.log(`Team event ${eventName}: ${result}`);
+      return result;
+    });
+
+    return eventsWon;
+  }
+
+  // Helper function to count total singles events won
+  function getTotalSinglesEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return 0;
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Count how many singles events they won
+    let eventsWon = 0;
+    uniqueEvents.forEach(eventName => {
+      if (didPlayerWinSinglesEvent(eventName, player.id)) {
+        eventsWon++;
+      }
+    });
+
+    return eventsWon;
+  }
+
+  // Helper function to count total team events won
+  function getTotalTeamEventsWon() {
+    if (!player || !allPlayers || allPlayers.length === 0) {
+      return 0;
+    }
+
+    // Get unique events the player participated in
+    const uniqueEvents = [...new Set(player.matches.map(match => match.eventName).filter(Boolean))];
+
+    // Count how many team events their team won
+    let eventsWon = 0;
+    uniqueEvents.forEach(eventName => {
+      if (didPlayerTeamWinEvent(eventName, player.id)) {
+        eventsWon++;
+      }
+    });
+
+    return eventsWon;
+  }
+
   useEffect(() => {
     async function fetchData() {
+      console.log('fetchData called');
       setLoading(true);
       // Load players
       const playersData = await fetch(PLAYERS_CSV).then(r => r.text());
@@ -113,10 +395,10 @@ export default function OverallPlayerDetail() {
         const [newElo1, newElo2] = calculateEloForMatch(eloMap[player1_id], eloMap[player2_id], score1, score2);
         // Save match info for player detail
         matchesMap[player1_id].push({
-          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Singles',
+          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Singles', eventName: match.eventName,
         });
         matchesMap[player2_id].push({
-          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Singles',
+          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Singles', eventName: match.eventName,
         });
         eloMap[player1_id] = newElo1;
         eloMap[player2_id] = newElo2;
@@ -125,7 +407,8 @@ export default function OverallPlayerDetail() {
       // Process teams matches separately
       const teamsDataRaw = await fetch(TEAMS_CSV).then(r => r.text());
       const teamsMatchesRaw = Papa.parse(teamsDataRaw, { header: true }).data
-        .filter(row => row.player1_id && row.player2_id);
+        .filter(row => row.player1_id && row.player2_id)
+        .map(normalizeTeamsMatch);
       
       teamsMatchesRaw.forEach(match => {
         const { player1_id, player2_id, score1, score2, date, player1Faction, player2Faction } = match;
@@ -158,11 +441,18 @@ export default function OverallPlayerDetail() {
         const [newElo1, newElo2] = calculateEloForMatch(eloMap[player1_id], eloMap[player2_id], score1, score2);
         
         // Save match info for player detail with Teams type
+        console.log('Teams match data:', { 
+          teamId: match.teamId, 
+          opponentTeamId: match.opponentTeamId, 
+          teamScore: match.teamScore, 
+          opponentTeamScore: match.opponentTeamScore,
+          fullMatch: match
+        });
         matchesMap[player1_id].push({
-          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Teams',
+          date, opponentId: player2_id, opponentName: playerMap[player2_id]?.name || player2_id, score: score1, opponentScore: score2, playerFaction: player1Faction, opponentFaction: player2Faction, result: result1 === 1 ? 'Win' : result1 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player1_id], eloAfter: newElo1, eloChange: newElo1 - eloMap[player1_id], matchType: 'Teams', eventName: match.eventName, teamId: match.teamId, opponentTeamId: match.opponentTeamId, teamScore: match.teamScore, opponentTeamScore: match.opponentTeamScore,
         });
         matchesMap[player2_id].push({
-          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Teams',
+          date, opponentId: player1_id, opponentName: playerMap[player1_id]?.name || player1_id, score: score2, opponentScore: score1, playerFaction: player2Faction, opponentFaction: player1Faction, result: result2 === 1 ? 'Win' : result2 === 0 ? 'Loss' : 'Draw', eloBefore: eloMap[player2_id], eloAfter: newElo2, eloChange: newElo2 - eloMap[player2_id], matchType: 'Teams', eventName: match.eventName, teamId: match.opponentTeamId, opponentTeamId: match.teamId, teamScore: match.opponentTeamScore, opponentTeamScore: match.teamScore,
         });
         eloMap[player1_id] = newElo1;
         eloMap[player2_id] = newElo2;
@@ -170,7 +460,7 @@ export default function OverallPlayerDetail() {
 
       // Build leaderboard array
       const leaderboardArr = Object.keys(eloMap).map(pid => ({
-        player_id: pid,
+        id: pid,
         name: playerMap[pid]?.name || playerMap[pid]?.id || pid,
         state: playerMap[pid]?.state || '',
         elo: Math.round(eloMap[pid]),
@@ -181,7 +471,7 @@ export default function OverallPlayerDetail() {
       setAllPlayers(leaderboardArr);
       
       // Find the specific player
-      const foundPlayer = leaderboardArr.find(p => p.player_id === id);
+      const foundPlayer = leaderboardArr.find(p => p.id === id);
       setPlayer(foundPlayer);
       setLoading(false);
     }
@@ -457,6 +747,71 @@ export default function OverallPlayerDetail() {
         <div className={`inline-block px-1.5 sm:px-2 md:px-3 py-0.5 sm:py-1 md:py-1.5 rounded-full text-xs sm:text-sm md:text-lg font-bold ${color} mb-4`} style={{ minWidth: 50, textAlign: 'center' }}>
           Winrate: {winrate}%
         </div>
+
+        {/* Event Trophies - Singles and Teams */}
+        {(() => {
+          const singlesEventsWon = getSinglesEventsWon();
+          const teamEventsWon = getTeamEventsWon();
+          const hasSinglesTrophies = singlesEventsWon.length > 0;
+          const hasTeamTrophies = teamEventsWon.length > 0;
+
+          if (hasSinglesTrophies || hasTeamTrophies) {
+            return (
+              <div className="mb-4">
+                {/* Singles Trophies */}
+                {hasSinglesTrophies && (
+                  <div className="mb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-yellow-500 text-lg sm:text-xl md:text-2xl">🏆</span>
+                      <span className="text-white font-semibold text-sm sm:text-base md:text-lg">
+                        Singles Events Won: {getTotalSinglesEventsWon()}
+                      </span>
+                    </div>
+                    <div className="flex flex-wrap gap-1 sm:gap-2 mt-2">
+                      {singlesEventsWon.map((eventName, index) => (
+                        <Link
+                          key={index}
+                          to={`/events/${slugify(eventName)}/${dateToDDMMYY(player.matches.find(m => m.eventName === eventName)?.date || '')}`}
+                          className="inline-flex items-center gap-1 bg-yellow-100 dark:bg-yellow-900 text-yellow-800 dark:text-yellow-200 px-2 py-1 rounded-full text-xs font-medium hover:bg-yellow-200 dark:hover:bg-yellow-800 transition-colors"
+                          title={`Won ${eventName}`}
+                        >
+                          <span className="text-yellow-500">🏆</span>
+                          <span className="truncate max-w-32 sm:max-w-48">{eventName}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Team Trophies */}
+                {hasTeamTrophies && (
+                  <div className="mb-3">
+                    <div className="flex items-center gap-2">
+                      <span className="text-blue-500 text-lg sm:text-xl md:text-2xl">🏆</span>
+                      <span className="text-white font-semibold text-sm sm:text-base md:text-lg">
+                        Team Events Won: {getTotalTeamEventsWon()}
+                      </span>
+                    </div>
+                    <div className="flex flex-wrap gap-1 sm:gap-2 mt-2">
+                      {teamEventsWon.map((eventName, index) => (
+                        <Link
+                          key={index}
+                          to={`/events/${slugify(eventName)}/${dateToDDMMYY(player.matches.find(m => m.eventName === eventName)?.date || '')}`}
+                          className="inline-flex items-center gap-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 px-2 py-1 rounded-full text-xs font-medium hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors"
+                          title={`Team won ${eventName}`}
+                        >
+                          <span className="text-blue-500">🏆</span>
+                          <span className="truncate max-w-32 sm:max-w-48">{eventName}</span>
+                        </Link>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            );
+          }
+          return null;
+        })()}
       </div>
 
       {/* Show More Stats button and dropdown as a separate card */}
@@ -609,6 +964,17 @@ export default function OverallPlayerDetail() {
                     {new Date(match.date).toLocaleDateString('en-GB', {
                       day: 'numeric', month: 'long', year: 'numeric'
                     })}
+                    {match.eventName && (
+                      <>
+                        {' | '}
+                        <Link 
+                          to={`/events/${slugify(match.eventName)}/${dateToDDMMYY(match.date)}`}
+                          className="text-indigo-600 dark:text-indigo-400 hover:underline"
+                        >
+                          {match.eventName}
+                        </Link>
+                      </>
+                    )}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500 dark:text-gray-200">
                     Score: {match.score} - {match.opponentScore}
